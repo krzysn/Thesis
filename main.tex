@@ -1,0 +1,298 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, a4paper, twoside]{Thesis} % Paper size, default font size and one-sided paper
+
+\graphicspath{{./Figures/}} % Specifies the directory where pictures are stored
+
+\usepackage[square, numbers, comma, sort&compress]{natbib}
+
+\hypersetup{linktoc=all,
+  colorlinks=true,
+  urlcolor=blue
+} % Colors hyperlinks in blue - change to black if annoying
+
+%%% My packages
+%\usepackage{polski}
+\usepackage[T1]{fontenc}
+\usepackage[english, polish]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage{braket}
+\usepackage{amssymb,amsmath}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes,trees,backgrounds,snakes,calc,arrows.meta} 
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{physics}
+\usepackage{booktabs}
+\usepackage{feynmp}
+\usepackage{feynmp-auto}
+\usepackage{siunitx}
+\usepackage[noend, algochapter]{algorithm2e} %linesnumbered
+\usepackage{lipsum}
+\usepackage[toc]{appendix}
+\usepackage{etoolbox}
+
+\title{\ttitle} % Defines the thesis title - don't touch this
+
+\SetAlCapFnt{\sc \small}
+
+% \makeatletter
+% \let\latexl@subsubsection\l@subsubsection
+% \def\l@subsubsection#1#2{\begingroup\let\numberline\@gobble\latexl@subsubsection{#1}{#2}\endgroup}
+% \makeatother
+
+
+\begin{document}
+\selectlanguage{english}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+% \item
+%\setstretch{1.0} % Actual single spacing
+\setstretch{1.2} % Line spacing of 1.3
+%\setstretch{1.6} % Double line spacing for review
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{} % Clears all page headers and footers
+\fancyhead[LE,RO]{\thepage} % Sets the right side header to show the page number
+\fancyhead[LO,RE]{} % Clears the left side page header
+
+\pagestyle{fancy} % Finally, use the "fancy" page style to implement the FancyHdr headers
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % New command to make the lines in the title page
+
+% Apply my LaTeX hacks
+\input{myHacks.tex}
+
+% PDF meta-data
+\hypersetup{pdftitle={\ttitle}}
+\hypersetup{pdfsubject=\subjectname}
+\hypersetup{pdfauthor=\authornames}
+\hypersetup{pdfkeywords=\keywordnames}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%-------------------------------------------------------------------------------
+\maketitle
+
+\clearpage % Start a new page
+%---------------------------------------------------------------------------------------
+%	UGLY BUT REQUIRED STATEMENT
+%---------------------------------------------------------------------------------------
+\input{FrontMatter/statement.tex}
+
+%---------------------------------------------------------------------------------------
+%	FANCY QUOTE
+%---------------------------------------------------------------------------------------
+\cleardoublepage % Start a new page
+\thispagestyle{plain}
+\ \\[0.3\textheight]
+\begingroup
+\setstretch{1.1}
+\leftskip4em
+\textit{\phantom{aaaa} Poznawczy wysi\l{}ek cz\l{}owieka to ci\k{a}g z granic\k{a} w niesko\'nczoności, a filozofia to pr\'oba osi\k{a}gnięcia tej granicy za jednym zamachem, w kr\'otkim spięciu, daj\k{a}cym pewność wiedzy doskona\l{}ej i niewzruszonej. Nauka posuwa się tymczasem swoim drobnym krokiem, podobnym niekiedy do pe\l{}zania, a nawet okresami do dreptania w miejscu, lecz dociera w ko\'ncu do rozmaitych sza\'nc\'ow ostatecznych, wyrytych przez myśl filozoficzn\k{a}, i nie bacz\k{a}c wcale na to, że tam w\l{}aśnie mia\l{}a przebiegać ultymatywna granica rozumu, idzie dalej.}
+\begin{flushright}
+  Stanis\l{}aw Lem, \textit{,,G\l{}os Pana''}  
+\end{flushright}
+
+\vfill
+
+\textit{Man's quest for knowledge is an expanding series whose limit is infinity, but philosophy seeks to attain that limit at one blow, by a short circuit providing the certainty of complete and inalterable truth. Science meanwhile advances at its gradual pace, often slowing to a crawl, and for periods it even walks in place, but eventually it reaches the various ultimate trenches dug by philosophical thought, and, quite heedless of the fact that it is not supposed to be able to cross those final barriers to the intellect, goes right on.}
+\begin{flushright}
+  Stanis\l{}aw Lem, \textit{``His Master's Voice''}\\
+  Translation by Michael Kandel
+\end{flushright}
+%\setstretch{1.6} % Double line spacing for review
+\par
+\endgroup
+\vfill
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+\cleardoublepage % Start a new page
+
+\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents 
+
+ \abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+   \input{./Abstract}
+ }
+
+ \cleardoublepage
+ 
+ \abstractpol{
+   \begin{otherlanguage}{polish}
+{
+  \setlength{\parindent}{4em}
+  \setlength{\parskip}{0em}
+  \input{./Streszczenie}
+}
+   \end{otherlanguage}
+ }
+ 
+\cleardoublepage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+
+\makeatletter
+  \def\@pnumwidth{4em}
+  \def\@tocrmarg {3.5em} % Also advisable
+\makeatother
+
+\renewcommand{\chaptermark}[1]{%
+\markboth{#1}{}}
+
+\fancyhead[LO,RE]{\emph{Contents}} % Set the left side page header to "Contents"
+
+%\setstretch{1.0}
+\singlespacing
+{
+\hypersetup{
+  linkcolor=black
+} % Colors hyperlinks in blue - change to black if annoying
+  
+\tableofcontents % Write out the Table of Contents
+}
+
+% \lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
+% \listoffigures % Write out the List of Figures
+
+% \lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
+% \listoftables % Write out the List of Tables
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+% \clearpage % Start a new page
+% 
+% \setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
+% 
+% \lhead{\emph{Abbreviations}} % Set the left side page header to "Abbreviations"
+% \listofsymbols{ll} % Include a list of Abbreviations (a table of two columns)
+% {
+% \textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere \\
+% %\textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
+% }
+
+
+%----------------------------------------------------------------------------------------
+%	SYMBOLS
+%----------------------------------------------------------------------------------------
+
+% \clearpage % Start a new page
+% 
+% \lhead{\emph{Symbols}} % Set the left side page header to "Symbols"
+% 
+% \listofnomenclature{lll} % Include a list of Symbols (a three column table)
+% {
+% $a$ & distance & m \\
+% $P$ & power & W (Js$^{-1}$) \\
+% % Symbol & Name & Unit \\
+% 
+% & & \\ % Gap to separate the Roman symbols from the Greek
+% 
+% $\omega$ & angular frequency & rads$^{-1}$ \\
+% % Symbol & Name & Unit \\
+% }
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+
+% \setstretch{1.3} % Return the line spacing back to 1.3
+
+% \pagestyle{empty} % Page style needs to be empty for this page
+
+% \dedicatory{For/Dedicated to/To my\ldots} % Dedication text
+
+% \addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\fancyhead[LO,RE]{\emph{\leftmark}} % Set the left side page header to chapter title
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+%\setstretch{1.0} % Actual single spacing
+\setstretch{1.2} % Line spacing of 1.3
+%\setstretch{1.6} % Double line spacing for review
+%\singlespacing
+
+\pagestyle{fancy} % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+\input{./Chapter1_intro/intro.tex}
+\input{./Chapter2_symmetries/symmetries.tex} 
+\input{./Chapter4_test_kloe/test_kloe.tex} 
+\input{./Chapter5_test_jpet/test_jpet.tex} 
+\input{./Chapter3_detectors/detectors.tex}
+\input{./Chapter6_gps/gps.tex} 
+\input{./Chapter7_analysis_kloe/analysis_kloe.tex} 
+\input{./Chapter8_analysis_jpet/analysis_jpet.tex}
+\input{./Chapter9_conclusions/conclusions.tex}
+
+
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+%\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+\begin{appendices}
+\input{./Appendices/AppendixA}
+\input{./Appendices/AppendixB}
+%\input{./Appendices/AppendixC}
+\input{./Appendices/AppendixD}  
+\end{appendices}
+
+\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+%\backmatter
+
+\cleardoublepage % Start a new page
+
+%----------------------------------------------------------------------------------------%
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+%\fancyhead[LO,RE]{\emph{Acknowledgements}} %
+\pagestyle{empty}
+\acknowledgements{%\addtocontents{toc}{\vspace{1em}} %Add a gap in the Contents, for aesthetics
+\input{./Acknowledgements}
+}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%---------------------------------------------------------------------------------------- 
+\cleardoublepage
+\pagestyle{fancy}
+%\fancyhead[LO,RE]{\emph{\leftmark}} % Set the left side page header to chapter title
+\addtotoc{\bf Bibliography}
+\label{Bibliography}
+%\lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
+
+\setstretch{1.1} % Line spacing of 1.3
+ \bibliographystyle{utphys}
+%\bibliographystyle{mybibstyle}
+
+\bibliography{bibtex/theory,bibtex/misc,bibtex/kloe,bibtex/jpet} % The references (bibliography) information are stored in the file named "Bibliography.bib"
+
+% \begin{thebibliography}{99}
+% \input{./Other/References.tex}
+% \end{thebibliography}
+
+\end{document}  

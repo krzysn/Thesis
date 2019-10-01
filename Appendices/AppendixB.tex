@@ -1,0 +1,70 @@
+\chapter{Analytical solution of the planar trilateration problem for \ops/$\to 3\gamma$ reconstruction}\label{appendix:jpet_solution}
+
+The problem of reconstructing an \ops/$\to 3\gamma$ decay point in the decay plane is defined by the following system of equations:
+\begin{eqnarray}
+  \label{eq:sol_jpet_system}
+  (X'_1-x')^2 + (Y'_1-y')^2 = c^2(T_1-t)^2, \\
+  (X'_2-x')^2 + (Y'_2-y')^2 = c^2(T_2-t)^2, \\
+  (X'_3-x')^2 + (Y'_3-y')^2 = c^2(T_3-t)^2,
+\end{eqnarray}
+where $x'$, $y'$ and $t$ are unknowns, measured parameters of reference points are denoted with capital letters and $c$ is the velocity of light.
+
+A maximum of two linearly independent equations linear in the unknowns can be obtained by sidewise subtraction of pairs of the above equations. The resulting underdetermined linear system takes the form:
+\begin{equation}
+  \label{eq:sol_jpet_linear}
+  \begin{bmatrix}
+    A_{11} & A_{12} & A_{13} \\
+    A_{21} & A_{22} & A_{23} 
+  \end{bmatrix}
+  \begin{bmatrix}
+    x' \\
+    y' \\
+    t
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+    d_1 \\
+    d_2
+  \end{bmatrix},
+\end{equation}
+where the \textbf{A} matrix elements are:
+\begin{eqnarray*}
+  \label{eq:sol_jpet_elements}
+  A_{11} =& 2(X'_1-X'_2), \qquad A_{21} =& 2(X'_2-X'_3), \\
+  A_{12} =& 2(Y'_1-Y'_2), \qquad A_{22} =& 2(Y'_2-Y'_3), \\
+  A_{13} =& 2c^2(T_2-T_1), \qquad A_{23} =&  2c^2(T_3-T_2),
+\end{eqnarray*}
+and the \textbf{d} vector contains:
+\begin{eqnarray*}
+  \label{eq:sol_jpet_belements}
+  d_1 &=& X_1'^2-X_2'^2 + Y_1'^2 - Y_2'^2 - c^2T_1^2 + c^2T_2^2, \\
+  d_2 &=& X_2'^2-X_3'^2 + Y_2'^2 - Y_3'^2 - c^2T_2^2 + c^2T_3^2.
+\end{eqnarray*}
+
+\eref{eq:sol_jpet_linear} can be solved e.g.\ for $x'$ and $y'$ parametrized by $t$:
+\begin{eqnarray}
+  x'(t) &= a_xt + b_x, \label{eq:sol_jpet_x} \\
+  y'(t) &= a_yt + b_y, \label{eq:sol_jpet_y}
+\end{eqnarray}
+with:
+\begin{eqnarray*}
+  a_x =& \frac{A_{13}A_{22}-A_{12}A_{23}}{A_{12}A_{21}-A_{11}A_{22}}, \qquad b_x = \frac{A_{12}d_{2}-A_{22}d_{1}}{A_{12}A_{21}-A_{11}A_{22}}, \\
+  a_y =& \frac{A_{11}A_{23}-A_{13}A_{21}}{A_{12}A_{21}-A_{11}A_{22}}, \qquad b_y = \frac{A_{21}d_{1}-A_{11}d_{2}}{A_{12}A_{21}-A_{11}A_{22}}.        
+\end{eqnarray*}
+Insertion of relations~\ref{eq:sol_jpet_x} and~\ref{eq:sol_jpet_y} into one of the original equations, e.g.~\eref{eq:sol_jpet_system} yields the following quadratic equation for $t$:
+\begin{equation}
+  \begin{split}
+    \left[ a_x^2 + a_y^2 - c^2 \right] t^2 &+ 2\left[ a_x(b_x-X'_1) + a_y(b_y-Y'_1)  + c^2T_1 \right] t \\
+    &+ (b_x-X'_1)^2 + (b_y-Y'_1)^2 - c^2T_1^2  = 0.
+  \end{split}
+\end{equation}
+The above equation may have up to two distinct solutions, which, after insertion back into Equations~\ref{eq:sol_jpet_x} and~\ref{eq:sol_jpet_y}, result in a maximum of two sets of decay location and time in the decay plane:
+\begin{equation}
+  \label{eq:sol_jpet_solutions}
+  (x',y',t)^{(j)}, \quad j=1,2.
+\end{equation}
+
+
+%%% Local Variables:
+%%% TeX-master: "../main"
+%%% End:

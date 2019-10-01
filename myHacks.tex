@@ -1,0 +1,49 @@
+\renewcommand{\bar}{\overline}
+\newcommand{\kaon}{\mathrm{K}^0}
+\newcommand{\akaon}{\bar{\mathrm{K}}^0}
+%\newcommand{\K}{\mathrm{K}}
+\newcommand{\Ks}{\mathrm{K_S}}
+\newcommand{\Kl}{\mathrm{K_L}}
+\newcommand{\Ksl}{\mathrm{K_{S,L}}}
+\newcommand{\Kp}{\mathrm{K_{+}}}
+\newcommand{\Km}{\mathrm{K_{-}}}
+\newcommand{\vts}[1]{$\upsilon \, t_{#1} - \mathrm{S}_{#1}$}
+%\newcommand{\Ts}{$\mathcal{T}$}
+%\newcommand{\CPs}{$\mathcal{CP}$}
+%\newcommand{\CPTs}{$\mathcal{CPT}$}
+\newcommand{\Ts}{T}
+\newcommand{\CPs}{CP}
+\newcommand{\CPTs}{CPT}
+
+\def\ops/{\mbox{o-Ps}}
+\def\jpet/{\mbox{J-PET}}
+
+\newcolumntype{x}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
+
+\definecolor{darkgreen}{rgb}{0, 0.5, 0}
+\definecolor{green}{rgb}{0, 0.5, 0}
+\definecolor{darkblue}{rgb}{0, 0, 0.5}
+\definecolor{blue}{rgb}{0, 0, 0.5}
+\definecolor{black}{rgb}{0.2, 0.2, 0.2}
+\tikzset{snake it/.style={decorate, decoration={snake, segment length=2mm, amplitude=0.5mm}}}
+
+\newcommand{\sidecaption}[2]% #1 = label name
+{\raisebox{\abovecaptionskip}{\begin{subfigure}[t]{0.45\textwidth}
+  \caption[singlelinecheck=off]{#1}% do not center
+  \label{#2}
+\end{subfigure}}\ignorespaces}
+
+% remove ugly boldface from appendices in TOC
+\makeatletter
+\g@addto@macro\appendices{%
+  \addtocontents{toc}{\protect\patchcmd{\protect\l@chapter}{\bfseries}{}{}{}}
+}
+\makeatother
+
+% hyphenation for some words
+\hyphenation{strange-ness}
+\hyphenation{tri-la-tera-tion}
+
+% style settings
+\widowpenalty=10000
+\clubpenalty=10000

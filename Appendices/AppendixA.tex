@@ -1,0 +1,84 @@
+\chapter{Least-squares solution of the trilateration reconstruction with 5~or~6 reference points}\label{appendix:numerical_6_equations}
+
+Although only 4 reference points (i.e.~4 equations in the system) are required to obtain an analytical solution from~\ref{eq:gps_6_eqns}, information on additional available reference points allows for minimizing the uncertainties in the reconstruction. To this end, the overdetermined equation system can be solved numerically e.g.\ with an iterative least-squares minimization procedure presented below for the case of 6 reference points.
+
+The equation system defining the reconstruction problem is of the following form (a square root has been taken sidewise in order for the right-hand-sides to be linear in the unknown~$t$):
+\begin{equation}
+  \label{eq:numerical_6_equations}
+  \left((x-X_i)^2 + (y-Y_i)^2 + (z-Z_i)^2 \right)^{\frac{1}{2}} = c(T_i-t), \qquad i=1,\ldots,6,
+\end{equation}
+where capitals denote known values, $c$ is the velocity of light and subscripts indicate the number of reference point.
+
+For each of these equations, characterized by subscript $i$, let us define the left-hand-side and right-hand-side values as:
+\begin{eqnarray}
+  \label{eq:numerical_lhs_rhs}
+  LHS_i(x,y,z) &=& \left( (x-X_i)^2 + (y-Y_i)^2 + (z-Z_i)^2) \right)^{\frac{1}{2}} \equiv R_i(x,y,z),   \label{eq:numerical_lhs} \\
+  RHS_i(t) &=& c(T_i-t).   \label{eq:numerical_rhs}
+\end{eqnarray}
+
+The optimal solution $(x,y,z,t)$ should minimize the following residual error of the equations:
+\begin{equation}
+  \label{eq:numerical_residual}
+  \sum_{i=1}^{6} \left(LHS_i(x,y,z) - RHS(t)\right)^2.
+\end{equation}
+
+In the iterative procedure, the optimal solution is sought by starting from an initial guess $\mathbf{x}^{(0)} = (x^{(0)},y^{(0)},z^{(0)},t^{(0)})^T$ (which can be obtained e.g.\ from an analytical solution using any 4 out of 6 equations) and solving a linearized system for a set of corrections \mbox{$\mathbf{\Delta x} = (\Delta x, \Delta y\, \Delta z, \Delta t)^T$} so that after $k$-th iteration step:
+\begin{equation}
+  \label{eq:numerical_corrections}
+  \mathbf{x}^{(k+1)} = \mathbf{x}^{(k)} + \mathbf{\Delta x}^{(k)}.
+\end{equation}
+
+Let $\mathbf{\vec{x}}^{(k)}$ denote the spatial part of solution vector so that:
+\begin{eqnarray}
+  \label{eq:numerical_spatial_part}
+  \mathbf{\vec{x}}^{(k)} &=& (x^{(k)},y^{(k)},z^{(k)})^T, \\
+  \mathbf{\Delta \vec{x}}^{(k)}  &=& (\Delta x^{(k)} , \Delta y^{(k)} , \Delta z^{(k)} )^T, \\
+  \mathbf{x}^{(k)} &=& (\mathbf{\vec{x}}^{(k)}, ct^{(k)})^T, \quad \mathbf{\Delta x}^{(k)}  = (\mathbf{\Delta \vec{x}}^{(k)} , c\Delta t^{(k)})^T,
+\end{eqnarray}
+then linearized system allowing to calculate the corrections for step $k+1$ can be obtained by approximating the left-hand-side expressions from~\eref{eq:numerical_lhs} up to the first term of a Taylor expansion around the solution of step $k$:
+\begin{equation}
+  \label{eq:numerical_taylorexp}
+  LHS_i(\mathbf{\vec{x}}^{(k+1)}) \approx R_i(\mathbf{\vec{x}}^{(k)}) + \grad R_i(\mathbf{\vec{x}}^{(k)})\mathbf{\Delta \vec{x}}^{(k)} .
+\end{equation}
+As the right-hand-side of the original equations is:
+\begin{equation}
+  \label{eq:numerical_rhs_nextstep}
+  RHS_i(t^{(k+1)}) = c\left(T_i - t^{(k+1)}\right) = cT_i - ct^{(k)} - c\Delta t^{(k)} ,
+\end{equation}
+using relations~\ref{eq:numerical_taylorexp} and~\ref{eq:numerical_rhs_nextstep}, the system of Equations~\ref{eq:numerical_6_equations} can be expressed in the matrix form:
+\begin{equation}
+  \label{eq:numerical_axb}
+  \mathbf{A}^{(k)}\mathbf{\Delta x}^{(k)}  = \mathbf{b}^{(k)},
+\end{equation}
+where the $\mathbf{A}$ matrix is defined as:
+\begin{equation}
+  \label{eq:numerical_A}
+  \mathbf{A}^{(k)} =
+  \begin{bmatrix}
+    \frac{x^{(k)}-X_1}{R_1(\mathbf{\vec{x}}^{(k)})} & \frac{y^{(k)}-Y_1}{R_1(\mathbf{\vec{x}}^{(k)})} & \frac{z^{(k)}-Z_1}{R_1(\mathbf{\vec{x}}^{(k)})}& c \\
+    \vdots & \ddots & & \vdots \\
+    \vdots & & \ddots & \vdots \\
+    \frac{x^{(k)}-X_6}{R_6(\mathbf{\vec{x}}^{(k)})} & \frac{y^{(k)}-Y_6}{R_6(\mathbf{\vec{x}}^{(k)})} & \frac{z^{(k)}-Z_6}{R_6(\mathbf{\vec{x}}^{(k)})} & c 
+  \end{bmatrix},
+\end{equation}
+and:
+\begin{equation}
+  \label{eq:numerical_b}
+  \mathbf{b}^{(k)} =
+  \begin{bmatrix}
+    cT_1 - ct^{(k)} - R_1(\mathbf{\vec{x}}^{(k)}) \\
+    \vdots\\
+    cT_6 - ct^{(k)} - R_6(\mathbf{\vec{x}}^{(k)})
+  \end{bmatrix}.
+\end{equation}
+
+For each step of the iteration, the vector of corrections can be obtained by solving Equation~\ref{eq:numerical_axb} using the pseudo-inverse of the $\mathbf{A}$ matrix~\cite{optimization}:
+\begin{equation}
+  \label{eq:numerical_solution}
+  \mathbf{\Delta x}^{(k)}  = \left( (\mathbf{A}^{(k)})^T\mathbf{A}^{(k)} \right)^{-1} (\mathbf{A}^{(k)})^{T} \mathbf{b}^{(k)},
+\end{equation}
+after which the solution estimate is updated according to~\eref{eq:numerical_corrections}. Such iteration can be repeated until convergence is indicated by insignificant values of subsequent correction vectors $\mathbf{\Delta x}^{(k)}$.
+
+%%%Local Variables:
+%%% TeX-master: "../main"
+%%% End:
