@@ -1,0 +1,423 @@
+
+\chapter{Symmetry under reversal in time and its violation}\label{chapter:symmetries}
+
+\section{Properties of reversal in time}
+A transformation of reversal in time in the Quantum Mechanics is understood as a bijection of the Hilbert space $T: \mathcal{H} \to \mathcal{H}$ which transforms the state vectors and observables of a system in such a way that the resulting system has an inverse sense of time, i.e.\ (in the Schr\"odinger and Heisenberg picture respectively):
+\begin{eqnarray*}
+  \ket{\psi} \to& \ket{\psi_T} &= T\ket{\psi},\\
+  O \to& O_T &= TOT^{\dagger},
+\end{eqnarray*}
+where $\ket{\psi}$ and $O$ denote a given state and operator, respectively, the $T$ subscript indicates their counterparts in the $T$-transformed spaces, and $T^{\dagger}$ denotes a Hermitian conjugate of the $T$ operator. Correspondence with reversal in time in the classical case requires that
+\begin{equation*}
+  T\mathbf{X}T^{\dagger} = \mathbf{X}, \qquad T\mathbf{P}T^{\dagger} = -\mathbf{P}, \qquad   T\boldsymbol{\sigma}T^{\dagger} = -\boldsymbol{\sigma},
+\end{equation*}
+where $\mathbf{X}$ and $\mathbf{P}$ stand for the operators of position and momentum, respectively, and $\boldsymbol{\sigma}$ is the spin operator.
+
+%%
+A symmetry operator U which preserves transition probabilities must satisfy the condition:
+\begin{equation}
+  \forall_{\phi,\psi\in\mathcal{H}}: \left| \braket{\phi}{\psi}\right|^2 = \left| \braket{\phi'}{\psi'}\right|^2 = \left| \braket{U\phi}{U\psi}\right|^2,
+\end{equation}
+from which a conclusion known as Wigner's theorem follows that a symmetry operation must be represented by an operator which is either unitary or anti-unitary. The operators of parity and charge conjugation are indeed unitary. In case of reversal in time, however, it can be shown that its corresponding operator T may not be unitary, e.g~by considering the time evolution of a state $\psi$ for an infinitesimal time interval $(t,t+\delta t)$ in a system reversed in time:
+\begin{equation}
+  \ket{\psi(t)}\to\ket{\psi(t+\delta t)} \xrightarrow{T} \ket{\psi_T(t+\delta t)}\to\ket{\psi_T(t)}.
+\end{equation}
+An evolution of a reversed state $\psi_T(t+\delta t)$  must give the reversed state $\psi_T(t)$ in time $t$~\cite{sozzi}:
+\begin{align}
+  (1-iH\delta t)\ket{\psi_T(t+\delta t)} & = (1-iH\delta t)T\ket{\psi(t+\delta t)} \nonumber \\
+ & = (1-iH\delta t)T(1-iH\delta t)\ket{\psi(t)} = \ket{\psi_T(t)}\\
+  T(-i)H & = iHT.
+\end{align}
+From the above relation it follows that $TH=-HT$ if T is a unitary operator or $TH=HT$ is T is anti-unitary.
+% \begin{equation}
+%   TH=-HT.
+%   \label{eq:unitary_relation}
+% \end{equation}
+If unitarity of T is assumed, however, an eigenstate of a Hamiltonian~$\ket{n}$:
+\begin{equation}
+  H\ket{n} = E_n\ket{n},
+\end{equation}
+transformed by T would result in the eigenstate reversed in time $T\ket{n}$ having a negative energy $-E_n<0$. This observation along with Wigner's theorem lead to a conclusion that the operator of reversal in time must be anti-unitary. A more comprehensive discussion of the anti-unitarity of the T~operator can be found in references~\cite{sozzi, sachs}.
+
+The anti-unitarity differentiates the reversal in time from other fundamental discrete symmetry transformations and has grave consequences for the properties of the \Ts~symmetry as well as for experimental capabilities of putting it to test. 
+
+It can be shown that for a particle with zero spin $T^2=1$ and for spin of $\frac{1}{2}$, $T^2=-1$~\cite{sachs}. The action of the time reversal operator in a state $\psi$ is therefore
+\begin{equation}
+  T\ket{\psi(t)} = \eta_T\ket{\psi(-t)}^*,
+\end{equation}
+where $|\eta_T|^2=1$. The $\eta_T$ phase factor can, however, always be replaced with unity with an appropriate choice of the phase. As a consequence, there are no states with physical eigenvalues of the T operator and thus the invariance under reversal in time does not imply existence of any conserved quantity which could be used for testing the symmetry e.g.\ through experimental verification of selection rules~\cite{sozzi}.
+%Moreover, no null experiment using a single observable can prove the violation of \Ts symmetry~\cite{sozzi}. 
+
+Although a test of the symmetry under reversal in time can be performed through a comparison between time-inverted processes, experimentally preparation of such a pair of states presents serious difficulties. Use of decay as the process is practically unfeasible due to impossibility to obtain the initial state from the decay products in the same conditions. However, other phenomena can be used as the processes under comparison, i.e. oscillations of flavoured neutral mesons as well as their transitions between \CPs~and flavour eigenstates. Both of these cases will be discussed in the next sections.
+
+Despite aforementioned complications in experimental testing of the \Ts~symmetry, anti-unitarity of the T operator also opens the possibility to design other tests. One of the consequences of T anti-unitarity is the following relation, valid for any operator $O$:
+\begin{equation}
+  \begin{split}
+    \mel{\phi}{O}{\psi} & = \mel{\phi}{T^{\dagger}TOT^{\dagger}T}{\psi} \\ & = \mel{\phi_T}{TOT^{\dagger}}{\psi_T}^* = \mel{\psi_T}{TO^{\dagger}T^{\dagger}}{\phi_T}.
+  \end{split}
+\label{eq:rel_any_operator}
+\end{equation}
+If the operator O is even or odd with respect to reversal in time so that
+\begin{equation}
+  O_T = TOT^{\dagger} = \pm O,
+\end{equation}
+relation~(\ref{eq:rel_any_operator}) applied to that operator yields:
+\begin{equation}
+  \mel{\phi}{O}{\psi} = \mel{\phi_T}{O_T}{\psi_T}^*,
+\end{equation}
+which for identical states $\phi=\psi$ and for a Hermitian operator $O^{\dagger}=O$ reduces to
+\begin{equation}
+  \expval{O}_T = \pm\expval{O},
+  \label{eq:expectation_value_any_operator}
+\end{equation}
+where the sign refers to the parity (+) or oddity (-) of the operator O w.r.t.\ reversal in time.
+As a consequence, the expectation value of a Hermitian operator odd under reversal in time must vanish if the system is time reversal invariant~\cite{sozzi}. This conclusion opens the possibility to search for \Ts~symmetry violation by means of measurements of expectation values of operators specially constructed from observables in the system so that the operators are T-odd.
+
+\section{Experimental searches for \Ts~violation}
+The peculiar properties of reversal in time as compared to other discrete transformations result in a very specific range of feasible experimental approaches to testing the \Ts~noninvariance. In fact, available experimental approaches can be divided into four categories following a comprehensive summary by L.~Wolfenstein~\cite{wolfenstein_summary}.
+
+The first class of searches for \Ts~violation is constituted by attempts to measure a non-zero value of a T-odd operator in an elementary system, such as the electric dipole moment of particles. Since the electric field $\mathbf{E}$ is even under reversal in time and spin is odd, a non-vanishing term of the form $\mathrm{d}\boldsymbol{\sigma}\cdot\mathbf{E}$ in the Hamiltonian would break the \Ts~symmetry. A notable example of such an experiment is the search for neutron electric dipole moment, presently reaching a sensitivity at the level of $10^{-26}\:\mathrm{e}\cdot\mathrm{cm}$ in a direct measurement~\cite{nedm}. While in case of the electron, its electric dipole moment can only be probed indirectly by the dipole moments of paramagnetic atoms, the measurements to date (with Thorium atoms) reach a sensitivity of $10^{-28}\:\mathrm{e}\cdot\mathrm{cm}$~\cite{eedm}. Despite excellent precision, no evidence for \Ts~violation was provided by such experiments to date.
+
+Another possible way to test the time reversal symmetry is based on the property of the T transformation derived in Equations~(\ref{eq:rel_any_operator})--(\ref{eq:expectation_value_any_operator}). If observables in a system allow to construct a T-odd operator and if the Hamilitonian of this system $H$ satisfies the following condition for the initial and final states $\ket{i},\;\ket{f}$ of the process under investigation:
+\begin{equation}
+  \mel{f}{H}{i} = \mel{-f}{H}{-i},
+\end{equation}
+then the measured non-zero expectation value of a T-odd scalar would be a signal of violation of the symmetry under time reversal~\cite{wolfenstein_summary}. One of such measurements, performed at the KEK-E246 experiment, studied the muon polarization transverse to the decay plane in the \mbox{$K^+\to\pi^0\mu^+\nu$} weak decay. Transverse polarization was defined as
+\begin{equation*}
+  \mathcal{P}_T = \mathcal{P}_{K}\cdot (\mathbf{p}_{\pi}\times\mathbf{p}_{\mu}) /|\mathbf{p}_{\pi}\times\mathbf{p}_{\mu}|,
+\end{equation*}
+where $\mathcal{P}_{K}$ denotes initial kaon polarization and $\mathbf{p}_{\pi}$ and $\mathbf{p}_{\mu}$ are the momentum vectors of pion and muon in the final state. The experiment yielded a value of
+\begin{equation*}
+  \mathcal{P}_T = (-1.7\pm 2.3\pm 1.1)\times 10^{-3},
+\end{equation*}
+showing no evidence for \Ts~violation~\cite{operatory_kek}. A similar principle was exploited in several measurements of transverse polarization of electrons from the $\beta$ decay performed at Paul Scherrer Institute, which studied decays of polarized $^8$Li nuclei~\cite{bodek_li} and of free neutrons~\cite{bodek_free_n}. In both experiments, the transverse polarization of electrons was defined as a T-odd operator whose non-vanishing expectation value was sought through measurement of angular correlations in the final state. These measurements also yielded results consistent with \Ts~invariance, amounting to $R=(0.9\pm2.2)\times 10^{-3}$ with lithium nuclei~\cite{bodek_li} and $R=0.004\pm 0.012\pm 0.005$ with free neutrons~\cite{bodek_free_n}.
+
+%
+% TODO: dopisac, ze trzba dobrz wziac pod uwage pseudo trv
+%
+
+It is worth noting that the measurements exploiting operators odd under reversal in time have been conducted using processes governed by the weak interactions only. In principle, however, this technique is not limited to a specific class of processes. In fact, non-zero expectation values of odd operators have been employed in searches of \CPs~and \CPTs~violation in a purely leptonic system constituted by ortho-positronium atoms, i.e. triplet bound states of electron and positron, undergoing a decay into three photons~\cite{cpt_positronium, cp_positronium}. Notably, no searches for signals of time reversal symmetry violation in such purely leptonic systems have been reported to date.
+
+Besides the aforementioned searches for non-zero expectation values of T-odd operators, a range of tests of the \Ts~symmetry is possible with the systems of neutral mesons, in particular the $\kaon$ mesons. The oscillation between flavour eigenstates of neutral mesons allows to obtain time-conjugated pairs of particle transitions in a process different from particle decay.
+While a direct comparison of rates of the transitions back and forth in neutral meson oscillations presents certain difficulties in terms of preparing a direct \Ts~test independent of \CPs~effects, another class of tests has been devised which utilizes neutral meson transitions between flavour and CP eigenstates and allows for a genuine test of the symmetry under reversal in time. Preparing tools for data analysis necessary to perform such a test with the neutral K meson system was one of the objectives of this Thesis.
+
+Next sections will discuss properties of the system of neutral K mesons and the test of the symmetry under reversal in time in their oscillations, together with a discussion of the interpretation controversy arising from its result. Subsequently, principle of the novel concept of the \Ts~symmetry test designed to avoid these issues, which was employed experimentally in the work presented in this Thesis, will be covered in detail in Chapter~\ref{chapter:test_kloe}.
+
+\section{The system of neutral K mesons}
+\label{sec:kaons}
+K mesons, commonly referred to as kaons, are the lightest particles containing the strange~(s) quark. Thanks to that fact, not only did they give rise to a new field of flavour physics being the first strange particles to be discovered, but also they were one of the most studied particle systems due to their great availability for medium energy range accelerator-based experiments such as NA31~\cite{Kleinknecht:1994ns}, NA48~\cite{Winhart:2012bv}, KTeV~\cite{Wanke:2003vp} or KLOE~\cite{kloe_results}.
+
+The four K mesons constitute two isospin doublets: ($\mathrm{K}^{+}$, $\mathrm{K}^{0}$) with S=1 and ($\mathrm{K}^{-}$, $\mathrm{\overline{K}}^{0}$) with S=-1. The quark content of each of the K mesons is presented in~\tref{tab:quarks}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% table:quarks %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[h!]
+\centering
+\caption{Quark content, strangeness and isospin of the K mesons.}\label{tab:quarks}
+\begin{tabular}{crrrr}
+  \toprule
+  & $\mathrm{K}^{+}$ & $\mathrm{K}^{-}$ & $\kaon$ & $\akaon$ \\
+  \midrule
+  quarks & u\={s} & \={u}s & d\={s} & \={d}s  \\
+  strangeness & 1 & -1 & 1 & -1 \\
+  isospin & $+\frac{1}{2}$ & $-\frac{1}{2}$ & $+\frac{1}{2}$ & $-\frac{1}{2}$\\
+  \bottomrule
+\end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%% end table:quarks %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The K mesons are produced in strong interactions in which strangeness is conserved and thus their production in conveniently described in the basis of states with definite strangeness,
+i.e.\ $\{\kaon,\akaon\}$ for neutral
+and $\left\{\mathrm{K}^{+},\mathrm{K}^{-}\right\}$ for charged kaons.
+Moreover, strangeness conservation demands that production of kaons in decays of non-strange particles results in a pair of kaons or a kaon accompanied by another strange particle like $\Lambda^0$~($\Lambda^0=$uds). The possibility to infer the strangeness of a kaon based on the flavour of the associated particle at its production is a very useful feature of the K meson system, extensively used in kaon experiments.
+
+The remainder of this Section will focus only on the properties of the system of neutral K mesons due to its great relevance for discrete symmetry tests. As the neutral kaons decay through weak interactions which do not conserve strangeness, it is useful to express their states not only in the aforementioned flavour basis but also in the basis of eigenstates of the CP~operator. Even though $\kaon$ and $\akaon$, being antiparticles of each other, clearly are not CP eigenstates
+\[ \mathcal{CP} \ket{ \kaon } = \ket{ \akaon }, \quad \mathcal{CP} \ket{ \akaon} = \ket{ \kaon }, \]
+a proper basis of CP eigenstates $\left\{\Kp,\Km\right\}$%
+\footnote{%
+  This work will use a convention where the CP eigenstates are denoted by a subscript indicating CP parity of the neutral kaon state. States of charged kaons are indicated by the charge marked in superscript.
+}
+may be constructed with linear combinations of these flavour-definite kaon states:
+\begin{equation}
+  \label{eq:cp_basis}
+  \begin{split}
+    \ket{\Kp} & =\frac{1}{\sqrt{2}}\left(\ket{\kaon}+\ket{\akaon}\right)\qquad \mathcal{CP}\ket{\Kp}=+1\ket{\Kp},  \\
+    \ket{\Km} & =\frac{1}{\sqrt{2}}\left(\ket{\kaon}-\ket{\akaon}\right)\qquad \mathcal{CP}\ket{\Km}=-1\ket{\Km}.
+  \end{split}
+\end{equation}
+
+Conservation of the \CPs~symmetry requires that in case of neutral kaon decays into hadronic final states with pions, the $\Kp$ state may only decay into two pions, while for $\Km$ only a three-pion final state is allowed. Therefore, if \CPs~violation in kaon decays is neglected%
+\footnote{%
+In fact, CP is known to be violated in kaon decays. Influence of this violation on further considerations contained in this Thesis is, however, negligible~\cite{theory:bernabeu-t} as will be discussed in Chapter~\ref{chapter:test_kloe}.
+},
+observation of a decay of a neutral K meson into a certain final state with pions can be used to identify the decaying state in the $\left\{\Kp,\Km\right\}$ basis as summarized in \tref{tab:tagging}. In case of the anti-symmetric CP eigenstate, determination of the CP value for a $\pi^+\pi^-\pi^0$ final state requires consideration of the orbital momentum, but the decay into three neutral pions can be used as a clear indication of the decaying $\Km$ state.
+
+\begin{figure}[h!]
+  \centering
+  \begin{fmffile}{fgraphs}
+    \vspace{1 em}
+    \begin{minipage}{.4\textwidth}
+          \centering
+            \begin{fmfgraph*}(70,40)
+              % bottom and top verticies
+              \fmfstraight
+              \fmfleft{i2,a,i3,i4,i5}
+              \fmfright{o2,a,o3,o4,o5}
+              % incoming proton to gluon vertices
+              \fmf{plain}{i5,o5}
+              \fmflabel{d}{i5}
+              \fmflabel{d}{o5}
+              \fmf{plain}{i4,v2}
+              \fmflabel{\={s}}{i4}
+              \fmf{plain}{v2,o4}
+              \fmflabel{\={u}}{o4}
+              \fmffreeze
+              \fmf{photon, tension=1,label=$\mathrm{W}^{+}$}{v2,v3}
+              \fmf{plain}{v3,o3}
+              \fmflabel{$l^{+}$}{o3}
+              \fmf{plain}{v3,o2}
+              \fmflabel{$\nu_{\ell}$}{o2}
+              % phantom centres the W->cs vertex
+              \fmf{phantom,tension=1.5}{i2,v3}
+            \end{fmfgraph*}
+ %           \vspace{1 em}
+          \[ \kaon \to \pi^- \ell^+ {\nu}_{\ell} \]
+          \end{minipage}
+            %
+%            \hspace{0.1\textwidth}
+            %
+    \begin{minipage}{.4\textwidth}
+          \centering
+            \begin{fmfgraph*}(70,40)
+              % bottom and top verticies
+              \fmfstraight
+              \fmfleft{i2,a,i3,i4,i5}
+              \fmfright{o2,a,o3,o4,o5}
+              % incoming proton to gluon vertices
+              \fmf{plain}{i5,o5}
+              \fmflabel{\={d}}{i5}
+              \fmflabel{\={d}}{o5}
+              \fmf{plain}{i4,v2}
+              \fmflabel{s}{i4}
+              \fmf{plain}{v2,o4}
+              \fmflabel{u}{o4}
+              \fmffreeze
+              \fmf{photon, tension=1,label=$\mathrm{W}^{-}$}{v2,v3}
+              \fmf{plain}{v3,o3}
+              \fmflabel{$l^{-}$}{o3}
+              \fmf{plain}{v3,o2}
+              \fmflabel{$\overline{\nu_{\ell}}$}{o2}
+              % phantom centres the W->cs vertex
+              \fmf{phantom,tension=1.5}{i2,v3}
+            \end{fmfgraph*}
+%           \vspace{1 em}
+            \[ \akaon \to \pi^+ \ell^- \bar{\nu}_{\ell} \]
+          \end{minipage}
+     \end{fmffile}
+  \caption{Feynman diagrams of the semileptonic decays of neutral K mesons. The $\Delta S=\Delta Q$ rule allows the neutral kaon states with +1 and -1 strangeness to decay into a semileptonic final sate only with a positively or negatively charged lepton, respectively. }
+  \label{fig:dsdq}
+\end{figure}
+
+Similarly to the identification (later on referred to as \textit{tagging}) of the CP eigenstates with hadronic decays, semileptonic final states into a pion, lepton (generally denoted by $\ell$ in the following considerations) and neutrino may be utilized to identify flavour of the decaying kaon state. This is based on the so-called $\Delta S=\Delta Q$ selection rule
+%stating that a change in the strangeness in a weak decay must be matched by the same change in the 
+related to CPT conservation whose violation has not been observed to date~\cite{pdg2016}. As a consequence of $\Delta S=\Delta Q$, the $\kaon$ state can only decay semileptonically into a state with a positively charged lepton while $\akaon$ may only produce a negative lepton as illustrated by the Feynman diagrams in Figure~\ref{fig:dsdq}.
+The right-hand-side of~\tref{tab:tagging} summarizes the possibilities of tagging the flavour states of neutral kaons with semileptonic decays.
+
+\begin{table}[h!]
+  \centering
+  \caption{Possibilities of identification of the neutral kaon states in the CP and flavour bases by observation of kaon decays into specific final states.}\label{tab:tagging}
+  \begin{tabular}[center]{cp{5ex}ccp{5ex}cc}
+    \toprule
+    kaon state & & $\Kp$ & $\Km$ & & $\kaon$ & $\akaon$ \\
+               & & CP=+1 & CP=-1 & & S=+1    & S=-1     \\
+    \midrule
+    identifying & & $\pi^+\pi^-$ & $\pi^0\pi^0\pi^0$ & & $\pi^-\ell^+\bar{\nu}$ & $\pi^+\ell^-\nu$ \\
+    decay      & & $\pi^0\pi^0$ &                   & &\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+The decays of neutral K mesons involve weak interactions violating the \CPs~symmetry. In fact, it was the kaon system in which the \CPs~violation was discovered in the famous experiment of Christenson, Cronin, Fitch and Turlay~\cite{cp_violation} where the state supposed as pure $\Km$ was observed to decay into a two-pion final state. As a result of \CPs~noninvariance, the ``physical'' states of neutral kaons, i.e.\ eigenstates of the full system Hamiltonian including weak interactions, are not exactly CP-definite states $\Kp$ and $\Km$. Instead, the former must be corrected to allow for state impurities whose size is measured by small complex parameters $\epsilon_S$ and $\epsilon_L$ (compare with Equations~\ref{eq:cp_basis}):
+ \begin{equation}
+   \label{eq:kskl}
+   \begin{split}
+     \ket{\Ks} & = \frac{1}{\sqrt{2(1+|\epsilon_S|^2)}}\left((1+\epsilon_S)\ket{\kaon}+(1-\epsilon_S)\ket{\akaon}\right),  \\
+     \ket{\Kl} & = \frac{1}{\sqrt{2(1+|\epsilon_L|^2)}}\left((1+\epsilon_L)\ket{\kaon}-(1-\epsilon_L)\ket{\akaon}\right). 
+   \end{split}
+ \end{equation}
+The above states properly describe the decaying kaons. The indices S and L attributed to these physical states correspond respectively to \textit{short-lived} and \textit{long-lived} neutral kaons as the lifetimes of $\Ks$ and $\Kl$ differ almost by three orders of magnitude (see~\tref{tab:kaon_properties}). This effect originates from smaller phase space for the decays of $\Kl$ which predominantly decays into three pions as opposed to $\Ks$ for which two-pion decays dominate as shown in the list of major neutral kaon decays in~\tref{tab:kaon_properties}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% kaon_properties %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[h!]
+  \small
+  \centering
+  \caption{Selected properties and major decay modes of neutral kaons \cite{pdg2016}.}\label{tab:kaon_properties}
+  \begin{tabular}{ccrcr}
+  \toprule
+  {}                &         \multicolumn{2}{c}{  $\mathrm{K_S}$} & \multicolumn{2}{c}{ $\mathrm{K_L}$}   \\
+  \midrule
+  mean life time    & \multicolumn{2}{c}{(89.54 $\pm$ 0.04) ps} & \multicolumn{2}{c}{(51.16 $\pm$ 0.21) ns} \\
+  \midrule
+                  &	     $\pi^+\pi^-$ & (6.920 $\pm$ 0.005)$\times 10^{-1}$  &    $\pi^\pm e^{\mp} \nu_e$ & (4.055 $\pm$ 0.011)$\times 10^{-1}$ \\      	      
+major decay &	     $\pi^0\pi^0$ & (3.069 $\pm$ 0.005)$\times 10^{-1}$	&    $\pi^\pm \mu^{\mp} \nu_{\mu}$ & (2.704 $\pm$ 0.007)$\times 10^{-1}$ \\      	   
+modes  &	     $\pi^+\pi^-\gamma$ & (1.79 $\pm$ 0.05) $\times 10^{-3}$		 &   	    3$\pi^0$ & (1.952 $\pm$ 0.012)$\times 10^{-1}$   \\
+ (branching ratio)  &	     $\pi^{\pm} e^{\mp} \nu_e$ & (7.04 $\pm$ 0.08) $\times  10^{-4}$	   	 &	    $\pi^+\pi^-\pi^0$ & (1.254 $\pm$ 0.005)$\times 10^{-1}$  \\
+  &	          $\pi^{\pm} \mu^{\mp} \nu_{\mu}$ & (4.69 $\pm$ 0.05) $\times  10^{-4}$          &	$\pi^{\pm}e^{\mp}\nu_e\gamma$ & (3.79 $\pm$ 0.06) $\times 10^{-3}$ \\
+&  \multicolumn{2}{c}{} &  $\pi^+\pi^-$ & (1.966 $\pm$ 0.010) $\times 10^{-3}$	 \\
+                    & \multicolumn{2}{c}{}  &  $\pi^0\pi^0$ & (8.64 $\pm$ 0.06) $\times 10^{-4}$       \\
+    \midrule
+mass              &	     \multicolumn{4}{c}{ (497.611 $\pm$ 0.013) MeV/$\mathrm{c^2}$ } \\ 
+  mass difference   &          \multicolumn{4}{c}{ (3.484 $\pm$ 0.006)$\times 10^{-12}$ MeV/$\mathrm{c^2}$ } \\
+  \bottomrule
+\end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%% end kaon_properties %%%%%%%%%%%%%%%%%%%%%%%%%
+
+The full Hamiltonian of the neutral K meson system including strong, electromagnetic and weak interactions is a 2$\times$2 non-hermitian matrix which may be decomposed into hermitian and anti-hermitian parts~\cite{interf_handbook}
+\begin{equation}
+  \mathbf{H} =  \mathbf{M} - \frac{i}{2} \mathbf{\Gamma},
+\end{equation}
+where the hermitian \textbf{M} and $\mathbf{\Gamma}$ matrices are commonly referred to as mass and decay matrices. The eigenvalues of $\mathbf{H}$ which correspond to eigenstates of $\Ks$ and $\Kl$ take the following form:
+\begin{equation}
+  \begin{split} 
+    \label{eq:eigenvalues}
+    \lambda_S & = m_S - i \frac{\Gamma_S}{2}, \\
+    \lambda_L & = m_L - i \frac{\Gamma_L}{2},
+  \end{split}
+\end{equation}
+where $m_{S(L)}$ denotes mass of $\mathrm{K_{S(L)}}$ state and $\Gamma_{\mathrm{S(L)}}$ denotes its decay width. The time evolution of the physical states of neutral kaons is thus described by pure exponentials
+\begin{eqnarray}
+  \ket{\Ks(t)} & = e^{-i\lambda_S t}\ket{\Ks}, \\
+  \ket{\Kl(t)} & = e^{-i\lambda_L t}\ket{\Kl}.
+\end{eqnarray}
+
+Properties of the system of neutral K mesons, expressed by its Hamiltonian, are inherently connected to fundamental discrete symmetries. The kaons' relation to \Ts, \CPs~and \CPTs~symmetries may be expressed in an elegant form of constraints on particular elements of $\mathbf{H}$. It is therefore useful to expand the Hamiltonian as well as mass and decay matrices and consider particular elements:
+\begin{equation}
+  \label{eq:hamiltonian}
+  \left(
+    \begin{array}{cc}
+      \mathrm{H_{11}}  &        \mathrm{H_{12}} \\
+      \mathrm{H_{21}}  &        \mathrm{H_{22}}
+    \end{array}
+    \right)
+    =
+    % = \mathbf{M} - \frac{i}{2} \mathbf{\Gamma} = 
+\left(
+  \begin{array}{cc}
+    \mathrm{M_{11}}  &        \mathrm{M_{12}} \\
+    \mathrm{M^*_{12}}  &        \mathrm{M_{22}}
+  \end{array}
+\right)
+- \frac{i}{2}
+\left(
+  \begin{array}{cc}
+    {\Gamma_{11}}  &        {\Gamma_{12}} \\
+    {\Gamma^*_{12}}  &        {\Gamma_{22}}
+  \end{array}
+\right).
+\end{equation}
+
+The following constraints must be satisfied if the neutral kaon system is invariant under certain symmetry transformations~\cite{book_cp_violation}:
+\begin{eqnarray}
+  \label{eq:discrete_constraints}
+  \mathcal{CPT}\text{ invariance:}\quad & \mathrm{H}_{11} = \mathrm{H}_{22}, \label{eq:constr_cpt} \\
+  \mathcal{T}\text{ invariance:}\quad & |\mathrm{H}_{12}| = |\mathrm{H}_{21}|, \label{eq:constr_t} \\
+  \mathcal{CP}\text{ invariance:}\quad & \mathrm{H}_{11} = \mathrm{H}_{22} \;\land\; |\mathrm{H}_{12}| = |\mathrm{H}_{21}|. \label{eq:constr_cp}
+\end{eqnarray}
+
+A convention commonly used in the description of discrete symmetries' violation in the $\Ks\Kl$ system  redefines the \CPs-violating parameters $\epsilon_S$ and $\epsilon_L$ from Eqs.~\ref{eq:kskl} in the following manner:
+\begin{eqnarray}
+  \label{eq:epsilon_delta}
+  {\epsilon} & \equiv \frac{\epsilon_S+\epsilon_L}{2}, \\
+  \delta & \equiv \frac{\epsilon_S-\epsilon_L}{2}.
+\end{eqnarray}
+Thus defined $\delta$ and ${\epsilon}$ parameters are related to Hamiltonian elements up to leading order terms as below~\cite{interf_handbook}:
+\begin{eqnarray}
+  \label{eq:epsilon_delta_H}
+  {\epsilon} & = \frac{\mathrm{H}_{12}-\mathrm{H}_{21}}{2(\lambda_S-\lambda_L)} & =
+                   \frac{-i\Im(\mathrm{M}_{12})-\frac{1}{2}\Im(\Gamma_{12})}{\Delta m +\frac{i}{2}\Delta \Gamma}, \\
+  \delta & = \frac{\mathrm{H}_{11}-\mathrm{H}_{22}}{2(\lambda_S-\lambda_L)} & =
+                   \frac{\frac{1}{2}\left(\mathrm{M}_{22} - \mathrm{M}_{11}-\frac{i}{2}(\Gamma_{22}-\Gamma_{11})\right)}{\Delta m + \frac{i}{2}\Delta \Gamma}.
+\end{eqnarray}
+
+It can be shown that with a certain choice of an arbitrary phase in ${\epsilon}$~\cite{fidecaro_pedagogical}
+\begin{equation}
+  \label{eq:kabir_epsilon}
+  \frac{|\mathrm{H}_{12}|^2-|\mathrm{H}_{21}|^2}{|\mathrm{H}_{12}|^2+|\mathrm{H}_{21}|^2} \simeq 4\Re({\epsilon}).
+\end{equation}
+In accordance with constraints~(\ref{eq:constr_t}) and (\ref{eq:constr_cp}), the above term violates the \CPs~and \Ts~symmetries and is known as the Kabir asymmetry~\cite{Kabir1970}. More generally, non-zero value of the real part of $\epsilon$ would imply that symmetry under reversal in time is violated, whereas $\Re(\delta)$ is a parameter sensitive to \CPTs~violation in the neutral kaon system~\cite{interf_handbook}.
+
+\section{Test of \Ts~symmetry in oscillations of neutral kaons}
+% Due to zero spin of neutral mesons such as kaons, their flavour eigenstates are invariant under the operation of reversal in time.
+The states of particles of zero spin are invariant under the operation of reversal in time. Therefore, a direct test of the \Ts~symmetry for such particles may be defined in a way very close to the commonsense understanding of ``time reversal'', i.e.\ through a comparison of a process $\ket{i}\to \ket{f}$ and the same process with the initial and final states exchanged $\ket{f}\to \ket{i}$. A natural property to compare experimentally are the probabilities of both processes measurable with the rates of observed events.
+
+Such a T-conjugated pair of processes is, however, not easily available in experiment. No decay phenomena may be used due to the practical impossibility to obtain a reverse process with exactly the same parameters of the system. A unique case in which a pair of processes mutually reverse in time can be observed, is the oscillation of neutral mesons such as kaons.
+The latter oscillate between the states with $+1$ and $-1$ strangeness so that the transitions $\kaon\to\akaon$ and $\akaon\to\kaon$ satisfy the requirements for a pair of time-reversal conjugated processes and can be used for a \Ts~symmetry test by measuring the probability asymmetry between them.
+
+Such an experiment was performed in 1998 with the CPLEAR detector, where $\kaon$ and $\akaon$ were produced in strong interactions $p\bar{p}\to \mathrm{K}^-\pi^+\kaon$ and $p\bar{p}\to \mathrm{K}^+\pi^-\akaon$ and the other products were used to identify initial ($t=0$) strangeness of the kaon. Subsequently, state of the K meson at the time $\tau$ of its decay was tagged by certain semileptonic final states of the decay (see~\tref{tab:tagging}). The observable of the test was the following asymmetry of transition probabilities:
+\begin{equation}
+  \label{eq:cplear_prob}
+  A = \frac{\text{P}(\akaon\to\kaon) - \text{P}(\kaon\to\akaon)}{\text{P}(\akaon\to\kaon) + \text{P}(\kaon\to\akaon)},
+\end{equation}
+probed experimentally through the average decay rate asymmetry~\cite{cplear}:
+\begin{equation}
+  \label{eq:cplear_exp}
+  A_{CPLEAR} = \left< \frac{R(\akaon(t=0)\to e^+\pi^-\nu(t=\tau))-R(\kaon(t=0)\to e^-\pi^+\bar{\nu}(t=\tau))}{R(\akaon(t=0)\to e^+\pi^-\nu(t=\tau))+R(\kaon(t=0)\to e^-\pi^+\bar{\nu}(t=\tau)} \right>,
+\end{equation}
+Measurement of the above quantity with CPLEAR has yielded a significant non-zero asymmetry:
+\begin{equation}
+  \label{eq:cplear_result}
+  A_{CPLEAR} = (6.6\pm 1.3_{stat}\pm 1.0_{syst})\times 10^{-3}.
+\end{equation}
+
+This result was interpreted by the CPLEAR collaboration as  as a measurement of the Kabir asymmetry~\cite{Kabir1970}, which can be related to the neutral kaon system Hamiltonian (see Equation~(\ref{eq:hamiltonian})) elements as shown in Eq.~(\ref{eq:kabir_epsilon}).
+
+Since non-zero value of the Kabir asymmetry would clearly imply violation of the symmetry under reversal in time, the result of CPLEAR was quoted as the first direct observation of time-reversal noninvariance in the neutral kaon system~\cite{cplear}. However, it has been pointed out by L.~Wolfenstein that the measured value may not be identical with the Kabir asymmetry due to an essential role of decay in the phenomenon studied by CPLEAR~\cite{wolfenstein_other_paper, wolfenstein_summary}.
+Due to the fact that this measurement inevitably uses the decay as initial state interaction, the asymmetry between $\kaon\to\akaon$ and $\akaon\to\kaon$ transitions results from an interference between two effects. Besides the dispersive component of neutral kaon mixing, which includes short-distance box diagrams and long-range interactions mediated by particles off the mass shell, there is also a contribution from initial state interaction. As the latter involves decays into intermediate particles on the mass shell, this contribution is at a leading order proportional to the decay width difference $\Delta \Gamma$ between $\kaon$ and $\akaon$~\cite{bernabeu_colloquium}.
+
+In fact, Wolfenstein has shown that the dependence of the asymmetry measured by CPLEAR on the decay width difference takes the form
+\begin{equation}
+  A_{CPLEAR} = \frac{2\Delta \Gamma (\Im(\mathrm{M}_{12})+\frac{1}{2}i \Im(\Gamma_{12}))}{\left(\frac{1}{2}\Delta \Gamma\right)^2+(\Delta m)^2} \xrightarrow{\Delta \Gamma \to 0} 0,
+\end{equation}
+so that in the limit of small $\Delta \Gamma$ the asymmetry would diverge from the Kabir asymmetry and its value would vanish even if the symmetry under reversal in time was substantially violated~\cite{wolfenstein_summary}. This claim is in agreement with a measurement of the equivalent of this asymmetry in the oscillations of neutral B mesons for which the decay width difference is negligible, which was performed by the BaBar collaboration and yielded a result consistent with zero~\cite{babar_zero_result}. The requirement that an observable for a \Ts-violation test must not vanish in the $\Delta \Gamma \to 0$ limit is recognized as the Wolfenstein criterion.
+
+While several other authors disputed the critique of the interpretation of the CPLEAR result and others argued that the decay is not relevant in the case of neutral K meson oscillations~\cite{Ellis:1999xh,Gerber:2004hc},
+another way to perform a direct test of the symmetry under reversal in time which would be free of the aforementioned issues was clearly desirable.
+
+\section[Tests of \Ts~symmetry in neutral meson transitions between\newline flavour and CP eigenstates]{Tests of \Ts~symmetry in neutral meson transitions between flavour and CP eigenstates}
+ A solution to the interpretation problems of the \Ts-violation measurement in neutral meson oscillations was first proposed for the $\mathrm{B}^0\overline{\mathrm{B}}^0$
+system soon after the discussion of CPLEAR result~\cite{wolfenstein_summary, banuls_first_bmesons} and was later devised in detail by Bernabeu~\textit{et al.}~\cite{babar_theory}. A proposition of a similar experiment using the neutral kaon system followed in 2013 with a view to its application in the only existing facility capable of performing such experiment, the KLOE detector at the DA$\Phi$NE $\phi$-factory~\cite{theory:bernabeu-t}.
+
+Similarly as in the case of neutral K or B meson oscillations, this concept follows the idea of a direct \Ts~symmetry test based on a comparison of probabilities for a certain transition $\ket{i}\to\ket{f}$ and its T-conjugate where initial and final states are inversed, $\ket{f}\to\ket{i}$. The $\ket{i}$ and $\ket{f}$ states, however, can be chosen as eigenstates of the CP operator in addition to the flavour-definite states of the mesons. Figure~\ref{fig:transitions} shows possible choices of the transitions between eigenstates in the flavour and CP bases for the system of neutral kaons. A $\kaon\to\Kp$ process, for example, may be compared to $\Kp\to\kaon$ leading to determination of the probability ratio $\mathcal{P}(\kaon\to\Kp)/\mathcal{P}(\Kp\to\kaon)$ as a \Ts~violation observable.
+
+\begin{figure}[h!]
+  \centering
+      \begin{tikzpicture}[scale=0.9]
+      \node[text width=3cm, text centered] (a1) at (0,0) {\small $\kaon$};
+      \node[text width=3cm, text centered] (a2) at (2,0) {\small $\Kp$};
+      \node[text width=3cm, text centered] (a3) at (0,-1) {\small $\akaon$};
+      \node[text width=3cm, text centered] (a4) at (2,-1) {\small $\Km$};
+      \draw[thick, <->] ($(a1)+(0.5,0)$) -- ($(a2)-(0.5,0)$);
+      \draw[thick, <->] ($(a3)+(0.5,0)$) -- ($(a4)-(0.5,0)$);
+      \draw[thick, <->] ($(a1)+(0.5,-0.2)$) -- ($(a4)-(0.5,-0.2)$);
+      \draw[thick, <->] ($(a3)+(0.5,0.2)$) -- ($(a2)-(0.5,0.2)$);
+    \end{tikzpicture} 
+  \caption{Possible choice of transitions between flavour and CP definite states for a \Ts~symmetry test with the neutral kaon system. For each transition, its time-reversal conjugate can be observed experimentally in an entangled neutral kaon system.}
+  \label{fig:transitions}
+\end{figure}
+
+It is worth noting that preparation and observation of such a pair of processes mutually reverse in time requires that the initial state of each of the two transitions must be identified in the respective basis before the particle decays. In the scheme proposed in References~\cite{babar_theory, theory:bernabeu-t} this problem is overcome by using quantum-entangled pairs of neutral mesons produced in certain strong decays. As a result, the decay does not play a crucial role in the processes under study and observation of transitions between eigenstates in the flavour and CP bases  allows for a definition of measurable asymmetries sensitive to violation of the time reversal symmetry, which are independent of \CPs~violation and do not vanish in the $\Delta \Gamma \to 0$ limit, thus satisfying the Wolfenstein criterion. 
+
+The requirement of quantum entanglement in a system of two neutral mesons, however, limits the possible realizations of such symmetry tests to B and $\phi$ factory facilities. A first direct test of the symmetry under reversal in time performed in this manner came from the BaBar setup and used the $\mathrm{B}^0$ meson system to determine \Ts-violating parameters in its time evolution~\cite{t_violation_babar}. The obtained values amount to:
+\begin{eqnarray}
+  \label{eq:babar_results}
+  \Delta S^+_T & = 1.37 \pm 0.14_{stat} \pm 0.06_{syst}, \\
+  \Delta S^-_T & = 1.17 \pm 0.18_{stat} \pm 0.11_{syst},
+\end{eqnarray}
+showing a significant offset from \Ts~noninvariance at the level of 14 $\sigma$. To date, this result constitutes the only existing direct evidence for violation of the symmetry under reversal in time obtained by an exchange of initial and final states.
+
+It is therefore of great interest to perform such tests of the \Ts~symmetry in systems other than $\mathrm{B}^0\overline{\mathrm{B}}^0$. A natural candidate is the system of neutral K mesons renowned for symmetry-related discoveries it enabled through the last 70 years. The entangled pairs of neutral kaons are presently uniquely available to the KLOE detector operating on the DA$\Phi$NE collider in Laboratori Nazionali di Frascati, INFN, Italy. The work presented in this Thesis was largely devoted to devising analysis tools required to perform the direct test of \Ts~symmetry with the KLOE experiment and to conducting a preliminary test with the data already collected by KLOE. Details of the \Ts~test with entangled neutral kaons employed in this Thesis are presented in Chapter~\ref{chapter:test_kloe} whereas Chapter~\ref{chapter:detectors} contains a description of the experimental setup of KLOE and DA$\Phi$NE.
+
+
+%%% Local Variables:
+%%% TeX-master: "../main"
+%%% End: 
