@@ -191,16 +191,16 @@
 %	defined as \examname above so you cite it as \examname
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Investigations of fundamental symmetries with the electron-positron systems}
+\thesistitle{Hyperons @ HADES}
 % Your thesis title - this is used in the title and abstract
 %-------------------------------------------------  
-\supervisor{prof. dr hab. Pawe\l~Moskal} % You supervisor's name - this is used in the title page
+\supervisor{prof. dr hab. Piotr Salabura} % You supervisor's name - this is used in the title page
 %-------------------------------------------------   
 \examiner{} % Your examiner's name - this is not currently used anywhere in the template, cite it with \examname if you want it
 %-------------------------------------------------   
 \degree{Master of science} % Your degree name - this is currently used in the title page and abstract
 %-------------------------------------------------   
-\authors{Aleksander Gajos} % Your name - this is used in the title page and abstract
+\authors{} % Your name - this is used in the title page and abstract
 %-------------------------------------------------   
 \addresses{} % Your address - this is not currently used anywhere in the template, cite it with \addressnames if you want it
 %-------------------------------------------------   
@@ -285,12 +285,13 @@
       \vfill
       {\setstretch{1.2}
         \Large Supervised by:\par
-        prof. dr hab. Pawe\l{} Moskal\par
+        prof. dr hab. Piotr Salabura\par
       \vspace{1ex}
-      \Large Co-supervised by:\par
-      dr Eryk Czerwi\'nski\par}
+      %\Large Co-supervised by:\par
+      %dr Eryk Czerwi\'nski\par
+    }
       \vfill
-      {\Large Cracow, 2018 \par}
+      {\Large Cracow, 2020 \par}
     \end{center}
     \par
     \@thanks
