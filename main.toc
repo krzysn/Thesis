@@ -10,17 +10,16 @@
 \babel@toc {polish}{}
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Neural networks}{1}{chapter.3}
-\contentsline {section}{\numberline {1.1}History of an artificial neural networks}{1}{section.4}
-\contentsline {section}{\numberline {1.2}Experimental searches for T~violation}{1}{section.5}
-\contentsline {section}{\numberline {1.3}The system of neutral K mesons}{1}{section.6}
-\contentsline {section}{\numberline {1.4}Test of T~symmetry in oscillations of neutral kaons}{1}{section.7}
-\contentsline {section}{\numberline {1.5}Tests of T~symmetry in neutral meson transitions between\newline flavour and CP eigenstates}{1}{section.8}
+\contentsline {section}{\numberline {1.1}Introduction into artificial neural networks}{1}{section.4}
+\contentsline {section}{\numberline {1.2}The ROC curve and the optimal classifier}{1}{section.5}
+\contentsline {section}{\numberline {1.3}The data-driven approach}{1}{section.6}
+\contentsline {section}{\numberline {1.4}Application for analysis}{2}{section.10}
 \vspace {1em}
-\contentsline {chapter}{Appendices}{3}{section*.9}
+\contentsline {chapter}{Appendices}{3}{section*.11}
 \patchcmd {\l@chapter }{\bfseries }{}{}{}
-\contentsline {chapter}{\numberline {A}The data-driven approach for a neural network training}{3}{Appendix.10}
+\contentsline {chapter}{\numberline {A}The data-driven approach for a neural network training}{3}{Appendix.12}
 \vspace {1em}
-\contentsline {chapter}{\bf Acknowledgements}{5}{dummy.11}
+\contentsline {chapter}{\bf Acknowledgements}{5}{dummy.13}
 \babel@toc {polish}{}
 \babel@toc {english}{}
-\contentsline {chapter}{\bf Bibliography}{7}{dummy.12}
+\contentsline {chapter}{\bf Bibliography}{7}{dummy.14}
