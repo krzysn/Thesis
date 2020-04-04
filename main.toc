@@ -10,28 +10,31 @@
 \babel@toc {polish}{}
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.3}
-\contentsline {chapter}{\numberline {2}The HADES detector}{3}{chapter.4}
-\contentsline {chapter}{\numberline {3}Deta analysis}{5}{chapter.5}
-\contentsline {chapter}{\numberline {4}Neural networks}{7}{chapter.6}
-\contentsline {section}{\numberline {4.1}Introduction into artificial neural networks}{7}{section.7}
-\contentsline {section}{\numberline {4.2}The ROC curve and the optimal classifier}{7}{section.8}
-\contentsline {section}{\numberline {4.3}The data-driven approach}{7}{section.9}
-\contentsline {section}{\numberline {4.4}Application for analysis}{8}{section.13}
-\contentsline {chapter}{\numberline {5}Simulations of a new experiment}{9}{chapter.14}
-\contentsline {section}{\numberline {5.1}An estimation of cross-sections}{9}{section.15}
-\contentsline {subsection}{\numberline {5.1.1}$\mathrm {\Lambda (1116)}$ inclusive cross section }{9}{subsection.16}
-\contentsline {subsection}{\numberline {5.1.2}$\mathrm {\Sigma (1193)}$ inclusive cross section }{10}{subsection.18}
-\contentsline {subsection}{\numberline {5.1.3}$\mathrm {\Lambda (1520)}$ and $\mathrm {\Sigma (1385)}$ production cross sections }{10}{subsection.24}
-\contentsline {subsection}{\numberline {5.1.4}$\mathrm {\Xi ^{-}(1322)}$}{10}{subsection.25}
-\contentsline {section}{\numberline {5.2}Background channels selection}{10}{section.26}
-\contentsline {section}{\numberline {5.3}Simulations results}{10}{section.28}
-\contentsline {chapter}{\numberline {6}Conclusions}{13}{chapter.29}
+\contentsline {section}{\numberline {1.1}Hyperons}{2}{section.4}
+\contentsline {section}{\numberline {1.2}Form factors}{2}{section.5}
+\contentsline {section}{\numberline {1.3}Dalitz decays}{2}{section.12}
+\contentsline {chapter}{\numberline {2}The HADES detector}{3}{chapter.13}
+\contentsline {chapter}{\numberline {3}Deta analysis}{5}{chapter.14}
+\contentsline {chapter}{\numberline {4}Neural networks}{7}{chapter.15}
+\contentsline {section}{\numberline {4.1}Introduction into artificial neural networks}{7}{section.16}
+\contentsline {section}{\numberline {4.2}The ROC curve and the optimal classifier}{7}{section.17}
+\contentsline {section}{\numberline {4.3}The data-driven approach}{7}{section.18}
+\contentsline {section}{\numberline {4.4}Application for analysis}{8}{section.22}
+\contentsline {chapter}{\numberline {5}Simulations of a new experiment}{9}{chapter.23}
+\contentsline {section}{\numberline {5.1}An estimation of cross-sections}{9}{section.24}
+\contentsline {subsection}{\numberline {5.1.1}$\mathrm {\Lambda (1116)}$ inclusive cross section }{9}{subsection.25}
+\contentsline {subsection}{\numberline {5.1.2}$\mathrm {\Sigma (1193)}$ inclusive cross section }{10}{subsection.27}
+\contentsline {subsection}{\numberline {5.1.3}$\mathrm {\Lambda (1520)}$, $\mathrm {\Lambda (1405)}$ and $\mathrm {\Sigma (1385)}$ production cross sections }{10}{subsection.34}
+\contentsline {subsection}{\numberline {5.1.4}$\mathrm {\Xi ^{-}(1322)}$}{11}{subsection.38}
+\contentsline {section}{\numberline {5.2}Background channels selection}{11}{section.39}
+\contentsline {section}{\numberline {5.3}Simulations results}{11}{section.41}
+\contentsline {chapter}{\numberline {6}Conclusions}{13}{chapter.42}
 \vspace {1em}
-\contentsline {chapter}{Appendices}{15}{section*.30}
+\contentsline {chapter}{Appendices}{15}{section*.43}
 \patchcmd {\l@chapter }{\bfseries }{}{}{}
-\contentsline {chapter}{\numberline {A}The data-driven approach for a neural network training}{15}{Appendix.31}
+\contentsline {chapter}{\numberline {A}The data-driven approach for a neural network training}{15}{Appendix.44}
 \vspace {1em}
-\contentsline {chapter}{\bf Acknowledgements}{17}{dummy.32}
+\contentsline {chapter}{\bf Acknowledgements}{17}{dummy.45}
 \babel@toc {polish}{}
 \babel@toc {english}{}
-\contentsline {chapter}{\bf Bibliography}{19}{dummy.33}
+\contentsline {chapter}{\bf Bibliography}{19}{dummy.46}
