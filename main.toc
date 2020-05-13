@@ -11,31 +11,38 @@
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.3}
 \contentsline {section}{\numberline {1.1}Hyperons}{2}{section.4}
-\contentsline {section}{\numberline {1.2}Form factors}{2}{section.5}
-\contentsline {section}{\numberline {1.3}Dalitz decays}{3}{section.12}
-\contentsline {chapter}{\numberline {2}The HADES detector}{5}{chapter.14}
-\contentsline {chapter}{\numberline {3}Deta analysis}{7}{chapter.15}
-\contentsline {chapter}{\numberline {4}Neural networks}{9}{chapter.16}
-\contentsline {section}{\numberline {4.1}Introduction into artificial neural networks}{9}{section.17}
-\contentsline {section}{\numberline {4.2}The ROC curve and the optimal classifier}{9}{section.18}
-\contentsline {section}{\numberline {4.3}The data-driven approach}{9}{section.19}
-\contentsline {section}{\numberline {4.4}Application for analysis}{10}{section.23}
-\contentsline {chapter}{\numberline {5}Simulations of a new experiment}{11}{chapter.24}
-\contentsline {section}{\numberline {5.1}An estimation of cross-sections}{11}{section.25}
-\contentsline {subsection}{\numberline {5.1.1}$\mathrm {\Lambda (1116)}$ inclusive cross section }{11}{subsection.26}
-\contentsline {subsection}{\numberline {5.1.2}$\mathrm {\Sigma (1193)}$ inclusive cross section }{12}{subsection.28}
-\contentsline {subsection}{\numberline {5.1.3}$\mathrm {\Lambda (1520)}$, $\mathrm {\Lambda (1405)}$ and $\mathrm {\Sigma (1385)}$ production cross sections }{12}{subsection.35}
-\contentsline {subsection}{\numberline {5.1.4}$\mathrm {\Xi ^{-}(1322)}$}{13}{subsection.39}
-\contentsline {section}{\numberline {5.2}Decay branching ratios}{14}{section.40}
-\contentsline {section}{\numberline {5.3}Background channels selection}{14}{section.42}
-\contentsline {section}{\numberline {5.4}Simulations results}{14}{section.44}
-\contentsline {chapter}{\numberline {6}Conclusions}{17}{chapter.45}
+\contentsline {section}{\numberline {1.2}Form factors}{2}{section.7}
+\contentsline {section}{\numberline {1.3}Dalitz decays}{4}{section.14}
+\contentsline {chapter}{\numberline {2}The HADES detector}{5}{chapter.16}
+\contentsline {section}{\numberline {2.1}The HADES upgrades}{5}{section.17}
+\contentsline {chapter}{\numberline {3}Deta analysis}{7}{chapter.18}
+\contentsline {section}{\numberline {3.1}Paricles identyfication}{7}{section.19}
+\contentsline {section}{\numberline {3.2}Event selection}{7}{section.20}
+\contentsline {section}{\numberline {3.3}Reaction kinematics}{8}{section.21}
+\contentsline {section}{\numberline {3.4}The $\mathrm {\Lambda (1116)}$ Reconstruction}{9}{section.25}
+\contentsline {section}{\numberline {3.5}The $\mathrm {\Lambda (1520)}$ Reconstruction}{9}{section.26}
+\contentsline {section}{\numberline {3.6}The $\mathrm {\Lambda (1116)}\mathrm {K}^0$reconstruction}{9}{section.27}
+\contentsline {section}{\numberline {3.7}results from p Nb experiment}{9}{section.28}
+\contentsline {chapter}{\numberline {4}Neural networks}{11}{chapter.29}
+\contentsline {section}{\numberline {4.1}Introduction into artificial neural networks}{11}{section.30}
+\contentsline {section}{\numberline {4.2}The ROC curve and the optimal classifier}{11}{section.31}
+\contentsline {section}{\numberline {4.3}The data-driven approach}{11}{section.32}
+\contentsline {section}{\numberline {4.4}Application for analysis}{12}{section.36}
+\contentsline {chapter}{\numberline {5}Simulations of a new experiment}{15}{chapter.37}
+\contentsline {section}{\numberline {5.1}An estimation of cross-sections}{15}{section.38}
+\contentsline {subsection}{\numberline {5.1.1}$\mathrm {\Lambda (1116)}$ inclusive cross section }{15}{subsection.39}
+\contentsline {subsection}{\numberline {5.1.2}$\mathrm {\Sigma (1193)}$ inclusive cross section }{16}{subsection.41}
+\contentsline {subsection}{\numberline {5.1.3}$\mathrm {\Lambda (1520)}$, $\mathrm {\Lambda (1405)}$ and $\mathrm {\Sigma (1385)}$ production cross sections }{16}{subsection.48}
+\contentsline {subsection}{\numberline {5.1.4}$\mathrm {\Xi ^{-}(1322)}$}{17}{subsection.52}
+\contentsline {section}{\numberline {5.2}Decay branching ratios}{18}{section.53}
+\contentsline {section}{\numberline {5.3}Background channels selection}{18}{section.55}
+\contentsline {section}{\numberline {5.4}Simulations results}{20}{section.58}
+\contentsline {subsection}{\numberline {5.4.1}Particles identyfication}{20}{subsection.59}
+\contentsline {subsection}{\numberline {5.4.2}Hyperons Dalitz decays}{20}{subsection.61}
+\contentsline {subsection}{\numberline {5.4.3}Cascade decay}{20}{subsection.62}
+\contentsline {chapter}{\numberline {6}Conclusions}{21}{chapter.63}
 \vspace {1em}
-\contentsline {chapter}{Appendices}{19}{section*.46}
+\contentsline {chapter}{Appendices}{23}{section*.64}
 \patchcmd {\l@chapter }{\bfseries }{}{}{}
-\contentsline {chapter}{\numberline {A}The data-driven approach for a neural network training}{19}{Appendix.47}
 \vspace {1em}
-\contentsline {chapter}{\bf Acknowledgements}{21}{dummy.48}
-\babel@toc {polish}{}
-\babel@toc {english}{}
-\contentsline {chapter}{\bf Bibliography}{23}{dummy.49}
+\contentsline {chapter}{\bf Bibliography}{23}{dummy.65}
