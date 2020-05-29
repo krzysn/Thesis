@@ -13,38 +13,44 @@
 \contentsline {section}{\numberline {1.1}Hyperons}{2}{section.4}
 \contentsline {section}{\numberline {1.2}Form factors}{2}{section.7}
 \contentsline {section}{\numberline {1.3}Dalitz decays}{4}{section.14}
-\contentsline {chapter}{\numberline {2}The HADES detector}{5}{chapter.16}
-\contentsline {section}{\numberline {2.1}The HADES upgrades}{5}{section.17}
-\contentsline {chapter}{\numberline {3}Deta analysis}{7}{chapter.18}
-\contentsline {section}{\numberline {3.1}Paricles identyfication}{7}{section.19}
-\contentsline {section}{\numberline {3.2}Absolute normalization}{7}{section.20}
-\contentsline {section}{\numberline {3.3}Event selection}{8}{section.24}
-\contentsline {section}{\numberline {3.4}Reaction kinematics}{8}{section.25}
-\contentsline {section}{\numberline {3.5}The $\mathrm {\Lambda ^0}$ Reconstruction}{9}{section.30}
-\contentsline {section}{\numberline {3.6}The $\mathrm {\Lambda (1520)}$ Reconstruction}{10}{section.31}
-\contentsline {subsection}{\numberline {3.6.1}Side-band analysis}{10}{subsection.32}
-\contentsline {section}{\numberline {3.7}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction}{10}{section.33}
-\contentsline {section}{\numberline {3.8}results from p Nb experiment}{11}{section.35}
-\contentsline {chapter}{\numberline {4}Neural networks}{13}{chapter.36}
-\contentsline {section}{\numberline {4.1}Introduction into artificial neural networks}{13}{section.37}
-\contentsline {section}{\numberline {4.2}The ROC curve and the optimal classifier}{13}{section.38}
-\contentsline {section}{\numberline {4.3}The data-driven approach}{13}{section.39}
-\contentsline {section}{\numberline {4.4}Application for analysis}{14}{section.43}
-\contentsline {chapter}{\numberline {5}Simulations of a new experiment}{17}{chapter.44}
-\contentsline {section}{\numberline {5.1}An estimation of cross-sections}{17}{section.45}
-\contentsline {subsection}{\numberline {5.1.1}$\mathrm {\Lambda ^0}$ inclusive cross section }{17}{subsection.46}
-\contentsline {subsection}{\numberline {5.1.2}$\mathrm {\Sigma ^0}$ inclusive cross section }{18}{subsection.48}
-\contentsline {subsection}{\numberline {5.1.3}$\mathrm {\Lambda (1520)}$, $\mathrm {\Lambda (1405)}$ and $\mathrm {\Sigma (1385)^0}$ production cross sections }{18}{subsection.55}
-\contentsline {subsection}{\numberline {5.1.4}$\mathrm {\Xi ^{-}(1322)}$}{19}{subsection.59}
-\contentsline {section}{\numberline {5.2}Decay branching ratios}{19}{section.60}
-\contentsline {section}{\numberline {5.3}Background channels selection}{20}{section.62}
-\contentsline {section}{\numberline {5.4}Simulations results}{22}{section.65}
-\contentsline {subsection}{\numberline {5.4.1}Particles identyfication}{22}{subsection.66}
-\contentsline {subsection}{\numberline {5.4.2}Hyperons Dalitz decays}{22}{subsection.68}
-\contentsline {subsection}{\numberline {5.4.3}Cascade decay}{22}{subsection.69}
-\contentsline {chapter}{\numberline {6}Conclusions}{23}{chapter.70}
+\contentsline {chapter}{\numberline {2}HADES detector}{5}{chapter.16}
+\contentsline {section}{\numberline {2.1}Tracking system}{5}{section.17}
+\contentsline {section}{\numberline {2.2}RICH detector}{6}{section.18}
+\contentsline {section}{\numberline {2.3}Start detector and a trigger system}{6}{section.19}
+\contentsline {section}{\numberline {2.4}HADES upgrades}{6}{section.20}
+\contentsline {subsection}{\numberline {2.4.1}The Forward Detector}{6}{subsection.21}
+\contentsline {subsection}{\numberline {2.4.2}RICH update}{6}{subsection.22}
+\contentsline {subsection}{\numberline {2.4.3}Electromagnetic calorimeter}{6}{subsection.23}
+\contentsline {chapter}{\numberline {3}Deta analysis}{7}{chapter.24}
+\contentsline {section}{\numberline {3.1}Paricles identyfication}{7}{section.25}
+\contentsline {section}{\numberline {3.2}Absolute normalization}{7}{section.26}
+\contentsline {section}{\numberline {3.3}Event selection}{8}{section.30}
+\contentsline {section}{\numberline {3.4}Reaction kinematics}{8}{section.31}
+\contentsline {section}{\numberline {3.5}The $\mathrm {\Lambda ^0}$ Reconstruction}{9}{section.36}
+\contentsline {section}{\numberline {3.6}The $\mathrm {\Lambda (1520)}$ Reconstruction}{10}{section.37}
+\contentsline {subsection}{\numberline {3.6.1}Side-band analysis}{10}{subsection.38}
+\contentsline {section}{\numberline {3.7}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction}{10}{section.39}
+\contentsline {section}{\numberline {3.8}results from p Nb experiment}{11}{section.41}
+\contentsline {chapter}{\numberline {4}Neural networks}{13}{chapter.42}
+\contentsline {section}{\numberline {4.1}Introduction into artificial neural networks}{13}{section.43}
+\contentsline {section}{\numberline {4.2}The ROC curve and the optimal classifier}{13}{section.44}
+\contentsline {section}{\numberline {4.3}The data-driven approach}{13}{section.45}
+\contentsline {section}{\numberline {4.4}Application for analysis}{14}{section.49}
+\contentsline {chapter}{\numberline {5}Simulations of a new experiment}{17}{chapter.50}
+\contentsline {section}{\numberline {5.1}An estimation of cross-sections}{17}{section.51}
+\contentsline {subsection}{\numberline {5.1.1}$\mathrm {\Lambda ^0}$ inclusive cross section }{17}{subsection.52}
+\contentsline {subsection}{\numberline {5.1.2}$\mathrm {\Sigma ^0}$ inclusive cross section }{18}{subsection.54}
+\contentsline {subsection}{\numberline {5.1.3}$\mathrm {\Lambda (1520)}$, $\mathrm {\Lambda (1405)}$ and $\mathrm {\Sigma (1385)^0}$ production cross sections }{18}{subsection.61}
+\contentsline {subsection}{\numberline {5.1.4}$\mathrm {\Xi ^{-}(1322)}$}{19}{subsection.65}
+\contentsline {section}{\numberline {5.2}Decay branching ratios}{19}{section.66}
+\contentsline {section}{\numberline {5.3}Background channels selection}{20}{section.68}
+\contentsline {section}{\numberline {5.4}Simulations results}{22}{section.71}
+\contentsline {subsection}{\numberline {5.4.1}Particles identyfication}{22}{subsection.72}
+\contentsline {subsection}{\numberline {5.4.2}Hyperons Dalitz decays}{22}{subsection.74}
+\contentsline {subsection}{\numberline {5.4.3}Cascade decay}{22}{subsection.75}
+\contentsline {chapter}{\numberline {6}Conclusions}{23}{chapter.76}
 \vspace {1em}
-\contentsline {chapter}{Appendices}{25}{section*.71}
+\contentsline {chapter}{Appendices}{25}{section*.77}
 \patchcmd {\l@chapter }{\bfseries }{}{}{}
 \vspace {1em}
-\contentsline {chapter}{\bf Bibliography}{25}{dummy.72}
+\contentsline {chapter}{\bf Bibliography}{25}{dummy.78}

@@ -9,45 +9,45 @@ Warning--empty pages in PDG
 Warning--empty pages in Metodiev_2017
 Warning--empty pages in Neyman-Pearson
 Warning--empty publisher in L-B
-You've used 22 entries,
+You've used 23 entries,
             2608 wiz_defined-function locations,
-            787 strings with 17614 characters,
-and the built_in function-call counts, 13263 in all, are:
-= -- 639
-> -- 1773
+            798 strings with 17806 characters,
+and the built_in function-call counts, 13665 in all, are:
+= -- 685
+> -- 1781
 < -- 0
-+ -- 600
-- -- 578
-* -- 1707
-:= -- 2363
-add.period$ -- 29
-call.type$ -- 22
-change.case$ -- 56
++ -- 603
+- -- 580
+* -- 1752
+:= -- 2409
+add.period$ -- 31
+call.type$ -- 23
+change.case$ -- 57
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 344
-empty$ -- 643
-format.name$ -- 578
-if$ -- 2684
+cite$ -- 29
+duplicate$ -- 363
+empty$ -- 682
+format.name$ -- 580
+if$ -- 2786
 int.to.chr$ -- 0
-int.to.str$ -- 22
-missing$ -- 61
-newline$ -- 70
-num.names$ -- 22
-pop$ -- 106
+int.to.str$ -- 23
+missing$ -- 64
+newline$ -- 75
+num.names$ -- 23
+pop$ -- 109
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 223
+skip$ -- 238
 stack$ -- 0
-substring$ -- 301
-swap$ -- 158
+substring$ -- 333
+swap$ -- 168
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 50
-width$ -- 24
-write$ -- 175
+while$ -- 54
+width$ -- 25
+write$ -- 185
 (There were 6 warnings)
