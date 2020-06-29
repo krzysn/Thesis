@@ -23,14 +23,14 @@
 \contentsline {subsection}{\numberline {2.4.3}Electromagnetic calorimeter}{6}{subsection.23}
 \contentsline {chapter}{\numberline {3}Deta analysis}{7}{chapter.24}
 \contentsline {section}{\numberline {3.1}Paricles identyfication}{7}{section.25}
-\contentsline {section}{\numberline {3.2}Absolute normalization}{7}{section.26}
-\contentsline {section}{\numberline {3.3}Event selection}{8}{section.30}
-\contentsline {section}{\numberline {3.4}Reaction kinematics}{8}{section.31}
-\contentsline {section}{\numberline {3.5}The $\mathrm {\Lambda ^0}$ Reconstruction}{9}{section.35}
-\contentsline {section}{\numberline {3.6}The $\mathrm {\Lambda (1520)}$ Reconstruction}{10}{section.36}
-\contentsline {subsection}{\numberline {3.6.1}Side-band analysis}{10}{subsection.37}
-\contentsline {section}{\numberline {3.7}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction}{10}{section.38}
-\contentsline {section}{\numberline {3.8}results from p Nb experiment}{11}{section.40}
+\contentsline {section}{\numberline {3.2}Event selection}{8}{section.26}
+\contentsline {section}{\numberline {3.3}Reaction kinematics}{8}{section.27}
+\contentsline {section}{\numberline {3.4}The $\mathrm {\Lambda ^0}$ Reconstruction}{9}{section.31}
+\contentsline {section}{\numberline {3.5}The $\mathrm {\Lambda (1520)}$ Reconstruction}{9}{section.32}
+\contentsline {subsection}{\numberline {3.5.1}Side-band analysis}{9}{subsection.33}
+\contentsline {section}{\numberline {3.6}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction}{9}{section.34}
+\contentsline {section}{\numberline {3.7}Absolute normalization}{10}{section.36}
+\contentsline {section}{\numberline {3.8}results from p Nb experiment}{10}{section.40}
 \contentsline {chapter}{\numberline {4}Neural networks}{13}{chapter.41}
 \contentsline {section}{\numberline {4.1}The ROC curve and the optimal classifier}{13}{section.42}
 \contentsline {section}{\numberline {4.2}The data-driven approach}{14}{section.44}
