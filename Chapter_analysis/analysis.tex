@@ -35,22 +35,19 @@ Becouse in HADES energy regime almost all pions are produced via resonances it w
 \end{figure}
 
 \section{The $\Lz$ Reconstruction}
-The next step of the analysis after a missing mass cut was a $\Lz$ reconstructiion. In previous HADES experiments the reconstruction bases on a set of geometrical cuts. Their role was to increase signal-to-background ratio utlizing a $Lz$ decay gemetry. Because the $\Lz$ decasys via week interactions its livetime is relatively long :$c\tau = 7.89 cm$ \cite{PDG}. That may be used to discriminate an out of target vertex from a background originates from a target.
+The next step of the analysis after a missing mass cut was a $\Lz$ reconstructiion. In previous HADES experiments the reconstruction had based on a set of geometrical cuts. Their role was to increase signal-to-background ratio utlizing a $Lz$ decay gemetry. Because the $\Lz$ decasys via week interactions its livetime is relatively long :$c\tau = 7.89 cm$ \cite{PDG}. That may be used to discriminate an out of target vertex from a background originates from a target.
 
 As it was shown in \ref{section:kinematics} an avaliable phase-space for $\Ls$ production for a $E_k=3.5$ GeV is very limited. An inlusive analysis performed in \cite{hades_L1520} has measured N events of $Ls$ after all cuts. To impruve statistics, and also axminate new reconstruction methodes in following analysis a neural network was used to replace the geometrical cuts. Details about used methode are explaned in chapter \ref{chapter:NN}.
 
 The opitimalized neural network enhanced a signal to bacgkround ratio from ??? without any topological cuts to ???. A $\Lz$ signal obtained in this way was used for a next steps of analysis: the $\Ls$ analysis (chapter \ref{section:Ls}) and asocieted $\Lz \Kz$ production (chapter \ref{section:LzKz});
-\section{The $\Ls$ Reconstruction}
-\label{section:Ls}
 
-\subsection{Side-band analysis}
 \section{The $\Lz \Kz $reconstruction}
 \label{section:LzKz}
-Because of the conservation low a $\Lz$ has to be produced with some anti-strange particle. The lightest option is a $\Kz$ meson, which decays in 69.2\% into $pip pim$ pair \cite{PDG}. For that reason a $\Lz \Kz$ signal is expected to be a significant part of the $\Lz \pip \pim$ final state.
+Because of the conservation low a $\Lz$ has to be produced with some anti-strange particle. The lightest candidate is a $\Kz$ meson, which decays in 69.2\% into $pip pim$ pair \cite{PDG}. For that reason a $\Lz \Kz$ signal is expected to be a significant part of the $\Lz \pip \pim$ final state.
 
-After the $\Lz$ reconstruction two spectra were drown: a) a $\pip \pim$ invariant mass spectrum for events $1006<M^{inv}_{\p \pim}<1026$ and b) a $p pim$ invariant mass for $480 MeV<M^{inv}_{\pip \pim}<500 MeV$. The same analysis chain was used to analyzed all channels from \ref{tab:channels} which contains $\Lz$ and $\Kz$. In case of this part the moissing mass cyt was put on 
+After the $\Lz$ reconstruction two spectra were drown: a) a $\pip \pim$ invariant mass spectrum for events $1006<M^{inv}_{\p \pim}<1026$ and b) a $p pim$ invariant mass for $480 MeV<M^{inv}_{\pip \pim}<500 MeV$. The same analysis chain was used to analyzed all channels listed in \ref{tab:channels} which contains $\Lz$ and $\Kz$. In case of reference channel the misssing mass cut was lowered to ???, what is a minimall missing mass expected for $pp \rightarrow p \Kz \Lz \pip$ reaction.
 
-Using a procedure described in \ref{sec:normalization} the simulation was compared with experimental data (see \ref{fig:K0L0}). The simulation describes well a yeld of $\Kz$ and $\Lz$ produced in experiment, aldough it does not describe the background shape. ?? 
+Using a procedure described in \ref{sec:normalization} the simulation was compared with experimental data (see \ref{fig:K0L0}). The simulation describes well a yeld of $\Kz$ and $\Lz$ produced in experiment, aldough it does not describe the background shape. This is mostly coused by lack of realable model for a double $\Dpp$ production. 
 
 \begin{figure}[hb]
   \centering
@@ -98,6 +95,14 @@ The factor 3 in denominator is connected with a trigger down-scaling. For a hadr
   \end{tabular}
   
 \end{table}
+
+
+\section{The $\Ls$ Reconstruction}
+\label{section:Ls}
+The neural network analysis gives a good $\Lz$ sample. However it has to be additionally analized to extract a $Ls$ signal from it. Using a simulation a set of hard cuts was optimalized. They are summerized in ???. A $p \pim \pip \pim$ spectrum obtained after the hurt cuts contain a singnal and background originated from events under a $\Lz$ peak. To remuve this backgroud a side-band analysis was performed.
+
+\subsection{Side-band analysis}
+
 
 
 \section{results from p Nb experiment}
