@@ -30,27 +30,28 @@
 \contentsline {section}{\numberline {3.6}Absolute normalization}{11}{section.35}
 \contentsline {section}{\numberline {3.7}The $\mathrm {\Lambda (1520)}$ Reconstruction}{11}{section.39}
 \contentsline {subsection}{\numberline {3.7.1}Side-band analysis}{12}{subsection.41}
-\contentsline {subsection}{\numberline {3.7.2}Cross-section extraction}{12}{subsection.43}
-\contentsline {section}{\numberline {3.8}results from p Nb experiment}{13}{section.44}
-\contentsline {chapter}{\numberline {4}Neural networks}{15}{chapter.45}
-\contentsline {section}{\numberline {4.1}The ROC curve and the optimal classifier}{15}{section.46}
-\contentsline {section}{\numberline {4.2}The data-driven approach}{16}{section.48}
-\contentsline {section}{\numberline {4.3}Application for analysis}{16}{section.52}
-\contentsline {chapter}{\numberline {5}Simulations of a new experiment}{19}{chapter.55}
-\contentsline {section}{\numberline {5.1}An estimation of cross-sections}{19}{section.56}
-\contentsline {subsection}{\numberline {5.1.1}$\mathrm {\Lambda ^0}$ inclusive cross section }{19}{subsection.57}
-\contentsline {subsection}{\numberline {5.1.2}$\mathrm {\Sigma ^0}$ inclusive cross section }{20}{subsection.59}
-\contentsline {subsection}{\numberline {5.1.3}$\mathrm {\Lambda (1520)}$, $\mathrm {\Lambda (1405)}$ and $\mathrm {\Sigma (1385)^0}$ production cross sections }{20}{subsection.66}
-\contentsline {subsection}{\numberline {5.1.4}$\mathrm {\Xi ^{-}(1322)}$}{21}{subsection.70}
-\contentsline {section}{\numberline {5.2}Decay branching ratios}{21}{section.71}
-\contentsline {section}{\numberline {5.3}Background channels selection}{22}{section.73}
-\contentsline {section}{\numberline {5.4}Simulations results}{24}{section.76}
-\contentsline {subsection}{\numberline {5.4.1}Particles identyfication}{24}{subsection.77}
-\contentsline {subsection}{\numberline {5.4.2}Hyperons Dalitz decays}{24}{subsection.79}
-\contentsline {subsection}{\numberline {5.4.3}Cascade decay}{24}{subsection.80}
-\contentsline {chapter}{\numberline {6}Conclusions}{25}{chapter.81}
+\contentsline {subsection}{\numberline {3.7.2}Cross-section extraction differential analysis}{12}{subsection.43}
+\contentsline {subsection}{\numberline {3.7.3}Analysis of a $\mathrm {\pi ^{+}}\mathrm {\pi ^{-}}$ spectrum}{13}{subsection.45}
+\contentsline {section}{\numberline {3.8}results from p Nb experiment}{14}{section.47}
+\contentsline {chapter}{\numberline {4}Neural networks}{15}{chapter.48}
+\contentsline {section}{\numberline {4.1}The ROC curve and the optimal classifier}{15}{section.49}
+\contentsline {section}{\numberline {4.2}The data-driven approach}{16}{section.51}
+\contentsline {section}{\numberline {4.3}Application for analysis}{16}{section.55}
+\contentsline {chapter}{\numberline {5}Simulations of a new experiment}{19}{chapter.58}
+\contentsline {section}{\numberline {5.1}An estimation of cross-sections}{19}{section.59}
+\contentsline {subsection}{\numberline {5.1.1}$\mathrm {\Lambda ^0}$ inclusive cross section }{19}{subsection.60}
+\contentsline {subsection}{\numberline {5.1.2}$\mathrm {\Sigma ^0}$ inclusive cross section }{20}{subsection.62}
+\contentsline {subsection}{\numberline {5.1.3}$\mathrm {\Lambda (1520)}$, $\mathrm {\Lambda (1405)}$ and $\mathrm {\Sigma (1385)^0}$ production cross sections }{20}{subsection.69}
+\contentsline {subsection}{\numberline {5.1.4}$\mathrm {\Xi ^{-}(1322)}$}{21}{subsection.73}
+\contentsline {section}{\numberline {5.2}Decay branching ratios}{21}{section.74}
+\contentsline {section}{\numberline {5.3}Background channels selection}{22}{section.76}
+\contentsline {section}{\numberline {5.4}Simulations results}{24}{section.79}
+\contentsline {subsection}{\numberline {5.4.1}Particles identyfication}{24}{subsection.80}
+\contentsline {subsection}{\numberline {5.4.2}Hyperons Dalitz decays}{24}{subsection.82}
+\contentsline {subsection}{\numberline {5.4.3}Cascade decay}{24}{subsection.83}
+\contentsline {chapter}{\numberline {6}Conclusions}{25}{chapter.84}
 \vspace {1em}
-\contentsline {chapter}{Appendices}{27}{section*.82}
+\contentsline {chapter}{Appendices}{27}{section*.85}
 \patchcmd {\l@chapter }{\bfseries }{}{}{}
 \vspace {1em}
-\contentsline {chapter}{\bf Bibliography}{27}{dummy.83}
+\contentsline {chapter}{\bf Bibliography}{27}{dummy.86}
