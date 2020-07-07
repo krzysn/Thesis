@@ -123,19 +123,21 @@ A side-band analysis bases on assumption that a background kinematic changes slo
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.7 \linewidth]{Chapter_analysis/L1520_sig_SB.eps}
-  \caption{The $\Ls$ spectrum for events from signal reagion ($M_{\p \pim}^{inv}\in(1106,1126)$) -blue points, and from SB regions ($M_{\p \pim}^{inv}\in(1089,1106] \cup [1126,1143)$) - read points. Error bars shows a statistical uncertentity}
+  \caption{The $\p \pim \pip \pim$ spectrum for events from signal reagion ($M_{\p \pim}^{inv}\in(1106,1126)$) -blue points, and from SB regions ($M_{\p \pim}^{inv}\in(1089,1106] \cup [1126,1143)$) - read points. Error bars shows a statistical uncertentity}
   \label{fig:Ls_SB}
 \end{figure}
 
 \subsection{Cross-section extraction differential analysis}
-Despite the side-band spectrum describes a beckground shape very well, there is still some signal contamination in a mass region over 1540 MeV , see fig. ??. It may be caused by correlated combinatorial bacground, when a fake $\pip \pim$ pair is combinated with real $\Lz$ signal. The main source of di-pion pairs, a $\Kz$ decay, is supressed by a cut $M^{inv}_{\pip \pim}<410 MeV$. However there are reactions which allows for mixing pions from two different sources. Three of them were choosen as the most importat ones. They are presented in tab. \ref{tab:channels} with numbers 3-5. the final state for each of them contains $\Lz$ and two different sources of pions. An combination of a $\pim$ from a $\Kz$ decay and a $\pip$ from a $\Dpp$ or a $\mathrm{\Sigma^+}$ creates an coreleated combinatorial background.
+Despite the side-band spectrum describes a beckground shape very well, there is still some signal contamination in a mass region over 1540 MeV , see fig. \ref{fig:Ls_clean}. It may be caused by correlated combinatorial bacground, when a fake $\pip \pim$ pair is combinated with real $\Lz$ signal. The main source of di-pion pairs, a $\Kz$ decay, is supressed by a cut $M^{inv}_{\pip \pim}<410 MeV$. However there are reactions which allows for mixing pions from two different sources. Three of them were choosen as the most importat ones. They are presented in tab. \ref{tab:channels} with numbers 3-5. the final state for each of them contains $\Lz$ and two different sources of pions. An combination of a $\pim$ from a $\Kz$ decay and a $\pip$ from a $\Dpp$ or a $\mathrm{\Sigma^+}$ creates an coreleated combinatorial background.
 
-An identyfication of the background channels allows to simmulate them and, together with a simulation of the signal channel estimate an inclusive \cs for
-\begin{equation}
-  \p\p \rightarrow \Ls \mathrm{X}
-\end{equation}
-reaction. The signal channel was simmulated according to exclusive cross section measured by HADES$\sigma_{\p\p\rightarrow \p \kp \Ls}
-=6.5 \mathrm{\mu b}$ \cite{hades_L1520}. Next the simulated signal spectrum was scaled up to get the same area under a simulation and experimental histogram. Finally, according to the obtained scaling an inclusive \cs is equal $\sigma_{\p\p \rightarrow \Ls \mathrm{X}}=7.1\pm 1.5 \mathrm{\mu b}$. A uncertantity comes from a statistical error.
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.9 \linewidth]{Chapter_analysis/L1520_sig_Clean.eps}
+  \caption{The $\Ls$ signal obtained in experiment. a) The experimental spectrum after a side-band substruction (blue points) together with the signal and the becgkground simulation (green and red line respectively). The magenta line shows the sum of all simulated channels. b) Signal after the simulated background substruction. The Voigt functions used to describe the data points was constrained by a known $\Ls$ decay width $\Gamma=15.6 \mathrm{MeV}$ \cite{PDG}. Obtained $\sigma$ value can be treated as a measure of energy resolution obtained in the experiment.}
+  \label{fig:Ls_clean}
+\end{figure}
+
+An identyfication of the background channels allows to simmulate them and, together with a simulation of the signal channel estimate an inclusive \cs for $ \p\p \rightarrow \Ls \mathrm{X}$ reaction. The signal channel was simmulated according to exclusive cross section measured by HADES$\sigma_{\p\p\rightarrow \p \Kp \Ls}=6.5 \mathrm{\mu b}$ \cite{hades_L1520}. Next the simulated signal spectrum was scaled up to get the same area under a simulation and experimental histogram. Finally, according to the obtained scaling an inclusive \cs is equal $\sigma_{\p\p \rightarrow \Ls \mathrm{X}}=7.1\pm 1.5 \mathrm{\mu b}$. A uncertantity comes from a statistical error.
 
 The total yeald of detected decays allows to cunduct a simple differential analysis. A transwers momentum ($p_t$) and rapidity ($\Upsilon$) was calculated for each reconstructed $\Ls$. Obtained spectra are presented in fig ???
 
