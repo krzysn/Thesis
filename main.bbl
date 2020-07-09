@@ -1,0 +1,330 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{Rutheford}
+H.~Geiger, ``On the scattering of $\alpha$-particles by matter,''
+  \href{http://dx.doi.org/10.1098/rspa.1908.0067}{{\em Proceedings of the Royal
+  Society of London A} {\bfseries 81} (Jul, 1908)  174--177}.
+
+\bibitem{Higgs_CMS}
+S.~{Chatrchyan}, V.~{Khachatryan}, A.~M. {Sirunyan}, A.~{Tumasyan}, W.~{Adam},
+  and {et. al. [CMS~Collaboration]}, ``{Observation of a new boson at a mass of
+  125 GeV with the CMS experiment at the LHC},''
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{{\em Physics Letters
+  B} {\bfseries 716} no.~1, (Sept., 2012)  30--61},
+  \href{http://arxiv.org/abs/1207.7235}{{\ttfamily arXiv:1207.7235 [hep-ex]}}.
+
+\bibitem{Higgs_ATLAS}
+G.~Aad, T.~Abajyan, B.~Abbott, J.~Abdallah, S.~Khalek, A.~Abdelalim,
+  O.~Abdinov, R.~Aben, M.~Abolins, O.~Abouzeid, H.~Abramowicz, H.~Abreu,
+  B.~Acharya, L.~Adamczyk, D.~Adams, T.~Addy, J.~Adelman, S.~Adomeit, and
+  L.~Zwalinsk, ``Observation of a new particle in the search for the standard
+  model higgs boson with the atlas detector at the lhc,''
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{{\em Physics Letters
+  B} {\bfseries 716} (09, 2012)  1--29}.
+
+\bibitem{Gell-Mann}
+M.~Gell-Mann, ``A schematic model of baryons and mesons,'' {\em Physics
+  Letters} {\bfseries 8} (Feb, 1964)  214--215.
+
+\bibitem{Zweig}
+G.~Zweig, ``An su(3) model for strong interaction symmetry and its breaking,''
+  {\em CERN Report} {\bfseries 8182/TH.401} (Jen, 1964)  .
+
+\bibitem{omega}
+V.~E. Barnes, P.~L. Connolly, D.~J. Crennell, B.~B. Culwick, W.~C. Delaney,
+  W.~B. Fowler, P.~E. Hagerty, E.~L. Hart, N.~Horwitz, P.~V.~C. Hough, J.~E.
+  Jensen, J.~K. Kopp, K.~W. Lai, J.~Leitner, J.~L. Lloyd, G.~W. London, T.~W.
+  Morris, Y.~Oren, R.~B. Palmer, A.~G. Prodell, D.~Radoji\ifmmode
+  \check{c}\else \v{c}\fi{}i\ifmmode~\acute{c}\else \'{c}\fi{}, D.~C. Rahm,
+  C.~R. Richardson, N.~P. Samios, J.~R. Sanford, R.~P. Shutt, J.~R. Smith,
+  D.~L. Stonehill, R.~C. Strand, A.~M. Thorndike, M.~S. Webster, W.~J. Willis,
+  and S.~S. Yamamoto, ``Observation of a hyperon with strangeness minus
+  three,'' \href{http://dx.doi.org/10.1103/PhysRevLett.12.204}{{\em Phys. Rev.
+  Lett.} {\bfseries 12} (Feb, 1964)  204--206}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevLett.12.204}.
+
+\bibitem{Ronniger2012}
+M.~Ronniger and B.~Metsch, ``Effects of a spin-flavour dependent interaction on
+  light-flavouredbaryon helicity amplitudes,''
+  \href{http://dx.doi.org/10.1140/epja/i2013-13008-9}{{\em The European
+  Physical Journal A} {\bfseries 49} (07, 2012)  }.
+
+\bibitem{Agakishiev:2009am}
+G.~Agakishiev {\em et~al.} [{HADES collaboration} Collaboration], ``{The
+  High-Acceptance Dielectron Spectrometer HADES},''
+  \href{http://dx.doi.org/10.1140/epja/i2009-10807-5}{{\em EPJ} {\bfseries A41}
+  (2009) 243--277},
+\href{http://arxiv.org/abs/0902.3478}{{\ttfamily arXiv:0902.3478 [nucl-ex]}}.
+\%\%CITATION = ARXIV:0902.3478;\%\%.
+
+\bibitem{hades_inclL_35}
+J.~Adamczewski-Musch, G.~Agakishiev, O.~Arnold, E.~T. Atomssa, C.~Behnke, J.~C.
+  Berger-Chen, J.~Biernat, A.~Blanco, C.~Blume, M.~B\"ohmer, P.~Bordalo,
+  S.~Chernenko, C.~Deveaux, J.~Dreyer, A.~Dybczak, E.~Epple, L.~Fabbietti,
+  O.~Fateev, P.~Fonte, C.~Franco, J.~Friese, I.~Fr\"ohlich, T.~Galatyuk, J.~A.
+  Garz\'on, K.~Gill, M.~Golubeva, F.~Guber, M.~Gumberidze, S.~Harabasz,
+  T.~Hennino, S.~Hlavac, C.~H\"ohne, R.~Holzmann, A.~Ierusalimov, A.~Ivashkin,
+  M.~Jurkovic, B.~K\"ampfer, T.~Karavicheva, B.~Kardan, I.~Koenig, W.~Koenig,
+  B.~W. Kolb, G.~Korcyl, G.~Kornakov, R.~Kotte, A.~Kr\'asa, E.~Krebs, H.~Kuc,
+  A.~Kugler, T.~Kunz, A.~Kurepin, A.~Kurilkin, P.~Kurilkin, V.~Ladygin,
+  R.~Lalik, K.~Lapidus, A.~Lebedev, L.~Lopes, M.~Lorenz, T.~Mahmoud, L.~Maier,
+  S.~Maurus, A.~Mangiarotti, J.~Markert, V.~Metag, J.~Michel, S.~Morozov,
+  C.~M\"untz, R.~M\"unzer, L.~Naumann, M.~Palka, Y.~Parpottas, V.~Pechenov,
+  O.~Pechenova, V.~Petousis, J.~Pietraszko, W.~Przygoda, S.~Ramos, B.~Ramstein,
+  L.~Rehnisch, A.~Reshetin, A.~Rost, A.~Rustamov, A.~Sadovsky, P.~Salabura,
+  T.~Scheib, K.~Schmidt-Sommerfeld, H.~Schuldes, P.~Sellheim, J.~Siebenson,
+  L.~Silva, Y.~G. Sobolev, S.~Spataro, H.~Str\"obele, J.~Stroth, P.~Strzempek,
+  C.~Sturm, O.~Svoboda, A.~Tarantola, K.~Teilab, P.~Tlusty, M.~Traxler,
+  H.~Tsertos, T.~Vasiliev, V.~Wagner, C.~Wendisch, J.~Wirth, Y.~Zanevsky, and
+  P.~Zumbruch [{HADES Collaboration} Collaboration], ``Inclusive
+  $\mathrm{\ensuremath{\Lambda}}$ production in proton-proton collisions at 3.5
+  gev,'' \href{http://dx.doi.org/10.1103/PhysRevC.95.015207}{{\em Phys. Rev. C}
+  {\bfseries 95} (Jan, 2017)  015207}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevC.95.015207}.
+
+\bibitem{hades_L1405}
+G.~Agakishiev {\em et~al.} [{HADES} Collaboration], ``{Baryonic resonances
+  close to the $\bar{K}N$ threshold: the case of $\Lambda$(1405) in $pp$
+  collisions},'' \href{http://dx.doi.org/10.1103/PhysRevC.87.025201}{{\em
+  Phys.\ Rev.\ C} {\bfseries 87} (2013) 025201},
+  \href{http://arxiv.org/abs/1208.0205}{{\ttfamily arXiv:1208.0205 [nucl-ex]}}.
+
+\bibitem{hades_L1520}
+G.~Agakishiev {\em et~al.}, ``{Production of $\Sigma^{\pm}\pi^{\mp}pK^{+}$ in
+  p+p reactions at 3.5 GeV beam energy},''
+  \href{http://dx.doi.org/10.1016/j.nuclphysa.2012.02.009}{{\em Nucl. Phys. A}
+  {\bfseries 881} (2012) 178--186},
+  \href{http://arxiv.org/abs/1202.2734}{{\ttfamily arXiv:1202.2734 [nucl-ex]}}.
+
+\bibitem{hades_PWA_pKpL}
+G.~Agakishiev, O.~Arnold, D.~Belver, A.~Belyaev, J.~C. Berger-Chen, A.~Blanco,
+  M.~Böhmer, J.~L. Boyard, P.~Cabanelas, S.~Chernenko, A.~Dybczak, E.~Epple,
+  L.~Fabbietti, O.~Fateev, P.~Finocchiaro, P.~Fonte, J.~Friese, I.~Fröhlich,
+  T.~Galatyuk, J.~A. Garzón, R.~Gernhäuser, K.~Göbel, M.~Golubeva,
+  D.~González-Díaz, F.~Guber, M.~Gumberidze, T.~Heinz, T.~Hennino,
+  R.~Holzmann, A.~Ierusalimov, I.~Iori, A.~Ivashkin, M.~Jurkovic, B.~Kämpfer,
+  T.~Karavicheva, I.~Koenig, W.~Koenig, B.~W. Kolb, G.~Kornakov, R.~Kotte,
+  A.~Krása, F.~Krizek, R.~Krücken, H.~Kuc, W.~Kühn, A.~Kugler, T.~Kunz,
+  A.~Kurepin, V.~Ladygin, R.~Lalik, K.~Lapidus, A.~Lebedev, L.~Lopes,
+  M.~Lorenz, L.~Maier, A.~Mangiarotti, J.~Markert, V.~Metag, J.~Michel,
+  C.~Müntz, R.~Münzer, L.~Naumann, Y.~C. Pachmayer, M.~Palka, Y.~Parpottas,
+  V.~Pechenov, O.~Pechenova, J.~Pietraszko, W.~Przygoda, B.~Ramstein,
+  A.~Reshetin, A.~Rustamov, A.~Sadovsky, P.~Salabura, A.~Schmah, E.~Schwab,
+  J.~Siebenson, Y.~G. Sobolev, S.~Spataro, B.~Spruck, H.~Ströbele, J.~Stroth,
+  C.~Sturm, A.~Tarantola, K.~Teilab, P.~Tlusty, M.~Traxler, H.~Tsertos,
+  T.~Vasiliev, V.~Wagner, M.~Weber, C.~Wendisch, J.~Wüstenfeld, S.~Yurevich,
+  Y.~Zanevsky, and A.~V. Sarantsev, ``Partial wave analysis of the reaction
+  p(3.5 gev) + p $\rightarrow$ $\mathrm{p} \mathrm{K^+} \mathrm{\Lambda}$ to
+  search for the "$\mathrm{pp} \mathrm{K^-}$" bound state,''
+  \href{http://dx.doi.org/10.1016/j.physletb.2015.01.032}{{\em Physics Letters
+  B} {\bfseries 742} (1, 2015)  }.
+
+\bibitem{hades_S1385}
+G.~Agakishiev, A.~Balanda, D.~Belver, A.~Belyaev, A.~Blanco, M.~Boehmer,
+  P.~Cabanelas, E.~Castro, J.~Chen, S.~Chernenko, T.~Christ, M.~Destefanis,
+  F.~Dohrmann, A.~Dybczak, E.~Epple, T.~Eberl, L.~Fabbietti, O.~Fateev, and
+  Y.~Zanevsky, ``Baryonic resonances close to the kbar-n threshold: the case of
+  $\sigma(1385)^+$ in pp collisions,'' {\em Physical Review C} (09, 2011)  .
+
+\bibitem{lalik_phd}
+R.~Lalik, ``A beam detector for pion experiments and analysis of the inclusive
+  $\lambda$ production in proton-proton reactions with hades,'' PhD thesis
+  (2016).
+\newblock
+  \url{https://www.das.ktas.ph.tum.de/DasDocs/Public/PhD_Theses/Rafal_Lalik_PhD_Thesis.pdf}.
+
+\bibitem{PDG}
+M.~Tanabashi, P.~Grp, K.~Hagiwara, K.~Hikasa, K.~Nakamura, Y.~Sumino,
+  F.~Takahashi, J.~Tanaka, K.~Agashe, G.~Aielli, C.~Amsler, M.~Antonelli,
+  D.~Asner, H.~Baer, S.~Banerjee, R.~Barnett, T.~Basaglia, C.~Bauer, and
+  J.~Beatty, ``Review of particle physics: Particle data group,'' {\em Physical
+  Review D} {\bfseries 98} (08, 2018)  .
+
+\bibitem{hades_Sz_pNb}
+J.~Adamczewski-Musch, G.~Agakishiev, O.~Arnold, E.~Atomssa, C.~Behnke,
+  J.~Berger-Chen, J.~Biernat, A.~Blanco, C.~Blume, M.~Böhmer, P.~Bordalo,
+  S.~Chernenko, C.~Deveaux, A.~Dybczak, E.~Epple, L.~Fabbietti, O.~Fateev,
+  P.~Fonte, C.~Franco, J.~Friese, I.~Fröhlich, T.~Galatyuk, J.~Garzón,
+  R.~Gernhäuser, K.~Gill, M.~Golubeva, F.~Guber, M.~Gumberidze, S.~Harabasz,
+  T.~Hennino, S.~Hlavac, C.~Höhne, R.~Holzmann, A.~Ierusalimov, A.~Ivashkin,
+  M.~Jurkovic, B.~Kämpfer, T.~Karavicheva, B.~Kardan, I.~Koenig, W.~Koenig,
+  B.~Kolb, G.~Korcyl, G.~Kornakov, R.~Kotte, A.~Krása, E.~Krebs, H.~Kuc,
+  A.~Kugler, T.~Kunz, A.~Kurepin, A.~Kurilkin, P.~Kurilkin, V.~Ladygin,
+  R.~Lalik, K.~Lapidus, A.~Lebedev, L.~Lopes, M.~Lorenz, T.~Mahmoud, L.~Maier,
+  S.~Maurus, A.~Mangiarotti, J.~Markert, V.~Metag, J.~Michel, C.~Müntz,
+  R.~Münzer, L.~Naumann, M.~Palka, Y.~Parpottas, V.~Pechenov, O.~Pechenova,
+  V.~Petousis, J.~Pietraszko, W.~Przygoda, S.~Ramos, B.~Ramstein, L.~Rehnisch,
+  A.~Reshetin, A.~Rost, A.~Rustamov, A.~Sadovsky, P.~Salabura, T.~Scheib,
+  K.~Schmidt-Sommerfeld, H.~Schuldes, P.~Sellheim, J.~Siebenson, L.~Silva,
+  Y.~Sobolev, S.~Spataro, H.~Ströbele, J.~Stroth, P.~Strzempek, C.~Sturm,
+  O.~Svoboda, A.~Tarantola, K.~Teilab, P.~Tlusty, M.~Traxler, H.~Tsertos,
+  T.~Vasiliev, V.~Wagner, C.~Wendisch, J.~Wirth, J.~Wüstenfeld, Y.~Zanevsky,
+  and P.~Zumbruch, ``$mathrm{\Sigma^0}$ production in proton nucleus collisions
+  near threshold,''
+  \href{http://dx.doi.org/https://doi.org/10.1016/j.physletb.2018.02.043}{{\em
+  Physics Letters B} {\bfseries 781} (2018) 735 -- 740}.
+  \url{http://www.sciencedirect.com/science/article/pii/S0370269318301539}.
+
+\bibitem{hades_Lp_femtoscopy_pNb}
+J.~Adamczewski-Musch {\em et~al.} [{HADES} Collaboration], ``{The $\bf{\Lambda
+  p}$ interaction studied via femtoscopy in p + Nb reactions at
+  $\mathrm{\sqrt{S_{NN}}=3.18} ~\mathrm{\bf{GeV}}$},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.94.025201}{{\em Phys. Rev. C}
+  {\bfseries 94} no.~2, (2016) 025201},
+  \href{http://arxiv.org/abs/1602.08880}{{\ttfamily arXiv:1602.08880
+  [nucl-ex]}}.
+
+\bibitem{hades_arnold_pNb}
+O.~Arnold, ``Two-particle correlation measurements in p+nb reactions
+  $\sqrt{S_{NN}}$= 3.18 {GeV},''
+  \href{http://dx.doi.org/10.1088/1742-6596/668/1/012037}{{\em Journal of
+  Physics: Conference Series} {\bfseries 668} (Jan, 2016)  012037}.
+  \url{https://doi.org/10.1088%2F1742-6596%2F668%2F1%2F012037}.
+
+\bibitem{hades_Ksi_pNb}
+G.~Agakishiev, O.~Arnold, A.~Balanda, D.~Belver, A.~Belyaev, J.-C. Berger-Chen,
+  A.~Blanco, M.~Boehmer, P.~Cabanelas, S.~Chernenko, A.~Dybczak, E.~Epple,
+  L.~Fabbietti, O.~Fateev, P.~Finocchiaro, P.~Fonte, J.~Friese, I.~Fröhlich,
+  and Y.~Zanevsky, ``Subthreshold $\mathrm{\Xi^-}$ production in collisions of
+  p ( 3.5 gev ) + nb,''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.114.212301}{{\em Physical review
+  letters} {\bfseries 114} (01, 2015)  }.
+
+\bibitem{Metodiev_2017}
+E.~M. Metodiev, B.~Nachman, and J.~Thaler, ``Classification without labels:
+  learning from mixed samples in high energy physics,''
+  \href{http://dx.doi.org/10.1007/jhep10(2017)174}{{\em Journal of High Energy
+  Physics} {\bfseries 2017} no.~10, (Oct, 2017)  }.
+  \url{http://dx.doi.org/10.1007/JHEP10(2017)174}.
+
+\bibitem{Neyman-Pearson}
+J.~Neyman and E.~S. Pearson, ``On the problem of the most efficient tests of
+  statistical hypotheses,''
+  \href{http://dx.doi.org/10.1098/rsta.1933.0009}{{\em Philosophical
+  Transactions of the Royal Society of London} {\bfseries 231} (Feb, 1933)  }.
+  \url{https://doi.org/10.1098/rsta.1933.0009}.
+
+\bibitem{TMVA}
+A.~Hoecker, P.~Speckmayer, J.~Stelzer, J.~Therhaag, E.~von Toerne, H.~Voss,
+  M.~Backes, T.~Carli, O.~Cohen, A.~Christov, D.~Dannheim, K.~Danielowski,
+  S.~Henrot-Versille, M.~Jachowski, K.~Kraszewski, A.~K. Jr., M.~Kruk,
+  Y.~Mahalalel, R.~Ospanov, X.~Prudent, A.~Robert, D.~Schouten, F.~Tegenfeldt,
+  A.~Voigt, K.~Voss, M.~Wolter, and A.~Zemla, ``Tmva - toolkit for multivariate
+  data analysis,'' (2007).
+
+\bibitem{COSY-TOF_SigmaLambda}
+T.~COSY-TOF~Collaboration, M.~Abdel-Bary, S.~Abdel-Samad, K.-T. Brinkmann,
+  H.~Clement, J.~Dietrich, E.~Doroshkevich, S.~Dshemuchadse, K.~Ehrhardt,
+  A.~Erhardt, W.~Eyrich, D.~Filges, A.~Filippi, H.~Freiesleben, M.~Fritsch,
+  W.~Gast, J.~Georgi, A.~Gillitzer, J.~Gottwald, and P.~Żuprański,
+  ``Production of $\lambda^0$ and $\sigma^0$ hyperons in proton-proton
+  collisions,'' \href{http://dx.doi.org/10.1140/epja/i2010-11023-0}{{\em
+  European Physical Journal A} {\bfseries 46} (10, 2010)  27--44}.
+
+\bibitem{L-B}
+G.~Höhler, ``Landolt-börnstein - group i elementary particles, nuclei and
+  atoms,'', \href{http://dx.doi.org/10.1007/10201161_4}{7--8}.
+\newblock 01, 1983.
+
+\bibitem{COSY-TOF_L1405}
+I.~Zychor, M.~Büscher, M.~B, A.~C, I.~Keshelashvili, A.~Khoukaz, V.~F, V.~G,
+  Y.~H, T.~E, S.~G, R.~B, H.~B, Y.~Valdau, and C.~I, ``Lineshape of the
+  $\lambda(1405)$ hyperon measured through its $\sigma^0$ $\pi^0$ decay,''
+  \href{http://dx.doi.org/10.1016/j.physletb.2008.01.002}{{\em Physics Letters
+  B} {\bfseries 660} (02, 2008)  167--171}.
+
+\bibitem{hades_Delta}
+J.~Adamczewski-Musch, O.~Arnold, E.~T. Atomssa, C.~Behnke, A.~Belounnas,
+  A.~Belyaev, J.~C. Berger-Chen, J.~Biernat, A.~Blanco, C.~Blume,
+  M.~B{\"o}hmer, P.~Bordalo, S.~Chernenko, L.~Chlad, C.~Deveaux, J.~Dreyer,
+  A.~Dybczak, E.~Epple, L.~Fabbietti, O.~Fateev, P.~Filip, P.~Finocchiaro,
+  P.~Fonte, C.~Franco, J.~Friese, I.~Fr{\"o}hlich, T.~Galatyuk, J.~A.
+  Garz{\'o}n, R.~Gernh{\"a}user, M.~Golubeva, F.~Guber, M.~Gumberidze,
+  S.~Harabasz, T.~Heinz, T.~Hennino, S.~Hlavac, C.~H{\"o}hne, R.~Holzmann,
+  A.~Ierusalimov, A.~Ivashkin, B.~K{\"a}mpfer, T.~Karavicheva, B.~Kardan,
+  I.~Koenig, W.~Koenig, B.~W. Kolb, G.~Korcyl, G.~Kornakov, R.~Kotte,
+  W.~K{\"u}hn, A.~Kugler, T.~Kunz, A.~Kurepin, A.~Kurilkin, P.~Kurilkin,
+  V.~Ladygin, R.~Lalik, K.~Lapidus, A.~Lebedev, T.~Liu, L.~Lopes, M.~Lorenz,
+  T.~Mahmoud, L.~Maier, A.~Mangiarotti, J.~Markert, S.~Maurus, V.~Metag,
+  J.~Michel, E.~Morini{\`e}re, D.~M. Mihaylov, S.~Morozov, C.~M{\"u}ntz,
+  R.~M{\"u}nzer, L.~Naumann, K.~Nowakowski, M.~Palka, Y.~Parpottas,
+  V.~Pechenov, O.~Pechenova, V.~Petousis, O.~Petukhov, J.~Pietraszko,
+  W.~Przygoda, S.~Ramos, B.~Ramstein, A.~Reshetin, P.~Rodriguez-Ramos,
+  P.~Rosier, A.~Rost, A.~Sadovsky, P.~Salabura, T.~Scheib, H.~Schuldes,
+  E.~Schwab, F.~Scozzi, F.~Seck, P.~Sellheim, J.~Siebenson, L.~Silva, Y.~G.
+  Sobolev, S.~Spataro, H.~Str{\"o}bele, J.~Stroth, P.~Strzempek, C.~Sturm,
+  O.~Svoboda, P.~Tlusty, M.~Traxler, H.~Tsertos, E.~Usenko, V.~Wagner,
+  C.~Wendisch, M.~G. Wiebusch, J.~Wirth, Y.~Zanevsky, P.~Zumbruch, and A.~V.
+  Sarantsev [{HADES Collaboration} Collaboration],
+  ``{$\mathrm{\ensuremath{\Delta}}(1232)$ Dalitz decay in proton-proton
+  collisions at $T=1.25$ GeV measured with HADES at GSI},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.95.065205}{{\em Phys. Rev.}
+  {\bfseries C95} (6, 2017)  065205}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevC.95.065205}.
+
+\bibitem{Clas_Hyperons}
+S.~Taylor, G.~S. Mutchler, G.~Adams, P.~Ambrozewicz, E.~Anciant, M.~Anghinolfi,
+  B.~Asavapibhop, G.~Asryan, G.~Audit, H.~Avakian, H.~Bagdasaryan, J.~P. Ball,
+  S.~Barrow, V.~Batourine, M.~Battaglieri, K.~Beard, M.~Bektasoglu, M.~Bellis,
+  N.~Benmouna, B.~L. Berman, N.~Bianchi, A.~S. Biselli, S.~Boiarinov, B.~E.
+  Bonner, S.~Bouchigny, R.~Bradford, D.~Branford, W.~J. Briscoe, W.~K. Brooks,
+  S.~B{\"u}ltmann, V.~D. Burkert, C.~Butuceanu, J.~R. Calarco, D.~S. Carman,
+  B.~Carnahan, S.~Chen, P.~L. Cole, D.~Cords, P.~Corvisiero, D.~Crabb,
+  H.~Crannell, J.~P. Cummings, E.~D. Sanctis, R.~DeVita, P.~V. Degtyarenko,
+  H.~Denizli, L.~Dennis, A.~Deur, K.~V. Dharmawardane, C.~Djalali, G.~E. Dodge,
+  D.~Doughty, P.~Dragovitsch, M.~Dugger, S.~Dytman, O.~P. Dzyubak, H.~Egiyan,
+  K.~S. Egiyan, L.~Elouadrhiri, A.~Empl, P.~Eugenio, R.~Fatemi, G.~Feldman,
+  R.~G. Fersch, R.~J. Feuerbach, T.~A. Forest, H.~Funsten, M.~{Gar\ifmmode
+  \mbox{\c c}\else {\c c}\fi{}on}, G.~Gavalian, G.~P. Gilfoyle, K.~L.
+  Giovanetti, E.~Golovatch, C.~I.~O. Gordon, R.~W. Gothe, K.~A. Griffioen,
+  M.~Guidal, M.~Guillo, N.~Guler, L.~Guo, V.~Gyurjyan, C.~Hadjidakis, R.~S.
+  Hakobyan, J.~Hardie, D.~Heddle, F.~W. Hersman, K.~Hicks, I.~Hleiqawi,
+  M.~Holtrop, J.~Hu, M.~Huertas, C.~E. Hyde-Wright, Y.~Ilieva, D.~G. Ireland,
+  M.~M. Ito, D.~Jenkins, K.~Joo, H.~G. Juengst, J.~D. Kellie, M.~Khandaker,
+  K.~Y. Kim, K.~Kim, W.~Kim, A.~Klein, F.~J. Klein, A.~V. Klimenko, M.~Klusman,
+  M.~Kossov, V.~Koubarovski, L.~H. Kramer, S.~E. Kuhn, J.~Kuhn, J.~Lachniet,
+  J.~M. Laget, J.~Langheinrich, D.~Lawrence, T.~Lee, J.~Li, A.~C.~S. Lima,
+  K.~Livingston, K.~Lukashin, J.~J. Manak, C.~Marchand, S.~McAleer, J.~W.~C.
+  McNabb, B.~A. Mecking, J.~J. Melone, M.~D. Mestayer, C.~A. Meyer,
+  K.~Mikhailov, M.~Mirazita, R.~Miskimen, V.~Mokeev, L.~Morand, S.~A. Morrow,
+  V.~Muccifora, J.~Mueller, J.~Napolitano, R.~Nasseripour, S.~Niccolai,
+  G.~Niculescu, I.~Niculescu, B.~B. Niczyporuk, R.~A. Niyazov, M.~Nozar, G.~V.
+  O'Rielly, M.~Osipenko, A.~I. Ostrovidov, K.~Park, E.~Pasyuk, S.~A. Philips,
+  N.~Pivnyuk, D.~Pocanic, O.~Pogorelko, E.~Polli, S.~Pozdniakov, B.~M. Preedom,
+  J.~W. Price, Y.~Prok, D.~Protopopescu, L.~M. Qin, B.~S. Raue, G.~Riccardi,
+  G.~Ricco, M.~Ripani, B.~G. Ritchie, F.~Ronchetti, G.~Rosner, P.~Rossi,
+  D.~Rowntree, P.~D. Rubin, F.~Sabati{\'e}, C.~Salgado, J.~P. Santoro,
+  V.~Sapunenko, R.~A. Schumacher, V.~S. Serov, A.~Shafi, Y.~G. Sharabian,
+  J.~Shaw, S.~Simionatto, A.~V. Skabelin, E.~S. Smith, L.~C. Smith, D.~I.
+  Sober, M.~Spraker, A.~Stavinsky, S.~Stepanyan, S.~S. Stepanyan, B.~E. Stokes,
+  P.~Stoler, I.~I. Strakovsky, S.~Strauch, R.~Suleiman, M.~Taiuti, D.~J.
+  Tedeschi, U.~Thoma, R.~Thompson, A.~Tkabladze, L.~Todor, C.~Tur, M.~Ungaro,
+  M.~F. Vineyard, A.~V. Vlassov, K.~Wang, L.~B. Weinstein, H.~Weller, D.~P.
+  Weygand, C.~S. Whisnant, M.~Williams, E.~Wolin, M.~H. Wood, A.~Yegneswaran,
+  J.~Yun, and L.~Zana [{CLAS Collaboration} Collaboration], ``{Radiative decays
+  of the ${\ensuremath{\Sigma}}^{0}(1385)$ and $\ensuremath{\Lambda}(1520)$
+  hyperons},'' \href{http://dx.doi.org/10.1103/PhysRevC.71.054609}{{\em Phys.
+  Rev.} {\bfseries C71} (5, 2005)  054609}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevC.71.054609}.
+
+\bibitem{scozzi}
+F.~Scozzi, ``Studying excited states of the nucleon with the hades detector at
+  gsi,'' PhD thesis, Technische Universitat Darmstadt, Darmstadt (2018).
+
+\bibitem{PLUTO1}
+I.~Fröhlich {\em et~al.}, ``{Pluto: A Monte Carlo Simulation Tool for Hadronic
+  Physics},'' \href{http://dx.doi.org/10.22323/1.050.0076}{{\em PoS} {\bfseries
+  ACAT} (2007) 076}, \href{http://arxiv.org/abs/0708.2382}{{\ttfamily
+  arXiv:0708.2382 [nucl-ex]}}.
+
+\bibitem{PLUTO2}
+I.~Frohlich {\em et~al.}, ``{A versatile method for simulating pp ---> pp e+ e-
+  and dp ---> pn e+ e- p(spec) reactions},''
+  \href{http://dx.doi.org/10.1140/epja/i2010-11012-3}{{\em Eur. Phys. J. A}
+  {\bfseries 45} (2010) 401--411},
+  \href{http://arxiv.org/abs/0909.5373}{{\ttfamily arXiv:0909.5373 [nucl-ex]}}.
+
+\bibitem{GEANT}
+R.~Brun, F.~Bruyant, M.~Maire, A.~McPherson, and P.~Zanarini, ``{GEANT3},''.
+
+\end{thebibliography}\endgroup
