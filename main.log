@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  9 JUL 2020 15:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.4)  10 JUL 2020 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3174,11 +3174,11 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 
 ]
 Package epstopdf Info: Source file: <Chapter_introduction/eightfolds.eps>
-(epstopdf)                    date: 2020-05-05 22:19:02
+(epstopdf)                    date: 2020-05-25 08:49:21
 (epstopdf)                    size: 99435 bytes
 (epstopdf)             Output file: <Chapter_introduction/eightfolds-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2020-05-05 22:26:39
+(epstopdf)                    date: 2020-05-25 08:49:21
 (epstopdf)                    size: 54892 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_introduction/eight
 folds-eps-converted-to.pdf Chapter_introduction/eightfolds.eps>
@@ -3211,11 +3211,11 @@ Overfull \hbox (31.56392pt too wide) detected at line 41
 [3 <./Chapter_introduction/spectrum.png>]
 Package epstopdf Info: Source file: <Chapter_introduction/faynmannDiagrams.eps>
 
-(epstopdf)                    date: 2020-04-09 13:11:46
+(epstopdf)                    date: 2020-05-25 08:49:21
 (epstopdf)                    size: 74664 bytes
 (epstopdf)             Output file: <Chapter_introduction/faynmannDiagrams-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2020-04-09 13:12:23
+(epstopdf)                    date: 2020-05-25 08:49:21
 (epstopdf)                    size: 30594 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_introduction/faynm
 annDiagrams-eps-converted-to.pdf Chapter_introduction/faynmannDiagrams.eps>
@@ -3247,21 +3247,33 @@ Chapter 3.
 LaTeX Warning: Reference `chapter:analysis_PNb' on page 7 undefined on input li
 ne 5.
 
-<Chapter_analysis/DeDx_PPim.jpg, id=468, 225.4824pt x 124.3044pt>
-File: Chapter_analysis/DeDx_PPim.jpg Graphic file (type jpg)
-<use Chapter_analysis/DeDx_PPim.jpg>
-Package pdftex.def Info: Chapter_analysis/DeDx_PPim.jpg  used on input line 10.
 
-(pdftex.def)             Requested size: 384.68576pt x 212.08093pt.
-[7
+LaTeX Warning: File `Chapter_analysis/DeDx_PPim.jpg' not found on input line 10
+.
 
-]
+
+! Package pdftex.def Error: File `Chapter_analysis/DeDx_PPim.jpg' not found: us
+ing draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...linewidth]{Chapter_analysis/DeDx_PPim.jpg}
+                                                  
+? 
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 10.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [7
+
+] [8]
 Package epstopdf Info: Source file: <Chapter_analysis/missMass.eps>
-(epstopdf)                    date: 2020-05-13 17:49:14
+(epstopdf)                    date: 2020-05-25 08:49:21
 (epstopdf)                    size: 154814 bytes
 (epstopdf)             Output file: <Chapter_analysis/missMass-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2020-05-13 17:56:47
+(epstopdf)                    date: 2020-05-25 08:49:21
 (epstopdf)                    size: 22389 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/missMass-
 eps-converted-to.pdf Chapter_analysis/missMass.eps>
@@ -3271,21 +3283,28 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_analysis/missMass-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_analysis/missMass-eps-converted-to.pdf, id=479, 284.06125pt x 192.72pt
+<Chapter_analysis/missMass-eps-converted-to.pdf, id=485, 284.06125pt x 192.72pt
 >
 File: Chapter_analysis/missMass-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_analysis/missMass-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_analysis/missMass-eps-converted-to.pdf  used o
 n input line 29.
 (pdftex.def)             Requested size: 384.68576pt x 261.01353pt.
-[8 <./Chapter_analysis/DeDx_PPim.jpg>]
-<Chapter_analysis/Miss_PPip.jpg, id=492, 293.6571pt x 174.6525pt>
-File: Chapter_analysis/Miss_PPip.jpg Graphic file (type jpg)
-<use Chapter_analysis/Miss_PPip.jpg>
-Package pdftex.def Info: Chapter_analysis/Miss_PPip.jpg  used on input line 39.
 
-(pdftex.def)             Requested size: 384.68576pt x 228.7911pt.
+LaTeX Warning: File `Chapter_analysis/Miss_PPip.jpg' not found on input line 39
+.
 
+
+! Package pdftex.def Error: File `Chapter_analysis/Miss_PPip.jpg' not found: us
+ing draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...linewidth]{Chapter_analysis/Miss_PPip.jpg}
+                                                  
+? 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 44.
@@ -3302,13 +3321,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 44.
 
-[9 <./Chapter_analysis/missMass-eps-converted-to.pdf>]
+[9 <./Chapter_analysis/missMass-eps-converted-to.pdf>] [10]
 Package epstopdf Info: Source file: <Chapter_analysis/L1116SB.eps>
-(epstopdf)                    date: 2020-07-03 22:31:33
+(epstopdf)                    date: 2020-07-07 09:37:06
 (epstopdf)                    size: 12787 bytes
 (epstopdf)             Output file: <Chapter_analysis/L1116SB-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2020-07-03 22:40:41
+(epstopdf)                    date: 2020-07-07 09:37:22
 (epstopdf)                    size: 14764 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/L1116SB-e
 ps-converted-to.pdf Chapter_analysis/L1116SB.eps>
@@ -3318,7 +3337,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_analysis/L1116SB-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_analysis/L1116SB-eps-converted-to.pdf, id=511, 569.12625pt x 418.56375
+<Chapter_analysis/L1116SB-eps-converted-to.pdf, id=514, 569.12625pt x 418.56375
 pt>
 File: Chapter_analysis/L1116SB-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_analysis/L1116SB-eps-converted-to.pdf>
@@ -3345,33 +3364,40 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 59.
 
-[10 <./Chapter_analysis/Miss_PPip.jpg>]
 Package epstopdf Info: Source file: <Chapter_analysis/K0L0_indeksy.eps>
-(epstopdf)                    date: 2020-07-09 15:40:21
+(epstopdf)                    date: 2020-07-10 10:43:09
 (epstopdf)                    size: 204718 bytes
 (epstopdf)             Output file: <Chapter_analysis/K0L0_indeksy-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2020-07-09 15:41:15
-(epstopdf)                    size: 51725 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/K0L0_inde
 ksy-eps-converted-to.pdf Chapter_analysis/K0L0_indeksy.eps>
 (epstopdf)             \includegraphics on input line 69.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=Chapter_analysis/K0L0_indeksy-eps-converted-to.pd
+f Chapter_analysis/K0L0_indeksy.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <Chapter_analysis/K0L0_indeksy-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2020-07-10 11:12:19
+(epstopdf)                    size: 51725 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Chapter_analysis/K0L0_indeksy-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<Chapter_analysis/K0L0_indeksy-eps-converted-to.pdf, id=523, 518.93875pt x 274.
+<Chapter_analysis/K0L0_indeksy-eps-converted-to.pdf, id=520, 518.93875pt x 274.
 02374pt>
 File: Chapter_analysis/K0L0_indeksy-eps-converted-to.pdf Graphic file (type pdf
 )
 <use Chapter_analysis/K0L0_indeksy-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_analysis/K0L0_indeksy-eps-converted-to.pdf  us
 ed on input line 69.
-(pdftex.def)             Requested size: 384.68576pt x 203.14233pt.
-[11 <./Chapter_analysis/L1116SB-eps-converted-to.pdf> <./Chapter_analysis/K0L0_
-indeksy-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 470.17729pt x 248.2874pt.
+
+Overfull \hbox (42.74576pt too wide) in paragraph at lines 69--70
+ [][] 
+ []
+
+[11 <./Chapter_analysis/L1116SB-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 115.
@@ -3385,11 +3411,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 115.
 
 Package epstopdf Info: Source file: <Chapter_analysis/geometria.eps>
-(epstopdf)                    date: 2020-07-02 23:53:59
+(epstopdf)                    date: 2020-07-07 09:37:06
 (epstopdf)                    size: 41302 bytes
 (epstopdf)             Output file: <Chapter_analysis/geometria-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2020-07-03 00:02:47
+(epstopdf)                    date: 2020-07-07 09:37:23
 (epstopdf)                    size: 16851 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/geometria
 -eps-converted-to.pdf Chapter_analysis/geometria.eps>
@@ -3399,20 +3425,20 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_analysis/geometria-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_analysis/geometria-eps-converted-to.pdf, id=566, 745.78625pt x 523.957
+<Chapter_analysis/geometria-eps-converted-to.pdf, id=545, 745.78625pt x 523.957
 5pt>
 File: Chapter_analysis/geometria-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_analysis/geometria-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_analysis/geometria-eps-converted-to.pdf  used 
 on input line 120.
 (pdftex.def)             Requested size: 299.20076pt x 210.2029pt.
-[12]
+[12 <./Chapter_analysis/K0L0_indeksy-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Chapter_analysis/L1520_sig_SB.eps>
-(epstopdf)                    date: 2020-07-06 12:59:27
+(epstopdf)                    date: 2020-07-07 09:37:06
 (epstopdf)                    size: 24303 bytes
 (epstopdf)             Output file: <Chapter_analysis/L1520_sig_SB-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2020-07-06 13:08:49
+(epstopdf)                    date: 2020-07-07 09:37:23
 (epstopdf)                    size: 17808 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/L1520_sig
 _SB-eps-converted-to.pdf Chapter_analysis/L1520_sig_SB.eps>
@@ -3423,7 +3449,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./Chapter_analysis/L1520_sig_SB-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<Chapter_analysis/L1520_sig_SB-eps-converted-to.pdf, id=576, 569.12625pt x 483.
+<Chapter_analysis/L1520_sig_SB-eps-converted-to.pdf, id=574, 569.12625pt x 483.
 8075pt>
 File: Chapter_analysis/L1520_sig_SB-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -3431,15 +3457,13 @@ File: Chapter_analysis/L1520_sig_SB-eps-converted-to.pdf Graphic file (type pdf
 Package pdftex.def Info: Chapter_analysis/L1520_sig_SB-eps-converted-to.pdf  us
 ed on input line 132.
 (pdftex.def)             Requested size: 299.20076pt x 254.35709pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[13 <./Chapter_analysis/geometria-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Chapter_analysis/L1520_sig_Clean.eps>
-(epstopdf)                    date: 2020-07-07 23:01:40
+(epstopdf)                    date: 2020-07-08 14:58:16
 (epstopdf)                    size: 82874 bytes
 (epstopdf)             Output file: <Chapter_analysis/L1520_sig_Clean-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2020-07-07 23:13:19
+(epstopdf)                    date: 2020-07-08 15:05:02
 (epstopdf)                    size: 26418 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/L1520_sig
 _Clean-eps-converted-to.pdf Chapter_analysis/L1520_sig_Clean.eps>
@@ -3450,7 +3474,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./Chapter_analysis/L1520_sig_Clean-eps-converted
 -to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-<Chapter_analysis/L1520_sig_Clean-eps-converted-to.pdf, id=579, 569.12625pt x 3
+<Chapter_analysis/L1520_sig_Clean-eps-converted-to.pdf, id=598, 569.12625pt x 3
 32.24126pt>
 File: Chapter_analysis/L1520_sig_Clean-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -3468,7 +3492,7 @@ ross sec-tion mea-sured by HADES$\OML/cmm/m/it/10.95 ^^[[] \OT1/cmr/m/n/10.95 =
 
  []
 
-[13 <./Chapter_analysis/geometria-eps-converted-to.pdf>]
+[14 <./Chapter_analysis/L1520_sig_SB-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 151.
@@ -3493,11 +3517,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 151.
 
-) (./Chapter_analysisPNb/analysisPNb.tex [14 <./Chapter_analysis/L1520_sig_SB-e
-ps-converted-to.pdf>] [15 <./Chapter_analysis/L1520_sig_Clean-eps-converted-to.
-pdf>] [16
-
-]
+) (./Chapter_analysisPNb/analysisPNb.tex [15 <./Chapter_analysis/L1520_sig_Clea
+n-eps-converted-to.pdf>] [16]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -3571,16 +3592,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 23.
 
-) (./Chapter_NN/NN.tex [17] [18
+) (./Chapter_NN/NN.tex [17
+
+] [18
 
 ]
 Chapter 5.
 [19]
 Package epstopdf Info: Source file: <Chapter_NN/setAB.eps>
-(epstopdf)                    date: 2020-03-14 20:19:55
+(epstopdf)                    date: 2020-05-25 08:49:21
 (epstopdf)                    size: 31780 bytes
 (epstopdf)             Output file: <Chapter_NN/setAB-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-03-14 20:20:45
+(epstopdf)                    date: 2020-05-25 08:49:21
 (epstopdf)                    size: 10991 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_NN/setAB-eps-conve
 rted-to.pdf Chapter_NN/setAB.eps>
@@ -3590,17 +3613,17 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_NN/setAB-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_NN/setAB-eps-converted-to.pdf, id=668, 530.98375pt x 554.07pt>
+<Chapter_NN/setAB-eps-converted-to.pdf, id=667, 530.98375pt x 554.07pt>
 File: Chapter_NN/setAB-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_NN/setAB-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_NN/setAB-eps-converted-to.pdf  used on input l
 ine 37.
 (pdftex.def)             Requested size: 213.71576pt x 223.01059pt.
 Package epstopdf Info: Source file: <Chapter_NN/L1116.eps>
-(epstopdf)                    date: 2020-05-30 21:57:01
+(epstopdf)                    date: 2020-06-02 10:56:44
 (epstopdf)                    size: 442648 bytes
 (epstopdf)             Output file: <Chapter_NN/L1116-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-06-01 17:03:39
+(epstopdf)                    date: 2020-06-29 13:01:02
 (epstopdf)                    size: 638627 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_NN/L1116-eps-conve
 rted-to.pdf Chapter_NN/L1116.eps>
@@ -3610,7 +3633,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_NN/L1116-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_NN/L1116-eps-converted-to.pdf, id=671, 797.98125pt x 590.205pt>
+<Chapter_NN/L1116-eps-converted-to.pdf, id=670, 797.98125pt x 590.205pt>
 File: Chapter_NN/L1116-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_NN/L1116-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_NN/L1116-eps-converted-to.pdf  used on input l
@@ -3622,11 +3645,11 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 54.
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 Package epstopdf Info: Source file: <Chapter_NN/NN_wyniki.eps>
-(epstopdf)                    date: 2020-06-01 16:49:48
+(epstopdf)                    date: 2020-06-02 10:56:44
 (epstopdf)                    size: 94483 bytes
 (epstopdf)             Output file: <Chapter_NN/NN_wyniki-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2020-06-01 17:03:40
+(epstopdf)                    date: 2020-06-29 13:01:03
 (epstopdf)                    size: 73916 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_NN/NN_wyniki-eps-c
 onverted-to.pdf Chapter_NN/NN_wyniki.eps>
@@ -3636,7 +3659,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_NN/NN_wyniki-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_NN/NN_wyniki-eps-converted-to.pdf, id=683, 793.96625pt x 316.18124pt>
+<Chapter_NN/NN_wyniki-eps-converted-to.pdf, id=682, 793.96625pt x 316.18124pt>
 File: Chapter_NN/NN_wyniki-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_NN/NN_wyniki-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_NN/NN_wyniki-eps-converted-to.pdf  used on inp
@@ -3682,11 +3705,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ]
 Package epstopdf Info: Source file: <Chapter_simulation/all_CS.eps>
-(epstopdf)                    date: 2020-04-07 14:56:45
+(epstopdf)                    date: 2020-05-25 08:49:21
 (epstopdf)                    size: 60717 bytes
 (epstopdf)             Output file: <Chapter_simulation/all_CS-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2020-04-07 15:03:17
+(epstopdf)                    date: 2020-05-25 08:49:21
 (epstopdf)                    size: 25751 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_simulation/all_CS-
 eps-converted-to.pdf Chapter_simulation/all_CS.eps>
@@ -3696,7 +3719,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_simulation/all_CS-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_simulation/all_CS-eps-converted-to.pdf, id=746, 1227.58624pt x 465.74p
+<Chapter_simulation/all_CS-eps-converted-to.pdf, id=745, 1227.58624pt x 465.74p
 t>
 File: Chapter_simulation/all_CS-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_simulation/all_CS-eps-converted-to.pdf>
@@ -3767,38 +3790,38 @@ Chapter 7.
 
 ] [30
 
-] (./main.bbl
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 14.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [31
+] (./main.bbl [31
 
 
 
-] [32] [33]
-[34]) [35]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
+] [32] [33] [34]) [35]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 320.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5ECEB9867C985ADC1310EAF94342D3CF;10020.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 5ECEB9867C985ADC1310EAF94342D3CF;10020
+(rerunfilecheck)             After:  E4DFCD939935F9D12478DF9C6701ADEA;10028.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 321.
  ) 
 Here is how much of TeX's memory you used:
- 42744 strings out of 492982
- 831800 string characters out of 6134895
+ 42737 strings out of 492982
+ 831541 string characters out of 6134896
  1022580 words of memory out of 5000000
- 45392 multiletter control sequences out of 15000+600000
+ 45384 multiletter control sequences out of 15000+600000
  596213 words of font info for 113 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  55i,13n,80p,10401b,1012s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3824,10 +3847,10 @@ ls/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (47 pages, 3522454 bytes).
+Output written on main.pdf (47 pages, 2257444 bytes).
 PDF statistics:
- 1032 PDF objects out of 1200 (max. 8388607)
+ 1030 PDF objects out of 1200 (max. 8388607)
  871 compressed objects within 9 object streams
  175 named destinations out of 1000 (max. 500000)
- 509 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 499 words of extra memory for PDF output out of 10000 (max. 10000000)
 

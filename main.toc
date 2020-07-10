@@ -24,14 +24,14 @@
 \contentsline {chapter}{\numberline {3}PP data analysis}{7}{chapter.24}
 \contentsline {section}{\numberline {3.1}Particles identification}{7}{section.25}
 \contentsline {section}{\numberline {3.2}Event selection}{8}{section.27}
-\contentsline {section}{\numberline {3.3}Reaction kinematics}{8}{section.28}
-\contentsline {section}{\numberline {3.4}The $\mathrm {\Lambda ^0}$ Reconstruction}{9}{section.32}
-\contentsline {section}{\numberline {3.5}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction}{10}{section.34}
+\contentsline {section}{\numberline {3.3}Reaction kinematics}{9}{section.28}
+\contentsline {section}{\numberline {3.4}The $\mathrm {\Lambda ^0}$ Reconstruction}{10}{section.32}
+\contentsline {section}{\numberline {3.5}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction}{11}{section.34}
 \contentsline {section}{\numberline {3.6}Absolute normalization}{12}{section.36}
 \contentsline {section}{\numberline {3.7}The $\mathrm {\Lambda (1520)}$ Reconstruction}{12}{section.40}
-\contentsline {subsection}{\numberline {3.7.1}Side-band analysis}{13}{subsection.42}
-\contentsline {subsection}{\numberline {3.7.2}Cross-section extraction and differential analysis}{13}{subsection.44}
-\contentsline {subsection}{\numberline {3.7.3}Analysis of a $\mathrm {\pi ^{+}}\mathrm {\pi ^{-}}$ spectrum}{14}{subsection.46}
+\contentsline {subsection}{\numberline {3.7.1}Side-band analysis}{14}{subsection.42}
+\contentsline {subsection}{\numberline {3.7.2}Cross-section extraction and differential analysis}{14}{subsection.44}
+\contentsline {subsection}{\numberline {3.7.3}Analysis of a $\mathrm {\pi ^{+}}\mathrm {\pi ^{-}}$ spectrum}{15}{subsection.46}
 \contentsline {chapter}{\numberline {4}PNb data analysis}{17}{chapter.48}
 \contentsline {section}{\numberline {4.1}Identyfication and data selection}{17}{section.49}
 \contentsline {section}{\numberline {4.2}The $\mathrm {\Lambda ^0}$ Reconstruction}{17}{section.50}
@@ -62,4 +62,4 @@
 \contentsline {chapter}{Appendices}{31}{section*.94}
 \patchcmd {\l@chapter }{\bfseries }{}{}{}
 \vspace {1em}
-\contentsline {chapter}{\bf Bibliography}{31}{dummy.95}
+\contentsline {chapter}{\bf Bibli ography}{31}{dummy.95}
