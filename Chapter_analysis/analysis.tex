@@ -58,9 +58,9 @@ The optimized neural network enhanced a signal to background ratio from ??? with
 
 \section{The $\Lz \Kz $reconstruction}
 \label{section:LzKz}
-Due to strangeness conservation low a $\Lz$ has to be produced with some anti-strange particle. The lightest candidate is a $\Kz$ meson, which decays in 69.2\% into $pip pim$ pair \cite{PDG}. For that reason a $\Lz \Kz$ signal is expected to be a significant part of the $\Lz \pip \pim$ final state and should be visible in analized data. Because a kinematics for a $\Lz \Kz$ production is different tahn for $\Ls$, the used missing mass cut was looser tahn in $\Ls$ analysis. It was set  $M^{miss}_{\p \pip \pip \pim}>1077$, what is a minimal missing mass expected for $pp \rightarrow p \Kz \Lz \pip$ reaction with $\p_{E_k}=3.5 \mathrm{GeV}$. 
+Due to strangeness conservation low a $\Lz$ has to be produced with some anti-strange particle. The lightest candidate is a $\Kz$ meson, which decays in 69.2\% into $\pip \pim$ pair \cite{PDG}. For that reason a $\Lz \Kz$ signal is expected to be a significant part of the $\Lz \pip \pim$ final state and should be visible in analized data. Because a kinematics for a $\Lz \Kz$ production is different tahn for $\Ls$, the used missing mass cut was looser tahn in $\Ls$ analysis. It was set  $M^{miss}_{\p \pip \pip \pim}>1077$, what is a minimal missing mass expected for $pp \rightarrow p \Kz \Lz \pip$ reaction with $\p_{E_k}=3.5 \mathrm{GeV}$. 
 
-After the $\Lz$ reconstruction two spectra were drown: a) a $\pip \pim$ invariant mass spectrum for events $1006<M^{inv}_{\p \pim}<1026$ and b) a $p pim$ invariant mass for $480 MeV<M^{inv}_{\pip \pim}<500 MeV$. Obtained specta have to were compared with simulation, so the same analysis chain was used to analyzed all channels listed in \ref{tab:channels} which contains associated $\Lz\Kz$ production. 
+After the $\Lz$ reconstruction two spectra were drown: a) a $\pip \pim$ invariant mass spectrum for events $1006<M^{inv}_{\p \pim}<1026$ and b) a $\p \pim$ invariant mass for $480 MeV<M^{inv}_{\pip \pim}<500 MeV$. Obtained specta have to were compared with simulation, so the same analysis chain was used to analyzed all channels listed in \ref{tab:channels} which contains associated $\Lz\Kz$ production. 
 
 Using a procedure described in \ref{sec:normalization} the simulation was compared with experimental data (see \ref{fig:K0L0}). The simulation describes well a yield of $\Kz$ and $\Lz$ produced in experiment, although it does not describe the background shape. This is mostly caused by lack of reliable model for a double $\Dpp$ production. 
 
@@ -149,8 +149,21 @@ An identification of the background channels allows to simulate them and, togeth
 The total yield of detected decays allows to conduct a simple differential analysis. A transverse momentum ($p_t$) and rapidity ($\Upsilon$) was calculated for each reconstructed $\Ls$. Obtained spectra are presented in fig ???
 
 \subsection{Analysis of a $\pip \pim$ spectrum}
-In simulation model used for the \cs extraction pions were emitted according to available phase-space. However it is possible that pion production occurs through a virtual $\rho$ meson. A possible $\rho$ contribution would manifest by a distortion of a $\pip \pim$ spectrum compared to direct production. An alternative simulation with the $\rho$ decay was also prepared and both of them compared with experimental data. By naked eye an only-phase-space distribution describes data better. That was proven quantitatively making a linear combination of the two available spectra
-\begin{equation}
+In simulation model used for the \cs extraction pions were emitted according to available phase-space. However it is possible that pion production occurs through a virtual $\rho$ meson. A possible $\rho$ contribution would manifest by a distortion of a $\pip \pim$ spectrum compared to direct production. An alternative simulation with the $\rho$ decay was also prepared and both of them compared with experimental data. The comparison between an experimental data and simulations is shown in fig. \ref{fig:pip_pim}.  
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.9 \linewidth]{Chapter_analysis/PipPim.eps}
+  \caption{The $\pip \pim$ from emited from $\Ls$ events. The experimental data (blue points) is compared with signal (green line) and background (red line) simulation. A sum of simulated channels is shown by a magenta line. In the presented simulation a pahse space pions distribution was used. A result for pions produced by a $\rho$ decay is denoted by a green dashed line. }
+  \label{fig:pip_pim}
+\end{figure}
+By naked eye an only-phase-space distribution describes data better. That was proven quantitatively making a linear combination of the two available spectra
+\begin{equation}\label{eq:rho}  
   sum=N \cdot M^{inv}_{\pip\pim_{\mathrm{w/o}} \rho} + (N-1) M^{inv}_{\pip\pim_\rho},
 \end{equation}
-where $N \in [0,1]$. An agreement between data and simulation was tested by $\chi^2$ test. Its proved that within available errors the best data description is given by only-phase-space distribution of pions. 
+where $N \in [0,1]$. An agreement between data and simulation was tested by $\chi^2$ test. Its proved that within available errors the best data description is given by only-phase-space distribution of pions.
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.9 \linewidth]{Chapter_analysis/chi2.eps}
+  \caption{A $\chi^2$ between simulation and data in function of N (see eq. \ref{eq:rho}). The N=0 refers for a situation when no $\rho$ contribution is present. It describes data the best, however due to signal statistics any N from 0 to 0.4 gives a good data description $\chi^2<1$.}
+  \label{fig:chi2}
+\end{figure}

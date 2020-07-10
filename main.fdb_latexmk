@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1594302075 "main.aux" "main.bbl" "main" 1594372329
+["bibtex main"] 1594392338 "main.aux" "main.bbl" "main" 1594394552
   "./utphys.bst" 1590389361 29292 0c046c5170afec86438fbe55350ce834 ""
   "bibtex/hades.bib" 1594107426 27041 cd278af9989cce9e785b631af3a0eb06 ""
-  "main.aux" 1594370589 25139 ae92a86b9dc6cc0f97cfd3482d733193 ""
+  "main.aux" 1594392343 26271 e98d4d8c171832fc63a7b61ccbf2f11e ""
   "main.bcf" 0 -1 0 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1594372329 "main.tex" "main.pdf" "main" 1594372329
+["pdflatex"] 1594394552 "main.tex" "main.pdf" "main" 1594394552
   "/etc/texmf/web2c/texmf.cnf" 1534844958 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -301,7 +301,9 @@
   "Chapter_analysis/L1520_sig_Clean.eps" 1594213096 82874 3fb9ec86f9c95acd64865eff26abc98b ""
   "Chapter_analysis/L1520_sig_SB.eps" 1594107426 24303 f5b5e8a3ff16073e6b80edefc722ca43 ""
   "Chapter_analysis/Miss_PPip.jpg" 0 -1 0 ""
-  "Chapter_analysis/analysis.tex" 1594370589 17527 0d0ad6856c4d35b286f0205ec673450d ""
+  "Chapter_analysis/PipPim.eps" 1594387124 13318 141d48ec33fa9b7a67d749ccd5426160 ""
+  "Chapter_analysis/analysis.tex" 1594394538 18579 8ac1ed2815fdb48623a65b04dabc52db ""
+  "Chapter_analysis/chi2.eps" 1594388229 13556 ad44110f1a7a20f570b0de7c8e683f47 ""
   "Chapter_analysis/geometria.eps" 1594107426 41302 d9b38dd4d394d0f03b1667ff804101cc ""
   "Chapter_analysis/missMass.eps" 1590389361 154814 f345ec320faba91a88e98516a57cd2ac ""
   "Chapter_analysisPNb/analysisPNb.tex" 1594218970 707 5b48b9fb85e5246c68a6c5017893c691 ""
@@ -321,11 +323,11 @@
   "caption.sty" 1590389361 66233 8b81cfab95a1f8fc2f0f6c89415b087a ""
   "caption3.sty" 1590389361 64866 1ea74c5f2d1685881497f021b8f186b2 ""
   "enumitem.sty" 1590389361 42666 6fa770e3485520a6a5f2ea7d259c8f8d ""
-  "main.aux" 1594370589 25139 ae92a86b9dc6cc0f97cfd3482d733193 ""
-  "main.bbl" 1594370589 19207 b8dcb654fcb62315b6faab3eb3bd0f03 "bibtex main"
-  "main.out" 1594370589 10020 5eceb9867c985adc1310eaf94342d3cf ""
-  "main.tex" 1594372315 10651 4028edb0985d8ca24203284f3664fc6d ""
-  "main.toc" 1594370589 4872 9220d6a1279f08f5addbd84efe3593ee ""
+  "main.aux" 1594392343 26271 e98d4d8c171832fc63a7b61ccbf2f11e ""
+  "main.bbl" 1594392338 19207 b8dcb654fcb62315b6faab3eb3bd0f03 "bibtex main"
+  "main.out" 1594392343 10028 8d93b14111794b9bc06b0d4b23bbdedc ""
+  "main.tex" 1594392332 10651 4028edb0985d8ca24203284f3664fc6d ""
+  "main.toc" 1594392343 4874 b7197569e086d6ed5f4b94352bfaf944 ""
   "multirow.sty" 1590389361 5015 cd8d25106b58dfc16af57528a07d0bc9 ""
   "myHacks.tex" 1590389361 2333 d3d828894cf6b5252c553bec90425094 ""
   "physics.sty" 1590389361 29610 a9597219b282d9c78b02393dcd7d4322 ""
@@ -334,8 +336,8 @@
   "uj.jpg" 1590389361 161685 1c75702a7f53f1131405330d4dc4eec2 ""
   "vmargin.sty" 1590389361 6845 5eae49c3f07fead60d92def0a4f5c30f ""
   (generated)
-  "main.toc"
   "main.log"
   "main.pdf"
-  "main.out"
   "main.aux"
+  "main.toc"
+  "main.out"
