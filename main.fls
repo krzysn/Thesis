@@ -1,4 +1,4 @@
-PWD /home/krzysztof/Dokumenty/Thesis
+PWD /home/krzysztof/Dokumenty/Doktorat/Thesis
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -540,11 +540,9 @@ INPUT ./Chapter_analysis/analysis.tex
 INPUT ./Chapter_analysis/analysis.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
+INPUT Chapter_analysis/DeDx_PPim.jpg
+INPUT ./Chapter_analysis/DeDx_PPim.jpg
+INPUT ./Chapter_analysis/DeDx_PPim.jpg
 INPUT Chapter_analysis/missMass.eps
 INPUT ./Chapter_analysis/missMass.eps
 INPUT ./Chapter_analysis/missMass.eps
@@ -554,6 +552,9 @@ INPUT ./Chapter_analysis/missMass.eps
 INPUT ./Chapter_analysis/missMass-eps-converted-to.pdf
 INPUT ./Chapter_analysis/missMass-eps-converted-to.pdf
 INPUT ./Chapter_analysis/missMass-eps-converted-to.pdf
+INPUT Chapter_analysis/Miss_PPip.jpg
+INPUT ./Chapter_analysis/Miss_PPip.jpg
+INPUT ./Chapter_analysis/Miss_PPip.jpg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
@@ -633,11 +634,8 @@ INPUT ./Chapter_analysis/chi2.eps
 INPUT ./Chapter_analysis/chi2-eps-converted-to.pdf
 INPUT ./Chapter_analysis/chi2-eps-converted-to.pdf
 INPUT ./Chapter_analysis/chi2-eps-converted-to.pdf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT ./Chapter_analysisPNb/analysisPNb.tex
 INPUT ./Chapter_analysisPNb/analysisPNb.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT ./Chapter_NN/NN.tex
 INPUT ./Chapter_NN/NN.tex
 INPUT Chapter_NN/setAB.eps
@@ -686,6 +684,11 @@ INPUT ./Chapter_conclusions/conclusions.tex
 INPUT ./Chapter_conclusions/conclusions.tex
 INPUT main.bbl
 INPUT main.bbl
+INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
