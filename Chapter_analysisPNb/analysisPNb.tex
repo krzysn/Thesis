@@ -1,14 +1,17 @@
 \chapter{PNb data analysis}
 \label{chapter:analysis_pNb}
-Complemantary to a data from pp exerimewnt a pNb experimwnt was analized. As a result an inclusive \cs for $\Ls$ together with the reference state $\Lz \Kz$ were measured and compared to previous HADES studies \cite{hades_Sz_pNb,hades_Lp_femtoscopy_pNb,hades_arnold_pNb,hades_Ksi_pNb}. It allows to extend knowladge about hyperons in pNb reactions and to point a key diffrences in experimental reactions between proton-proton and pronon-nucleon reactions.
+Complemantary to a data from pp exerimewnt a pNb experiment was analized. As a result an inclusive \cs for $\Ls$ together with the reference state $\Lz \Kz$ were measured and compared to the previous HADES studies \cite{hades_Sz_pNb,hades_Lp_femtoscopy_pNb,hades_arnold_pNb,hades_Ksi_pNb}. It allows to extend knowladge about hyperons into a pNb reactions and to point key diffrences between proton-proton and pronon-nucleon reactions.
 \section{Identyfication and data selection}
-The used identyfication and selection algorithms were the same as in case of a pp data analaysis.
+The used identyfication and selection algorithms were the same as in case of a pp data analaysis. However in proton-nucleus reaction it is impossible to directly use the energy-momentum conservation rule. They are two main obstacles: part of four-momentum may be transfered to the nucleus as a recoil and nuceons in nucleus are not in rest. All together prevents from a use of the missing mass cut. As a replacement a set of hard cuts was applayed.
 
 \section{The $\Lz$ Reconstruction}
+The main tool for $\Lz$ reconstruction stays the same as for in chapter \ref{chapter:analysis}. It is a neural network trained in a data-driven maner. Aldouth for a good signal extraction a set of additional pre-cuts was necessary. They are summerized in tab. ???
+
+After applaying all cuts described in above table a signal~to~background ratio ??? was obtained. The result is shown in fig. \ref{fig:L1116SB_pNb}.
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.7 \linewidth]{Chapter_analysisPNb/Lz.eps}
-  \caption{The $\Lz$ spectrum after a neural network analysis obtained for pNb experiment. Color coding the same as in fig. \ref{fig:L1116SB}, vertical lines denotes regions of a side-band and are adjusted for pNb data.}
+  \caption{The $\Lz$ spectrum after a neural network analysis obtained for pNb experiment. Color coding the same as in fig. \ref{fig:L1116SB}, vertical lines denotes regions of a side-band and were adjusted for pNb exclusively.}
   \label{fig:L1116SB_pNb}
 \end{figure}
 

@@ -35,12 +35,12 @@
 \contentsline {chapter}{\numberline {4}PNb data analysis}{17}{chapter.50}
 \contentsline {section}{\numberline {4.1}Identyfication and data selection}{17}{section.51}
 \contentsline {section}{\numberline {4.2}The $\mathrm {\Lambda ^0}$ Reconstruction}{17}{section.52}
-\contentsline {section}{\numberline {4.3}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction}{17}{section.54}
-\contentsline {section}{\numberline {4.4}The $\mathrm {\Lambda (1520)}$ Reconstruction}{17}{section.56}
-\contentsline {subsection}{\numberline {4.4.1}Event mixing}{17}{subsection.57}
-\contentsline {subsection}{\numberline {4.4.2}Cross-section and extraction differential analysis}{17}{subsection.58}
-\contentsline {subsection}{\numberline {4.4.3}Analysis of a $\mathrm {\pi ^{+}}\mathrm {\pi ^{-}}$ spectrum}{17}{subsection.61}
-\contentsline {section}{\numberline {4.5}Comparison with results from pp data}{17}{section.62}
+\contentsline {section}{\numberline {4.3}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction}{19}{section.54}
+\contentsline {section}{\numberline {4.4}The $\mathrm {\Lambda (1520)}$ Reconstruction}{19}{section.56}
+\contentsline {subsection}{\numberline {4.4.1}Event mixing}{19}{subsection.57}
+\contentsline {subsection}{\numberline {4.4.2}Cross-section and extraction differential analysis}{19}{subsection.58}
+\contentsline {subsection}{\numberline {4.4.3}Analysis of a $\mathrm {\pi ^{+}}\mathrm {\pi ^{-}}$ spectrum}{19}{subsection.61}
+\contentsline {section}{\numberline {4.5}Comparison with results from pp data}{19}{section.62}
 \contentsline {chapter}{\numberline {5}Neural networks}{21}{chapter.63}
 \contentsline {section}{\numberline {5.1}The ROC curve and the optimal classifier}{21}{section.64}
 \contentsline {section}{\numberline {5.2}The data-driven approach}{22}{section.66}
