@@ -22,7 +22,7 @@ For pp@3.5 GeV collisions the production threshold for $\Ls$ ($E^{\mathrm{thr}}_
 \begin{equation}
   \p\p \rightarrow \p \Kp \Ls [\Lz \pip \pim],
 \end{equation}
-the smallest missing mass for the signal channel is $\Sqs - \Ls_{mass}= 1432$ MeV. It is a very strong kinematic constrain which separates well the signal from most of background channels. The missing mass spectrum is presented in fig. \ref{fig:missMass}. There is visible a resonance behaviour around 1200 MeV. Due to a charge conservation rule missing particles have to have a total charge +2. It leads to the conclusion that the missing mass spectrum is dominated by a $\Dpp$ production.
+the smallest missing mass for the signal channel is $\Sqs - \Ls_{mass}= 1432$ MeV. It is a very strong kinematic constrain which separates well the signal from most of background channels. The missing mass spectrum is presented in fig. \ref{fig:missMass}. There is visible a resonance behaviour around 1200 MeV. Due to conservation rules missing particles have to have a total charge +2 and a baryon number +1. It leads to the conclusion that the missing mass spectrum is dominated by a $\Dpp$ production.
 
 \begin{figure}[ht]
   \centering
@@ -130,7 +130,7 @@ A side-band analysis bases on assumption that a background kinematic changes slo
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.7 \linewidth]{Chapter_analysis/L1520_sig_SB.eps}
-  \caption{The $\p \pim \pip \pim$ spectrum for events from signal region ($M_{\p \pim}^{inv}\in(1106,1126)$) -blue points, and from SB regions ($M_{\p \pim}^{inv}\in(1089,1106] \cup [1126,1143)$) - read points. Error bars shows a statistical uncertainty}
+  \caption{The $\p \pim \pip \pim$ spectrum for events from signal region ($M_{\p \pim}^{inv}\in(1106,1126)$) -blue points, and from SB regions ($M_{\p \pim}^{inv}\in(1089,1106] \cup [1126,1143)$) - red points. Error bars shows a statistical uncertainty}
   \label{fig:Ls_SB}
 \end{figure}
 
@@ -146,7 +146,15 @@ Despite the side-band spectrum describes a background shape very well, there is 
 
 An identification of the background channels allows to simulate them and, together with a simulation of the signal channel estimate an inclusive \cs for $ \p\p \rightarrow \Ls \mathrm{X}$ reaction. The signal channel was simulated according to exclusive cross section measured by HADES$\sigma_{\p\p\rightarrow \p \Kp \Ls}=6.5 \mathrm{\mu b}$ \cite{hades_L1520}. Next the simulated signal spectrum was scaled up to get the same area under a simulation and experimental histogram. Finally, according to the obtained scaling an inclusive \cs is equal $\sigma_{\p\p \rightarrow \Ls \mathrm{X}}=7.1\pm 1.5 \mathrm{\mu b}$. A uncertainty comes from a statistical error.
 
-The total yield of detected decays allows to conduct a simple differential analysis. A transverse momentum ($p_t$) and rapidity ($\Upsilon$) was calculated for each reconstructed $\Ls$. Obtained spectra are presented in fig ???
+The total yield of detected decays allows to conduct a simple differential analysis. A transverse momentum ($p_t$) and rapidity ($\Upsilon$) was calculated for each reconstructed $\Ls$. Obtained spectra are presented in fig. \ref{fig:WPt}.
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.9 \linewidth]{Chapter_analysis/WPt.eps}
+  \caption{A rapidity and $p_t$ spectrum for $\Ls$ events. Error bars denote statistical errors. The esperimental data (blue points) is compared with the simulation (magenta line). A simulation is additionally decomposed into a signal channel (green line) and an combinatorial background (red line) contribution. Dashedd vertical lines show a mean values for $p_t$ and $\Upsilon$ distribution. }
+  \label{fig:WPt}
+\end{figure}
+
+
 
 \subsection{Analysis of a $\pip \pim$ spectrum}
 In simulation model used for the \cs extraction pions were emitted according to available phase-space. However it is possible that pion production occurs through a virtual $\rho$ meson. A possible $\rho$ contribution would manifest by a distortion of a $\pip \pim$ spectrum compared to direct production. An alternative simulation with the $\rho$ decay was also prepared and both of them compared with experimental data. The comparison between an experimental data and simulations is shown in fig. \ref{fig:pip_pim}.  
