@@ -5,6 +5,7 @@ The style file: utphys.bst
 Database file #1: bibtex/hades.bib
 Warning--string name "c" is undefined
 --line 156 of file bibtex/hades.bib
+Warning--I didn't find a database entry for "fig:DD"
 Warning--empty pages in Zweig
 Warning--empty pages in Ronniger2012
 Warning--empty pages in hades_PWA_pKpL
@@ -17,7 +18,7 @@ Warning--empty pages in Neyman-Pearson
 Warning--empty publisher in L-B
 You've used 31 entries,
             2608 wiz_defined-function locations,
-            855 strings with 23745 characters,
+            857 strings with 23757 characters,
 and the built_in function-call counts, 18996 in all, are:
 = -- 881
 > -- 2617
@@ -56,4 +57,4 @@ warning$ -- 10
 while$ -- 66
 width$ -- 33
 write$ -- 248
-(There were 11 warnings)
+(There were 12 warnings)
