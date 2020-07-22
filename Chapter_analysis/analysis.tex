@@ -3,6 +3,48 @@
 The HADES collaboration has performed a proton-proton experiment with protons kinetic energy 3.5 GeV in September 2012. Data collected during this experiment has allowed to conduct a series of analysis devoted to hyperons' studies \cite{hades_inclL_35,hades_L1405,hades_L1520,hades_PWA_pKpL,hades_S1385}. In the following thesis the hyperon studies is extended by a $\Ls$ inclusive reconstruction. A reconstructed four particles $\p \pim \pip \pim$ final state allows to reconstruct the $\Ls$ and  a $\Lz \Kz$ inclusive production. The obtained results were compared with previous, exclusive measurements and used to constrain simulation of a new experiment devoted to hyperon studies \ref{chapter:simulations}.
 
 All methods developed for pp@3.5 GeV experiment were also used for data collected during pNb@3.5GeV experiment. The detailed description of the pNb data analysis is in Ch. \ref{chapter:analysis_pNb}. 
+\section{The pp @3.5 GeV experiment}
+\subsection{The target and the trigger system}
+\subsection{Absolute normalization}
+\label{sec:normalization}
+An integrated luminosity for the pp experiment was calculated using a pp elastic scattering, it was
+\begin{equation}
+  L^{int}=3.13 \cdot 10^8 mb^{-1}.
+\end{equation}
+Thanks to a full scale simulation performed in HYDRA framework (for more details see chapter \ref{chapter:simulations}) it is possible to get a total detection efficiency for given reaction. The efficiency, together with known luminosity and a \cs allows for an expected count rate estimation, for any reaction.
+\begin{equation}
+  N^{\mathrm{expected}}_{pp\rightarrow X}=\frac{N_{\mathrm{detected}}}{N_{\mathrm{Simulated \; in \;} 4 \pi} \cdot 3} \cdot \sigma_{pp\rightarrow X} \cdot L.
+\end{equation}
+The factor 3 in denominator is connected with a trigger down-scaling. Due to limited read-out capabilities For a hadronic channels each 3th triggered event was saved on tapes. A list of the reactions used in following analysis are in \ref{tab:channels}. 
+\begin{table}
+    \centering
+  \caption{List of the channels considered in following chapter. Numbers from 3 up to 10 indicates reactions containing $\p \pim \pip \pim$ in a final state. They are treated as a possible background channels. All values taken from \cite{hades_inclL_35}.}
+  \label{tab:channels}
+  \begin{tabular}{rll}
+    \hline
+    no. &Channel & $\sigma$ [$\mu \barn$]\\
+    \hline
+    \hline
+    \multicolumn{3}{c}{3-body reactions} \\
+    \hline
+    1 & $\Lz \p \Kp$&$35.26 \pm 0.43 ^{+3.55}_{-2.83}$\\
+    2 & $\Sz \p \Kp$&$16.5 \pm 20\%$\\
+    3 & $\Lz \Dpp \Kz$&$29.45\pm 0.08 ^{+1.67}_{-1.46}\pm 2.06$\\
+    4 & $\Sz \Dpp \Kz$&$9.26 \pm 0.05 ^{+1.41} _{0.31}\pm 0.65$\\
+    5 & $\Sigma(1385)^+ \p \Kz$&$14.05 \pm 0.05 ^{+1.79}_{-2.14}\pm 1.00$\\
+    6 & $\Dpp \Lss \Kz$&$5.0\pm 20\%$\\
+    7 &$\Dpp \Ss \Kz$& $3.5 \pm 20\%$\\
+    8 &$\Dp \Sigma(1358)^+ \Kz$&$2.3 \pm 20\%$\\
+    \hline
+    \multicolumn{3}{c}{4-body reactions} \\
+    \hline
+    9 &$\Lambda \p \pip \Kz $& $2.57 \pm 0.02 ^{+0.21}_{-1.98}\pm 0.18$\\
+    10&$\Sz \p \pip \Kz$& $1.35 \pm 0.02 ^{+0.10}_{-1.35}\pm 0.09$\\
+    \hline
+  \end{tabular}
+  
+\end{table}
+
 \section{Particles identification}
 The HADES detector allows for two complementary methods of particles identification. The first, bases on particles' time of flight measured in the ToF detectors and particle's momentum measured in the MDC detector. The second method, bases on the MDC exclusively and uses combine information about particles' momentum and energy losses. The first one is favoured due to better precision, however a limited geometrical acceptance of the TOF detectors reduces detection efficiency by a factor 0.8 for each particle. In case of four particles final state, discussed in this thesis, a total loss caused by the TOF detectors  can reach 60\% of all detected particles. For that reason the $\frac{de}{dx}$ vs. $\p$ identification method was used. The identification cuts have been optimized for previous analysis conducted by by HADES experiment and described in \cite{hades_inclL_35,lalik_phd}.Contours used for $\pim$ and $\pip$ are the same and differs only by electric charge.
 \begin{figure}[ht]
@@ -71,45 +113,6 @@ Using a procedure described in \ref{sec:normalization} the simulation was compar
   \label{fig:K0L0}
 \end{figure}
 
-\section{Absolute normalization}
-\label{sec:normalization}
-An integrated luminosity for the pp experiment was calculated using a pp elastic scattering, it was
-\begin{equation}
-  L^{int}=3.13 \cdot 10^8 mb^{-1}.
-\end{equation}
-Thanks to a full scale simulation performed in HYDRA framework (for more details see chapter \ref{chapter:simulations}) it is possible to get a total detection efficiency for given reaction. The efficiency, together with known luminosity and a \cs allows for an expected count rate estimation, for any reaction.
-\begin{equation}
-  N^{\mathrm{expected}}_{pp\rightarrow X}=\frac{N_{\mathrm{detected}}}{N_{\mathrm{Simulated \; in \;} 4 \pi} \cdot 3} \cdot \sigma_{pp\rightarrow X} \cdot L.
-\end{equation}
-The factor 3 in denominator is connected with a trigger down-scaling. Due to limited read-out capabilities For a hadronic channels each 3th triggered event was saved on tapes. A list of the reactions used in following analysis are in \ref{tab:channels}. 
-\begin{table}
-    \centering
-  \caption{List of the channels considered in following chapter. Numbers from 3 up to 10 indicates reactions containing $\p \pim \pip \pim$ in a final state. They are treated as a possible background channels. All values taken from \cite{hades_inclL_35}.}
-  \label{tab:channels}
-  \begin{tabular}{rll}
-    \hline
-    no. &Channel & $\sigma$ [$\mu \barn$]\\
-    \hline
-    \hline
-    \multicolumn{3}{c}{3-body reactions} \\
-    \hline
-    1 & $\Lz \p \Kp$&$35.26 \pm 0.43 ^{+3.55}_{-2.83}$\\
-    2 & $\Sz \p \Kp$&$16.5 \pm 20\%$\\
-    3 & $\Lz \Dpp \Kz$&$29.45\pm 0.08 ^{+1.67}_{-1.46}\pm 2.06$\\
-    4 & $\Sz \Dpp \Kz$&$9.26 \pm 0.05 ^{+1.41} _{0.31}\pm 0.65$\\
-    5 & $\Sigma(1385)^+ \p \Kz$&$14.05 \pm 0.05 ^{+1.79}_{-2.14}\pm 1.00$\\
-    6 & $\Dpp \Lss \Kz$&$5.0\pm 20\%$\\
-    7 &$\Dpp \Ss \Kz$& $3.5 \pm 20\%$\\
-    8 &$\Dp \Sigma(1358)^+ \Kz$&$2.3 \pm 20\%$\\
-    \hline
-    \multicolumn{3}{c}{4-body reactions} \\
-    \hline
-    9 &$\Lambda \p \pip \Kz $& $2.57 \pm 0.02 ^{+0.21}_{-1.98}\pm 0.18$\\
-    10&$\Sz \p \pip \Kz$& $1.35 \pm 0.02 ^{+0.10}_{-1.35}\pm 0.09$\\
-    \hline
-  \end{tabular}
-  
-\end{table}
 
 
 \section{The $\Ls$ Reconstruction}
