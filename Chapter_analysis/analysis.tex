@@ -60,9 +60,15 @@ The HADES detector allows for two complementary methods of particles identificat
 \end{figure}
 
 
-
 \section{Event selection}
 Among all registered events only these containing at least four charged particles (two positive and two negative) was considered in analysis. They have been also observed events with more than four particles detected. They produces kombinatorics which are very difficult to control during further analysis. Because of that, only one four-particle combination from every event was taken. The combinations were ordered according to track reconstruction quality and the best one was chosen. Additionally an equivocation in $\pim$ selection requires an additional criteria to define which particle belongs to $\Lz$. Fortunately a $\Lz$ hyperon is a very narrow resonance what gives a criteria for $\pim$ classification. Within one hypothesis, both $pim$s were combined with a proton track and an invariant mass for those pairs ($\mathrm{M}^{inv}_{\p\pim}$) were calculated. The $\pim$ which gives better agreement with $\Lz$ pole mass was treated as originated from secondary vertex.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7 \linewidth]{Chapter_analysis/mult.eps}
+  \caption{Particles multiplicity for a final state wich requires two particles witch charge +1 and two with -1. It is visible that only in 54\% cases exectly four charged particles, were registered by detector. All cases with more than 4 particles requires some cryteria to take a proper combination from all possible. An asymetry between positively- and negatively-charged particles is caused by an initial state electric charge.}   
+  \end{figure}
+
 \section{Reaction kinematics}
 \label{section:kinematics}
 For pp@3.5 GeV collisions the production threshold for $\Ls$ ($E^{\mathrm{thr}}_{\p\Kp\Lz}=$) lies just below available energy ($\Sqs=$). Using the rule of a energy-momentum conservation is possible to calculate missing mass for observed particles. Because the analyzed final state is produced via reaction
@@ -91,7 +97,16 @@ Because in HADES energy regime almost all pions are produced via barionic resona
 \section{The $\Lz$ Reconstruction}
 The next step of the analysis after a missing mass cut was an inclusive $\Lz$ reconstruction. In previous HADES experiments the reconstruction had based on a set of geometrical cuts. Their role was to increase signal-to-background ratio utilizing a $Lz$ decay geometry. Because the $\Lz$ decays via week interactions its lifetime is relatively long:$c\tau = 7.89 cm$ \cite{PDG}. That may be used to discriminate an out of target vertex from a background originates from a target.
 
-As it was shown in \ref{section:kinematics} an available phase-space for $\Ls$ production for a $E_k=3.5$ GeV is very limited. An inclusive analysis performed in \cite{hades_L1520} has measured ?? events of $Ls$ after all cuts. To improve statistics, and also examine new reconstruction methods in following analysis a neural network was used as a replacement of the geometrical cuts. Details about used method are explained in chapter \ref{chapter:NN}.
+As it was shown in \ref{section:kinematics} an available phase-space for $\Ls$ production for a $E_k=3.5$ GeV is very limited. An inclusive analysis performed in \cite{hades_L1520} has measured ?? events of $Ls$ after all cuts. To improve statistics, and also examine new reconstruction methods in following analysis a neural network was used as a replacement of the geometrical cuts. Details about used method and an optimalization proces are explained in chapter \ref{chapter:NN}.
+
+The final network archtecture used for $\Lz$ reconstruction is a feed-forward dense network with 4 layers, each N+6 neurons, where N is a number of scalar input parameters. Because the network took role after geometrical cuts, as an input eleven geometrical variables had been taken:
+\begin{itemize}
+\item Distance between $\p \pim$
+\item $\Lz$ vertex cooridanes, reconstructed as a point of the closest aproach of $\p$ and $\pim$ tracks
+\item $\Ls$ vertex coordinates, reconstructed as a point of the closest approach of $\pip$ and $\pim$ tracks
+\item $\Ls$ vertex coordinates, reconstructed by tracking algorithm as a primary vertex
+\item Opaning angle between reconstructed $\Lz$ vector and a line conecting primary and secondary verteces
+\end{itemize}
 
 The optimized neural network enhanced a signal to background ratio from ??? without any cuts to ???. A $\Lz$ signal obtained in this way was used for a next steps of analysis: the $\Ls$ analysis (chapter \ref{section:Ls}) and associated $\Lz \Kz$ production (chapter \ref{section:LzKz});
 

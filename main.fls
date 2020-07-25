@@ -543,6 +543,15 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT Chapter_analysis/DeDx_PPim.jpg
 INPUT ./Chapter_analysis/DeDx_PPim.jpg
 INPUT ./Chapter_analysis/DeDx_PPim.jpg
+INPUT Chapter_analysis/mult.eps
+INPUT ./Chapter_analysis/mult.eps
+INPUT ./Chapter_analysis/mult.eps
+INPUT ./Chapter_analysis/mult-eps-converted-to.pdf
+INPUT ./Chapter_analysis/mult-eps-converted-to.pdf
+INPUT ./Chapter_analysis/mult.eps
+INPUT ./Chapter_analysis/mult-eps-converted-to.pdf
+INPUT ./Chapter_analysis/mult-eps-converted-to.pdf
+INPUT ./Chapter_analysis/mult-eps-converted-to.pdf
 INPUT Chapter_analysis/missMass.eps
 INPUT ./Chapter_analysis/missMass.eps
 INPUT ./Chapter_analysis/missMass.eps
