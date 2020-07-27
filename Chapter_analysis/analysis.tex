@@ -1,18 +1,18 @@
 \chapter{PP data analysis}
 \label{chapter:analysis}
-The HADES collaboration has performed a proton-proton experiment with protons kinetic energy 3.5 GeV in September 2012. Data collected during this experiment has allowed to conduct a series of analysis devoted to hyperons' studies \cite{hades_inclL_35,hades_L1405,hades_L1520,hades_PWA_pKpL,hades_S1385}. In the following thesis the hyperon studies is extended by a $\Ls$ inclusive reconstruction. A reconstructed four particles $\p \pim \pip \pim$ final state allows to reconstruct the $\Ls$ and  a $\Lz \Kz$ inclusive production. The obtained results were compared with previous, exclusive measurements and used to constrain simulation of a new experiment devoted to hyperon studies \ref{chapter:simulations}.
+The HADES collaboration has performed a proton-proton experiment with beam kinetic energy 3.5 GeV in September 2012. Data collected during this experiment has allowed to conduct a series of analysis devoted to hyperons' studies \cite{hades_inclL_35,hades_L1405,hades_L1520,hades_PWA_pKpL,hades_S1385}. In the following thesis the hyperon studies is extended by a $\Ls$ inclusive reconstruction. A research conducted with a four particles $\p \pim \pip \pim$ final state allows to reconstruct the $\Ls$ and  a $\Lz \Kz$ inclusive signals. The obtained results were compared with previous, exclusive measurements and used to constrain simulation of a new experiment devoted to hyperon studies \ref{chapter:simulations}.
 
 All methods developed for pp@3.5 GeV experiment were also used for data collected during pNb@3.5GeV experiment. The detailed description of the pNb data analysis is in Ch. \ref{chapter:analysis_pNb}. 
 \section{The pp @3.5 GeV experiment}
 
 \subsection{The target and the trigger system}
-During the experiment a liqid hydrogen (LH2) target was used. The hydrogen was stored in a special tank designet to keep comstant tamperature 20K. Its length was 50 mm, what coresponds to interaction probability 0.7\% for protons with koinetic energy 3.5 GeV. The beam density reached $10^6$ particles/s. For data selection a two-level trigger was used. The first level (LVL0) was deditaced for di-lepton studies ???. The second trigger level (LVL1) was dedicated to hadronic reactions and required at least three charged particles registered in META detectors. More over, to reduce a data flux only every third LVL1 event was recorded by DAQ system and stored for further analysis. During four-weeks experimental campaign in total $1.14 \times 10^9$ LVL1 events were recorded \cite{hades_inclL_35}.
+During the experiment a liqid hydrogen (LH2) target was used. The hydrogen was stored in a special tank designet to keep comstant tamperature 20K. Its length was 50 mm, what coresponds to interaction probability 0.7\% for protons with koinetic energy 3.5 GeV. The beam density reached $10^6$ particles/s. For data selection a two-level trigger was used. The first level (LVL0) was deditaced for di-lepton studies ???(opis). The second trigger level (LVL1) was dedicated to hadronic reactions and required at least three charged particles registered in META detectors. More over, to reduce a data flux only every third LVL1 event was recorded by DAQ system and stored for further analysis. During four-weeks experimental campaign in total $1.14 \times 10^9$ LVL1 events were recorded \cite{hades_inclL_35}.
 
 Due to technical circumstances the pp experiment was conducted without the start detector. A time of fligh for each particle was calculated based on a difference between different paticles velocitis.
 OPIS METODY
 \subsection{Absolute normalization}
 \label{sec:normalization}
-An integrated luminosity for the pp experiment was calculated using a pp elastic scattering, it was
+An integrated luminosity for the pp experiment was calculated using a pp elastic scattering [ref], it was
 \begin{equation}
   L^{int}=3.13 \cdot 10^8 mb^{-1}.
 \end{equation}
@@ -20,7 +20,7 @@ Thanks to a full scale simulation performed in HYDRA framework (for more details
 \begin{equation}
   N^{\mathrm{expected}}_{pp\rightarrow X}=\frac{N_{\mathrm{detected}}}{N_{\mathrm{Simulated \; in \;} 4 \pi} \cdot 3} \cdot \sigma_{pp\rightarrow X} \cdot L.
 \end{equation}
-The factor 3 in denominator is connected with a trigger down-scaling. Due to limited read-out capabilities For a hadronic channels each 3th triggered event was saved on tapes. A list of the reactions used in following analysis are in \ref{tab:channels}. 
+The factor 3 in denominator is connected with a trigger down-scaling. Due to limited read-out capabilities for hadronic channels each 3th triggered event was saved on tapes. A list of the reactions simulated for following analysis is prezented in \ref{tab:channels}. 
 \begin{table}
     \centering
   \caption{List of the channels considered in following chapter. Numbers from 3 up to 10 indicates reactions containing $\p \pim \pip \pim$ in a final state. They are treated as a possible background channels. All values taken from \cite{hades_inclL_35}.}
@@ -61,13 +61,16 @@ The HADES detector allows for two complementary methods of particles identificat
 
 
 \section{Event selection}
-Among all registered events only these containing at least four charged particles (two positive and two negative) was considered in analysis. They have been also observed events with more than four particles detected. They produces kombinatorics which are very difficult to control during further analysis. Because of that, only one four-particle combination from every event was taken. The combinations were ordered according to track reconstruction quality and the best one was chosen. Additionally an equivocation in $\pim$ selection requires an additional criteria to define which particle belongs to $\Lz$. Fortunately a $\Lz$ hyperon is a very narrow resonance what gives a criteria for $\pim$ classification. Within one hypothesis, both $pim$s were combined with a proton track and an invariant mass for those pairs ($\mathrm{M}^{inv}_{\p\pim}$) were calculated. The $\pim$ which gives better agreement with $\Lz$ pole mass was treated as originated from secondary vertex.
+Among all registered events only these containing at least four charged particles (two positive and two negative) was considered in analysis. They have been also observed events with more than four particles detected (fig. \ref{fig:mult}). They produces kombinatorics which are very difficult to control during further analysis. Because of that, only one four-particle combination from every event was taken. The combinations were ordered according to track reconstruction quality. For each combination the sum of $chi^2$ for all tracks was calculated, and the best reconstructed combination was taken. 
+
+Additionally an equivocation in $\pim$ selection requires an additional criteria to define which particle belongs to $\Lz$. Fortunately a $\Lz$ hyperon is a very narrow resonance what gives a natural criteria for $\pim$ classification. Within one hypothesis, both $pim$s were combined with a proton track and an invariant mass for those pairs ($\mathrm{M}^{inv}_{\p\pim}$) were calculated. The $\pim$ which gives better agreement with $\Lz$ pole mass was treated as originated from secondary vertex.
 
 \begin{figure}
   \centering
   \includegraphics[width=0.7 \linewidth]{Chapter_analysis/mult.eps}
   \caption{Particles multiplicity for a final state wich requires two particles witch charge +1 and two with -1. It is visible that only in 54\% cases exectly four charged particles, were registered by detector. All cases with more than 4 particles requires some cryteria to take a proper combination from all possible. An asymetry between positively- and negatively-charged particles is caused by an initial state electric charge.}   
-  \end{figure}
+  \label{fig:mult}
+\end{figure}
 
 \section{Reaction kinematics}
 \label{section:kinematics}
@@ -98,6 +101,14 @@ Because in HADES energy regime almost all pions are produced via barionic resona
 The next step of the analysis after a missing mass cut was an inclusive $\Lz$ reconstruction. In previous HADES experiments the reconstruction had based on a set of geometrical cuts. Their role was to increase signal-to-background ratio utilizing a $Lz$ decay geometry. Because the $\Lz$ decays via week interactions its lifetime is relatively long:$c\tau = 7.89 cm$ \cite{PDG}. That may be used to discriminate an out of target vertex from a background originates from a target.
 
 As it was shown in \ref{section:kinematics} an available phase-space for $\Ls$ production for a $E_k=3.5$ GeV is very limited. An inclusive analysis performed in \cite{hades_L1520} has measured ?? events of $Ls$ after all cuts. To improve statistics, and also examine new reconstruction methods in following analysis a neural network was used as a replacement of the geometrical cuts. Details about used method and an optimalization proces are explained in chapter \ref{chapter:NN}.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.7 \linewidth]{Chapter_analysis/NN.eps}
+  \caption{A used neural network architecture.}
+  \label{fig:NN}
+\end{figure}
+
 
 The final network archtecture used for $\Lz$ reconstruction is a feed-forward dense network with 4 layers, each N+6 neurons, where N is a number of scalar input parameters. Because the network took role after geometrical cuts, as an input eleven geometrical variables had been taken:
 \begin{itemize}
@@ -198,3 +209,5 @@ where $N \in [0,1]$. An agreement between data and simulation was tested by $\ch
   \caption{A $\chi^2$ between simulation and data in function of N (see eq. \ref{eq:rho}). The N=0 refers for a situation when no $\rho$ contribution is present. It describes data the best, however due to signal statistics any N from 0 to 0.4 gives a good data description $\chi^2<1$.}
   \label{fig:chi2}
 \end{figure}
+
+\section{Systematic error studies}
