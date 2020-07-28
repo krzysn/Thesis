@@ -58,7 +58,7 @@ The factor 3 in denominator is connected with a trigger down-scaling. Due to lim
 \end{table}
 
 \section{Particles identification}
-The HADES detector allows for two complementary methods of particles identification. The first, bases on particles' time of flight measured in the ToF detectors and particle's momentum measured in the MDC detector. The second method, bases on the MDC exclusively and uses combine information about particles' momentum and energy losses. The first one is favoured due to better precision, however a limited geometrical acceptance of the TOF detectors reduces detection efficiency by a factor 0.8 for each particle. In case of four particles final state, discussed in this thesis, a total loss caused by the TOF detectors  can reach 60\% of all detected particles. For that reason the $\frac{de}{dx}$ vs. $\p$ identification method was used. The identification cuts have been optimized for previous analysis conducted by by HADES experiment and described in \cite{hades_inclL_35,lalik_phd}.Contours used for $\pim$ and $\pip$ are the same and differs only by electric charge.
+The HADES detector allows for two complementary methods of particles identification. The first, bases on particles' time of flight measured in the ToF detectors and particle's momentum measured in the MDC detector. The second method, bases on the MDC exclusively and uses combine information about particles' momentum and energy losses. The first one is favoured due to better precision, however a limited geometrical acceptance of the TOF detectors reduces detection efficiency by a factor 0.8 for each particle. In case of four particles final state, discussed in this thesis, a total loss caused by the TOF detectors  can reach 60\% of all detected particles. For that reason the $\frac{de}{dx}$ vs. $\p$ identification method was used. Ientification cuts have been optimized for previous analysis conducted by by HADES experiment and described in \cite{hades_inclL_35,lalik_phd}.Contours used for $\pim$ and $\pip$ are the same and differs only by electric charge.
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.9 \linewidth]{Chapter_analysis/DeDx_PPim.jpg}
@@ -106,25 +106,37 @@ Because in HADES energy regime almost all pions are produced via barionic resona
 
 \section{The $\Lz$ Reconstruction}
 The next step of the analysis after a missing mass cut was an inclusive $\Lz$ reconstruction. In previous HADES experiments the reconstruction had based on a set of geometrical cuts. Their role was to increase signal-to-background ratio utilizing a $Lz$ decay geometry. Because the $\Lz$ decays via week interactions its lifetime is relatively long:$c\tau = 7.89 cm$ \cite{PDG}. That may be used to discriminate an out of target vertex from a background originates from a target.
-
-As it was shown in \ref{section:kinematics} an available phase-space for $\Ls$ production for a $E_k=3.5$ GeV is very limited. An inclusive analysis performed in \cite{hades_L1520} has measured ?? events of $Ls$ after all cuts. To improve statistics, and also examine new reconstruction methods in following analysis a neural network was used as a replacement of the geometrical cuts. Details about used method and an optimalization proces are explained in chapter \ref{chapter:NN}.
-
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.7 \linewidth]{Chapter_analysis/NN.eps}
-  \caption{A used neural network architecture.}
+  \caption{An architecture of a nural network used in analysis. For a simplicity only connections of the first neuron from the first layer were drawn. In dense network output from each of neurons is passed to every neuron in a next layer. A particular designed used for a $\Lz$ reconstruction consist of 4 layers: an input layer and 3 hidden. The network width (number of neyrons in one layer) was adjusted to a amount of input parameters and was 15.}
   \label{fig:NN}
 \end{figure}
 
+As it was shown in \ref{section:kinematics} an available phase-space for $\Ls$ production for a $E_k=3.5$ GeV is very limited. An inclusive analysis performed in \cite{hades_L1520} has measured ?? events of $Ls$ after all cuts. To improve statistics, and also examine new reconstruction methods in following analysis a neural network was used as a replacement of the geometrical cuts. Details about used method and an optimalization proces are explained in chapter \ref{chapter:NN}.
 
-The final network archtecture used for $\Lz$ reconstruction is a feed-forward dense network with 4 layers, each N+6 neurons, where N is a number of scalar input parameters. Because the network took role after geometrical cuts, as an input eleven geometrical variables had been taken:
+\begin{figure}[hb]
+  \centering
+  \includegraphics[width=0.7 \linewidth]{Chapter_analysis/geometria_NN.eps}
+  \caption{A graphical representation of variables used as an oinput for neural network.}
+  \label{fig:NN_cuts}
+\end{figure}
+
+
+The final network archtecture used for $\Lz$ reconstruction is a feed-forward dense network with 4 layers, each N+6 neurons, where N is a number of scalar input parameters. For each neuron a sigmoid took role of an activation function. Because the network took role after geometrical cuts, as an input eleven geometrical variables had been taken:
 \begin{itemize}
-\item Distance between $\p \pim$
+\item Distance between $\p \pim$ from $\Lz$
+\item Distance between $\pip$ and $\pim$ from primaty vertex
 \item $\Lz$ vertex cooridanes, reconstructed as a point of the closest aproach of $\p$ and $\pim$ tracks
 \item $\Ls$ vertex coordinates, reconstructed as a point of the closest approach of $\pip$ and $\pim$ tracks
 \item $\Ls$ vertex coordinates, reconstructed by tracking algorithm as a primary vertex
 \item Opaning angle between reconstructed $\Lz$ vector and a line conecting primary and secondary verteces
+\item Distance between $\p$ from $\Lz$ decay and primary vertex
+\item Distance between $\pim$ from $\Lz$ decay and primary vertex
+\item Distance between reconstructed $\Lz$ direction and primary vertex
+\item Distance between primary and secondary vertexes
 \end{itemize}
+
 
 The optimized neural network enhanced a signal to background ratio from ??? without any cuts to ???. A $\Lz$ signal obtained in this way was used for a next steps of analysis: the $\Ls$ analysis (chapter \ref{section:Ls}) and associated $\Lz \Kz$ production (chapter \ref{section:LzKz});
 
@@ -218,3 +230,4 @@ where $N \in [0,1]$. An agreement between data and simulation was tested by $\ch
 \end{figure}
 
 \section{Systematic error studies}
+The entire studies reduces data from ??? events to ???. Each of the cuts used for analysis may be a potenial source of sytematic uncertentities. Cuts have been waried to estimate this efect. Tab ??? contains set of possible sources of error.

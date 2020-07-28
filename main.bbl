@@ -126,6 +126,13 @@ G.~Agakishiev, A.~Balanda, D.~Belver, A.~Belyaev, A.~Blanco, M.~Boehmer,
   Y.~Zanevsky, ``Baryonic resonances close to the kbar-n threshold: the case of
   $\sigma(1385)^+$ in pp collisions,'' {\em Physical Review C} (09, 2011)  .
 
+\bibitem{hades_DAQ}
+J.~Michel, M.~Boehmer, M.~Kajetanowicz, G.~Korcyl, L.~Maier, M.~Palka,
+  J.~Stroth, A.~Tarantola, M.~Traxler, C.~Ugur, and S.~Yurevich, ``The upgraded
+  hades trigger and data acquisition system,''
+  \href{http://dx.doi.org/10.1088/1748-0221/6/12/C12056}{{\em Journal of
+  Instrumentation} {\bfseries 6} (12, 2011)  C12056}.
+
 \bibitem{dybczak_phd}
 A.~Dybczak, ``Pomiar produkcji mezonów $\omega$/$\rho$ w reakcji p+p i p+nb
   przy energii kinetycznej wiązki 3,5 gev za pomocą spektrometru hades.,''
