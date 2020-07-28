@@ -6,10 +6,17 @@ All methods developed for pp@3.5 GeV experiment were also used for data collecte
 \section{The pp @3.5 GeV experiment}
 
 \subsection{The target and the trigger system}
-During the experiment a liqid hydrogen (LH2) target was used. The hydrogen was stored in a special tank designet to keep comstant tamperature 20K. Its length was 50 mm, what coresponds to interaction probability 0.7\% for protons with koinetic energy 3.5 GeV. The beam density reached $10^6$ particles/s. For data selection a two-level trigger was used. The first level (LVL0) was deditaced for di-lepton studies ???(opis). The second trigger level (LVL1) was dedicated to hadronic reactions and required at least three charged particles registered in META detectors. More over, to reduce a data flux only every third LVL1 event was recorded by DAQ system and stored for further analysis. During four-weeks experimental campaign in total $1.14 \times 10^9$ LVL1 events were recorded \cite{hades_inclL_35}.
+\begin{figure}[hb]
+  \centering{}
+  \includegraphics[width=0.7 \linewidth]{Chapter_analysis/tarcza.eps}
+  \caption{The LH$_2$ container used during the pp @3.5 GeV experiment.}
+  \label{fig:target}
+\end{figure}
 
-Due to technical circumstances the pp experiment was conducted without the start detector. A time of fligh for each particle was calculated based on a difference between different paticles velocitis.
-OPIS METODY
+
+During the experiment a liqid hydrogen (LH2) target was used. The hydrogen was stored in a special tank designet to keep comstant tamperature 20K. Its length was 50 mm, what coresponds to interaction probability 0.7\% for protons with koinetic energy 3.5 GeV. The beam density reached $10^6$ particles/s. For data selection a two-level trigger was used. The first level trigger (LVL1) was dedicated to hadronic reactions and required at least three charged particles registered in META detectors. More over, to reduce a data flux only every third LVL1 event was recorded by DAQ system and stored for further analysis. During four-weeks experimental campaign in total $1.14 \times 10^9$ LVL1 events were recorded \cite{hades_inclL_35}. The second level (LVL2) was deditaced for di-lepton studies and bases on combined information from many detectors. The trigger system serch di-lepton pairs bases on information from: RICH detector (Cherenkov light rings), TOF detectors ($\beta>xx$) and pre-shower detector (electromagnetic cascade)\cite{Agakishiev:2009am,hades_DAQ}. In case of any signiture of a leptonic nature of the tracks they are saved without any downscaling.
+
+Due to technical circumstances the pp experiment was conducted without the start detector. A time of fligh for each particle was calculated based on a difference between different paticles time of flight related to arbitrary experiment clock. Deatails of the reconstruction method are described in \cite{dybczak_phd}. However in following studies an information from TOF detectors was not required at all, so that information played only secondary role as and helped cross-check a de/dx identyfication metode.
 \subsection{Absolute normalization}
 \label{sec:normalization}
 An integrated luminosity for the pp experiment was calculated using a pp elastic scattering [ref], it was
@@ -18,9 +25,9 @@ An integrated luminosity for the pp experiment was calculated using a pp elastic
 \end{equation}
 Thanks to a full scale simulation performed in HYDRA framework (for more details see chapter \ref{chapter:simulations}) it is possible to get a total detection efficiency for given reaction. The efficiency, together with known luminosity and a \cs allows for an expected count rate estimation, for any reaction.
 \begin{equation}
-  N^{\mathrm{expected}}_{pp\rightarrow X}=\frac{N_{\mathrm{detected}}}{N_{\mathrm{Simulated \; in \;} 4 \pi} \cdot 3} \cdot \sigma_{pp\rightarrow X} \cdot L.
+  N^{\mathrm{expected}}_{pp\rightarrow X}=\frac{N_{\mathrm{detected}}}{N_{\mathrm{Simulated \; in \;} 4 \pi} \cdot 3} \cdot \sigma_{pp\rightarrow X} \cdot L^{int}.
 \end{equation}
-The factor 3 in denominator is connected with a trigger down-scaling. Due to limited read-out capabilities for hadronic channels each 3th triggered event was saved on tapes. A list of the reactions simulated for following analysis is prezented in \ref{tab:channels}. 
+The factor 3 in denominator is connected with a trigger down-scaling. Due to limited read-out capabilities for hadronic channels each 3th triggered event was saved on tapes. A list of the reactions simulated for following analysis is prezented in tab. \ref{tab:channels}. 
 \begin{table}
     \centering
   \caption{List of the channels considered in following chapter. Numbers from 3 up to 10 indicates reactions containing $\p \pim \pip \pim$ in a final state. They are treated as a possible background channels. All values taken from \cite{hades_inclL_35}.}
@@ -61,7 +68,7 @@ The HADES detector allows for two complementary methods of particles identificat
 
 
 \section{Event selection}
-Among all registered events only these containing at least four charged particles (two positive and two negative) was considered in analysis. They have been also observed events with more than four particles detected (fig. \ref{fig:mult}). They produces kombinatorics which are very difficult to control during further analysis. Because of that, only one four-particle combination from every event was taken. The combinations were ordered according to track reconstruction quality. For each combination the sum of $chi^2$ for all tracks was calculated, and the best reconstructed combination was taken. 
+Among all registered events only these containing at least four charged particles (two positive and two negative) was considered in analysis. They have been also observed events with more than four particles detected (fig. \ref{fig:mult}). They produces kombinatorics which are very difficult to control during further analysis. Because of that, only one four-particle combination from every event was taken. The combinations were ordered according to track reconstruction quality. For each combination the sum of $\chi^2$ for all tracks was calculated, and the best reconstructed combination was taken. 
 
 Additionally an equivocation in $\pim$ selection requires an additional criteria to define which particle belongs to $\Lz$. Fortunately a $\Lz$ hyperon is a very narrow resonance what gives a natural criteria for $\pim$ classification. Within one hypothesis, both $pim$s were combined with a proton track and an invariant mass for those pairs ($\mathrm{M}^{inv}_{\p\pim}$) were calculated. The $\pim$ which gives better agreement with $\Lz$ pole mass was treated as originated from secondary vertex.
 
