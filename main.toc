@@ -34,7 +34,7 @@
 \contentsline {subsection}{\numberline {3.7.1}Side-band analysis}{15}{subsection.48}
 \contentsline {subsection}{\numberline {3.7.2}Cross-section extraction and differential analysis}{16}{subsection.50}
 \contentsline {subsection}{\numberline {3.7.3}Analysis of a $\mathrm {\pi ^{+}}\mathrm {\pi ^{-}}$ spectrum}{17}{subsection.53}
-\contentsline {section}{\numberline {3.8}Systematic error studies}{17}{section.57}
+\contentsline {section}{\numberline {3.8}Systematic error studies}{18}{section.57}
 \contentsline {chapter}{\numberline {4}PNb data analysis}{21}{chapter.58}
 \contentsline {section}{\numberline {4.1}Identyfication and data selection}{21}{section.59}
 \contentsline {section}{\numberline {4.2}The $\mathrm {\Lambda ^0}$ Reconstruction}{21}{section.60}

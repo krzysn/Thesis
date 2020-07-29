@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1595975728 "main.aux" "main.bbl" "main" 1595975730
+["bibtex main"] 1596052955 "main.aux" "main.bbl" "main" 1596052957
   "./utphys.bst" 1582710814 29292 0c046c5170afec86438fbe55350ce834 ""
   "bibtex/hades.bib" 1595968169 27714 d5af83c9fd145f30010a895c4297bcb9 ""
-  "main.aux" 1595975730 32793 23ce34d33260575b936f742d20469edd ""
+  "main.aux" 1596052956 32797 2cf46f5bd2e7d0689a66fc08200836b2 ""
   "main.bcf" 0 -1 0 ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1595975728 "main.tex" "main.pdf" "main" 1595975730
+  "main.blg"
+["pdflatex"] 1596052955 "main.tex" "main.pdf" "main" 1596052957
   "/etc/texmf/web2c/texmf.cnf" 1534880402 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -304,7 +304,7 @@
   "Chapter_analysis/NN.eps" 1595857738 688170 e9944f1461eb4dab40f6d5705966e1d6 ""
   "Chapter_analysis/PipPim.eps" 1594570787 13318 141d48ec33fa9b7a67d749ccd5426160 ""
   "Chapter_analysis/WPt.eps" 1594911419 46273 0b38ddc4c48a0873c4499c80fa910e76 ""
-  "Chapter_analysis/analysis.tex" 1595975721 24105 6b7351804bb9289e1c4c56d77193df97 ""
+  "Chapter_analysis/analysis.tex" 1596052447 24838 8fbe1e5b6d38e7a19c031c98e7a68633 ""
   "Chapter_analysis/chi2.eps" 1594570787 13556 ad44110f1a7a20f570b0de7c8e683f47 ""
   "Chapter_analysis/geometria.eps" 1593726839 41302 d9b38dd4d394d0f03b1667ff804101cc ""
   "Chapter_analysis/geometria_NN.eps" 1595975217 52602 c77b75be48355b2d5003185b2304fff5 ""
@@ -332,11 +332,11 @@
   "caption.sty" 1582710814 66233 8b81cfab95a1f8fc2f0f6c89415b087a ""
   "caption3.sty" 1582710814 64866 1ea74c5f2d1685881497f021b8f186b2 ""
   "enumitem.sty" 1582710814 42666 6fa770e3485520a6a5f2ea7d259c8f8d ""
-  "main.aux" 1595975730 32793 23ce34d33260575b936f742d20469edd ""
-  "main.bbl" 1595975728 19751 8cc936637bc721d5c59812e03c0a8cd1 "bibtex main"
-  "main.out" 1595975730 10722 d646eb5ac2a92173e7f8a683db0c3708 ""
+  "main.aux" 1596052956 32797 2cf46f5bd2e7d0689a66fc08200836b2 ""
+  "main.bbl" 1596052955 19751 8cc936637bc721d5c59812e03c0a8cd1 "bibtex main"
+  "main.out" 1596052956 10722 d646eb5ac2a92173e7f8a683db0c3708 ""
   "main.tex" 1594570787 10651 4028edb0985d8ca24203284f3664fc6d ""
-  "main.toc" 1595975730 5151 0229e244c0bf8234f0803418e9e8bb1b ""
+  "main.toc" 1596052956 5151 f3964a582c1ec89386a269fd172962f0 ""
   "multirow.sty" 1582710814 5015 cd8d25106b58dfc16af57528a07d0bc9 ""
   "myHacks.tex" 1590004143 2333 d3d828894cf6b5252c553bec90425094 ""
   "physics.sty" 1582710814 29610 a9597219b282d9c78b02393dcd7d4322 ""
@@ -346,7 +346,7 @@
   "vmargin.sty" 1582710814 6845 5eae49c3f07fead60d92def0a4f5c30f ""
   (generated)
   "main.log"
+  "main.out"
+  "main.aux"
   "main.pdf"
   "main.toc"
-  "main.aux"
-  "main.out"

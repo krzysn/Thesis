@@ -14,9 +14,9 @@ All methods developed for pp@3.5 GeV experiment were also used for data collecte
 \end{figure}
 
 
-During the experiment a liqid hydrogen (LH2) target was used. The hydrogen was stored in a special tank designet to keep comstant tamperature 20K. Its length was 50 mm, what coresponds to interaction probability 0.7\% for protons with koinetic energy 3.5 GeV. The beam density reached $10^6$ particles/s. For data selection a two-level trigger was used. The first level trigger (LVL1) was dedicated to hadronic reactions and required at least three charged particles registered in META detectors. More over, to reduce a data flux only every third LVL1 event was recorded by DAQ system and stored for further analysis. During four-weeks experimental campaign in total $1.14 \times 10^9$ LVL1 events were recorded \cite{hades_inclL_35}. The second level (LVL2) was deditaced for di-lepton studies and bases on combined information from many detectors. The trigger system serch di-lepton pairs bases on information from: RICH detector (Cherenkov light rings), TOF detectors ($\beta>xx$) and pre-shower detector (electromagnetic cascade)\cite{Agakishiev:2009am,hades_DAQ}. In case of any signiture of a leptonic nature of the tracks they are saved without any downscaling.
+During the experiment a liquid hydrogen (LH2) target was used. The hydrogen was stored in a special tank designated to keep constant temperature 20K. Its length was 50 mm, what corresponds to interaction probability 0.7\% for protons with kinetic energy 3.5 GeV. The beam density reached $10^6$ particles/s. For data selection a two-level trigger was used. The first level trigger (LVL1) was dedicated to hadronic reactions and required at least three charged particles registered in META detectors. More over, to reduce a data flux only every third LVL1 event was recorded by DAQ system and stored for further analysis. During four-weeks experimental campaign in total $1.14 \times 10^9$ LVL1 events were recorded \cite{hades_inclL_35}. The second level (LVL2) was dedicated for di-lepton studies and bases on combined information from many detectors. The trigger system search di-lepton pairs bases on information from: RICH detector (Cherenkov light rings), TOF detectors ($\beta>xx$) and pre-shower detector (electromagnetic cascade)\cite{Agakishiev:2009am,hades_DAQ}. In case of any signature of a leptonic nature of the tracks they are saved without any down-scaling.
 
-Due to technical circumstances the pp experiment was conducted without the start detector. A time of fligh for each particle was calculated based on a difference between different paticles time of flight related to arbitrary experiment clock. Deatails of the reconstruction method are described in \cite{dybczak_phd}. However in following studies an information from TOF detectors was not required at all, so that information played only secondary role as and helped cross-check a de/dx identyfication metode.
+Due to technical circumstances the pp experiment was conducted without the start detector. A time of flight for each particle was calculated based on a difference between different particles time of flight related to arbitrary experiment clock. Details of the reconstruction method are described in \cite{dybczak_phd}. However in following studies an information from TOF detectors was not required at all, so that information played only secondary role as and helped cross-check a de/dx identification method.
 \subsection{Absolute normalization}
 \label{sec:normalization}
 An integrated luminosity for the pp experiment was calculated using a pp elastic scattering [ref], it was
@@ -27,7 +27,7 @@ Thanks to a full scale simulation performed in HYDRA framework (for more details
 \begin{equation}
   N^{\mathrm{expected}}_{pp\rightarrow X}=\frac{N_{\mathrm{detected}}}{N_{\mathrm{Simulated \; in \;} 4 \pi} \cdot 3} \cdot \sigma_{pp\rightarrow X} \cdot L^{int}.
 \end{equation}
-The factor 3 in denominator is connected with a trigger down-scaling. Due to limited read-out capabilities for hadronic channels each 3th triggered event was saved on tapes. A list of the reactions simulated for following analysis is prezented in tab. \ref{tab:channels}. 
+The factor 3 in denominator is connected with a trigger down-scaling. Due to limited read-out capabilities for hadronic channels each 3th triggered event was saved on tapes. A list of the reactions simulated for following analysis is presented in tab. \ref{tab:channels}. 
 \begin{table}
     \centering
   \caption{List of the channels considered in following chapter. Numbers from 3 up to 10 indicates reactions containing $\p \pim \pip \pim$ in a final state. They are treated as a possible background channels. All values taken from \cite{hades_inclL_35}.}
@@ -58,7 +58,7 @@ The factor 3 in denominator is connected with a trigger down-scaling. Due to lim
 \end{table}
 
 \section{Particles identification}
-The HADES detector allows for two complementary methods of particles identification. The first, bases on particles' time of flight measured in the ToF detectors and particle's momentum measured in the MDC detector. The second method, bases on the MDC exclusively and uses combine information about particles' momentum and energy losses. The first one is favoured due to better precision, however a limited geometrical acceptance of the TOF detectors reduces detection efficiency by a factor 0.8 for each particle. In case of four particles final state, discussed in this thesis, a total loss caused by the TOF detectors  can reach 60\% of all detected particles. For that reason the $\frac{de}{dx}$ vs. $\p$ identification method was used. Ientification cuts have been optimized for previous analysis conducted by by HADES experiment and described in \cite{hades_inclL_35,lalik_phd}.Contours used for $\pim$ and $\pip$ are the same and differs only by electric charge.
+The HADES detector allows for two complementary methods of particles identification. The first, bases on particles' time of flight measured in the ToF detectors and particle's momentum measured in the MDC detector. The second method, bases on the MDC exclusively and uses combine information about particles' momentum and energy losses. The first one is favoured due to better precision, however a limited geometrical acceptance of the TOF detectors reduces detection efficiency by a factor 0.8 for each particle. In case of four particles final state, discussed in this thesis, a total loss caused by the TOF detectors  can reach 60\% of all detected particles. For that reason the $\frac{de}{dx}$ vs. $\p$ identification method was used. Identification cuts have been optimized for previous analysis conducted by by HADES experiment and described in \cite{hades_inclL_35,lalik_phd}.Contours used for $\pim$ and $\pip$ are the same and differs only by electric charge.
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.9 \linewidth]{Chapter_analysis/DeDx_PPim.jpg}
@@ -75,7 +75,7 @@ Additionally an equivocation in $\pim$ selection requires an additional criteria
 \begin{figure}
   \centering
   \includegraphics[width=0.7 \linewidth]{Chapter_analysis/mult.eps}
-  \caption{Particles multiplicity for a final state wich requires two particles witch charge +1 and two with -1. It is visible that only in 54\% cases exectly four charged particles, were registered by detector. All cases with more than 4 particles requires some cryteria to take a proper combination from all possible. An asymetry between positively- and negatively-charged particles is caused by an initial state electric charge.}   
+  \caption{Particles multiplicity for a final state which requires two particles witch charge +1 and two with -1. It is visible that only in 54\% cases exactly four charged particles, were registered by detector. All cases with more than 4 particles requires some criteria to take a proper combination from all possible. An asymmetry between positively- and negatively-charged particles is caused by an initial state electric charge.}   
   \label{fig:mult}
 \end{figure}
 
@@ -106,31 +106,31 @@ Because in HADES energy regime almost all pions are produced via barionic resona
 
 \section{The $\Lz$ Reconstruction}
 The next step of the analysis after a missing mass cut was an inclusive $\Lz$ reconstruction. In previous HADES experiments the reconstruction had based on a set of geometrical cuts. Their role was to increase signal-to-background ratio utilizing a $Lz$ decay geometry. Because the $\Lz$ decays via week interactions its lifetime is relatively long:$c\tau = 7.89 cm$ \cite{PDG}. That may be used to discriminate an out of target vertex from a background originates from a target.
-\begin{figure}[ht]
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.7 \linewidth]{Chapter_analysis/NN.eps}
-  \caption{An architecture of a nural network used in analysis. For a simplicity only connections of the first neuron from the first layer were drawn. In dense network output from each of neurons is passed to every neuron in a next layer. A particular designed used for a $\Lz$ reconstruction consist of 4 layers: an input layer and 3 hidden. The network width (number of neyrons in one layer) was adjusted to a amount of input parameters and was 15.}
+  \caption{An architecture of a neural network used in analysis. For a simplicity only connections of the first neuron from the first layer were drawn. In dense network output from each of neurons is passed to every neuron in a next layer. A particular designed used for a $\Lz$ reconstruction consist of 4 layers: an input layer and 3 hidden. The network width (number of neurons in one layer) was adjusted to a amount of input parameters and was 20.}
   \label{fig:NN}
 \end{figure}
 
-As it was shown in \ref{section:kinematics} an available phase-space for $\Ls$ production for a $E_k=3.5$ GeV is very limited. An inclusive analysis performed in \cite{hades_L1520} has measured ?? events of $Ls$ after all cuts. To improve statistics, and also examine new reconstruction methods in following analysis a neural network was used as a replacement of the geometrical cuts. Details about used method and an optimalization proces are explained in chapter \ref{chapter:NN}.
+As it was shown in \ref{section:kinematics} an available phase-space for $\Ls$ production for a $E_k=3.5$ GeV is very limited. An inclusive analysis performed in \cite{hades_L1520} has measured ?? events of $Ls$ after all cuts. To improve statistics, and also examine new reconstruction methods in following analysis a neural network was used as a replacement of the geometrical cuts. Details about used method and an optimization process are explained in chapter \ref{chapter:NN}.
 
-\begin{figure}[hb]
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.7 \linewidth]{Chapter_analysis/geometria_NN.eps}
-  \caption{A graphical representation of variables used as an oinput for neural network.}
+  \caption{A graphical representation of variables used as an input for neural network.}
   \label{fig:NN_cuts}
 \end{figure}
 
 
-The final network archtecture used for $\Lz$ reconstruction is a feed-forward dense network with 4 layers, each N+6 neurons, where N is a number of scalar input parameters. For each neuron a sigmoid took role of an activation function. Because the network took role after geometrical cuts, as an input eleven geometrical variables had been taken:
+The final network architecture used for $\Lz$ reconstruction is a feed-forward dense network with 4 layers, each N+6 neurons, where N is a number of scalar input parameters. For each neuron a sigmoid took role of an activation function. Because the network took role after geometrical cuts, as an input eleven geometrical variables had been taken:
 \begin{itemize}
 \item Distance between $\p \pim$ from $\Lz$
-\item Distance between $\pip$ and $\pim$ from primaty vertex
-\item $\Lz$ vertex cooridanes, reconstructed as a point of the closest aproach of $\p$ and $\pim$ tracks
+\item Distance between $\pip$ and $\pim$ from primary vertex
+\item $\Lz$ vertex coordinates, reconstructed as a point of the closest approach of $\p$ and $\pim$ tracks
 \item $\Ls$ vertex coordinates, reconstructed as a point of the closest approach of $\pip$ and $\pim$ tracks
 \item $\Ls$ vertex coordinates, reconstructed by tracking algorithm as a primary vertex
-\item Opaning angle between reconstructed $\Lz$ vector and a line conecting primary and secondary verteces
+\item Opening angle between reconstructed $\Lz$ vector and a line connecting primary and secondary vertices
 \item Distance between $\p$ from $\Lz$ decay and primary vertex
 \item Distance between $\pim$ from $\Lz$ decay and primary vertex
 \item Distance between reconstructed $\Lz$ direction and primary vertex
@@ -140,7 +140,7 @@ The final network archtecture used for $\Lz$ reconstruction is a feed-forward de
 
 The optimized neural network enhanced a signal to background ratio from ??? without any cuts to ???. A $\Lz$ signal obtained in this way was used for a next steps of analysis: the $\Ls$ analysis (chapter \ref{section:Ls}) and associated $\Lz \Kz$ production (chapter \ref{section:LzKz});
 
-\begin{figure}[ht]
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.7 \linewidth]{Chapter_analysis/L1116SB.eps}
   \caption{The $\Lz$ spectrum after a neural network analysis. The vertical lines denotes regions of a side-band analysis described in \ref{section:SB}. The data was fitted by a sum of 4-th order polynomial (blue line) and a Voigt function (green line. A very small value for $\Gamma$ parameter is caused by the $\Lz$ long live-time. Obtained $\sigma$ value describe an apparatus energy resolution. }
@@ -150,13 +150,13 @@ The optimized neural network enhanced a signal to background ratio from ??? with
 
 \section{The $\Lz \Kz $reconstruction}
 \label{section:LzKz}
-Due to strangeness conservation low a $\Lz$ has to be produced with some anti-strange particle. The lightest candidate is a $\Kz$ meson, which decays in 69.2\% into $\pip \pim$ pair \cite{PDG}. For that reason a $\Lz \Kz$ signal is expected to be a significant part of the $\Lz \pip \pim$ final state and should be visible in analized data. Because a kinematics for a $\Lz \Kz$ production is different tahn for $\Ls$, the used missing mass cut was looser tahn in $\Ls$ analysis. It was set  $M^{miss}_{\p \pip \pip \pim}>1077$, what is a minimal missing mass expected for $pp \rightarrow p \Kz \Lz \pip$ reaction with $\p_{E_k}=3.5 \mathrm{GeV}$. 
+Due to strangeness conservation low a $\Lz$ has to be produced with some anti-strange particle. The lightest candidate is a $\Kz$ meson, which decays in 69.2\% into $\pip \pim$ pair \cite{PDG}. For that reason a $\Lz \Kz$ signal is expected to be a significant part of the $\Lz \pip \pim$ final state and should be visible in analyzed data. Because a kinematics for a $\Lz \Kz$ production is different than for $\Ls$, the used missing mass cut was looser than in $\Ls$ analysis. It was set  $M^{miss}_{\p \pip \pip \pim}>1077$, what is a minimal missing mass expected for $pp \rightarrow p \Kz \Lz \pip$ reaction with $\p_{E_k}=3.5 \mathrm{GeV}$. 
 
-After the $\Lz$ reconstruction two spectra were drown: a) a $\pip \pim$ invariant mass spectrum for events $1006<M^{inv}_{\p \pim}<1026$ and b) a $\p \pim$ invariant mass for $480 MeV<M^{inv}_{\pip \pim}<500 MeV$. Obtained specta have to were compared with simulation, so the same analysis chain was used to analyzed all channels listed in \ref{tab:channels} which contains associated $\Lz\Kz$ production. 
+After the $\Lz$ reconstruction two spectra were drown: a) a $\pip \pim$ invariant mass spectrum for events $1006<M^{inv}_{\p \pim}<1026$ and b) a $\p \pim$ invariant mass for $480 MeV<M^{inv}_{\pip \pim}<500 MeV$. Obtained spectra have to were compared with simulation, so the same analysis chain was used to analyzed all channels listed in \ref{tab:channels} which contains associated $\Lz\Kz$ production. 
 
 Using a procedure described in \ref{sec:normalization} the simulation was compared with experimental data (see \ref{fig:K0L0}). The simulation describes well a yield of $\Kz$ and $\Lz$ produced in experiment, although it does not describe the background shape. This is mostly caused by lack of reliable model for a double $\Dpp$ production. 
 
-\begin{figure}[hb]
+\begin{figure}[h]
   \centering
   \includegraphics[width=1.1 \linewidth]{Chapter_analysis/K0L0_indeksy.eps}
   \caption{The results for $\Lz \Kz$ associated production. Blue point represents experimental data, magenta a sum simulated channels. For both: the simulation and the experimental data a Voigt function was fitted. Than, a total signal yield between simulation and experiment was calculated.}
@@ -179,7 +179,7 @@ The neural network analysis gives a data sample with good S/B ratio for $\Lz$ si
 
 \subsection{Side-band analysis}
 \label{section:SB}
-A side-band analysis bases on assumption that a background kinematic changes slowly through a spectrum. Thanks to this, kinematics of the background events from signal region can be well described by background outside the signal region. In case of described analysis the side-band method was used to estimate an impact of non-perfect $\Lz$ reconstruction for the $\Ls$ spectrum. The fig. \ref{fig:L1116SB} shows input for the side-band. The $p \pim \pip \pim$ spectra for the signal and SB region after all the cuts are shown in \ref{fig:Ls_SB}. The side-band describes very well both wings of the data distribution. A difference between signal and the side-band spectrum can be interpreted as $\p \pim \pip \pim$ signal associated with the $\Lz$ signal.
+A side-band analysis bases on assumption that a background kinematic changes slowly through a spectrum. Thanks to this, kinematics of the background events from signal region can be well described by background events from outside the signal region. In case of described analysis the side-band method was used to estimate an impact of non-perfect $\Lz$ reconstruction for the $\Ls$ spectrum. The fig. \ref{fig:L1116SB} shows input for the side-band. The picture is divided by red dached lines into three sections. The middle one is a signal range, the left and  the right are side-band regions. The $p \pim \pip \pim$ spectra for the signal and SB region after all the cuts are shown in \ref{fig:Ls_SB}. The side-band describes very well both wings of the data distribution. A difference between signal and the side-band spectrum can be interpreted as $\p \pim \pip \pim$ signal associated with the $\Lz$ signal.
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.7 \linewidth]{Chapter_analysis/L1520_sig_SB.eps}
@@ -197,32 +197,32 @@ Despite the side-band spectrum describes a background shape very well, there is 
   \label{fig:Ls_clean}
 \end{figure}
 
-An identification of the background channels allows to simulate them and, together with a simulation of the signal channel estimate an inclusive \cs for $ \p\p \rightarrow \Ls \mathrm{X}$ reaction. The signal channel was simulated according to exclusive cross section measured by HADES$\sigma_{\p\p\rightarrow \p \Kp \Ls}=6.5 \mathrm{\mu b}$ \cite{hades_L1520}. Next the simulated signal spectrum was scaled up to get the same area under a simulation and experimental histogram. Finally, according to the obtained scaling an inclusive \cs is equal $\sigma_{\p\p \rightarrow \Ls \mathrm{X}}=7.1\pm 1.5 \mathrm{\mu b}$. A uncertainty comes from a statistical error.
+An identification of the background channels allows to simulate them and, together with a simulation of the signal channel estimate an inclusive \cs for $ \p\p \rightarrow \Ls \mathrm{X}$ reaction. The signal channel was simulated according to exclusive cross section measured by HADES$\sigma_{\p\p\rightarrow \p \Kp \Ls}=6.5 \mathrm{\mu b}$ \cite{hades_L1520}. Next, the simulated signal spectrum was scaled up to get the same area under a simulation and experimental histogram. Finally, according to the obtained scaling an inclusive \cs is equal $\sigma_{\p\p \rightarrow \Ls \mathrm{X}}=7.1\pm 1.5 \mathrm{\mu b}$. A uncertainty comes from a statistical error.
 
 The total yield of detected decays allows to conduct a simple differential analysis. A transverse momentum ($p_t$) and rapidity ($\Upsilon$) was calculated for each reconstructed $\Ls$. Obtained spectra are presented in fig. \ref{fig:WPt}.
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.9 \linewidth]{Chapter_analysis/WPt.eps}
-  \caption{A rapidity and $p_t$ spectrum for $\Ls$ events. Error bars denote statistical errors. The esperimental data (blue points) is compared with the simulation (magenta line). A simulation is additionally decomposed into a signal channel (green line) and an combinatorial background (red line) contribution. Dashedd vertical lines show a mean values for $p_t$ and $\Upsilon$ distribution. }
+  \caption{A rapidity and $p_t$ spectrum for $\Ls$ events. Error bars denote statistical errors. The experimental data (blue points) is compared with the simulation (magenta line). A simulation is additionally decomposed into a signal channel (green line) and an combinatorial background (red line) contribution. Dashed vertical lines show a mean values for $p_t$ and $\Upsilon$ distribution. }
   \label{fig:WPt}
 \end{figure}
 
 
 
 \subsection{Analysis of a $\pip \pim$ spectrum}
-In simulation model used for the \cs extraction pions were emitted according to available phase-space. However it is possible that pion production occurs through a virtual $\rho$ meson. A possible $\rho$ contribution would manifest by a distortion of a $\pip \pim$ spectrum compared to direct production. An alternative simulation with the $\rho$ decay was also prepared and both of them compared with experimental data. The comparison between an experimental data and simulations is shown in fig. \ref{fig:pip_pim}.  
-\begin{figure}[ht]
+In a model used for the signal simulation and \cs extraction, pions were emitted according to available phase-space. However, it is possible that pion production occurs through a virtual $\rho$ meson. A possible $\rho$ contribution would manifest by a distortion of a $\pip \pim$ spectrum compared to direct production. An alternative simulation with the $\rho$ decay was also prepared and both of them compared with experimental data. The comparison between an experimental data and simulations is shown in fig. \ref{fig:pip_pim}.  
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.9 \linewidth]{Chapter_analysis/PipPim.eps}
-  \caption{The $\pip \pim$ from emited from $\Ls$ events. The experimental data (blue points) is compared with signal (green line) and background (red line) simulation. A sum of simulated channels is shown by a magenta line. In the presented simulation a pahse space pions distribution was used. A result for pions produced by a $\rho$ decay is denoted by a green dashed line. }
+  \caption{The $\pip \pim$ from emitted from $\Ls$ events. The experimental data (blue points) is compared with signal (green line) and background (red line) simulation. A sum of simulated channels is shown by a magenta line. In the presented simulation a phase space pions distribution was used. A result for pions produced by a $\rho$ decay is denoted by a green dashed line. }
   \label{fig:pip_pim}
 \end{figure}
 By naked eye an only-phase-space distribution describes data better. That was proven quantitatively making a linear combination of the two available spectra
 \begin{equation}\label{eq:rho}  
   sum=N \cdot M^{inv}_{\pip\pim_{\mathrm{w/o}} \rho} + (N-1) M^{inv}_{\pip\pim_\rho},
 \end{equation}
-where $N \in [0,1]$. An agreement between data and simulation was tested by $\chi^2$ test. Its proved that within available errors the best data description is given by only-phase-space distribution of pions.
-\begin{figure}[ht]
+where $N \in [0,1]$. An agreement between data and simulation was tested by $\chi^2$ test. Its result is show in fig. \ref{fig:chi2}. The $\chi^2$ test returns a values smaller than 1 for N up to 0.35. Unfortunatelly sytematics uncertentities do not allow for any finall conclusions. A future experiment with higher beam energy and luminosity, planned by the HADES collaboration, will be a great opportunity for more detailed studies. This problem is discussed in chapter \ref{chapter:simulations}.
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.9 \linewidth]{Chapter_analysis/chi2.eps}
   \caption{A $\chi^2$ between simulation and data in function of N (see eq. \ref{eq:rho}). The N=0 refers for a situation when no $\rho$ contribution is present. It describes data the best, however due to signal statistics any N from 0 to 0.4 gives a good data description $\chi^2<1$.}
@@ -230,4 +230,4 @@ where $N \in [0,1]$. An agreement between data and simulation was tested by $\ch
 \end{figure}
 
 \section{Systematic error studies}
-The entire studies reduces data from ??? events to ???. Each of the cuts used for analysis may be a potenial source of sytematic uncertentities. Cuts have been waried to estimate this efect. Tab ??? contains set of possible sources of error.
+Through the entire studies the data is reduced from ??? events to ???. Each of the cuts used for analysis may be a potential source of systematic uncertainties. the most important cuts have been varied to estimate this effect. Tab ??? contains set of possible sources of error. A size of the side-band regions seems to have minor inpact for an systematic error. Similary a fit range in which a signal and backgroud were fitted does not influence the final result. The most important factor comes from a  
