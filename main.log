@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  29 JUL 2020 22:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.4)  30 JUL 2020 13:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3170,11 +3170,11 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 
 ]
 Package epstopdf Info: Source file: <Chapter_introduction/eightfolds.eps>
-(epstopdf)                    date: 2020-05-05 22:19:02
+(epstopdf)                    date: 2020-05-25 08:49:21
 (epstopdf)                    size: 99435 bytes
 (epstopdf)             Output file: <Chapter_introduction/eightfolds-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2020-05-05 22:26:39
+(epstopdf)                    date: 2020-07-13 12:00:39
 (epstopdf)                    size: 54892 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_introduction/eight
 folds-eps-converted-to.pdf Chapter_introduction/eightfolds.eps>
@@ -3207,11 +3207,11 @@ Overfull \hbox (31.56392pt too wide) detected at line 41
 [3 <./Chapter_introduction/spectrum.png>]
 Package epstopdf Info: Source file: <Chapter_introduction/faynmannDiagrams.eps>
 
-(epstopdf)                    date: 2020-04-09 13:11:46
+(epstopdf)                    date: 2020-05-25 08:49:21
 (epstopdf)                    size: 74664 bytes
 (epstopdf)             Output file: <Chapter_introduction/faynmannDiagrams-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2020-04-09 13:12:23
+(epstopdf)                    date: 2020-07-13 12:00:40
 (epstopdf)                    size: 30594 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_introduction/faynm
 annDiagrams-eps-converted-to.pdf Chapter_introduction/faynmannDiagrams.eps>
@@ -3241,11 +3241,11 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 ) (./Chapter_analysis/analysis.tex [6]
 Chapter 3.
 Package epstopdf Info: Source file: <Chapter_analysis/tarcza.eps>
-(epstopdf)                    date: 2020-07-28 22:29:29
+(epstopdf)                    date: 2020-07-28 14:45:22
 (epstopdf)                    size: 3133452 bytes
 (epstopdf)             Output file: <Chapter_analysis/tarcza-eps-converted-to.p
 df>
-(epstopdf)                    date: 2020-07-29 00:02:00
+(epstopdf)                    date: 2020-07-28 14:48:45
 (epstopdf)                    size: 1327751 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/tarcza-ep
 s-converted-to.pdf Chapter_analysis/tarcza.eps>
@@ -3272,11 +3272,11 @@ Package pdftex.def Info: Chapter_analysis/DeDx_PPim.jpg  used on input line 64.
 (pdftex.def)             Requested size: 384.68576pt x 212.08093pt.
  [9]
 Package epstopdf Info: Source file: <Chapter_analysis/mult.eps>
-(epstopdf)                    date: 2020-07-25 23:16:03
+(epstopdf)                    date: 2020-07-28 11:57:09
 (epstopdf)                    size: 12843 bytes
 (epstopdf)             Output file: <Chapter_analysis/mult-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2020-07-25 23:30:41
+(epstopdf)                    date: 2020-07-28 11:57:29
 (epstopdf)                    size: 10597 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/mult-eps-
 converted-to.pdf Chapter_analysis/mult.eps>
@@ -3294,11 +3294,11 @@ Package pdftex.def Info: Chapter_analysis/mult-eps-converted-to.pdf  used on in
 put line 77.
 (pdftex.def)             Requested size: 299.20076pt x 248.55226pt.
 Package epstopdf Info: Source file: <Chapter_analysis/missMass.eps>
-(epstopdf)                    date: 2020-05-13 17:49:14
+(epstopdf)                    date: 2020-05-25 08:49:21
 (epstopdf)                    size: 154814 bytes
 (epstopdf)             Output file: <Chapter_analysis/missMass-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2020-05-13 17:56:47
+(epstopdf)                    date: 2020-07-13 12:00:41
 (epstopdf)                    size: 22389 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/missMass-
 eps-converted-to.pdf Chapter_analysis/missMass.eps>
@@ -3340,10 +3340,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 107.
 
 Package epstopdf Info: Source file: <Chapter_analysis/NN.eps>
-(epstopdf)                    date: 2020-07-27 15:48:58
+(epstopdf)                    date: 2020-07-28 11:57:09
 (epstopdf)                    size: 688170 bytes
 (epstopdf)             Output file: <Chapter_analysis/NN-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-27 15:50:19
+(epstopdf)                    date: 2020-07-28 11:57:30
 (epstopdf)                    size: 929655 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/NN-eps-co
 nverted-to.pdf Chapter_analysis/NN.eps>
@@ -3363,16 +3363,20 @@ t line 111.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <Chapter_analysis/geometria_NN.eps>
-(epstopdf)                    date: 2020-07-29 00:26:57
+(epstopdf)                    date: 2020-07-30 13:19:19
 (epstopdf)                    size: 52602 bytes
 (epstopdf)             Output file: <Chapter_analysis/geometria_NN-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2020-07-29 00:35:28
-(epstopdf)                    size: 26068 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/geometria
 _NN-eps-converted-to.pdf Chapter_analysis/geometria_NN.eps>
 (epstopdf)             \includegraphics on input line 120.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=Chapter_analysis/geometria_NN-eps-converted-to.pd
+f Chapter_analysis/geometria_NN.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <Chapter_analysis/geometria_NN-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2020-07-30 13:19:35
+(epstopdf)                    size: 26080 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Chapter_analysis/geometria_NN-eps-converted-to
@@ -3397,11 +3401,11 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 128.
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [12 <./Chapter_analysis/missMass-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Chapter_analysis/L1116SB.eps>
-(epstopdf)                    date: 2020-07-03 22:31:33
+(epstopdf)                    date: 2020-07-07 09:37:06
 (epstopdf)                    size: 12787 bytes
 (epstopdf)             Output file: <Chapter_analysis/L1116SB-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2020-07-12 18:19:47
+(epstopdf)                    date: 2020-07-13 12:00:42
 (epstopdf)                    size: 14764 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/L1116SB-e
 ps-converted-to.pdf Chapter_analysis/L1116SB.eps>
@@ -3442,11 +3446,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 151.
 
 Package epstopdf Info: Source file: <Chapter_analysis/K0L0_indeksy.eps>
-(epstopdf)                    date: 2020-07-12 23:14:39
+(epstopdf)                    date: 2020-07-13 11:59:46
 (epstopdf)                    size: 150036 bytes
 (epstopdf)             Output file: <Chapter_analysis/K0L0_indeksy-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2020-07-12 23:17:03
+(epstopdf)                    date: 2020-07-13 12:00:42
 (epstopdf)                    size: 40430 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/K0L0_inde
 ksy-eps-converted-to.pdf Chapter_analysis/K0L0_indeksy.eps>
@@ -3487,11 +3491,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 168.
 
 Package epstopdf Info: Source file: <Chapter_analysis/geometria.eps>
-(epstopdf)                    date: 2020-07-02 23:53:59
+(epstopdf)                    date: 2020-07-07 09:37:06
 (epstopdf)                    size: 41302 bytes
 (epstopdf)             Output file: <Chapter_analysis/geometria-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2020-07-12 18:19:47
+(epstopdf)                    date: 2020-07-13 12:00:43
 (epstopdf)                    size: 16851 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/geometria
 -eps-converted-to.pdf Chapter_analysis/geometria.eps>
@@ -3511,11 +3515,11 @@ on input line 173.
 [14 <./Chapter_analysis/NN-eps-converted-to.pdf> <./Chapter_analysis/geometria_
 NN-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Chapter_analysis/L1520_sig_SB.eps>
-(epstopdf)                    date: 2020-07-06 12:59:27
+(epstopdf)                    date: 2020-07-07 09:37:06
 (epstopdf)                    size: 24303 bytes
 (epstopdf)             Output file: <Chapter_analysis/L1520_sig_SB-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2020-07-12 18:19:47
+(epstopdf)                    date: 2020-07-13 12:00:43
 (epstopdf)                    size: 17808 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/L1520_sig
 _SB-eps-converted-to.pdf Chapter_analysis/L1520_sig_SB.eps>
@@ -3539,11 +3543,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15 <./Chapter_analysis/L1116SB-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Chapter_analysis/L1520_sig_Clean.eps>
-(epstopdf)                    date: 2020-07-07 23:01:40
+(epstopdf)                    date: 2020-07-08 14:58:16
 (epstopdf)                    size: 82874 bytes
 (epstopdf)             Output file: <Chapter_analysis/L1520_sig_Clean-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2020-07-12 18:19:47
+(epstopdf)                    date: 2020-07-13 12:00:44
 (epstopdf)                    size: 26418 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/L1520_sig
 _Clean-eps-converted-to.pdf Chapter_analysis/L1520_sig_Clean.eps>
@@ -3573,11 +3577,11 @@ ross sec-tion mea-sured by HADES$\OML/cmm/m/it/10.95 ^^[[] \OT1/cmr/m/n/10.95 =
  []
 
 Package epstopdf Info: Source file: <Chapter_analysis/WPt.eps>
-(epstopdf)                    date: 2020-07-16 16:56:59
+(epstopdf)                    date: 2020-07-17 12:20:03
 (epstopdf)                    size: 46273 bytes
 (epstopdf)             Output file: <Chapter_analysis/WPt-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2020-07-16 16:58:10
+(epstopdf)                    date: 2020-07-17 12:20:30
 (epstopdf)                    size: 15488 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/WPt-eps-c
 onverted-to.pdf Chapter_analysis/WPt.eps>
@@ -3622,11 +3626,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 212.
 
 Package epstopdf Info: Source file: <Chapter_analysis/PipPim.eps>
-(epstopdf)                    date: 2020-07-12 18:19:47
+(epstopdf)                    date: 2020-07-10 15:18:44
 (epstopdf)                    size: 13318 bytes
 (epstopdf)             Output file: <Chapter_analysis/PipPim-eps-converted-to.p
 df>
-(epstopdf)                    date: 2020-07-12 18:19:47
+(epstopdf)                    date: 2020-07-13 12:00:44
 (epstopdf)                    size: 8874 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/PipPim-ep
 s-converted-to.pdf Chapter_analysis/PipPim.eps>
@@ -3647,11 +3651,11 @@ input line 216.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <Chapter_analysis/chi2.eps>
-(epstopdf)                    date: 2020-07-12 18:19:47
+(epstopdf)                    date: 2020-07-10 15:37:09
 (epstopdf)                    size: 13556 bytes
 (epstopdf)             Output file: <Chapter_analysis/chi2-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2020-07-12 18:19:47
+(epstopdf)                    date: 2020-07-13 12:00:45
 (epstopdf)                    size: 29275 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysis/chi2-eps-
 converted-to.pdf Chapter_analysis/chi2.eps>
@@ -3693,11 +3697,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 7.
 
 Package epstopdf Info: Source file: <Chapter_analysisPNb/Lz.eps>
-(epstopdf)                    date: 2020-07-13 21:07:31
+(epstopdf)                    date: 2020-07-13 15:58:19
 (epstopdf)                    size: 16879 bytes
 (epstopdf)             Output file: <Chapter_analysisPNb/Lz-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2020-07-13 23:02:03
+(epstopdf)                    date: 2020-07-13 17:06:49
 (epstopdf)                    size: 17005 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysisPNb/Lz-eps
 -converted-to.pdf Chapter_analysisPNb/Lz.eps>
@@ -3735,11 +3739,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 18.
 
 Package epstopdf Info: Source file: <Chapter_analysisPNb/LK0.eps>
-(epstopdf)                    date: 2020-07-13 21:07:31
+(epstopdf)                    date: 2020-07-13 15:44:21
 (epstopdf)                    size: 42603 bytes
 (epstopdf)             Output file: <Chapter_analysisPNb/LK0-eps-converted-to.p
 df>
-(epstopdf)                    date: 2020-07-13 23:02:04
+(epstopdf)                    date: 2020-07-13 17:06:50
 (epstopdf)                    size: 25937 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysisPNb/LK0-ep
 s-converted-to.pdf Chapter_analysisPNb/LK0.eps>
@@ -3769,11 +3773,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 26.
 
 Package epstopdf Info: Source file: <Chapter_analysisPNb/L1520.eps>
-(epstopdf)                    date: 2020-07-13 21:07:31
+(epstopdf)                    date: 2020-07-13 16:59:11
 (epstopdf)                    size: 28799 bytes
 (epstopdf)             Output file: <Chapter_analysisPNb/L1520-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2020-07-13 23:02:04
+(epstopdf)                    date: 2020-07-13 17:07:19
 (epstopdf)                    size: 25185 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysisPNb/L1520-
 eps-converted-to.pdf Chapter_analysisPNb/L1520.eps>
@@ -3795,11 +3799,11 @@ n input line 36.
 ] [22 <./Chapter_analysisPNb/Lz-eps-converted-to.pdf> <./Chapter_analysisPNb/LK
 0-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Chapter_analysisPNb/YPt.eps>
-(epstopdf)                    date: 2020-07-13 21:07:31
+(epstopdf)                    date: 2020-07-13 17:04:43
 (epstopdf)                    size: 46965 bytes
 (epstopdf)             Output file: <Chapter_analysisPNb/YPt-eps-converted-to.p
 df>
-(epstopdf)                    date: 2020-07-13 23:02:04
+(epstopdf)                    date: 2020-07-13 17:07:21
 (epstopdf)                    size: 13080 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_analysisPNb/YPt-ep
 s-converted-to.pdf Chapter_analysisPNb/YPt.eps>
@@ -3846,10 +3850,10 @@ Chapter 5.
 
 ]
 Package epstopdf Info: Source file: <Chapter_NN/setAB.eps>
-(epstopdf)                    date: 2020-03-14 20:19:55
+(epstopdf)                    date: 2020-05-25 08:49:21
 (epstopdf)                    size: 31780 bytes
 (epstopdf)             Output file: <Chapter_NN/setAB-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-03-14 20:20:45
+(epstopdf)                    date: 2020-07-13 12:00:45
 (epstopdf)                    size: 10991 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_NN/setAB-eps-conve
 rted-to.pdf Chapter_NN/setAB.eps>
@@ -3870,10 +3874,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [26]
 Package epstopdf Info: Source file: <Chapter_NN/L1116.eps>
-(epstopdf)                    date: 2020-05-30 21:57:01
+(epstopdf)                    date: 2020-06-02 10:56:44
 (epstopdf)                    size: 442648 bytes
 (epstopdf)             Output file: <Chapter_NN/L1116-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-12 18:19:47
+(epstopdf)                    date: 2020-07-13 12:00:46
 (epstopdf)                    size: 638627 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_NN/L1116-eps-conve
 rted-to.pdf Chapter_NN/L1116.eps>
@@ -3891,11 +3895,11 @@ ine 54.
 (pdftex.def)             Requested size: 341.94652pt x 252.90964pt.
 [27 <./Chapter_NN/setAB-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Chapter_NN/NN_wyniki.eps>
-(epstopdf)                    date: 2020-06-01 16:49:48
+(epstopdf)                    date: 2020-06-02 10:56:44
 (epstopdf)                    size: 94483 bytes
 (epstopdf)             Output file: <Chapter_NN/NN_wyniki-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2020-07-12 18:19:47
+(epstopdf)                    date: 2020-07-13 12:00:47
 (epstopdf)                    size: 73916 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_NN/NN_wyniki-eps-c
 onverted-to.pdf Chapter_NN/NN_wyniki.eps>
@@ -3950,11 +3954,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [31]
 Package epstopdf Info: Source file: <Chapter_simulation/all_CS.eps>
-(epstopdf)                    date: 2020-04-07 14:56:45
+(epstopdf)                    date: 2020-05-25 08:49:21
 (epstopdf)                    size: 60717 bytes
 (epstopdf)             Output file: <Chapter_simulation/all_CS-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2020-04-07 15:03:17
+(epstopdf)                    date: 2020-07-13 12:00:47
 (epstopdf)                    size: 25751 bytes
 (epstopdf)             Command: <repstopdf --outfile=Chapter_simulation/all_CS-
 eps-converted-to.pdf Chapter_simulation/all_CS.eps>
@@ -4057,7 +4061,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 321.
  ) 
 Here is how much of TeX's memory you used:
  42845 strings out of 492982
- 834929 string characters out of 6134895
+ 834929 string characters out of 6134896
  1026846 words of memory out of 5000000
  45458 multiletter control sequences out of 15000+600000
  596213 words of font info for 113 fonts, out of 8000000 for 9000
@@ -4085,7 +4089,7 @@ ls/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (55 pages, 5918810 bytes).
+Output written on main.pdf (55 pages, 5918754 bytes).
 PDF statistics:
  1268 PDF objects out of 1440 (max. 8388607)
  1028 compressed objects within 11 object streams
