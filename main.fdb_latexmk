@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1596208318 "main.aux" "main.bbl" "main" 1596208320
+["bibtex main"] 1596742507 "main.aux" "main.bbl" "main" 1596742509
   "./utphys.bst" 1582710814 29292 0c046c5170afec86438fbe55350ce834 ""
   "bibtex/hades.bib" 1595968169 27714 d5af83c9fd145f30010a895c4297bcb9 ""
-  "main.aux" 1596208320 33809 c9b016c9755a47e14925aa4cdb4b7e18 ""
+  "main.aux" 1596742509 34120 be94e44b0360348e46b7f5f1b7809712 ""
   "main.bcf" 0 -1 0 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1596208318 "main.tex" "main.pdf" "main" 1596208320
+["pdflatex"] 1596742508 "main.tex" "main.pdf" "main" 1596742509
   "/etc/texmf/web2c/texmf.cnf" 1534880402 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -292,7 +292,7 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1539505716 4126949 82e920e915f69e5df2a807544e9138dd ""
   "Abstract.tex" 1584041678 68 682a0910f2a800b4459b9f4bc0953bb3 ""
   "Chapter_NN/L1116.eps" 1590868621 442648 046f96cf2ae6cdd63151bc4324a2187b ""
-  "Chapter_NN/NN.tex" 1596208309 11618 241d14276ac66bdb05426c6911fe837f ""
+  "Chapter_NN/NN.tex" 1596724869 11624 cdd9eefb8bfa2c9eecceb35c666ecd7d ""
   "Chapter_NN/NN_wyniki.eps" 1591022988 94483 08a88c41be99df55166bc25c0264ace0 ""
   "Chapter_NN/ROC.eps" 1596207981 571971 31feabde60c50bc5bd32c946da22ac46 ""
   "Chapter_NN/data_flow.eps" 1596206827 393138 344041c470a6dae507bdedd3d64a24f2 ""
@@ -317,7 +317,7 @@
   "Chapter_analysisPNb/LK0.eps" 1594667251 42603 ae64f47ce584607b13207801fe86f4e6 ""
   "Chapter_analysisPNb/Lz.eps" 1594667251 16879 28e4b8365e2511258b30dcd8e9b4fc5b ""
   "Chapter_analysisPNb/YPt.eps" 1594667251 46965 0e7fbdd36a24d0135f99aac5cfb9b4bb ""
-  "Chapter_analysisPNb/analysisPNb.tex" 1594673540 2693 4d1ea9aff131cbe459d1bc31f963827a ""
+  "Chapter_analysisPNb/analysisPNb.tex" 1596742489 4368 e45d3544a7862698e373a3fbe2525e21 ""
   "Chapter_conclusions/conclusions.tex" 1584798053 49 9a42e60bd8bcd660426f4d58f0a9d5c7 ""
   "Chapter_detector/detector.tex" 1595534850 2912 af0bb70a773a4b8d1f33fa404110d0a7 ""
   "Chapter_introduction/eightfolds.eps" 1588709942 99435 810bf72552857a015defea802efe677e ""
@@ -334,11 +334,11 @@
   "caption.sty" 1582710814 66233 8b81cfab95a1f8fc2f0f6c89415b087a ""
   "caption3.sty" 1582710814 64866 1ea74c5f2d1685881497f021b8f186b2 ""
   "enumitem.sty" 1582710814 42666 6fa770e3485520a6a5f2ea7d259c8f8d ""
-  "main.aux" 1596208320 33809 c9b016c9755a47e14925aa4cdb4b7e18 ""
-  "main.bbl" 1596208318 19751 d7b446fc6dc925a8c3c7d046feb4d483 "bibtex main"
-  "main.out" 1596208320 10935 47bfd14fdb4f019b226e6505cfe1103b ""
+  "main.aux" 1596742509 34120 be94e44b0360348e46b7f5f1b7809712 ""
+  "main.bbl" 1596742508 19751 d7b446fc6dc925a8c3c7d046feb4d483 "bibtex main"
+  "main.out" 1596742509 10915 f75ce2e4ae9bf2b4bde6d4ed8b159c30 ""
   "main.tex" 1594570787 10651 4028edb0985d8ca24203284f3664fc6d ""
-  "main.toc" 1596208320 5236 b6e965ac4b168ab84573a895ecaef73d ""
+  "main.toc" 1596742509 5192 48000980610c4a0c6bf428c50026f9e4 ""
   "multirow.sty" 1582710814 5015 cd8d25106b58dfc16af57528a07d0bc9 ""
   "myHacks.tex" 1590004143 2333 d3d828894cf6b5252c553bec90425094 ""
   "physics.sty" 1582710814 29610 a9597219b282d9c78b02393dcd7d4322 ""
@@ -347,8 +347,8 @@
   "uj.jpg" 1582710814 161685 1c75702a7f53f1131405330d4dc4eec2 ""
   "vmargin.sty" 1582710814 6845 5eae49c3f07fead60d92def0a4f5c30f ""
   (generated)
-  "main.aux"
   "main.toc"
-  "main.pdf"
+  "main.aux"
   "main.log"
+  "main.pdf"
   "main.out"
