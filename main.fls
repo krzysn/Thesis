@@ -534,6 +534,9 @@ INPUT ./Chapter_introduction/faynmannDiagrams-eps-converted-to.pdf
 INPUT ./Chapter_introduction/faynmannDiagrams-eps-converted-to.pdf
 INPUT ./Chapter_detector/detector.tex
 INPUT ./Chapter_detector/detector.tex
+INPUT Chapter_detector/RICH.png
+INPUT ./Chapter_detector/RICH.png
+INPUT ./Chapter_detector/RICH.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT ./Chapter_analysis/analysis.tex
@@ -685,6 +688,15 @@ INPUT ./Chapter_analysis/chi2-eps-converted-to.pdf
 INPUT ./Chapter_analysis/chi2-eps-converted-to.pdf
 INPUT ./Chapter_analysisPNb/analysisPNb.tex
 INPUT ./Chapter_analysisPNb/analysisPNb.tex
+INPUT Chapter_analysisPNb/target_pNb.eps
+INPUT ./Chapter_analysisPNb/target_pNb.eps
+INPUT ./Chapter_analysisPNb/target_pNb.eps
+INPUT ./Chapter_analysisPNb/target_pNb-eps-converted-to.pdf
+INPUT ./Chapter_analysisPNb/target_pNb-eps-converted-to.pdf
+INPUT ./Chapter_analysisPNb/target_pNb.eps
+INPUT ./Chapter_analysisPNb/target_pNb-eps-converted-to.pdf
+INPUT ./Chapter_analysisPNb/target_pNb-eps-converted-to.pdf
+INPUT ./Chapter_analysisPNb/target_pNb-eps-converted-to.pdf
 INPUT Chapter_analysisPNb/Lz.eps
 INPUT ./Chapter_analysisPNb/Lz.eps
 INPUT ./Chapter_analysisPNb/Lz.eps
