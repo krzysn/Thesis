@@ -4,7 +4,7 @@ The top-level auxiliary file: main.aux
 The style file: utphys.bst
 Database file #1: bibtex/hades.bib
 Warning--string name "c" is undefined
---line 169 of file bibtex/hades.bib
+--line 183 of file bibtex/hades.bib
 Warning--empty pages in Zweig
 Warning--empty pages in Ronniger2012
 Warning--empty pages in hades_PWA_pKpL
@@ -16,45 +16,45 @@ Warning--empty pages in hades_Ksi_pNb
 Warning--empty pages in Metodiev_2017
 Warning--empty pages in Neyman-Pearson
 Warning--empty publisher in L-B
-You've used 33 entries,
+You've used 34 entries,
             2608 wiz_defined-function locations,
-            866 strings with 24230 characters,
-and the built_in function-call counts, 19588 in all, are:
-= -- 931
-> -- 2656
+            876 strings with 24720 characters,
+and the built_in function-call counts, 20116 in all, are:
+= -- 976
+> -- 2694
 < -- 0
-+ -- 899
-- -- 866
-* -- 2514
-:= -- 3512
-add.period$ -- 44
-call.type$ -- 33
-change.case$ -- 75
++ -- 912
+- -- 878
+* -- 2571
+:= -- 3586
+add.period$ -- 46
+call.type$ -- 34
+change.case$ -- 76
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 505
-empty$ -- 937
-format.name$ -- 866
-if$ -- 3947
+cite$ -- 45
+duplicate$ -- 525
+empty$ -- 975
+format.name$ -- 878
+if$ -- 4072
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 85
-newline$ -- 106
-num.names$ -- 33
-pop$ -- 163
+int.to.str$ -- 34
+missing$ -- 88
+newline$ -- 109
+num.names$ -- 34
+pop$ -- 167
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 328
+skip$ -- 345
 stack$ -- 0
-substring$ -- 405
-swap$ -- 227
+substring$ -- 441
+swap$ -- 239
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 11
-while$ -- 69
-width$ -- 35
-write$ -- 263
+while$ -- 72
+width$ -- 36
+write$ -- 271
 (There were 12 warnings)
