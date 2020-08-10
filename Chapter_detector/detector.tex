@@ -5,7 +5,7 @@ The \textbf{H}igh \textbf{A}cceptance \textbf{D}i-\textbf{E}lectron \textbf{S}pe
 The detector provides almost full azimuntal angular coverage, whereas the acceptance in the polar angle used to rate from 18$^{\circ}$  to 80$^{\circ}$. A current upgrade extands the detector acceptance for forwards angles, for more detaisl see \ref{subsec:FwDet}. Two sets of toroidal \textbf{M}ulti-wire \textbf{D}rift \textbf{C}hambers (MDC) together with a superconducting toroid magnet allow for momentum measurements with $\frac{dp}{p} \approx 2-3\%$ and particle identification (PID) via energy loss measurement. The PID is further enhanced by high resolution \textbf{T}ime \textbf{O}f \textbf{F}light (TOF) detectors ($\sigma \approx 80$ ps) and a hadron-blind \textbf{R}ing \textbf{I}maging \textbf{CH}erenkov (RICH) detector. A combined information form the detectors allow for efficient p/$\pi$/K/e separation over broad momentum range. Even though it isn't a $4 \pi$ detector, thanks to its geometry it has acceptance around 40\% for pions produced in elementary collisions at energfys provided by SIS18 detector.
 \begin{figure}
   \centering
-  \includegraphics[width=0.7 \linewidth]{Chapter_detector/detector.eps}
+  \includegraphics[width=0.7 \linewidth]{Chapter_detector/detektor.eps}
   \caption{The HADES - \cs throug the detector. All essential sub-sytems used during pp and pNb experiment are visible in the picture. The picture from \cite{Agakishiev:2009am}.}
 \end{figure}
 
@@ -16,9 +16,10 @@ Inbetween iner- and outer-MDC the \textbf{I}ron\textbf{L}ess \textbf{S}upercondu
 
 The magnetic field produced by ILSE bends particles' tracks what allows for a momentum reconstruction. Tracks reconstruced in iner- and outer-MDCs have to be matched together. A deticated algorithm for this purpuse was developed by HADES collaboration. 
 
-\section{META detectors}
-A META detector during pp and pNb experiments consisted of two time of flight detectors: TOF and TOFino
+\section{PreShower and META detectors}
+During a pp@3.5~GeV and pNb@3.5~GeV experiments the HADEs ended a META (\textbf{M}ultiplicity \textbf{E}lectron \textbf{T}rigger \textbf{A}rray) detector. The META system played two main roles: provided en inforamation about particles time of flight and was utilized as a source for a multiplicity trigger. The detector consisted of two sub-systems: a TOF for polar angles from 44 to 88 degrees and a TOFino angles from 18-45 degree. They also differed by a time resolution $\sigma_{TOF}\approx~150~\mathrm{ps}$, $\sigma_{TOFino}\approx~450~\mathrm{ps}$. The main difference between these detectors was in space resolution properties. Each strap of the TOF detector has a reedout at both ends of scintilator. It allows for an estimation of an interaction place base on a time difference between signal arrival in both ends of the detector. Due to economical circumstances the TOFino detector has much smaller granulation and a reed out was installed an one end of each strap. It caused much wors space resolution for the TOFino than for the TOF detector.
 
+??? opis PreShower
 
 \section{RICH detector}
 The \textbf{R}ing \textbf{I}maging \textbf{CH}erenkov detector is the main tool for $\epem$ identyfication for the HADES. The detector active area surrounds target area and it is filled by a radiator gas ($\mathrm{C}_4 \mathrm{F}_{10}$). A refractive index gives a thrashold speed for a Cherenkov radiation production $\gamma_{thr} =18$. For projectile energys delivered by the SIS18 only particles able to exceed the threshold are electrons end positons. Passing across the radiator they produce a cone of a cherenkov light. Then, the light is reflected by a spherical mirror and detected by a pad plane located upstream a beam. An special algorithm called ''ring finder'' \cite{hades_RICH} reconstructs cherenkov light rings from a pattern of fired pads. A reconstructed ring position is mached with track from MDC to assign information about a leptonic character to proper track.  The detector is completelly ''hadronic blind'' what means that no hadron can give an signal in it. In 2019 the RICH was updated by a new readout system, described more detailed in next section. 
@@ -28,12 +29,29 @@ The \textbf{R}ing \textbf{I}maging \textbf{CH}erenkov detector is the main tool 
   \caption{The \cs of the RICH detector.}
 \end{figure}
 \section{The HADES upgrades}
-
+\label{chapter:HADES_upgrades}
+Currently HADES is intensively upgraded to face a new physical program. A brand new \textbf{E}lectromagnetic \textbf{CAL}orimeter \cite{FAIRness:Hudoba,FAIRness:Shabanov} and a new RICH readout system have been already installed and tested during campaign with Ag+Ag collisions. In addition a new \textbf{F}or\textbf{W}ard \textbf{DET}ector \cite{FAIRness:Malige} was installed in 2020. It will extend the HADES acceptance to very forward angles, between~$0.6^{\circ}$~and~$7^{\circ}$. One of the main reasons for FwDet development are hyperon studies. This detector will significantly enhance the acceptance for $\Lz$ reconstruction, since momentum conservation causes the proton from $\Lambda$ decay tend to be emitted at small polar angles.Detail about new posobilities for hyperon research opened by the FwDet are presented in. \label{chapter:simulations}.
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.6 \linewidth]{Chapter_detector/HADES.png}
+  \caption{The HADES detector with new updates. Parts labeled by a red font have been installed in 2019 or later and are discussed in following subsection.}
+\end{figure}
 \subsection{The Forward Detector}
 \label{subsec:FwDet}
-In many studies especially devoted to hyperons' decays the forward angles play very important role. The hades detector for a quite long time did not have a possibility to register particles 
+In many studies especially devoted to hyperons' decays the forward angles play very important role. The hades detector for a quite long time did not have a possibility to register particles emitted into polar angle below 10 degree. That situation is changing becouse of a new \textbf{F}or\textbf{w}ard~\textbf{Det}ector build in a colloraboration between Jagiellonian Universiti Cracow, Institut de Physique Nucléaire d'Orsay and Forschungszentrum Jülich.
+
+\begin{figure}[hb]
+  \centering
+  \includegraphics[width=0.6 \linewidth]{Chapter_detector/FwDet.eps}
+  \caption{Both tracking stations of the FwDet detector, left: STS1, right: STS2}
+\end{figure}
+
+FwDet is a tracking detector consist of two tracking stations: STS1 and STS2. They are made utilizing the same technology as planned forward detector for the PANDA experiment. Each of the stations consist of a set of straws filled by a ArCO$_2$ gas under a pressure of 2 bar. Strows are collected end glued together in modules, 32 straws each. Such a structure, together with overpresure, makes the detector self-supporting. The operationa voltage between an anode wire, wich is located in center of each straw, and cathode a straw is 1800 V. It resultong a gas gain $5 \cdot 10^4$ and maximum drift time 130 ns. The spetial resolution for single straw is 0.13 mm.
+
+In the STS1 straws are organized in four double-layers aligned by an inclination $0\deg, 90\deg, 0\deg, 90\deg$. The STS2 also consist of four layers but, for better tracking abilities two of them are twisted by $45\deg$. A similar solution was not possible for the STS1 because of lack of a space in ECAL create. The STS2 ends by an RPC detector wich provides a precise information about time-of-flight for each track.
+
+Besides a hardware developement, track reconstruction and tracking algorithms were developed in Jagiellonian Universiti. A track reconstruction bases on an assumption that between the stations there is no magnetic field. It meas that all tracks are straight lines. Details of the reconstruction algorithms are described in [artykul Rafala]. 
 \subsection{RICH update}
 
 \subsection{Electromagnetic calorimeter}
 
-\label{chapter:HADES_upgrades}

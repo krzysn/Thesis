@@ -7,6 +7,9 @@ Warning--string name "c" is undefined
 --line 183 of file bibtex/hades.bib
 Warning--empty pages in Zweig
 Warning--empty pages in Ronniger2012
+Warning--empty pages in FAIRness:Hudoba
+Warning--empty pages in FAIRness:Shabanov
+Warning--empty pages in FAIRness:Malige
 Warning--empty pages in hades_PWA_pKpL
 Warning--empty pages in hades_S1385
 Warning--empty school in dybczak_phd
@@ -16,45 +19,45 @@ Warning--empty pages in hades_Ksi_pNb
 Warning--empty pages in Metodiev_2017
 Warning--empty pages in Neyman-Pearson
 Warning--empty publisher in L-B
-You've used 34 entries,
+You've used 37 entries,
             2608 wiz_defined-function locations,
-            876 strings with 24720 characters,
-and the built_in function-call counts, 20116 in all, are:
-= -- 976
-> -- 2694
+            890 strings with 25105 characters,
+and the built_in function-call counts, 20608 in all, are:
+= -- 1018
+> -- 2706
 < -- 0
-+ -- 912
-- -- 878
-* -- 2571
-:= -- 3586
-add.period$ -- 46
-call.type$ -- 34
-change.case$ -- 76
++ -- 918
+- -- 881
+* -- 2622
+:= -- 3652
+add.period$ -- 49
+call.type$ -- 37
+change.case$ -- 79
 chr.to.int$ -- 0
-cite$ -- 45
-duplicate$ -- 525
-empty$ -- 975
-format.name$ -- 878
-if$ -- 4072
+cite$ -- 51
+duplicate$ -- 555
+empty$ -- 1041
+format.name$ -- 881
+if$ -- 4195
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 88
-newline$ -- 109
-num.names$ -- 34
-pop$ -- 167
+int.to.str$ -- 37
+missing$ -- 97
+newline$ -- 118
+num.names$ -- 37
+pop$ -- 182
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 345
+skip$ -- 348
 stack$ -- 0
 substring$ -- 441
-swap$ -- 239
+swap$ -- 242
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 11
-while$ -- 72
-width$ -- 36
-write$ -- 271
-(There were 12 warnings)
+warning$ -- 14
+while$ -- 75
+width$ -- 39
+write$ -- 292
+(There were 15 warnings)
