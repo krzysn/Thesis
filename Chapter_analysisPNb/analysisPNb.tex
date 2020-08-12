@@ -20,7 +20,30 @@ Identification and selection algorithms used for pNb data were the same as in ca
 \end{figure}
 
 \section{The $\Lz$ Reconstruction}
-The main tool for $\Lz$ reconstruction stays the same as for in chapter \ref{chapter:analysis}. It is a neural network trained in a data-driven manner. Although for a good signal extraction a set of additional pre-cuts was necessary. They are based on cuts used for $\Lz$ reconstruction for Ag+AG collisions \cite{spies_phd}
+The main tool for $\Lz$ reconstruction stays the same as for in chapter \ref{chapter:analysis}. It is a neural network trained in a data-driven manner. Although because of no missing mass cut obtained signal-to-background ratio was much lower than for pp case and it was.  The result is shown in fig. \ref{fig:L1116SB_pNb}.
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.7 \linewidth]{Chapter_analysisPNb/Lz.eps}
+  \caption{The $\Lz$ spectrum after a neural network analysis obtained for pNb experiment. Color coding the same as in fig. \ref{fig:L1116SB}, vertical lines denotes regions of a side-band and were adjusted for pNb exclusively.}
+  \label{fig:L1116SB_pNb}
+\end{figure}
+
+\section{The $\Lz \Kz $reconstruction}
+The same as for in case of pp data an inclusive $\Lz \Kz$ production was a cross-check for en event selection method and absolute normalization. The normalization method used for a \cs extraction was the same like described in \ref{sec:normalization} with two quantitative differences. The first: a total luminosity for pNb experiment was ???, the second: a knowledge about inclusive \css for proton-nucleus scattering is strongly limited. Instead of exact values the universal scaling between reaction was assumed:
+\begin{equation}
+  \sigma_{pN}=\sigma_{pp} \cdot A^{2/3},
+\end{equation}
+where A is an atomic number of mass number of a given nucleus. The sam like in pp anaysis inclusive $\Lz$ production was estimated as a sum of explusife channels listed in tab. \ref{tab:channels}. The obtained simulation results gives well description for signals extracted from experimental data-set. 
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.9 \linewidth]{Chapter_analysisPNb/LK0.eps}
+  \caption{The inclusive $\Lz \Kz$ spectrum obtained for pNb experiment. The \css for the simulation was scaled up by a factor $A^{2/3}$ compare values measured in pp reactions}
+  \label{fig:LK0_pNb}
+\end{figure}
+
+\section{The $\Ls$ Reconstruction}
+Compare to the $\Ls$ analysis for the pp data  for a good signal extraction a set of additional pre-cuts was necessary. They are based on cuts used for $\Lz$ reconstruction for Ag+AG collisions \cite{spies_phd}
 \begin{itemize}
 \item Distance between $\p \pim$ from $\Lz$
 \item Distance between $\pip$ and $\pim$ from primary vertex
@@ -34,31 +57,6 @@ The main tool for $\Lz$ reconstruction stays the same as for in chapter \ref{cha
 \item Distance between primary and secondary vertexes
 \end{itemize}
 
-
-After applying all cuts described in above table a signal~to~background ratio ??? was obtained. The result is shown in fig. \ref{fig:L1116SB_pNb}.
-\begin{figure}[ht]
-  \centering
-  \includegraphics[width=0.7 \linewidth]{Chapter_analysisPNb/Lz.eps}
-  \caption{The $\Lz$ spectrum after a neural network analysis obtained for pNb experiment. Color coding the same as in fig. \ref{fig:L1116SB}, vertical lines denotes regions of a side-band and were adjusted for pNb exclusively.}
-  \label{fig:L1116SB_pNb}
-\end{figure}
-
-\section{The $\Lz \Kz $reconstruction}
-The same as for in case of pp data an inclusive $\Lz \Kz$ production was a cross-check for en event selection method and absolute normalization. The normalization method used for a \cs extraction was the same like described in \ref{sec:normalization} with two quantitative differences. The first: a total luminosity for pNb experiment was ???, the second: a knowledge about inclusive \css for proton-nucleus scattering is strongly limited. Instead of exact values the universal scaling between reaction was assumed:
-\begin{equation}
-  \sigma_{pN}=\sigma_{pp} \cdot A^{2/3}
-\end{equation}
-
-The obtained results gives well description for signals extracted from experimental data-set. 
-
-\begin{figure}[ht]
-  \centering
-  \includegraphics[width=0.9 \linewidth]{Chapter_analysisPNb/LK0.eps}
-  \caption{The inclusive $\Lz \Kz$ spectrum obtained for pNb experiment. The \css for the simulation was scaled up by a factor $A^{2/3}$ compare values measured in pp reactions}
-  \label{fig:LK0_pNb}
-\end{figure}
-
-\section{The $\Ls$ Reconstruction}
 
 
 
