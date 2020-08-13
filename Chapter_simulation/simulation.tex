@@ -1,27 +1,27 @@
 \chapter{Simulations of a new experiment}
 \label{chapter:simulations}
-The HADES collaboration is one of the leading forces of a FAIR Phase-0 project. Within the scope of FAIR project a pp@4.5GeV experiment is going to be pervormed. It gives a great opportunity to measure hyperons' Dalitz decays (see Chapter \ref{chapter:introduction}). One of the goals of my work was to carry out a simulation of such an experiment. 
+The HADES collaboration is one of the leading forces of a FAIR Phase-0 project. Within the scope of the FAIR project a pp@4.5GeV experiment is going to be preformed. It gives a great opportunity to increase a knowledge about hyperons, with special emphasis on hyperons' Dalitz decays (see Chapter \ref{chapter:introduction}). One of the goals of my work was to carry out a simulation of such an experiment. 
 \section{An estimation of cross-sections}
-In energy range of $1GeV<\Sqs<6GeV$ an inclusive \cs for $\Lz$ and $\Sz$ were measured for many different enegys \cite{hades_inclL_35,COSY-TOF_SigmaLambda,L-B}. Also an inclusive \cs for $\Lss$ production  was measured for two different energys \cite{hades_L1405,COSY-TOF_L1405}, and for $\Ls$ in known for one energy \cite{hades_inclL_35} in this range. In contrast to the exclusive production \cs, inclusive \css for hyperons' production are poorly known. Ferst step to perform a simulation was to estimate possible \css based on avaliable knowledge.
+In energy range of $1GeV<\Sqs<6GeV$ an inclusive \cs for $\Lz$ and $\Sz$ were measured for many different energies \cite{hades_inclL_35,COSY-TOF_SigmaLambda,L-B}. Also an inclusive \cs for $\Lss$ production  was measured for two different energies \cite{hades_L1405,COSY-TOF_L1405}, and for $\Ls$, was measured once \cite{hades_inclL_35}. In contrast to the exclusive production \cs, inclusive \css for hyperons' production are poorly known. First step to perform a reliable simulation was to estimate possible \css based on available knowledge.
 
 \subsection{$\Lz$ inclusive \cs}
-The first step for all estimations is a parametrization of a $\Lz$ inclusive prodaction. In a given energy range there are four measured values. More over I made two additional assumptions i) the inclusive \cs is equal 0 for threshold enegy, ii) for energy below one pion mass (140MeV) the inclusive and the exclusive \css are the same. For the parametrization I can used \cs measured for $\p\p \rightarrow \p \Kp \Lz$ for $\Sqs$ below ??. To the all avaliable data points meeting my requirements I fitted a 3th order polynomial
+The first step for all estimations is a parametrization of a $\Lz$ inclusive production. In a given energy range there are four measured values. More over, some additional assumptions can be made i) the production \cs is equal 0 for threshold energy, ii) for energy below one pion mass (140~MeV) the inclusive and the exclusive \css are the same. Hence, For the parametrization can used an already measured inclusive \cs for $\p\p \rightarrow \p \Kp \Lz$ for $\Sqs$ below ??. To the all available data points meeting my requirements I fitted a 3th order polynomial
 \begin{equation}
   \label{eq:L1116param}
   \sigma_{\p\p \rightarrow \Lz X}(\Sqs)=48 \cdot (\Sqs -2.55)+292.6 \cdot (\Sqs-2.55)^2-45.4 \cdot (\Sqs-2.55)^3.
 \end{equation}
-Fit result, together with residual plot is show in \ref{fig:inclusive_cs} by a blue dotted line. This parametrizization forms the basis off all inclusive \css estimated in my work.
+Fit result, together with residual plot is show in \ref{fig:inclusive_cs} by a blue dotted line. This parametrization forms the basis off all inclusive \css estimated in my work.
 
 \subsection{$\Sz$ inclusive \cs}
-According to PDG \cite{PDG} almost all $\Sz$s decay into $\Lz$. I means that the inclususive $\Lz$ signal contains a fraction deriving from $\Sz$ decays. However knowing a relation between $\Lz$ and $\Sz$ it is possible to disantanle both contributions.
+According to PDG \cite{PDG} almost all $\Sz$s decay into $\Lz$. I means that the inclusive $\Lz$ signal contains a fraction deriving from $\Sz$ decays. However knowing a relation between $\Lz$ and $\Sz$ it is possible to disentangle both contributions.
 
-A $\Sz/\Lz$ ratio was measured by COSY and others \cite{COSY-TOF_SigmaLambda}. Additionally the COSY collaboration proposed a parametrization of the ratio for eccess energy $\eps <200 MeV$. Above this energy ($\eps >200 MeV$) a linear parametziation 
+A $\Sz/\Lz$ ratio was measured by COSY-TOF and others \cite{COSY-TOF_SigmaLambda}. Additionally the COSY-TOF collaboration proposed a parametrization of the ratio for access energy $\eps <200~\matrm{MeV}$. Above this energy ($\eps >200~\mathrm{MeV}$) a linear parametrization 
 \begin{equation}
   \frac{\Lz}{\Sz}(\eps)=2.215 - 2.7 \cdot 10^{-5} \eps
 \end{equation}
 describes data quite well ($\chi^2=0.89$). In fact for $\eps>200MeV$ the ratio is almost constant and does not depend on energy.
 
-Knowing the $\Lz/\Sz$ I was able to disantagle a $\Lz$ and $\Sz$ production. Using determinated ratio and the $\Lz$ production (let me call it $P_1$) parametrization given by eq. \ref{eq:L1116param}(called $P_2$) I created following set of equations,
+Knowing the $\Lz/\Sz$ I was able to disentangle a $\Lz$ and $\Sz$ production. Using determined ratio and the $\Lz$ production (let me call it $P_1$) parametrization given by eq. \ref{eq:L1116param} (called~$\P_2$) I created following set of equations,
 \begin{equation}
   \label{eq:set_1}
   P_1(\eps)=\frac{L(\eps)}{S(\eps)}=\frac{L(\Sqs - \Lz_{thr})}{S(\Sqs - \Sz_{thr})}=P_1(\Sqs),
@@ -30,25 +30,25 @@ Knowing the $\Lz/\Sz$ I was able to disantagle a $\Lz$ and $\Sz$ production. Usi
   \label{eq:set_2}
   P_2(\Sqs)=\L(\Sqs)+\S(\Sqs),
 \end{equation}
-Where $\Sigma$ represents the inclusive $\Sz$ production \cs and  $\L$ the $Lz$ \cs accordingly. Solving the first equation and shifting an argument by $\Ss_{thr}$ I obtained an equation,
+Where $\Sigma$ represents the inclusive $\Sz$ production \cs and  $\L$ the $\Lz$ \cs accordingly. Solving the first equation and shifting an argument by $\Ss_{thr}$ it is possible to obtain an equation,
 \begin{equation}
   \label{eq:set_3}
   \S(\Sqs) \cdot P_1(\Sqs + \Sz_{thr})=\L(\Sqs - \Lz_{thr} +\Sz_{thr}).
 \end{equation}
 Now, using eq. \ref{eq:set_3} and \ref{eq:set_2} I got a recurrence relation
 \begin{equation}
-  \L(\Sqs - \Lz_{thr} +\Sz_{thr})=P_1(\Sqs +\Sz_{thr}) \left( P_2(\Sqs)-\L(Sqs) \right).
+  \L(\Sqs - \Lz_{thr} +\Sz_{thr})=P_1(\Sqs +\Sz_{thr}) \left( P_2(\Sqs)-\L(\Sqs) \right).
 \end{equation}
-Assuming that $\L(\Lz_{thr})=0$ and $\S(\Sz_{thr})=0$, the above equation can be solved with any given precision. For the purpuse of \css estimation a single step was set $\Delta M = \frac{\Sz_{thr}-\Lz_{thr}}{10}$, obtained decomposition is shown in \ref{fig:inclusive_cs} by dashed lines. A characteristic ``kick'' on the green line corresponds to energy when two parametrizations of $\frac{\Lz}{\Sz}$ ratio are glued (see fig ??). 
+Assuming that $\L(\Lz_{thr})=0$ and $\S(\Sz_{thr})=0$, the above equation can be solved with any given precision. For the purpose of \css estimation a single step was set $\Delta M = \frac{\Sz_{thr}-\Lz_{thr}}{10}$, obtained decomposition is shown in \ref{fig:inclusive_cs} by dashed lines. A characteristic ``kick'' on the green line corresponds to energy when two parametrization of $\frac{\Lz}{\Sz}$ ratio are glued (see fig ??). 
 
 \begin{figure}[hb]
   \includegraphics[width=0.9 \linewidth]{Chapter_simulation/all_CS}
-  \caption{An estimeted \css for Hyperons production. Blue dotted line shows an inclusive $\Lz$ producton. It was decomposed into dwo componets:i) $\Lz$ - blue dashed line and ii) $\Sz$ green dashed line. Magenta dashed line reprezents a parametrization of $\Lss$ \cs. All points refer to experimental data measured by different experiments \cite{L-B, COSY-TOF_L1405, COSY-TOF_SigmaLambda, hades_L1405, hades_inclL_35}. Color code is the same like for lines. Full points represent an exclusive \cs, empty points an inclusive one. }
+  \caption{An estimated \css for Hyperons production. Blue dotted line shows an inclusive $\Lz$ production. It was decomposed into two components:i) $\Lz$ - blue dashed line and ii) $\Sz$ green dashed line. Magenta dashed line represents a parametrization of $\Lss$ \cs. All points refer to experimental data measured by different experiments \cite{L-B, COSY-TOF_L1405, COSY-TOF_SigmaLambda, hades_L1405, hades_inclL_35}. Color code is the same like for lines. Full points represent an exclusive \cs, empty points an inclusive one. }
   \label{fig:inclusive_cs}
 \end{figure}
 
 \subsection{$\Ls$, $\Lss$ and $\Ss$ production \css}
-A knowledge about \css for $\L$ and $\S$ in function of $\Sqs$ or energy over the freshold $\e$ gives a possibility to estimate \cs for excided hyperon states. As a first approximation I have assumed that a production matrix element for ground and excited states is the same. It means that only factor cases the difference in \cs ia avaliable energy over the treshold. It can be espressed by an equation
+A knowledge about \css for $\L$ and $\S$ in function of $\Sqs$ or energy over the threshold $\e$ gives a possibility to estimate \cs for excited hyperon states. As a first approximation it was assumed that a production matrix element for ground and excited states is the same. It means that an only factor cases the difference in \cs is an avaliable energy over the treshold. It can be espressed by an equation
 \begin{equation}
   \label{eq:cs_over_thr}
   \sigma_{\L^* X}(\L_{thr}^*+\eps)=\sigma_{\L X}(\L_{thr}+\eps),
@@ -158,6 +158,7 @@ Hence, a total \cs for the reaction $\p\p \rightarrow p\Dp\pip\pim$ is $\frac{3}
 \section{Simulations results}
 The simulation has been performed usign folowing frameworks. The PLUTO event generator \cite{PLUTO1,PLUTO2} to simulate reactions in the target, the GEANT3 \cite{GEANT} software to simulate particles propagation through the detector and to simulate decay of unstable reaction's products like $\Lz$ or $\Kzs$. After all physics simulations, the detector answer and a full reconstruction chain was dane in the HYDRA framework. All together gives me a realistic simulation of an examineted physics, and the HADES behavour. The new HADES upgrades: new RICH, and the FwDet (see chapter \ref{chapter:HADES_upgrades}) were included.
 \subsection{Particles identyfication}
+\label{chapter:simulation_identyfication}
 The particle identyfications algoritms used for simulation are, in principple, the same as for data collected during experiment. In first step all particle candidates are filtered to find events in wich track reconstracted in the MDC is fitted with the RICH rings. Additionally a Time-Of-Flight and Betha for leptonic track has to lay within a graphical cut. If both cryteria were fulfiled they are treated as lepton candidates. In next step for all non-leptnic candidates the mass is caltulated according to the formula
 \begin{equation}
   m=\frac{pc}{\beta \gamma}.

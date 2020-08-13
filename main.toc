@@ -39,11 +39,11 @@
 \contentsline {section}{\numberline {4.1}Data from pNb experiment}{25}{section.63}
 \contentsline {section}{\numberline {4.2}Identification and data selection}{25}{section.65}
 \contentsline {section}{\numberline {4.3}The $\mathrm {\Lambda ^0}$ Reconstruction}{26}{section.67}
-\contentsline {section}{\numberline {4.4}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction}{27}{section.69}
-\contentsline {section}{\numberline {4.5}The $\mathrm {\Lambda (1520)}$ Reconstruction}{29}{section.72}
-\contentsline {subsection}{\numberline {4.5.1}Event mixing}{29}{subsection.73}
-\contentsline {subsection}{\numberline {4.5.2}Cross-section and extraction differential analysis}{29}{subsection.74}
-\contentsline {section}{\numberline {4.6}Comparison with results from pp data}{29}{section.77}
+\contentsline {section}{\numberline {4.4}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction}{26}{section.69}
+\contentsline {section}{\numberline {4.5}The $\mathrm {\Lambda (1520)}$ Reconstruction}{28}{section.72}
+\contentsline {subsection}{\numberline {4.5.1}Event mixing}{28}{subsection.73}
+\contentsline {subsection}{\numberline {4.5.2}Cross-section and extraction differential analysis}{28}{subsection.74}
+\contentsline {section}{\numberline {4.6}Comparison with results from pp data}{28}{section.77}
 \contentsline {chapter}{\numberline {5}Neural networks}{31}{chapter.78}
 \contentsline {section}{\numberline {5.1}Work with neural networks}{31}{section.79}
 \contentsline {section}{\numberline {5.2}The ROC curve and the optimal classifier}{32}{section.81}
