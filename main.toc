@@ -17,7 +17,7 @@
 \contentsline {section}{\numberline {2.1}Tracking system}{5}{section.18}
 \contentsline {section}{\numberline {2.2}PreShower and META detectors}{6}{section.19}
 \contentsline {section}{\numberline {2.3}RICH detector}{7}{section.20}
-\contentsline {section}{\numberline {2.4}The HADES upgrades}{8}{section.22}
+\contentsline {section}{\numberline {2.4}The HADES upgrades}{7}{section.22}
 \contentsline {subsection}{\numberline {2.4.1}The Forward Detector}{8}{subsection.24}
 \contentsline {subsection}{\numberline {2.4.2}RICH update}{9}{subsection.26}
 \contentsline {subsection}{\numberline {2.4.3}Electromagnetic calorimeter}{9}{subsection.27}
@@ -53,12 +53,12 @@
 \contentsline {section}{\numberline {6.1}An estimation of cross-sections}{37}{section.92}
 \contentsline {subsection}{\numberline {6.1.1}$\mathrm {\Lambda ^0}$ inclusive cross section }{37}{subsection.93}
 \contentsline {subsection}{\numberline {6.1.2}$\mathrm {\Sigma ^0}$ inclusive cross section }{38}{subsection.95}
-\contentsline {subsection}{\numberline {6.1.3}$\mathrm {\Lambda (1520)}$, $\mathrm {\Lambda (1405)}$ and $\mathrm {\Sigma (1385)^0}$ production cross sections }{38}{subsection.102}
-\contentsline {subsection}{\numberline {6.1.4}$\mathrm {\Xi ^{-}(1322)}$}{39}{subsection.106}
-\contentsline {section}{\numberline {6.2}Decay branching ratios}{39}{section.107}
+\contentsline {subsection}{\numberline {6.1.3}$\mathrm {\Lambda (1520)}$, $\mathrm {\Lambda (1405)}$ and $\mathrm {\Sigma (1385)^0}$ production cross sections }{39}{subsection.102}
+\contentsline {subsection}{\numberline {6.1.4}$\mathrm {\Xi ^{-}(1322)}$}{40}{subsection.106}
+\contentsline {section}{\numberline {6.2}Decay branching ratios}{40}{section.107}
 \contentsline {section}{\numberline {6.3}Background channels selection}{40}{section.109}
-\contentsline {section}{\numberline {6.4}Simulations results}{42}{section.112}
-\contentsline {subsection}{\numberline {6.4.1}Particles identyfication}{42}{subsection.113}
+\contentsline {section}{\numberline {6.4}Simulations results}{41}{section.112}
+\contentsline {subsection}{\numberline {6.4.1}Particles identyfication}{41}{subsection.113}
 \contentsline {subsection}{\numberline {6.4.2}Hyperons Dalitz decays}{42}{subsection.115}
 \contentsline {subsection}{\numberline {6.4.3}Cascade decay}{42}{subsection.116}
 \contentsline {chapter}{\numberline {7}Conclusions}{43}{chapter.117}
