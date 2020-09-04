@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1599040302 "main.aux" "main.bbl" "main" 1599042202
+["bibtex main"] 1599230227 "main.aux" "main.bbl" "main" 1599230236
   "./utphys.bst" 1590389361 29292 0c046c5170afec86438fbe55350ce834 ""
   "bibtex/hades.bib" 1599040247 18836 06c8f318dec09e48fba3d2c9122dd076 ""
-  "main.aux" 1599042201 35650 a2c210adc8f2ce61a6f5eca4a04a995c ""
+  "main.aux" 1599230235 35652 8196c3dbf6562030a1ff18c2885f190e ""
   "main.bcf" 0 -1 0 ""
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1599042193 "main.tex" "main.pdf" "main" 1599042202
+  "main.bbl"
+["pdflatex"] 1599230227 "main.tex" "main.pdf" "main" 1599230236
   "/etc/texmf/web2c/texmf.cnf" 1534844958 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -306,7 +306,7 @@
   "Chapter_analysis/NN.eps" 1595930229 688170 e9944f1461eb4dab40f6d5705966e1d6 ""
   "Chapter_analysis/PipPim.eps" 1594387124 13318 141d48ec33fa9b7a67d749ccd5426160 ""
   "Chapter_analysis/WPt.eps" 1594981203 46273 0b38ddc4c48a0873c4499c80fa910e76 ""
-  "Chapter_analysis/analysis.tex" 1596109661 24883 6678cbec3dc5a48de3226af02546b451 ""
+  "Chapter_analysis/analysis.tex" 1599230206 25460 0fd9da7b4160d871f666c762b1a4f34b ""
   "Chapter_analysis/chi2.eps" 1594388229 13556 ad44110f1a7a20f570b0de7c8e683f47 ""
   "Chapter_analysis/geometria.eps" 1594107426 41302 d9b38dd4d394d0f03b1667ff804101cc ""
   "Chapter_analysis/geometria_NN.eps" 1596107959 52602 c77b75be48355b2d5003185b2304fff5 ""
@@ -339,11 +339,11 @@
   "caption.sty" 1590389361 66233 8b81cfab95a1f8fc2f0f6c89415b087a ""
   "caption3.sty" 1590389361 64866 1ea74c5f2d1685881497f021b8f186b2 ""
   "enumitem.sty" 1590389361 42666 6fa770e3485520a6a5f2ea7d259c8f8d ""
-  "main.aux" 1599042201 35650 a2c210adc8f2ce61a6f5eca4a04a995c ""
-  "main.bbl" 1599040302 12373 5b75508f7faae2642a18e6489d19fa7b "bibtex main"
-  "main.out" 1599042201 10946 160696cba424f7025af0fef569ef76e2 ""
+  "main.aux" 1599230235 35652 8196c3dbf6562030a1ff18c2885f190e ""
+  "main.bbl" 1599230227 12373 5b75508f7faae2642a18e6489d19fa7b "bibtex main"
+  "main.out" 1599230235 10946 ccf028b2481a33f8798268380ac461a4 ""
   "main.tex" 1594392332 10651 4028edb0985d8ca24203284f3664fc6d ""
-  "main.toc" 1599042201 5205 b87017b23dfd52e26947173c98bd9834 ""
+  "main.toc" 1599230235 5205 ade4ee6fe914ad2abf0b41a1b14c266a ""
   "multirow.sty" 1590389361 5015 cd8d25106b58dfc16af57528a07d0bc9 ""
   "myHacks.tex" 1599040247 2362 e8f80f4c090109cda37e6f186d6109b4 ""
   "physics.sty" 1590389361 29610 a9597219b282d9c78b02393dcd7d4322 ""
@@ -352,8 +352,8 @@
   "uj.jpg" 1590389361 161685 1c75702a7f53f1131405330d4dc4eec2 ""
   "vmargin.sty" 1590389361 6845 5eae49c3f07fead60d92def0a4f5c30f ""
   (generated)
+  "main.out"
   "main.pdf"
   "main.toc"
   "main.log"
   "main.aux"
-  "main.out"

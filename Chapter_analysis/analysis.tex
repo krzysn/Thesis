@@ -16,18 +16,18 @@ All methods developed for pp@3.5 GeV experiment were also used for data collecte
 
 During the experiment a liquid hydrogen (LH2) target was used. The hydrogen was stored in a special tank designated to keep constant temperature 20K. Its length was 50 mm, what corresponds to interaction probability 0.7\% for protons with kinetic energy 3.5 GeV. The beam density reached $10^6$ particles/s. For data selection a two-level trigger was used. The first level trigger (LVL1) was dedicated to hadronic reactions and required at least three charged particles registered in META detectors. More over, to reduce a data flux only every third LVL1 event was recorded by DAQ system and stored for further analysis. During four-weeks experimental campaign in total $1.14 \times 10^9$ LVL1 events were recorded \cite{hades_inclL_35}. The second level (LVL2) was dedicated for di-lepton studies and bases on combined information from many detectors. The trigger system search di-lepton pairs bases on information from: RICH detector (Cherenkov light rings), TOF detectors ($\beta>xx$) and pre-shower detector (electromagnetic cascade)\cite{Agakishiev:2009am,hades_DAQ}. In case of any signature of a leptonic nature of the tracks they are saved without any down-scaling.
 
-Due to technical circumstances the pp experiment was conducted without the start detector. A time of flight for each particle was calculated based on a difference between different particles time of flight related to arbitrary experiment clock. Details of the reconstruction method are described in \cite{dybczak_phd}. However in following studies an information from TOF detectors was not required at all, so that information played only secondary role as and helped cross-check a de/dx identification method.
+Due to technical circumstances the pp experiment was conducted without the start detector. A time of flight for each particle was calculated based on a difference between different particles time of flight related to arbitrary experiment clock. Details of the reconstruction method are described in \cite{dybczak_phd}. However in following studies an information from TOF detectors was not required at all, so that information played only secondary role and helped cross-check a de/dx identification method.
 \subsection{Absolute normalization}
 \label{sec:normalization}
-An integrated luminosity for the pp experiment was calculated using a pp elastic scattering [ref], it was
+An integrated luminosity for the pp experiment was calculated using a pp elastic scattering [ref], it reached
 \begin{equation}
   L^{int}=3.13 \cdot 10^8 mb^{-1}.
 \end{equation}
-Thanks to a full scale simulation performed in HYDRA framework (for more details see chapter \ref{chapter:simulations}) it is possible to get a total detection efficiency for given reaction. The efficiency, together with known luminosity and a \cs allows for an expected count rate estimation, for any reaction.
+Thanks to a full scale simulation performed in HYDRA framework (for more details see chapter \ref{chapter:simulations}) it is possible to get a total detection efficiency for given reaction. The efficiency, estimated by the simulation, together with the luminosity and a \cs allows to determine expected count rates for the reaction.
 \begin{equation}
-  N^{\mathrm{expected}}_{pp\rightarrow X}=\frac{N_{\mathrm{detected}}}{N_{\mathrm{Simulated \; in \;} 4 \pi} \cdot 3} \cdot \sigma_{pp\rightarrow X} \cdot L^{int}.
+  N^{\mathrm{expected}}_{pp\rightarrow X}=\frac{N_{\mathrm{reconstructed in simulation}}}{N_{\mathrm{Simulated \; in \;} 4 \pi} \cdot 3} \cdot \sigma_{pp\rightarrow X} \cdot L^{int}.
 \end{equation}
-The factor 3 in denominator is connected with a trigger down-scaling. Due to limited read-out capabilities for hadronic channels each 3th triggered event was saved on tapes. A list of the reactions simulated for following analysis is presented in tab. \ref{tab:channels}. 
+The factor 3 in denominator is derives from the LVL1 trigger down-scaling. Due to limited read-out capabilities for hadronic channels each 3th triggered event was saved on tapes. A list of the reactions simulated for following analysis is presented in tab. \ref{tab:channels}.  
 \begin{table}
     \centering
   \caption{List of the channels considered in following chapter. Numbers from 3 up to 10 indicates reactions containing $\p \pim \pip \pim$ in a final state. They are treated as a possible background channels. All values taken from \cite{hades_inclL_35}.}
@@ -39,6 +39,7 @@ The factor 3 in denominator is connected with a trigger down-scaling. Due to lim
     \hline
     \multicolumn{3}{c}{3-body reactions} \\
     \hline
+    0 & $\Ls \p \Kp$&$5.6 \pm 1.1 \pm 0.4 ^{+1.1} _{1.6}$\\
     1 & $\Lz \p \Kp$&$35.26 \pm 0.43 ^{+3.55}_{-2.83}$\\
     2 & $\Sz \p \Kp$&$16.5 \pm 20\%$\\
     3 & $\Lz \Dpp \Kz$&$29.45\pm 0.08 ^{+1.67}_{-1.46}\pm 2.06$\\
@@ -58,7 +59,18 @@ The factor 3 in denominator is connected with a trigger down-scaling. Due to lim
 \end{table}
 
 \section{Particles identification}
-The HADES detector allows for two complementary methods of particles identification. The first, bases on particles' time of flight measured in the ToF detectors and particle's momentum measured in the MDC detector. The second method, bases on the MDC exclusively and uses combine information about particles' momentum and energy losses. The first one is favoured due to better precision, however a limited geometrical acceptance of the TOF detectors reduces detection efficiency by a factor 0.8 for each particle. In case of four particles final state, discussed in this thesis, a total loss caused by the TOF detectors  can reach 60\% of all detected particles. For that reason the $\frac{de}{dx}$ vs. $\p$ identification method was used. Identification cuts have been optimized for previous analysis conducted by by HADES experiment and described in \cite{hades_inclL_35,lalik_phd}. Contours used for $\pim$ and $\pip$ are the same and differs only by electric charge, they are visualized in fig. \ref{fig:dedx}. 
+The HADES detector allows for two complementary methods of particles identification. The first, bases on particles' time of flight measured in the ToF detectors and particle's momentum measured in the MDC detector. These two quantities allws for a mass tetermination according to the formula
+\begin{equation}
+p=\gamma \beta m.  
+\end{equation}
+The second method, bases on the MDC exclusively and uses combine information about particles' momentum and energy losses ($\frac{dE}{dx}$). These quantities are connected by the Boethe-Bolch formula:
+\begin{equation}
+  \frac{\mathrm{d}E}{\mathrm{d}x}=\frac{4 \pi N_A z^2 e^4}{mv^2} \frac{Z}{A} \left[ \ln \left(\frac {2mv^2}{I(1-\beta^2)} \right) - \beta^2 \right]
+\end{equation}
+which also allows to mark out a particle mass.
+
+
+In case of the HADES detector the first identyfication metod is favoured, due to better precision, however a limited geometrical acceptance of the TOF detectors reduces detection efficiency by a factor 0.8 for each particle. In case of a four-particles final state, discussed in this thesis, a total loss caused by the TOF detectors can reach 60\% of all detected particles. For that reason the $\frac{de}{dx}$ vs. $\p$ method was used. Identification cuts have been optimized for previous analysis conducted by by HADES experiment and described in \cite{hades_inclL_35,lalik_phd}. Contours used for $\pim$ and $\pip$ are the same and differs only by electric charge, they are visualized in fig. \ref{fig:dedx}. 
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.9 \linewidth]{Chapter_analysis/DeDx_PPim.jpg}
