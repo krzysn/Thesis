@@ -19,15 +19,15 @@ During the experiment a liquid hydrogen (LH2) target was used. The hydrogen was 
 Due to technical circumstances the pp experiment was conducted without the start detector. A time of flight for each particle was calculated based on a difference between different particles time of flight related to arbitrary experiment clock. Details of the reconstruction method are described in \cite{dybczak_phd}. However in following studies an information from TOF detectors was not required at all, so that information played only secondary role and helped cross-check a de/dx identification method.
 \subsection{Absolute normalization}
 \label{sec:normalization}
-An integrated luminosity for the pp experiment was calculated using a pp elastic scattering [ref], it reached
+An integrated luminosity for the pp experiment was calculated using a pp elastic scattering measured in the same experiment \cite{hades_normalization}, it reached
 \begin{equation}
   L^{int}=3.13 \cdot 10^8 mb^{-1}.
 \end{equation}
-Thanks to a full scale simulation performed in HYDRA framework (for more details see chapter \ref{chapter:simulations}) it is possible to get a total detection efficiency for given reaction. The efficiency, estimated by the simulation, together with the luminosity and a \cs allows to determine expected count rates for the reaction.
+Thanks to a full scale simulation performed in HYDRA framework (for more details see chapter \ref{chapter:simulations}) it is possible to get a total detection efficiency for given reaction. The efficiency, estimated by the simulation, together with the luminosity and a \cs allows to determine expected count rates for any reaction with known \cs.
 \begin{equation}
   N^{\mathrm{expected}}_{pp\rightarrow X}=\frac{N_{\mathrm{reconstructed in simulation}}}{N_{\mathrm{Simulated \; in \;} 4 \pi} \cdot 3} \cdot \sigma_{pp\rightarrow X} \cdot L^{int}.
 \end{equation}
-The factor 3 in denominator is derives from the LVL1 trigger down-scaling. Due to limited read-out capabilities for hadronic channels each 3th triggered event was saved on tapes. A list of the reactions simulated for following analysis is presented in tab. \ref{tab:channels}.  
+The factor 3 in denominator derives from the LVL1 trigger down-scaling. Due to limited read-out capabilities, for hadronic channels each 3th triggered event was saved on tapes. A list of the reactions simulated for following analysis is presented in tab. \ref{tab:channels}.  
 \begin{table}
     \centering
   \caption{List of the channels considered in following chapter. Numbers from 3 up to 10 indicates reactions containing $\p \pim \pip \pim$ in a final state. They are treated as a possible background channels. All values taken from \cite{hades_inclL_35}.}
@@ -59,18 +59,18 @@ The factor 3 in denominator is derives from the LVL1 trigger down-scaling. Due t
 \end{table}
 
 \section{Particles identification}
-The HADES detector allows for two complementary methods of particles identification. The first, bases on particles' time of flight measured in the ToF detectors and particle's momentum measured in the MDC detector. These two quantities allws for a mass tetermination according to the formula
+The HADES detector allows for two complementary methods of particles identification. The first, bases on particles' time of flight measured in the ToF detectors and particle's momentum measured in the MDC detector. These two quantities allws for a mass determination according to the formula
 \begin{equation}
 p=\gamma \beta m.  
 \end{equation}
-The second method, bases on the MDC exclusively and uses combine information about particles' momentum and energy losses ($\frac{dE}{dx}$). These quantities are connected by the Boethe-Bolch formula:
+The second method, bases on the MDC exclusively and uses combine information about particles' momentum and energy losses ($\frac{dE}{dx}$) - both provided by MDC detector. These quantities are connected by the Boethe-Bolch formula:
 \begin{equation}
   \frac{\mathrm{d}E}{\mathrm{d}x}=\frac{4 \pi N_A z^2 e^4}{mv^2} \frac{Z}{A} \left[ \ln \left(\frac {2mv^2}{I(1-\beta^2)} \right) - \beta^2 \right]
 \end{equation}
 which also allows to mark out a particle mass.
 
 
-In case of the HADES detector the first identyfication metod is favoured, due to better precision, however a limited geometrical acceptance of the TOF detectors reduces detection efficiency by a factor 0.8 for each particle. In case of a four-particles final state, discussed in this thesis, a total loss caused by the TOF detectors can reach 60\% of all detected particles. For that reason the $\frac{de}{dx}$ vs. $\p$ method was used. Identification cuts have been optimized for previous analysis conducted by by HADES experiment and described in \cite{hades_inclL_35,lalik_phd}. Contours used for $\pim$ and $\pip$ are the same and differs only by electric charge, they are visualized in fig. \ref{fig:dedx}. 
+In case of the HADES detector the first identyfication metod is favoured, due to better precision, however a limited geometrical acceptance of the TOF detectors reduces detection efficiency by a factor 0.8 for each detected particle. In case of a four-particles final state, discussed in this thesis, a total loss caused by the TOF detectors can reach 60\% of all detected particles. For that reason the $\frac{de}{dx}$ vs. $\p$ method was used. Identification cuts have been optimized for previous analysis conducted by by HADES experiment and described in \cite{hades_inclL_35,lalik_phd}. Contours used for $\pim$ and $\pip$ are the same and differs only by electric charge, they are visualized in fig. \ref{fig:dedx}. 
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.9 \linewidth]{Chapter_analysis/DeDx_PPim.jpg}
@@ -80,7 +80,7 @@ In case of the HADES detector the first identyfication metod is favoured, due to
 
 
 \section{Event selection}
-Among all registered events only these containing at least four charged particles (two positive and two negative) was considered in analysis. They have been also observed events with more than four particles detected (fig. \ref{fig:mult}). They produces kombinatorics which are very difficult to control during further analysis. Because of that, only one four-particle combination from every event was taken. The combinations were ordered according to track reconstruction quality. For each combination the sum of $\chi^2$ for all tracks was calculated, and the best reconstructed combination was taken. 
+Among all registered events only these containing at least four charged particles (two positive and two negative) was considered in analysis. They have been also observed events with more than four particles detected (fig. \ref{fig:mult}). They produces kombinatorics which are very difficult to control during further analysis. Because of that, only one four-particle combination from every event was taken. The combinations were ordered according to track reconstruction quality. For each combination the sum of $\chi^2$ (match quality in MDCs) for all tracks was calculated, and the best reconstructed combination was taken. 
 
 Additionally an equivocation in $\pim$ selection requires an additional criteria to define which particle belongs to $\Lz$. Fortunately a $\Lz$ hyperon is a very narrow resonance what gives a natural criteria for $\pim$ classification. Within one hypothesis, both $pim$s were combined with a proton track and an invariant mass for those pairs ($\mathrm{M}^{inv}_{\p\pim}$) were calculated. The $\pim$ which gives better agreement with $\Lz$ pole mass was treated as originated from secondary vertex.
 
@@ -93,11 +93,15 @@ Additionally an equivocation in $\pim$ selection requires an additional criteria
 
 \section{Reaction kinematics}
 \label{section:kinematics}
-For pp@3.5 GeV collisions the production threshold for $\Ls$ ($E^{\mathrm{thr}}_{\p\Kp\Lz}=$) lies just below available energy ($\Sqs=$). Using the rule of a energy-momentum conservation is possible to calculate missing mass for observed particles. Because the analyzed final state is produced via reaction
+For pp@3.5 GeV collisions the production threshold for $\Ls$ ($\sqrt{S_{E_K=3.5GeV}}-E^{\mathrm{thr}}_{\p\Kp\Lz}=0.22 GeV$) lies just below available energy threshold.  Using the rule of a energy-momentum conservation is possible to calculate missing mass for observed particles. Because of small ecces energy a dominant channel for$\Ls$ roduction is as follows
 \begin{equation}
   \p\p \rightarrow \p \Kp \Ls [\Lz \pip \pim],
 \end{equation}
-the smallest missing mass for the signal channel is $\Sqs - \Ls_{mass}= 1432$ MeV. It is a very strong kinematic constrain which separates well the signal from most of background channels. The missing mass spectrum is presented in fig. \ref{fig:missMass}. There is visible a resonance behaviour around 1200 MeV. Due to conservation rules missing particles have to have a total charge +2 and a baryon number +1. It leads to the conclusion that the missing mass spectrum is dominated by a $\Dpp$ production.
+the smallest missing mass for the inclusive $\Lz$ reconstruction is $\Sqs - \Ls_{mass}= 1432$ MeV. It is a very strong kinematic constrain which separates well the signal from most of background channels. The missing mass spectrum is presented in fig. \ref{fig:missMass}. There is visible a resonance behaviour around 1200 MeV. Due to conservation rules missing particles have to have a total charge +2 and a baryon number +1. It leads to the conclusion that the missing mass spectrum is dominated by a $\Dpp$ production. Indeed a simulation comfirmed that peak around 1200 MeV originates from $\Dpp$ decaying into $\p \pip$. A mass shift and signal shape are caused by protons mismatch. In reaction
+\begin{equation}
+  \p\p \rightarrow \Dpp [\p \pip] \p \pim
+\end{equation}
+both protons can be combined with $\pip$. Procedure describe in the section above protect agains doube-counting, but do not provide faultless $\Dpp$ reconscruction.
 
 \begin{figure}[ht]
   \centering
@@ -107,7 +111,7 @@ the smallest missing mass for the signal channel is $\Sqs - \Ls_{mass}= 1432$ Me
 \end{figure}
 
 
-Because in HADES energy regime almost all pions are produced via barionic resonances, and $\Dpp$s tend to be produced in pairs, it was expected that an invariant mass of $\p \pip$ detected in experiment would also contain a $\Dpp$ component. Indeed, as it is shown in fig. \ref{fig:dpp2D} most of the background comes from correlated source with mass maximum around double $\Dpp$ production. The figure shows also that a cut on missing mass > 1432 MeV removes a significant part of a background events. In case of $\Lz \Kz$ channel (see. \ref{section:LzKz}) the missing mass cut was put on a lower mass $M^{miss}_{\p \pip \pip \pim}>1077$. For details see fig. \ref{fig:dpp2D}.
+Because in HADES energy regime almost all pions are produced via barionic resonances, and $\Dpp$s tend to be produced in pairs, it was expected that an invariant mass of $\p \pip$ detected in experiment would also contain a $\Dpp$ component. Indeed, as it is shown in fig. \ref{fig:dpp2D} most of the background comes from correlated source with mass maximum around double $\Dpp$ production. The figure shows also that a cut on missing mass > 1432 MeV removes a significant part of a background events. In case of inclusive $\Lz \Kz$ reconstruction (see. \ref{section:LzKz}) the missing mass cut was put on a lower mass $M^{miss}_{\p \pip \pip \pim}>1077$. For details see fig. \ref{fig:dpp2D}.
 
 \begin{figure}[ht]
   \centering

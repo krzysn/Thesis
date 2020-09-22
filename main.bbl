@@ -127,6 +127,13 @@ A.~Dybczak, ``Pomiar produkcji mezon\'{o}w $\omega$/$\rho$ w reakcji p+p i
   p+{Nb} przy energii kinetycznej wi\k{a}zki 3,5~{GeV} za pomoc\k{a}
   spektrometru {HADES}.,'' PhD thesis, Uniwersytet Jagielloński (2013).
 
+\bibitem{hades_normalization}
+R.~C. Kammerud, B.~B. Brabson, R.~R. Crittenden, R.~M. Heinz, H.~A. Neal, H.~W.
+  Paik, and R.~A. Sidwell, ``Large-angle proton-proton elastic scattering at
+  intermediate momenta,'' \href{http://dx.doi.org/10.1103/PhysRevD.4.1309}{{\em
+  Phys. Rev. D} {\bfseries 4} (Sep, 1971)  1309--1324}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevD.4.1309}.
+
 \bibitem{lalik_phd}
 R.~Lalik, ``A beam detector for pion experiments and analysis of the inclusive
   ${\Lz}$ production in proton-proton reactions with {HADES},'' PhD thesis
