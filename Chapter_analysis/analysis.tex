@@ -93,20 +93,20 @@ Additionally an equivocation in $\pim$ selection requires an additional criteria
 
 \section{Reaction kinematics}
 \label{section:kinematics}
-For pp@3.5 GeV collisions the production threshold for $\Ls$ ($\sqrt{S_{E_K=3.5GeV}}-E^{\mathrm{thr}}_{\p\Kp\Lz}=0.22 GeV$) lies just below available energy threshold.  Using the rule of a energy-momentum conservation is possible to calculate missing mass for observed particles. Because of small ecces energy a dominant channel for$\Ls$ roduction is as follows
+For pp@3.5 GeV collisions the production threshold for $\Ls$ ($\sqrt{S_{E_K=3.5GeV}}-E^{\mathrm{thr}}_{\p\Kp\Lz}=0.22 GeV$) lies just below available energy threshold.  Using the rule of a energy-momentum conservatio nis possible to calculate missing mass for observed particles. Because of small ecces energy a dominant channel for$\Ls$ roduction is as follows
 \begin{equation}
   \p\p \rightarrow \p \Kp \Ls [\Lz \pip \pim],
 \end{equation}
 the smallest missing mass for the inclusive $\Lz$ reconstruction is $\Sqs - \Ls_{mass}= 1432$ MeV. It is a very strong kinematic constrain which separates well the signal from most of background channels. The missing mass spectrum is presented in fig. \ref{fig:missMass}. There is visible a resonance behaviour around 1200 MeV. Due to conservation rules missing particles have to have a total charge +2 and a baryon number +1. It leads to the conclusion that the missing mass spectrum is dominated by a $\Dpp$ production. Indeed a simulation comfirmed that peak around 1200 MeV originates from $\Dpp$ decaying into $\p \pip$. A mass shift and signal shape are caused by protons mismatch. In reaction
 \begin{equation}
-  \p\p \rightarrow \Dpp [\p \pip] \p \pim
+  \p\p \rightarrow \Dpp [\p \pip] \p \pim \pim \pip
 \end{equation}
 both protons can be combined with $\pip$. Procedure describe in the section above protect agains doube-counting, but do not provide faultless $\Dpp$ reconscruction.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.9 \linewidth]{Chapter_analysis/missMass.eps}
-  \caption{The missing mass of $\p \pim \pip \pim$ system. The resonance behaviour around 1200 MeV is clearly visible. The read line represents sum of signal (a Voigt function) and a background (5-th order polynomial) fit. Fitted Voigt function gives following parameters: $\bar{M}=1186$ MeV, $\sigma=61$ MeV, $\Gamma=$20 MeV.}
+  \caption{The missing mass of $\p \pim \pip \pim$ system for an experimental data (blue line) and simulations. The resonance behaviour around 1200 MeV is clearly visible. The magenta histogram represents perfectly reconstructed $\Dpp$ from the background channel $\p\p \rightarrow \Dpp [\p \pip] \p \pim \pim \pip$. The green histogram shows input from this channel reconstructed in analysis. An inconsistency between perfect and real reconstruction is described in text. Both simulation histograms were arbitrary scaled up to have the same high like data.}
   \label{fig:missMass}
 \end{figure}
 
@@ -121,7 +121,7 @@ Because in HADES energy regime almost all pions are produced via barionic resona
 \end{figure}
 
 \section{The $\Lz$ Reconstruction}
-The next step of the analysis after a missing mass cut was an inclusive $\Lz$ reconstruction. In previous HADES experiments the reconstruction had based on a set of geometrical cuts. Their role was to increase signal-to-background ratio utilizing a $Lz$ decay geometry. Because the $\Lz$ decays via week interactions its lifetime is relatively long:$c\tau = 7.89 cm$ \cite{PDG}. That may be used to discriminate an out of target vertex from a background originates from a target.
+The next step of the analysis after a missing mass cut was an inclusive $\Lz$ reconstruction. In previous HADES experiments the reconstruction had based on a set of geometrical cuts. Their role was to increase signal-to-background ratio utilizing a $\Lz$ decay geometry. Because the $\Lz$ decays via week interactions its lifetime is relatively long:$c\tau = 7.89 cm$ \cite{PDG}. That may be used to discriminate an out of target vertex from a background originates from a target.
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.7 \linewidth]{Chapter_analysis/NN.eps}
@@ -129,7 +129,7 @@ The next step of the analysis after a missing mass cut was an inclusive $\Lz$ re
   \label{fig:NN}
 \end{figure}
 
-As it was shown in \ref{section:kinematics} an available phase-space for $\Ls$ production for a $E_k=3.5$ GeV is very limited. An inclusive analysis performed in \cite{hades_L1520} has measured ?? events of $Ls$ after all cuts. To improve statistics, and also examine new reconstruction methods in following analysis a neural network was used as a replacement of the geometrical cuts. Details about used method and an optimization process are explained in chapter \ref{chapter:NN}.
+As it was shown in \ref{section:kinematics} an available phase-space for $\Ls$ production for a $E_k=3.5$ GeV is very limited. An inclusive analysis performed in \cite{hades_L1520} has measured  $\Ls$, however a statistics is was very limited. To improve the signal yeld, and also examine new reconstruction methods, in following analysis a neural network was used as a replacement of the geometrical cuts. Details about used method and an optimization process are explained in chapter \ref{chapter:NN}.
 
 \begin{figure}[h]
   \centering
@@ -139,7 +139,7 @@ As it was shown in \ref{section:kinematics} an available phase-space for $\Ls$ p
 \end{figure}
 
 
-The final network architecture used for $\Lz$ reconstruction is a feed-forward dense network with 4 layers, each N+6 neurons, where N is a number of scalar input parameters. For each neuron a sigmoid took role of an activation function. Because the network took role after geometrical cuts, as an input eleven geometrical variables had been taken:
+The final network architecture used for $\Lz$ reconstruction is a feed-forward dense network consist of 4 layers, each N+6 neurons, where N is a number of scalar input parameters. For each neuron a sigmoid was used as an activation function. Because the network replaced geometrical cuts, as an input eleven geometrical variables had been taken:
 \begin{itemize}
 \item Distance between $\p \pim$ from $\Lz$
 \item Distance between $\pip$ and $\pim$ from primary vertex
@@ -153,8 +153,9 @@ The final network architecture used for $\Lz$ reconstruction is a feed-forward d
 \item Distance between primary and secondary vertexes
 \end{itemize}
 
+Additionally choosen parameters do not allow for $\Lz$ invariant mass reconstruction. That was crucial to learn the network geometrical properties not just invariant mass reconstruction. 
 
-The optimized neural network enhanced a signal to background ratio from ??? without any cuts to ???. A $\Lz$ signal obtained in this way was used for a next steps of analysis: the $\Ls$ analysis (chapter \ref{section:Ls}) and associated $\Lz \Kz$ production (chapter \ref{section:LzKz});
+The optimized neural network may enhanced a signal to background ratio from 0.345 without any cuts to 16 for very restricted cut. The final cut was optimilezed to get the best $\Ls$ signal.  A $\Lz$ signal obtained in this way was used for a next steps of analysis: the $\Ls$ analysis (chapter \ref{section:Ls}) and associated $\Lz \Kz$ production (chapter \ref{section:LzKz});
 
 \begin{figure}[h]
   \centering
