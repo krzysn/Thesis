@@ -1,3 +1,4 @@
+ll
 \chapter{PP data analysis}
 \label{chapter:analysis}
 The HADES collaboration has performed a proton-proton experiment with beam kinetic energy 3.5 GeV in September 2012. Data collected during this experiment has allowed to conduct a series of analysis devoted to hyperons' studies \cite{hades_inclL_35,hades_L1405,hades_L1520,hades_PWA_pKpL,hades_S1385}. In the following thesis the hyperon studies is extended by a $\Ls$ inclusive reconstruction. A research conducted with a four particles $\p \pim \pip \pim$ final state allows to reconstruct the $\Ls$ and  a $\Lz \Kz$ inclusive signals. The obtained results were compared with previous, exclusive measurements and used to constrain simulation of a new experiment devoted to hyperon studies \ref{chapter:simulations}.
@@ -155,7 +156,7 @@ The final network architecture used for $\Lz$ reconstruction is a feed-forward d
 
 Additionally choosen parameters do not allow for $\Lz$ invariant mass reconstruction. That was crucial to learn the network geometrical properties not just invariant mass reconstruction. 
 
-The optimized neural network may enhanced a signal to background ratio from 0.345 without any cuts to 16 for very restricted cut. The final cut was optimilezed to get the best $\Ls$ signal.  A $\Lz$ signal obtained in this way was used for a next steps of analysis: the $\Ls$ analysis (chapter \ref{section:Ls}) and associated $\Lz \Kz$ production (chapter \ref{section:LzKz});
+The optimized neural network may enhanced a signal to background ratio from 0.345 without any cuts to 16 for very restricted cut. The final cut was optimilezed to get the best $\Ls$ signal. After an opimization the cut was set ??? and obtained $\Lz$ signal is shown in fig \ref{fig:L1116SB}. The signal to baskground ratio is ???, but all uncorelated background can be remuved by a side-band method. The signal obtained in this way was used for a next steps of analysis: the $\Ls$ analysis (chapter \ref{section:Ls}) and associated $\Lz \Kz$ production (chapter \ref{section:LzKz});
 
 \begin{figure}[h]
   \centering
@@ -165,11 +166,13 @@ The optimized neural network may enhanced a signal to background ratio from 0.34
 \end{figure}
 
 
-\section{The $\Lz \Kz $reconstruction}
+\section{The $\Lz \Kz $reconstruction - a reference channel}
 \label{section:LzKz}
-Due to strangeness conservation low a $\Lz$ has to be produced with some anti-strange particle. The lightest candidate is a $\Kz$ meson, which decays in 69.2\% into $\pip \pim$ pair \cite{PDG}. For that reason a $\Lz \Kz$ signal is expected to be a significant part of the $\Lz \pip \pim$ final state and should be visible in analyzed data. Because a kinematics for a $\Lz \Kz$ production is different than for $\Ls$, the used missing mass cut was looser than in $\Ls$ analysis. It was set  $M^{miss}_{\p \pip \pip \pim}>1077$, what is a minimal missing mass expected for $pp \rightarrow p \Kz \Lz \pip$ reaction with $\p_{E_k}=3.5 \mathrm{GeV}$. 
+Due to strangeness conservation low a $\Lz$ has to be produced with some anti-strange particle. The lightest candidate is a $\Kz$ meson, which decays in 69.2\% into $\pip \pim$ pair \cite{PDG}. For that reason a $\Lz \Kz$ signal is expected to be a significant part of the $\Lz \pip \pim$ final state and should be visible in analyzed data. An almost whole contamination from $\Kz$ decay may be remuved by a cut on $M^{inv}_{\pip \pim}<410 MeV$ without the signal affection. However a semi-inclusive $\Lz \Kz$ production may be a good reference channel for the analysis.
 
-After the $\Lz$ reconstruction two spectra were drown: a) a $\pip \pim$ invariant mass spectrum for events $1006<M^{inv}_{\p \pim}<1026$ and b) a $\p \pim$ invariant mass for $480 MeV<M^{inv}_{\pip \pim}<500 MeV$. Obtained spectra have to were compared with simulation, so the same analysis chain was used to analyzed all channels listed in \ref{tab:channels} which contains associated $\Lz\Kz$ production.
+Because a kinematics for a $\Lz \Kz$ production is different than for $\Ls$, the used missing mass cut was looser than in $\Ls$ analysis. It was set  $M^{miss}_{\p \pip \pip \pim}>1077$, what is a minimal missing mass expected for $pp \rightarrow p \Kz \Lz \pip$ reaction with $\p_{E_k}=3.5 \mathrm{GeV}$. 
+
+After the $\Lz$ reconstruction two spectra were drown: a) a $\pip \pim$ invariant mass spectrum for events $1006<M^{inv}_{\p \pim}<1026$ and b) a $\p \pim$ invariant mass for $480 MeV<M^{inv}_{\pip \pim}<500 MeV$. Obtained spectra have to were compared with simulation, so the same analysis chain was used to analyzed all channels listed in \ref{tab:channels} which contains associated $\Lz\Kz$ production. Summing up all \css for explusive channels the total inclusive \cs was obtained.
 
 Using a procedure described in \ref{sec:normalization} the simulation was compared with experimental data (see \ref{fig:K0L0}). The simulation describes well a yield of $\Kz$ and $\Lz$ produced in experiment, although it does not describe the background shape. This is mostly caused by lack of reliable model for a double $\Dpp$ production. 
 
@@ -196,7 +199,7 @@ The neural network analysis gives a data sample with good S/B ratio for $\Lz$ si
 
 \subsection{Side-band analysis}
 \label{section:SB}
-A side-band analysis bases on assumption that a background kinematic changes slowly through a spectrum. Thanks to this, kinematics of the background events from signal region can be well described by background events from outside the signal region. In case of described analysis the side-band method was used to estimate an impact of non-perfect $\Lz$ reconstruction for the $\Ls$ spectrum. The fig. \ref{fig:L1116SB} shows input for the side-band. The picture is divided by red dashed lines into three sections. The middle one is a signal range, the left and  the right are side-band regions. The $p \pim \pip \pim$ spectra for the signal and SB region after all the cuts are shown in \ref{fig:Ls_SB}. The side-band describes very well both wings of the data distribution. A difference between signal and the side-band spectrum can be interpreted as $\p \pim \pip \pim$ signal associated with the $\Lz$ signal.
+A side-band analysis bases on an assumption that a background kinematic changes slowly through a spectrum. Thanks to this, kinematics of the background events from signal region can be well described by background events from outside the signal region. In case of described analysis the side-band method was used to estimate an impact of non-perfect $\Lz$ reconstruction for the $\Ls$ spectrum. The fig. \ref{fig:L1116SB} shows input for the side-band. The picture is divided by red dashed lines into three sections. The middle one is a signal range, the left and  the right are side-band regions. The $p \pim \pip \pim$ spectra for the signal and SB region after all the cuts are shown in \ref{fig:Ls_SB}. The side-band describes very well both wings of the data distribution. A difference between signal and the side-band spectrum can be interpreted as $\p \pim \pip \pim$ signal associated exclusively with the $\Lz$ signal.
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.7 \linewidth]{Chapter_analysis/L1520_sig_SB.eps}

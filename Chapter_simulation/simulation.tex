@@ -1,11 +1,11 @@
 \chapter{Simulations of a new experiment}
 \label{chapter:simulations}
-The HADES collaboration is one of the leading forces of a FAIR Phase-0 project. Within the scope of the FAIR project a pp@4.5GeV experiment is going to be preformed. It gives a great opportunity to increase a knowledge about hyperons, with special emphasis on hyperons' Dalitz decays (see Chapter \ref{chapter:introduction}). One of the goals of my work was to carry out a simulation of such an experiment. 
+The HADES collaboration is one of the leading forces of a FAIR Phase-0 project. Within the scope of the FAIR project a pp@4.5GeV experiment is going to be preformed. It gives a great opportunity to increase a knowledge about hyperons, with special emphasis on hyperons' Dalitz decays (see Chapter \ref{chapter:introduction}). One of the goals of my work was to carry out a simulation of such an experiment. The performed simulation was used as an input for proposal ubmited by HADES experiment for [nazwa komisji]. As the result the HADES was granted 4 week proton beem devoted for hyperons studies.
 \section{An estimation of cross-sections}
-In energy range of $1GeV<\Sqs<6GeV$ an inclusive \cs for $\Lz$ and $\Sz$ were measured for many different energies \cite{hades_inclL_35,COSY-TOF_SigmaLambda,L-B}. Also an inclusive \cs for $\Lss$ production  was measured for two different energies \cite{hades_L1405,COSY-TOF_L1405}, and for $\Ls$, was measured once \cite{hades_inclL_35}. In contrast to the exclusive production \cs, inclusive \css for hyperons' production are poorly known. First step to perform a reliable simulation was to estimate possible \css based on available knowledge.
+In energy range of $1 \mathrm{GeV}<\Sqs<6 \mathrm{GeV}$ an exclusive \cs for $\Lz$ and $\Sz$ production were measured for many different energies \cite{hades_inclL_35,COSY-TOF_SigmaLambda,L-B}. Also an exclusive \cs for $\Lss$ production  was measured for two different energies \cite{hades_L1405,COSY-TOF_L1405}, and for $\Ls$, was measured once \cite{hades_inclL_35}. In contrast to the exclusive production \cs, inclusive \css for hyperons' production in pp collisions are poorly known. The first step to perform a reliable simulation was to estimate possible \css based on an available knowledge.
 
 \subsection{$\Lz$ inclusive \cs}
-The first step for all estimations is a parametrization of a $\Lz$ inclusive production. In a given energy range there are four measured values. More over, some additional assumptions can be made i) the production \cs is equal 0 for threshold energy, ii) for energy below one pion mass (140~MeV) the inclusive and the exclusive \css are the same. Hence, For the parametrization can used an already measured inclusive \cs for $\p\p \rightarrow \p \Kp \Lz$ for $\Sqs$ below ??. To the all available data points meeting my requirements I fitted a 3th order polynomial
+The first step for all estimations is a parametrization of a $\Lz$ inclusive production. In a given energy range there are four measured values. More over, some additional assumptions can be made i) the production \cs is equal 0 for threshold energy, ii) for energy below one pion mass (140~MeV) the inclusive and the exclusive \css are the same. Hence, for the parametrization could be used an already measured inclusive \cs for $\p\p \rightarrow \p \Kp \Lz$ for $\Sqs$ below ??. To the all available data points meeting my requirements I fitted a 3th order polynomial
 \begin{equation}
   \label{eq:L1116param}
   \sigma_{\p\p \rightarrow \Lz X}(\Sqs)=48 \cdot (\Sqs -2.55)+292.6 \cdot (\Sqs-2.55)^2-45.4 \cdot (\Sqs-2.55)^3.
@@ -14,23 +14,28 @@ Fit result, together with residual plot is show in \ref{fig:inclusive_cs} by a b
 
 \subsection{$\Sz$ inclusive \cs}
 According to PDG \cite{PDG} almost all $\Sz$s decay into $\Lz$. I means that the inclusive $\Lz$ signal contains a fraction deriving from $\Sz$ decays. However knowing a relation between $\Lz$ and $\Sz$ it is possible to disentangle both contributions.
+\begin{figure}[hb]
+  \includegraphics[width=0.9 \linewidth]{Chapter_simulation/LtoS.eps}
+  \caption{A measeured ratio between $\Lz$ and $\Sz$ exclusive \cs. I low $\eps$ range the COSY-TOF parametrization was used, for $\eps > ???$ the data is described by liner function. The picture taken from \cite{hades_Sz_pNb}.}
+  \label{fig:LtoS}
+\end{figure}
 
 A $\Sz/\Lz$ ratio was measured by COSY-TOF and others \cite{COSY-TOF_SigmaLambda}. Additionally the COSY-TOF collaboration proposed a parametrization of the ratio for access energy $\eps <200~\mathrm{MeV}$. Above this energy ($\eps >200~\mathrm{MeV}$) a linear parametrization 
 \begin{equation}
   \frac{\Lz}{\Sz}(\eps)=2.215 - 2.7 \cdot 10^{-5} \eps
 \end{equation}
-describes data quite well ($\chi^2=0.89$). In fact for $\eps>200MeV$ the ratio is almost constant and does not depend on energy.
+describes data quite well ($\chi^2=0.89$). In fact for $\eps>200MeV$ the ratio is almost constant and does not depend on energy. For further calculations the COSY-TOF and the linear parametrizations were glued at ???.
 
-Knowing the $\Lz/\Sz$ I was able to disentangle a $\Lz$ and $\Sz$ production. Using determined ratio and the $\Lz$ production (let me call it $P_1$) parametrization given by eq. \ref{eq:L1116param} (called~$\P_2$) I created following set of equations,
+Knowing the $\Lz/\Sz$ ration it is possible to disentangle a $\Lz$ and $\Sz$ production. Using determined ratio and the $\Lz$ production (let's call it~$P_1$) and  parametrization given by eq. \ref{eq:L1116param} (called~$P_2$), a following ste of equations is created 
 \begin{equation}
   \label{eq:set_1}
-  P_1(\eps)=\frac{L(\eps)}{S(\eps)}=\frac{L(\Sqs - \Lz_{thr})}{S(\Sqs - \Sz_{thr})}=P_1(\Sqs),
+  P_1(\eps)=\frac{L(\eps)}{\S(\eps)}=\frac{L(\Sqs - \Lz_{thr})}{\S(\Sqs - \Sz_{thr})}=P_1(\Sqs),
 \end{equation}
 \begin{equation}
   \label{eq:set_2}
   P_2(\Sqs)=\L(\Sqs)+\S(\Sqs),
 \end{equation}
-Where $\Sigma$ represents the inclusive $\Sz$ production \cs and  $\L$ the $\Lz$ \cs accordingly. Solving the first equation and shifting an argument by $\Ss_{thr}$ it is possible to obtain an equation,
+Where $\Sigma$ represents the inclusive $\Sz$ production \cs and  $\L$ the $\Lz$ \cs accordingly. Solving the first equation and shifting an argument by $\Sz_{thr}$ it is possible to obtain an equation,
 \begin{equation}
   \label{eq:set_3}
   \S(\Sqs) \cdot P_1(\Sqs + \Sz_{thr})=\L(\Sqs - \Lz_{thr} +\Sz_{thr}).

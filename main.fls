@@ -1,4 +1,4 @@
-PWD /home/krzysztof/Dokumenty/Thesis
+PWD /home/krzysztof/Dokumenty/Doktorat/Thesis
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -626,6 +626,7 @@ INPUT ./Chapter_analysis/geometria_NN-eps-converted-to.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT Chapter_analysis/L1116SB.eps
 INPUT ./Chapter_analysis/L1116SB.eps
 INPUT ./Chapter_analysis/L1116SB.eps
@@ -635,7 +636,6 @@ INPUT ./Chapter_analysis/L1116SB.eps
 INPUT ./Chapter_analysis/L1116SB-eps-converted-to.pdf
 INPUT ./Chapter_analysis/L1116SB-eps-converted-to.pdf
 INPUT ./Chapter_analysis/L1116SB-eps-converted-to.pdf
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT Chapter_analysis/K0L0_indeksy.eps
 INPUT ./Chapter_analysis/K0L0_indeksy.eps
 INPUT ./Chapter_analysis/K0L0_indeksy.eps
@@ -803,6 +803,15 @@ INPUT ./Chapter_NN/NN_wyniki-eps-converted-to.pdf
 INPUT ./Chapter_NN/NN_wyniki-eps-converted-to.pdf
 INPUT ./Chapter_simulation/simulation.tex
 INPUT ./Chapter_simulation/simulation.tex
+INPUT Chapter_simulation/LtoS.eps
+INPUT ./Chapter_simulation/LtoS.eps
+INPUT ./Chapter_simulation/LtoS.eps
+INPUT ./Chapter_simulation/LtoS-eps-converted-to.pdf
+INPUT ./Chapter_simulation/LtoS-eps-converted-to.pdf
+INPUT ./Chapter_simulation/LtoS.eps
+INPUT ./Chapter_simulation/LtoS-eps-converted-to.pdf
+INPUT ./Chapter_simulation/LtoS-eps-converted-to.pdf
+INPUT ./Chapter_simulation/LtoS-eps-converted-to.pdf
 INPUT Chapter_simulation/all_CS.eps
 INPUT ./Chapter_simulation/all_CS.eps
 INPUT ./Chapter_simulation/all_CS.eps
