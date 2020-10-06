@@ -1,4 +1,5 @@
-ll
+
+
 \chapter{PP data analysis}
 \label{chapter:analysis}
 The HADES collaboration has performed a proton-proton experiment with beam kinetic energy 3.5 GeV in September 2012. Data collected during this experiment has allowed to conduct a series of analysis devoted to hyperons' studies \cite{hades_inclL_35,hades_L1405,hades_L1520,hades_PWA_pKpL,hades_S1385}. In the following thesis the hyperon studies is extended by a $\Ls$ inclusive reconstruction. A research conducted with a four particles $\p \pim \pip \pim$ final state allows to reconstruct the $\Ls$ and  a $\Lz \Kz$ inclusive signals. The obtained results were compared with previous, exclusive measurements and used to constrain simulation of a new experiment devoted to hyperon studies \ref{chapter:simulations}.
@@ -230,24 +231,56 @@ The total yield of detected decays allows to conduct a simple differential analy
 
 
 \subsection{Analysis of a $\pip \pim$ spectrum}
-In a model used for the signal simulation and \cs extraction, pions were emitted according to available phase-space. However, it is possible that pion production occurs through a virtual $\rho$ meson. A possible $\rho$ contribution would manifest by a distortion of a $\pip \pim$ spectrum compared to direct production. An alternative simulation with the $\rho$ decay was also prepared and both of them compared with experimental data. The comparison between an experimental data and simulations is shown in fig. \ref{fig:pip_pim}.  
+In a model used for the signal simulation and \cs extraction, pions were emitted according to available phase-space. However, it is possible that the particle decays through $\Ss \pi$ state [ref]. A possible $Ss$ contribution would manifest by a distortion of a $\pip \pim$ spectrum compared to direct production. Basing on statistics collected during pp experiment it is had to speculate about production mechanism. However the same spectra for pNb data [ref] brings a lot of intersting informations. A $\pip \pim$\ref{fig:pip_pim}.  
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.9 \linewidth]{Chapter_analysis/PipPim.eps}
   \caption{The $\pip \pim$ from emitted from $\Ls$ events. The experimental data (blue points) is compared with signal (green line) and background (red line) simulation. A sum of simulated channels is shown by a magenta line. In the presented simulation a phase space pions distribution was used. A result for pions produced by a $\rho$ decay is denoted by a green dashed line. }
   \label{fig:pip_pim}
 \end{figure}
-By naked eye an only-phase-space distribution describes data better. That was proven quantitatively making a linear combination of the two available spectra
-\begin{equation}\label{eq:rho}  
-  sum=N \cdot M^{inv}_{\pip\pim_{\mathrm{w/o}} \rho} + (N-1) M^{inv}_{\pip\pim_\rho},
-\end{equation}
-where $N \in [0,1]$. An agreement between data and simulation was tested by $\chi^2$ test. Its result is show in fig. \ref{fig:chi2}. The $\chi^2$ test returns a values smaller than 1 for N up to 0.35. Unfortunately sytematics uncertainties do not allow for any finial conclusions. A future experiment with higher beam energy and luminosity, planned by the HADES collaboration, will be a great opportunity for more detailed studies. This problem is discussed in chapter \ref{chapter:simulations}.
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=0.9 \linewidth]{Chapter_analysis/chi2.eps}
-  \caption{A $\chi^2$ between simulation and data in function of N (see eq. \ref{eq:rho}). The N=0 refers for a situation when no $\rho$ contribution is present. It describes data the best, however due to signal statistics any N from 0 to 0.4 gives a good data description $\chi^2<1$.}
-  \label{fig:chi2}
-\end{figure}
 
 \section{Systematic error studies}
-Through the entire studies the data is reduced from ??? events to ???. Each of the cuts used for analysis may be a potential source of systematic uncertainties. the most important cuts have been varied to estimate this effect. Tab ??? contains set of possible sources of error. A size of the side-band regions seems to have minor impact for an systematic error. Similarly a fit range in which a signal and background were fitted does not influence the final result. The most important factor comes from a  
+Through the entire studies the data is reduced from ??? events to ???. Each of the cuts used for analysis may be a potential source of systematic uncertainties. The most important cuts have been varied to estimate this effect. Tab \ref{tab:systematics} contains set of possible error sources. A size of the side-band regions seems to have minor impact for an systematic error. Similarly a fit range in which a signal and background were fitted does not influence the final result strongly. The most important factor comes from an opening angle between reconstructed and ideal $\Lz$ momentum. 
+\begin{table}
+\centering
+  \caption{All analyzed sources of experimental unertentyties. Each value was obtained by varying the cuts around a central value. More details in text.}
+  \label{tab:systematics}
+  \begin{tabular}{rc}
+    \hline
+    A cut type & $\sigma$ [$\mu \barn$]\\
+    \hline
+    \hline
+    Output of a neural network & 0.69\\
+    A side-band range & 0.13\\
+    A minimal distance between $\pim$ and $\p$&0.36\\
+    An opening angle & 0.83\\
+    Background channels \cs& \\
+    \hline
+    sum & \\
+  \end{tabular}
+\end{table}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.9\linewidth]{Chapter_analysis/systematics_SB.png}
+  \caption{aaa}
+  \label{fig:systematics_SB}
+\end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.9\linewidth]{Chapter_analysis/systematics_NN.png}
+  \caption{bbb}
+  \label{fig:systematics_NN}
+\end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.9\linewidth]{Chapter_analysis/systematics_PV-SV.png}
+  \caption{ccc}
+  \label{fig:systematics_PV-SV}
+\end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.9\linewidth]{Chapter_analysis/systematics_OA.png}
+  \caption{ddd}
+  \label{fig:systematics_OA}
+\end{figure}
