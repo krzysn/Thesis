@@ -1,5 +1,3 @@
-
-
 \chapter{PP data analysis}
 \label{chapter:analysis}
 The HADES collaboration has performed a proton-proton experiment with beam kinetic energy 3.5 GeV in September 2012. Data collected during this experiment has allowed to conduct a series of analysis devoted to hyperons' studies \cite{hades_inclL_35,hades_L1405,hades_L1520,hades_PWA_pKpL,hades_S1385}. In the following thesis the hyperon studies is extended by a $\Ls$ inclusive reconstruction. A research conducted with a four particles $\p \pim \pip \pim$ final state allows to reconstruct the $\Ls$ and  a $\Lz \Kz$ inclusive signals. The obtained results were compared with previous, exclusive measurements and used to constrain simulation of a new experiment devoted to hyperon studies \ref{chapter:simulations}.
@@ -84,14 +82,31 @@ In case of the HADES detector the first identyfication metod is favoured, due to
 \section{Event selection}
 Among all registered events only these containing at least four charged particles (two positive and two negative) was considered in analysis. They have been also observed events with more than four particles detected (fig. \ref{fig:mult}). They produces kombinatorics which are very difficult to control during further analysis. Because of that, only one four-particle combination from every event was taken. The combinations were ordered according to track reconstruction quality. For each combination the sum of $\chi^2$ (match quality in MDCs) for all tracks was calculated, and the best reconstructed combination was taken. 
 
+\begin{table}
+  \centering
+  \caption{An event selection steps}
+  \label{tab:selection}
+  \begin{tabular}{|c|c|}
+    step & no. of hypothesis\\
+    \hline
+    \hline
+    all 4-particle hupothesis& \\
+    all hypothesis after de/dx cuts&6781970 \\
+    hypothesis with the best $\chi^2$& 1917048\\
+  \end{tabular}
+\end{table}
+
 Additionally an equivocation in $\pim$ selection requires an additional criteria to define which particle belongs to $\Lz$. Fortunately a $\Lz$ hyperon is a very narrow resonance what gives a natural criteria for $\pim$ classification. Within one hypothesis, both $pim$s were combined with a proton track and an invariant mass for those pairs ($\mathrm{M}^{inv}_{\p\pim}$) were calculated. The $\pim$ which gives better agreement with $\Lz$ pole mass was treated as originated from secondary vertex.
+
 
 \begin{figure}
   \centering
   \includegraphics[width=0.7 \linewidth]{Chapter_analysis/mult.eps}
-  \caption{Particles multiplicity for a final state which requires two particles witch charge +1 and two with -1. It is visible that only in 54\% cases exactly four charged particles, were registered by detector. All cases with more than 4 particles requires some criteria to take a proper combination from all possible. An asymmetry between positively- and negatively-charged particles is caused by an initial state electric charge.}   
+  \caption{Particles multiplicity for a final state which requires two particles witch charge +1 and two with -1. It is visible that only in 54\% cases exactly four charged particles, were registered by detector. All cases with more than 4 particles requires some criteria to take a proper combination from all possible. An asymmetry between positively- and negatively-charged particles is caused by an initial state electric charge. Particles identyfication was done based on de/dx cuts.}   
   \label{fig:mult}
 \end{figure}
+
+
 
 \section{Reaction kinematics}
 \label{section:kinematics}
