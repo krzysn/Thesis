@@ -14,20 +14,20 @@ All methods developed for pp@3.5 GeV experiment were also used for data collecte
 \end{figure}
 
 
-During the experiment a liquid hydrogen (LH2) target was used. The hydrogen was stored in a special tank designated to keep constant temperature 20K. Its length was 50 mm, what corresponds to interaction probability 0.7\% for protons with kinetic energy 3.5 GeV. The beam density reached $10^6$ particles/s. For data selection a two-level trigger was used. The first level trigger (LVL1) was dedicated to hadronic reactions and required at least three charged particles registered in META detectors. More over, to reduce a data flux only every third LVL1 event was recorded by DAQ system and stored for further analysis. During four-weeks experimental campaign in total $1.14 \times 10^9$ LVL1 events were recorded \cite{hades_inclL_35}. The second level (LVL2) was dedicated for di-lepton studies and bases on combined information from many detectors. The trigger system search di-lepton pairs bases on information from: RICH detector (Cherenkov light rings), TOF detectors ($\beta>xx$) and pre-shower detector (electromagnetic cascade)\cite{Agakishiev:2009am,hades_DAQ}. In case of any signature of a leptonic nature of the tracks they are saved without any down-scaling.
+During the experiment a liquid hydrogen (LH2) target was used. The hydrogen was stored in a special tank designated to keep constant temperature 20K (fig. \ref{fig:target}). Its length was 50 mm, what corresponds to interaction probability 0.7\% for protons with kinetic energy 3.5 GeV. The beam density reached $10^6$ particles/s. For data selection a two-level trigger was used. The first level trigger (LVL1) was dedicated to hadronic reactions and required at least three charged particles registered in META detectors. More over, to reduce a data flux only every third LVL1 event was recorded by DAQ system and stored for further analysis. During four-weeks experimental campaign in total $1.14 \times 10^9$ LVL1 events were recorded \cite{hades_inclL_35}. The second level (LVL2) was dedicated for di-lepton studies and bases on combined information from many detectors. The trigger system search di-lepton pairs bases on information from: RICH detector (Cherenkov light rings), TOF detectors ($\beta>??$) and pre-shower detector (electromagnetic cascade)\cite{Agakishiev:2009am,hades_DAQ}. In case of any signature of a leptonic nature of the tracks they are saved without any down-scaling.
 
 Due to technical circumstances the pp experiment was conducted without the start detector. A time of flight for each particle was calculated based on a difference between different particles time of flight related to arbitrary experiment clock. Details of the reconstruction method are described in \cite{dybczak_phd}. However in following studies an information from TOF detectors was not required at all, so that information played only secondary role and helped cross-check a de/dx identification method.
 \subsection{Absolute normalization}
 \label{sec:normalization}
-An integrated luminosity for the pp experiment was calculated using a pp elastic scattering measured in the same experiment \cite{hades_normalization}, it reached
+An integrated luminosity for the pp experiment was calculated using a pp elastic scattering, measured in the same experiment \cite{hades_normalization}, it reached
 \begin{equation}
   L^{int}=3.13 \cdot 10^8 mb^{-1}.
 \end{equation}
-Thanks to a full scale simulation performed in HYDRA framework (for more details see chapter \ref{chapter:simulations}) it is possible to get a total detection efficiency for given reaction. The efficiency, estimated by the simulation, together with the luminosity and a \cs allows to determine expected count rates for any reaction with known \cs.
+Thanks to a full scale simulation performed in HYDRA framework (for more details see chapter \ref{chapter:simulations}) it is possible to simulate a detector response for every particles' combination end estimate how many of them could be properly reconstructed.  The efficiency, estimated by the simulation, together with the luminosity and a known \cs allows to determine expected count rates for any reaction.
 \begin{equation}
-  N^{\mathrm{expected}}_{pp\rightarrow X}=\frac{N_{\mathrm{reconstructed in simulation}}}{N_{\mathrm{Simulated \; in \;} 4 \pi} \cdot 3} \cdot \sigma_{pp\rightarrow X} \cdot L^{int}.
+  N^{\mathrm{expected}}_{pp\rightarrow X}=\frac{N_{\mathrm{reconstructed~in~simulation}}}{N_{\mathrm{simulated \; in \;} 4 \pi} \cdot 3} \cdot \sigma_{pp\rightarrow X} \cdot L^{int}.
 \end{equation}
-The factor 3 in denominator derives from the LVL1 trigger down-scaling. Due to limited read-out capabilities, for hadronic channels each 3th triggered event was saved on tapes. A list of the reactions simulated for following analysis is presented in tab. \ref{tab:channels}.  
+The factor 3 in denominator derives from the LVL1 trigger down-scaling. Due to limited read-out capabilities, for hadronic channels each 3th triggered event was saved on tapes. Thanks to the previous HADES research \cite{hades_inclL_35}, \css for many channels which can be a background source for $\Ls$ inclusive measurement. A list of all reactions simulated for following analysis is presented in tab. \ref{tab:channels}.  
 \begin{table}
     \centering
   \caption{List of the channels considered in following chapter. Numbers from 3 up to 10 indicates reactions containing $\p \pim \pip \pim$ in a final state. They are treated as a possible background channels. All values taken from \cite{hades_inclL_35}.}
@@ -59,7 +59,7 @@ The factor 3 in denominator derives from the LVL1 trigger down-scaling. Due to l
 \end{table}
 
 \section{Particles identification}
-The HADES detector allows for two complementary methods of particles identification. The first, bases on particles' time of flight measured in the ToF detectors and particle's momentum measured in the MDC detector. These two quantities allws for a mass determination according to the formula
+The HADES detector allows for two complementary methods of particles identification. The first, bases on particles' time of flight measured in the ToF detectors and particles' momentum measured in the MDC detector. These two quantities allows for a mass determination according to the formula
 \begin{equation}
 p=\gamma \beta m.  
 \end{equation}
@@ -70,17 +70,17 @@ The second method, bases on the MDC exclusively and uses combine information abo
 which also allows to mark out a particle mass.
 
 
-In case of the HADES detector the first identyfication metod is favoured, due to better precision, however a limited geometrical acceptance of the TOF detectors reduces detection efficiency by a factor 0.8 for each detected particle. In case of a four-particles final state, discussed in this thesis, a total loss caused by the TOF detectors can reach 60\% of all detected particles. For that reason the $\frac{de}{dx}$ vs. $\p$ method was used. Identification cuts have been optimized for previous analysis conducted by by HADES experiment and described in \cite{hades_inclL_35,lalik_phd}. Contours used for $\pim$ and $\pip$ are the same and differs only by electric charge, they are visualized in fig. \ref{fig:dedx}. 
+In case of the HADES detector the first identification method is favoured, due to better precision, however a limited geometrical acceptance of the TOF detectors reduces detection efficiency by a factor 0.8 for each detected particle. In case of a four-particles final state, discussed in this thesis, a total loss caused by the TOF detectors can reach 60\% of all particles detected in the MDC. For that reason the $\frac{de}{dx}$ vs. $\p$ method was used. Identification cuts have been optimized for previous analysis conducted by by HADES experiment and described in \cite{hades_inclL_35,lalik_phd}. Contours used for $\pim$ and $\pip$ are the same and differs only by electric charge, they are visualized in fig. \ref{fig:dedx}. 
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.9 \linewidth]{Chapter_analysis/DeDx_PPim.jpg}
-  \caption{The identification cuts used in analysis - placeholder, figure from \cite{hades_inclL_35}}
+  \caption{The identification cuts used in analysis, figure from \cite{hades_inclL_35}}
   \label{fig:dedx}
 \end{figure}
 
 
 \section{Event selection}
-Among all registered events only these containing at least four charged particles (two positive and two negative) was considered in analysis. They have been also observed events with more than four particles detected (fig. \ref{fig:mult}). They produces kombinatorics which are very difficult to control during further analysis. Because of that, only one four-particle combination from every event was taken. The combinations were ordered according to track reconstruction quality. For each combination the sum of $\chi^2$ (match quality in MDCs) for all tracks was calculated, and the best reconstructed combination was taken. 
+Among all registered events only these containing at least four charged particles (two positive and two negative) was considered in analysis. They have been also observed events with more than four particles detected (fig. \ref{fig:mult}). They produces kombinatorics which are very difficult to control during further analysis. Because of that, only one four-particle combination from every event was taken. In every event all possible particles combinations were ordered according to track reconstruction quality. For each combination the sum of $\chi^2$ (match quality in MDCs) for all tracks was calculated, and the best reconstructed combination was taken. 
 
 \begin{table}
   \centering
@@ -90,19 +90,19 @@ Among all registered events only these containing at least four charged particle
     step & no. of hypothesis\\
     \hline
     \hline
-    all 4-particle hupothesis& \\
+    all 4-particle hypothesis& \\
     all hypothesis after de/dx cuts&6781970 \\
     hypothesis with the best $\chi^2$& 1917048\\
   \end{tabular}
 \end{table}
 
-Additionally an equivocation in $\pim$ selection requires an additional criteria to define which particle belongs to $\Lz$. Fortunately a $\Lz$ hyperon is a very narrow resonance what gives a natural criteria for $\pim$ classification. Within one hypothesis, both $pim$s were combined with a proton track and an invariant mass for those pairs ($\mathrm{M}^{inv}_{\p\pim}$) were calculated. The $\pim$ which gives better agreement with $\Lz$ pole mass was treated as originated from secondary vertex.
+Additionally an equivocation in $\pim$ selection requires some criteria to define which particle belongs to $\Lz$. In case on final spectrum $M^{inv}_{p \pim \pip \pim}$ a $\pim$ ordering make no difference, however for $\Lz$ reconstruction a different origin of two negative pions plays a crucial role. Fortunately a $\Lz$ hyperon is a very narrow resonance what gives a natural criteria for $\pim$ classification. Within one hypothesis, both $pim$s were combined with a proton track and an invariant mass for those pairs ($\mathrm{M}^{inv}_{\p\pim}$) were calculated. The $\pim$ which gives better agreement with $\Lz$ pole mass ($M^{inv}_{p \pim} - M_{\Lz}$) was treated as originated from secondary vertex.
 
 
 \begin{figure}
   \centering
   \includegraphics[width=0.7 \linewidth]{Chapter_analysis/mult.eps}
-  \caption{Particles multiplicity for a final state which requires two particles witch charge +1 and two with -1. It is visible that only in 54\% cases exactly four charged particles, were registered by detector. All cases with more than 4 particles requires some criteria to take a proper combination from all possible. An asymmetry between positively- and negatively-charged particles is caused by an initial state electric charge. Particles identyfication was done based on de/dx cuts.}   
+  \caption{Particles multiplicity for a final state which requires two particles witch charge +1 and two with -1. It is visible that only in 54\% cases exactly four charged particles, were registered by detector. All cases with more than 4 particles requires some criteria to take a proper combination from all possible. An asymmetry between positively- and negatively-charged particles is caused by an initial state electric charge. Particles identification was done based on de/dx cuts.}   
   \label{fig:mult}
 \end{figure}
 
@@ -110,25 +110,33 @@ Additionally an equivocation in $\pim$ selection requires an additional criteria
 
 \section{Reaction kinematics}
 \label{section:kinematics}
-For pp@3.5 GeV collisions the production threshold for $\Ls$ ($\sqrt{S_{E_K=3.5GeV}}-E^{\mathrm{thr}}_{\p\Kp\Lz}=0.22 GeV$) lies just below available energy threshold.  Using the rule of a energy-momentum conservatio nis possible to calculate missing mass for observed particles. Because of small ecces energy a dominant channel for$\Ls$ roduction is as follows
+For pp@3.5 GeV collisions the production threshold for $\Ls$ ($\sqrt{S_{E_K=3.5GeV}}-E^{\mathrm{thr}}_{\p\Kp\Lz}=0.22 GeV$) lies just below available energy threshold.  Using the rule of a energy-momentum conservation is possible to calculate missing mass for observed particles. Because of small excess energy, which does not allow for others particles creation, a dominant channel for $\Ls$ reduction is as follows
 \begin{equation}
-  \p\p \rightarrow \p \Kp \Ls [\Lz \pip \pim],
+  \p\p \rightarrow \p \Kp \Ls [\Lz \pip \pim].
 \end{equation}
-the smallest missing mass for the inclusive $\Lz$ reconstruction is $\Sqs - \Ls_{mass}= 1432$ MeV. It is a very strong kinematic constrain which separates well the signal from most of background channels. The missing mass spectrum is presented in fig. \ref{fig:missMass}. There is visible a resonance behaviour around 1200 MeV. Due to conservation rules missing particles have to have a total charge +2 and a baryon number +1. It leads to the conclusion that the missing mass spectrum is dominated by a $\Dpp$ production. Indeed a simulation comfirmed that peak around 1200 MeV originates from $\Dpp$ decaying into $\p \pip$. A mass shift and signal shape are caused by protons mismatch. In reaction
+The smallest missing mass for the inclusive $\Lz$ reconstruction is $\Sqs - \Ls_{mass}= 1432$ MeV. It is a very strong kinematic constrain which separates well the signal from most of background channels. The missing mass spectrum is presented in fig. \ref{fig:missMass}. There is visible a resonance behaviour around 1200 MeV. Due to conservation rules missing particles have to have a total charge +2 and a baryon number +1. It leads to the conclusion that the missing mass spectrum is dominated by a $\Dpp$ production. Indeed a simulation confirmed that peak around 1200 MeV originates from $\Dpp$ decaying into $\p \pip$. A mass shift and signal shape are caused by protons mismatch. In reaction
 \begin{equation}
+  \label{eq:dpp}
   \p\p \rightarrow \Dpp [\p \pip] \p \pim \pim \pip
 \end{equation}
-both protons can be combined with $\pip$. Procedure describe in the section above protect agains doube-counting, but do not provide faultless $\Dpp$ reconscruction.
+both protons can be combined with $\pip$. The selection procedure, describe in the section above, protect against double-counting and wrong $\pim$ assignment, but do not provide faultless $\Dpp$ reconstructions. It leads to mixing between protons and pions and a $\Dpp$ spectrum distortion. A \ref{eq:dpp} was simulated and reconstructed using full analysis chain. Results are shown in \ref{fig:missMass}.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.9 \linewidth]{Chapter_analysis/missMass.eps}
-  \caption{The missing mass of $\p \pim \pip \pim$ system for an experimental data (blue line) and simulations. The resonance behaviour around 1200 MeV is clearly visible. The magenta histogram represents perfectly reconstructed $\Dpp$ from the background channel $\p\p \rightarrow \Dpp [\p \pip] \p \pim \pim \pip$. The green histogram shows input from this channel reconstructed in analysis. An inconsistency between perfect and real reconstruction is described in text. Both simulation histograms were arbitrary scaled up to have the same high like data.}
+  \caption{The missing mass of $\p \pim \pip \pim$ system for an experimental data (blue line) and simulations. The resonance behaviour around 1200 MeV is clearly visible. The magenta histogram represents perfectly reconstructed $\Dpp$ from the background channel $\p\p \rightarrow \Dpp [\p \pip] \p \pim \pim \pip$. The green histogram shows input from this channel reconstructed by analysis algorithm designed for $\Ls$ reconstruction. An inconsistency between perfect and real reconstruction is described in text. Both simulation histograms were arbitrary scaled up to have the same high like data.}
   \label{fig:missMass}
 \end{figure}
 
 
-Because in HADES energy regime almost all pions are produced via barionic resonances, and $\Dpp$s tend to be produced in pairs, it was expected that an invariant mass of $\p \pip$ detected in experiment would also contain a $\Dpp$ component. Indeed, as it is shown in fig. \ref{fig:dpp2D} most of the background comes from correlated source with mass maximum around double $\Dpp$ production. The figure shows also that a cut on missing mass > 1432 MeV removes a significant part of a background events. In case of inclusive $\Lz \Kz$ reconstruction (see. \ref{section:LzKz}) the missing mass cut was put on a lower mass $M^{miss}_{\p \pip \pip \pim}>1077$. For details see fig. \ref{fig:dpp2D}.
+Because in HADES energy regime almost all pions are produced via barionic resonances, and $\Dpp$s tend to be produced in pairs, it was expected that an invariant mass of $\p \pip$ detected in experiment would also contain a $\Dpp$ component. Indeed, as it is shown in fig. \ref{fig:dpp2D} most of the background comes from correlated source with mass maximum around double $\Dpp$ production. The figure shows also that a cut on missing mass > 1432 MeV removes a significant part of a background events.
+
+Except a $\Ls$ reconstruction the final state $\Lz \pip \pim$ may be used for $\Lz \Kz$ reconstruction. In this case (see. \ref{section:LzKz}) the missing mass cut was different due to different overall kinematics.  The cat put on a mass $M^{miss}_{\p \pip \pip \pim}>1077$, what is the smallest missing mass required in
+\begin{equation}
+\p\p \rightarrow \Lz \Kz \p \pip
+\end{equation}
+reaction. Unfortunately lower value for the $M^{miss}$ cut effects a data sample contamination by $\Dpp$ decays, what is clearly visible in \ref{fig:dpp2D}. 
+
 
 \begin{figure}[ht]
   \centering
@@ -139,6 +147,7 @@ Because in HADES energy regime almost all pions are produced via barionic resona
 
 \section{The $\Lz$ Reconstruction}
 The next step of the analysis after a missing mass cut was an inclusive $\Lz$ reconstruction. In previous HADES experiments the reconstruction had based on a set of geometrical cuts. Their role was to increase signal-to-background ratio utilizing a $\Lz$ decay geometry. Because the $\Lz$ decays via week interactions its lifetime is relatively long:$c\tau = 7.89 cm$ \cite{PDG}. That may be used to discriminate an out of target vertex from a background originates from a target.
+
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.7 \linewidth]{Chapter_analysis/NN.eps}
@@ -146,7 +155,7 @@ The next step of the analysis after a missing mass cut was an inclusive $\Lz$ re
   \label{fig:NN}
 \end{figure}
 
-As it was shown in \ref{section:kinematics} an available phase-space for $\Ls$ production for a $E_k=3.5$ GeV is very limited. An inclusive analysis performed in \cite{hades_L1520} has measured  $\Ls$, however a statistics is was very limited. To improve the signal yeld, and also examine new reconstruction methods, in following analysis a neural network was used as a replacement of the geometrical cuts. Details about used method and an optimization process are explained in chapter \ref{chapter:NN}.
+As it was shown in \ref{section:kinematics} an available phase-space for $\Ls$ production for a $E_k=3.5$ GeV is very limited. An inclusive analysis performed in \cite{hades_L1520} has measured  $\Ls$, however a statistics was very limited. To improve the signal yield, and also examine new reconstruction methods, in following analysis a neural network was used as a replacement of the geometrical cuts. Details about used method and an optimization process are explained in chapter \ref{chapter:NN}.
 
 \begin{figure}[h]
   \centering
@@ -156,7 +165,8 @@ As it was shown in \ref{section:kinematics} an available phase-space for $\Ls$ p
 \end{figure}
 
 
-The final network architecture used for $\Lz$ reconstruction is a feed-forward dense network consist of 4 layers, each N+6 neurons, where N is a number of scalar input parameters. For each neuron a sigmoid was used as an activation function. Because the network replaced geometrical cuts, as an input eleven geometrical variables had been taken:
+The final network architecture used for $\Lz$ reconstruction is a feed-forward, dense network, consist of 4 layers, each N+6 neurons, where N is a number of scalar input parameters. For each neuron a sigmoid was used as an activation function. Because the network replaced geometrical cuts, as an input eleven geometrical variables had been taken:
+
 \begin{itemize}
 \item Distance between $\p \pim$ from $\Lz$
 \item Distance between $\pip$ and $\pim$ from primary vertex
@@ -170,9 +180,9 @@ The final network architecture used for $\Lz$ reconstruction is a feed-forward d
 \item Distance between primary and secondary vertexes
 \end{itemize}
 
-Additionally choosen parameters do not allow for $\Lz$ invariant mass reconstruction. That was crucial to learn the network geometrical properties not just invariant mass reconstruction. 
+Additionally chosen parameters do not allow for $\Lz$ invariant mass reconstruction. That was crucial to learn the network geometrical properties not just invariant mass reconstruction, otherwise the network would replace a $\p \pim$ invariant mass cut, instead of geometrical properties. That may be understood as a network tendency to recognize the most significant discriminant in a data set. Because $\Lz$ is narrow the easiest way to increase signal to background ratio is reject all events with $M^{inv}_{\p \pim}$ different than $\Lz$ mass.
 
-The optimized neural network may enhanced a signal to background ratio from 0.345 without any cuts to 16 for very restricted cut. The final cut was optimilezed to get the best $\Ls$ signal. After an opimization the cut was set ??? and obtained $\Lz$ signal is shown in fig \ref{fig:L1116SB}. The signal to baskground ratio is ???, but all uncorelated background can be remuved by a side-band method. The signal obtained in this way was used for a next steps of analysis: the $\Ls$ analysis (chapter \ref{section:Ls}) and associated $\Lz \Kz$ production (chapter \ref{section:LzKz});
+The optimized neural network may enhanced a signal to background ratio from 0.345 without any cuts to 16 for very restricted cut. However with increasing S/B ratio a final statistics was reduces as well. The final cut was optimized to get the best $\Ls$ signal, not $\Lz$. After an optimization the cut was set 0.59 and obtained $\Lz$ signal is shown in fig \ref{fig:L1116SB}. The signal to background ratio is ???, but all uncorrelated background can be removed by a side-band method. The signal obtained in this way was used for a next steps of analysis: the $\Ls$ analysis (chapter \ref{section:Ls}) and associated $\Lz \Kz$ production (chapter \ref{section:LzKz});
 
 \begin{figure}[h]
   \centering
@@ -184,11 +194,11 @@ The optimized neural network may enhanced a signal to background ratio from 0.34
 
 \section{The $\Lz \Kz $reconstruction - a reference channel}
 \label{section:LzKz}
-Due to strangeness conservation low a $\Lz$ has to be produced with some anti-strange particle. The lightest candidate is a $\Kz$ meson, which decays in 69.2\% into $\pip \pim$ pair \cite{PDG}. For that reason a $\Lz \Kz$ signal is expected to be a significant part of the $\Lz \pip \pim$ final state and should be visible in analyzed data. An almost whole contamination from $\Kz$ decay may be remuved by a cut on $M^{inv}_{\pip \pim}<410 MeV$ without the signal affection. However a semi-inclusive $\Lz \Kz$ production may be a good reference channel for the analysis.
+Due to strangeness conservation low a $\Lz$ has to be produced with some anti-strange particle. The lightest candidate is a $\Kz$ meson, which decays in 69.2\% into $\pip \pim$ pair \cite{PDG}. For that reason a $\Lz \Kz$ signal is expected to be a significant part of the $\Lz \pip \pim$ final state and should be visible in analyzed data. An almost whole contamination from $\Kz$ decay may be removed by a cut on $M^{inv}_{\pip \pim}<410 MeV$ without the signal affection. However a semi-inclusive $\Lz \Kz$ production may be a good reference channel for the analysis.
 
 Because a kinematics for a $\Lz \Kz$ production is different than for $\Ls$, the used missing mass cut was looser than in $\Ls$ analysis. It was set  $M^{miss}_{\p \pip \pip \pim}>1077$, what is a minimal missing mass expected for $pp \rightarrow p \Kz \Lz \pip$ reaction with $\p_{E_k}=3.5 \mathrm{GeV}$. 
 
-After the $\Lz$ reconstruction two spectra were drown: a) a $\pip \pim$ invariant mass spectrum for events $1006<M^{inv}_{\p \pim}<1026$ and b) a $\p \pim$ invariant mass for $480 MeV<M^{inv}_{\pip \pim}<500 MeV$. Obtained spectra have to were compared with simulation, so the same analysis chain was used to analyzed all channels listed in \ref{tab:channels} which contains associated $\Lz\Kz$ production. Summing up all \css for explusive channels the total inclusive \cs was obtained.
+After the $\Lz$ reconstruction two spectra were drown: a) a $\pip \pim$ invariant mass spectrum for events $1006<M^{inv}_{\p \pim}<1026$ and b) a $\p \pim$ invariant mass for $480 MeV<M^{inv}_{\pip \pim}<500 MeV$. Obtained spectra have to were compared with simulation, so the same analysis chain was used to analyzed all channels listed in \ref{tab:channels} which contains associated $\Lz\Kz$ production. Summing up all \css for exclusive channels the total inclusive \cs was obtained.
 
 Using a procedure described in \ref{sec:normalization} the simulation was compared with experimental data (see \ref{fig:K0L0}). The simulation describes well a yield of $\Kz$ and $\Lz$ produced in experiment, although it does not describe the background shape. This is mostly caused by lack of reliable model for a double $\Dpp$ production. 
 
@@ -246,7 +256,7 @@ The total yield of detected decays allows to conduct a simple differential analy
 
 
 \subsection{Analysis of a $\pip \pim$ spectrum}
-In a model used for the signal simulation and \cs extraction, pions were emitted according to available phase-space. However, it is possible that the particle decays through $\Ss \pi$ state [ref]. A possible $Ss$ contribution would manifest by a distortion of a $\pip \pim$ spectrum compared to direct production. Basing on statistics collected during pp experiment it is had to speculate about production mechanism. However the same spectra for pNb data [ref] brings a lot of intersting informations. A $\pip \pim$\ref{fig:pip_pim}.  
+In a model used for the signal simulation and \cs extraction, pions were emitted according to available phase-space. However, it is possible that the particle decays through $\Ss \pi$ state [ref]. A possible $Ss$ contribution would manifest by a distortion of a $\pip \pim$ spectrum compared to direct production. Basing on statistics collected during pp experiment it is had to speculate about production mechanism. However the same spectra for pNb data [ref] brings a lot of interesting information. A $\pip \pim$\ref{fig:pip_pim}.  
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.9 \linewidth]{Chapter_analysis/PipPim.eps}
