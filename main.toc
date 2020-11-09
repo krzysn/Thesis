@@ -29,7 +29,7 @@
 \contentsline {section}{\numberline {3.3}Event selection}{14}{section.40}%
 \contentsline {section}{\numberline {3.4}Reaction kinematics}{15}{section.43}%
 \contentsline {section}{\numberline {3.5}The $\mathrm {\Lambda ^0}$ Reconstruction}{17}{section.49}%
-\contentsline {section}{\numberline {3.6}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction - a reference channel}{20}{section.53}%
+\contentsline {section}{\numberline {3.6}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction - a reference channel}{19}{section.53}%
 \contentsline {section}{\numberline {3.7}The $\mathrm {\Lambda (1520)}$ Reconstruction}{20}{section.55}%
 \contentsline {subsection}{\numberline {3.7.1}Side-band analysis}{20}{subsection.57}%
 \contentsline {subsection}{\numberline {3.7.2}Cross-section extraction and differential analysis}{21}{subsection.59}%
