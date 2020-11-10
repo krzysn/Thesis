@@ -14,49 +14,50 @@ Warning--empty pages in hades_PWA_pKpL
 Warning--empty pages in hades_S1385
 Warning--empty school in lalik_phd
 Warning--empty pages in PDG
+Warning--empty pages in mast
 Warning--empty pages in hades_Ksi_pNb
 Warning--empty pages in Metodiev_2017
 Warning--empty pages in Neyman-Pearson
 Warning--empty publisher in L-B
-You've used 39 entries,
+You've used 41 entries,
             2608 wiz_defined-function locations,
-            901 strings with 14085 characters,
-and the built_in function-call counts, 12334 in all, are:
-= -- 1087
-> -- 675
+            911 strings with 14483 characters,
+and the built_in function-call counts, 12715 in all, are:
+= -- 1115
+> -- 706
 < -- 0
-+ -- 242
-- -- 203
-* -- 1308
-:= -- 1694
-add.period$ -- 51
-call.type$ -- 39
-change.case$ -- 83
++ -- 253
+- -- 212
+* -- 1344
+:= -- 1756
+add.period$ -- 53
+call.type$ -- 41
+change.case$ -- 85
 chr.to.int$ -- 0
-cite$ -- 52
-duplicate$ -- 583
-empty$ -- 1095
-format.name$ -- 203
-if$ -- 2977
+cite$ -- 55
+duplicate$ -- 600
+empty$ -- 1130
+format.name$ -- 212
+if$ -- 3065
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 100
-newline$ -- 122
-num.names$ -- 39
-pop$ -- 184
+int.to.str$ -- 41
+missing$ -- 105
+newline$ -- 128
+num.names$ -- 41
+pop$ -- 194
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 374
+skip$ -- 376
 stack$ -- 0
 substring$ -- 481
-swap$ -- 254
+swap$ -- 255
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 13
-while$ -- 80
-width$ -- 41
-write$ -- 314
-(There were 14 warnings)
+warning$ -- 14
+while$ -- 82
+width$ -- 43
+write$ -- 327
+(There were 15 warnings)

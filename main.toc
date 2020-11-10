@@ -33,7 +33,7 @@
 \contentsline {section}{\numberline {3.7}The $\mathrm {\Lambda (1520)}$ Reconstruction}{20}{section.55}%
 \contentsline {subsection}{\numberline {3.7.1}Side-band analysis}{20}{subsection.57}%
 \contentsline {subsection}{\numberline {3.7.2}Cross-section extraction and differential analysis}{21}{subsection.59}%
-\contentsline {subsection}{\numberline {3.7.3}Analysis of a $\mathrm {\pi ^{+}}\mathrm {\pi ^{-}}$ spectrum}{22}{subsection.62}%
+\contentsline {subsection}{\numberline {3.7.3}Analysis of a $\mathrm {\pi ^{+}}\mathrm {\pi ^{-}}$, $\mathrm {\Lambda ^0}\mathrm {\pi ^{+}}$ and $\mathrm {\Lambda ^0}\mathrm {\pi ^{-}}$ spectra}{23}{subsection.62}%
 \contentsline {section}{\numberline {3.8}Systematic error studies}{23}{section.64}%
 \contentsline {chapter}{\numberline {4}PNb data analysis}{29}{chapter.70}%
 \contentsline {section}{\numberline {4.1}Data from pNb experiment}{29}{section.71}%
