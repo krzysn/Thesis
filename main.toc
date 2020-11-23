@@ -18,9 +18,9 @@
 \contentsline {section}{\numberline {2.2}PreShower and META detectors}{6}{section.19}%
 \contentsline {section}{\numberline {2.3}RICH detector}{7}{section.20}%
 \contentsline {section}{\numberline {2.4}The HADES upgrades}{7}{section.22}%
-\contentsline {subsection}{\numberline {2.4.1}The Forward Detector}{8}{subsection.24}%
-\contentsline {subsection}{\numberline {2.4.2}RICH update}{9}{subsection.26}%
-\contentsline {subsection}{\numberline {2.4.3}Electromagnetic calorimeter}{9}{subsection.27}%
+\contentsline {subsection}{\numberline {2.4.1}The Forward Detector}{9}{subsection.24}%
+\contentsline {subsection}{\numberline {2.4.2}RICH update}{10}{subsection.26}%
+\contentsline {subsection}{\numberline {2.4.3}Electromagnetic calorimeter}{10}{subsection.27}%
 \contentsline {chapter}{\numberline {3}PP data analysis}{11}{chapter.29}%
 \contentsline {section}{\numberline {3.1}The pp @3.5 GeV experiment}{11}{section.30}%
 \contentsline {subsection}{\numberline {3.1.1}The target and the trigger system}{11}{subsection.31}%

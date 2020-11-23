@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1605635713 "main.aux" "main.bbl" "main" 1605635719
+["bibtex main"] 1606152697 "main.aux" "main.bbl" "main" 1606152704
   "./utphys.bst" 1582710814 29292 0c046c5170afec86438fbe55350ce834 ""
   "bibtex/hades.bib" 1605629415 19893 a1c2b640151234db911e132992d82f83 ""
-  "main.aux" 1605635718 42102 a9d0930ef2012b9ed8341dbcf44e8584 "pdflatex"
+  "main.aux" 1606152704 42104 c0e39f79e2cde09c6ce97168a641b7e6 "pdflatex"
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1605635713 "main.tex" "main.pdf" "main" 1605635719
+  "main.blg"
+["pdflatex"] 1606152698 "main.tex" "main.pdf" "main" 1606152704
   "/etc/texmf/web2c/texmf.cnf" 1601961473 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -325,7 +325,7 @@
   "Chapter_detector/FwDet.eps" 1597087726 2149469 8cc1d45bd78a835d827e4dd98f9cbd82 ""
   "Chapter_detector/HADES.png" 1533652388 7233525 ae27be9a64d8f27a040b8503fc43cac0 ""
   "Chapter_detector/RICH.png" 1596830115 221194 245dbdf46c7a1f872ff3415528eebef0 ""
-  "Chapter_detector/detector.tex" 1605635691 11813 923e430e9d1b4d4998f6102e78ec9161 ""
+  "Chapter_detector/detector.tex" 1606152640 12457 1167f2eecd61a036838b2194b28382b7 ""
   "Chapter_detector/detektor.eps" 1597071251 1340652 9c451c44b6e660783d65e1fcfe5932df ""
   "Chapter_introduction/eightfolds.eps" 1588709942 99435 810bf72552857a015defea802efe677e ""
   "Chapter_introduction/faynmannDiagrams.eps" 1586430706 74664 db86ae48588076f919bc39098ecbe09a ""
@@ -342,11 +342,11 @@
   "caption.sty" 1582710814 66233 8b81cfab95a1f8fc2f0f6c89415b087a ""
   "caption3.sty" 1582710814 64866 1ea74c5f2d1685881497f021b8f186b2 ""
   "enumitem.sty" 1582710814 42666 6fa770e3485520a6a5f2ea7d259c8f8d ""
-  "main.aux" 1605635718 42102 a9d0930ef2012b9ed8341dbcf44e8584 "pdflatex"
-  "main.bbl" 1605635713 13159 5f929970dbefb51c4904c85bfc1852f0 "bibtex main"
-  "main.out" 1605635718 11139 9d454d2422e9d371ea02cb9890c30b7e "pdflatex"
+  "main.aux" 1606152704 42104 c0e39f79e2cde09c6ce97168a641b7e6 "pdflatex"
+  "main.bbl" 1606152698 13159 5f929970dbefb51c4904c85bfc1852f0 "bibtex main"
+  "main.out" 1606152704 11139 9d454d2422e9d371ea02cb9890c30b7e "pdflatex"
   "main.tex" 1602008771 10675 181596ac7ab375933ab3554a97b52a57 ""
-  "main.toc" 1605635718 5373 f099e5d16555a2be1236137f74437225 "pdflatex"
+  "main.toc" 1606152704 5375 7c1d3f2189ee59d7f7b2787887e910cc "pdflatex"
   "multirow.sty" 1582710814 5015 cd8d25106b58dfc16af57528a07d0bc9 ""
   "myHacks.tex" 1597171961 2362 e8f80f4c090109cda37e6f186d6109b4 ""
   "physics.sty" 1582710814 29610 a9597219b282d9c78b02393dcd7d4322 ""
@@ -355,8 +355,8 @@
   "uj.jpg" 1582710814 161685 1c75702a7f53f1131405330d4dc4eec2 ""
   "vmargin.sty" 1582710814 6845 5eae49c3f07fead60d92def0a4f5c30f ""
   (generated)
-  "main.pdf"
-  "main.log"
   "main.aux"
   "main.out"
+  "main.pdf"
+  "main.log"
   "main.toc"
