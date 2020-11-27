@@ -15,7 +15,8 @@ The p(3.5 GeV)+Nb experiment was conducted in October 2008. The beam with kineti
 Identification and selection algorithms used for pNb data were the same as in case of a pp data analysis. However in proton-nucleus reaction it is impossible to directly use the energy-momentum conservation rule. They are two main obstacles: part of four-momentum may be transferred to the nucleus as a recoil and nucleons in nucleus are not in rest. All together prevents from a use of the missing mass cut. The missing mass spectrum, in contrary to pp data, does not have any resonance behaviour. As a replacement a set of more restricted hard cuts was applied for  $\Lz$ reconstruction before a reconstruction done by the neural network.
 \begin{figure}
   \centering
-  \caption{The missing mass spectrum for $\p \pim \pip \pim$ hypothesis.}
+  \includegraphics[width=0.7 \linewidth]{Data_Nb/hist_miss_ppim.epc.eps}
+  \caption{The missing mass vd $M^{inv}_{\p \pip}$ spectrum for $\p \pim \pip \pim$ hypothesis. The spectrum was created after a combinatorics reductiona and identyfication cuts, but before any further cuts, like neural network output.}
   \label{fig:miss_mass_pNb}
 \end{figure}
 
@@ -23,7 +24,8 @@ Identification and selection algorithms used for pNb data were the same as in ca
 The main tool for $\Lz$ reconstruction stays the same as for in chapter \ref{chapter:analysis}. It is a neural network trained in a data-driven manner. Although because of no missing mass cut obtained signal-to-background ratio was much lower than for pp case and it was.  The result is shown in fig. \ref{fig:L1116SB_pNb}.
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.7 \linewidth]{Chapter_analysisPNb/Lz.eps}
+  % \includegraphics[width=0.7 \linewidth]{Chapter_analysisPNb/Lz.eps}
+  \includegraphics[width=0.7 \linewidth]{Data_Nb/canvas_cSB_thesis.eps}
   \caption{The $\Lz$ spectrum after a neural network analysis obtained for pNb experiment. Color coding the same as in fig. \ref{fig:L1116SB}, vertical lines denotes regions of a side-band and were adjusted for pNb exclusively.}
   \label{fig:L1116SB_pNb}
 \end{figure}
@@ -37,7 +39,8 @@ where A is an atomic number of mass number of a given nucleus. The sam like in p
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.9 \linewidth]{Chapter_analysisPNb/LK0.eps}
+  % \includegraphics[width=0.9 \linewidth]{Chapter_analysisPNb/LK0.eps}
+  \includegraphics[width=0.9 \linewidth]{Data_Nb/canvas_cLK0.eps}
   \caption{The inclusive $\Lz \Kz$ spectrum obtained for pNb experiment. The \css for the simulation was scaled up by a factor $A^{2/3}$ compare values measured in pp reactions}
   \label{fig:LK0_pNb}
 \end{figure}
@@ -61,8 +64,15 @@ Compare to the $\Ls$ analysis for the pp data  for a good signal extraction a se
 
 
 
-\subsection{Event mixing}
+\subsection{Event mixing and side-band analysis}
 
+\begin{figure}[ht]
+  \centering
+  % \includegraphics[width=0.9 \linewidth]{Chapter_analysisPNb/LK0.eps}
+  \includegraphics[width=0.9 \linewidth]{Data_Nb/canvas_cSB_EM_comparison.eps}
+  \caption{l}
+  \label{fig:CB_EM}
+\end{figure}
 
 \subsection{Cross-section and extraction differential analysis}
 \begin{figure}[ht]
@@ -74,12 +84,20 @@ Compare to the $\Ls$ analysis for the pp data  for a good signal extraction a se
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.9 \linewidth]{Chapter_analysisPNb/YPt.eps}
-  \caption{b}
+  %\includegraphics[width=0.9 \linewidth]{Chapter_analysisPNb/YPt.eps}
+  \includegraphics[width=0.9 \linewidth]{Data_Nb/canvas_cPt_W_signal.eps};
+  \caption{A rapidity and tranvers momentum spectra for events $M^{inv}_{\p\pim\pip\pim} \in (1440,1600)$. Blue points represents data without any background substraction. The red histograms show event mixing. }
   \label{fig:YPt_pNb}
 \end{figure}
 
 \subsection{Analysis of $\pip \pim$, $\Lz \pip$ and $\Lz \pim$ spectra}
+\begin{figure}[ht]
+  \centering
+  %\includegraphics[width=0.9 \linewidth]{Chapter_analysisPNb/YPt.eps}
+  \includegraphics[width=0.9 \linewidth]{Data_Nb/canvas_cSigma_thesis.eps};
+  \caption{The $M^{inv}_{\p\pim\pip}$ and $M^{inv}_{\p\pim\pim}$ spectra. For both figures blue points represents whole data set, red one the event mixing events, the green one signal after a EM substruction.}
+  \label{fig:YPt_pNb}
+\end{figure}
 
 
 \section{Comparison with results from pp data}
