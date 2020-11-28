@@ -749,8 +749,9 @@ INPUT ./Data_Nb/hist_miss_ppim.epc-eps-converted-to.pdf
 INPUT Data_Nb/canvas_cSB_thesis.eps
 INPUT ./Data_Nb/canvas_cSB_thesis.eps
 INPUT ./Data_Nb/canvas_cSB_thesis.eps
-INPUT ./Data_Nb/canvas_cSB_thesis.eps
 INPUT ./Data_Nb/canvas_cSB_thesis-eps-converted-to.pdf
+INPUT ./Data_Nb/canvas_cSB_thesis-eps-converted-to.pdf
+INPUT ./Data_Nb/canvas_cSB_thesis.eps
 INPUT ./Data_Nb/canvas_cSB_thesis-eps-converted-to.pdf
 INPUT ./Data_Nb/canvas_cSB_thesis-eps-converted-to.pdf
 INPUT ./Data_Nb/canvas_cSB_thesis-eps-converted-to.pdf
@@ -793,8 +794,9 @@ INPUT ./Data_Nb/canvas_cPt_W_signal-eps-converted-to.pdf
 INPUT Data_Nb/canvas_cSigma_thesis.eps
 INPUT ./Data_Nb/canvas_cSigma_thesis.eps
 INPUT ./Data_Nb/canvas_cSigma_thesis.eps
-INPUT ./Data_Nb/canvas_cSigma_thesis.eps
 INPUT ./Data_Nb/canvas_cSigma_thesis-eps-converted-to.pdf
+INPUT ./Data_Nb/canvas_cSigma_thesis-eps-converted-to.pdf
+INPUT ./Data_Nb/canvas_cSigma_thesis.eps
 INPUT ./Data_Nb/canvas_cSigma_thesis-eps-converted-to.pdf
 INPUT ./Data_Nb/canvas_cSigma_thesis-eps-converted-to.pdf
 INPUT ./Data_Nb/canvas_cSigma_thesis-eps-converted-to.pdf
