@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  28 NOV 2020 12:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  30 NOV 2020 22:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1396,7 +1396,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
-<uj.jpg, id=240, 263.5446pt x 423.5022pt>
+<uj.jpg, id=248, 263.5446pt x 423.5022pt>
 File: uj.jpg Graphic file (type jpg)
 <use uj.jpg>
 Package pdftex.def Info: uj.jpg  used on input line 97.
@@ -1465,7 +1465,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./Chapter_introduction/eightfolds-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<Chapter_introduction/eightfolds-eps-converted-to.pdf, id=431, 710.655pt x 359.
+<Chapter_introduction/eightfolds-eps-converted-to.pdf, id=443, 710.655pt x 359.
 3425pt>
 File: Chapter_introduction/eightfolds-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1473,7 +1473,7 @@ df)
 Package pdftex.def Info: Chapter_introduction/eightfolds-eps-converted-to.pdf  
 used on input line 16.
 (pdftex.def)             Requested size: 384.68576pt x 194.51909pt.
-<Chapter_introduction/spectrum.png, id=434, 991.705pt x 634.37pt>
+<Chapter_introduction/spectrum.png, id=446, 991.705pt x 634.37pt>
 File: Chapter_introduction/spectrum.png Graphic file (type png)
 <use Chapter_introduction/spectrum.png>
 Package pdftex.def Info: Chapter_introduction/spectrum.png  used on input line 
@@ -1502,7 +1502,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./Chapter_introduction/faynmannDiagrams-eps-conv
 erted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
 > allowed
-<Chapter_introduction/faynmannDiagrams-eps-converted-to.pdf, id=469, 696.6025pt
+<Chapter_introduction/faynmannDiagrams-eps-converted-to.pdf, id=481, 696.6025pt
  x 233.87375pt>
 File: Chapter_introduction/faynmannDiagrams-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1528,7 +1528,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_detector/detektor-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_detector/detektor-eps-converted-to.pdf, id=490, 831.105pt x 834.11626p
+<Chapter_detector/detektor-eps-converted-to.pdf, id=502, 831.105pt x 834.11626p
 t>
 File: Chapter_detector/detektor-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_detector/detektor-eps-converted-to.pdf>
@@ -1538,12 +1538,12 @@ n input line 8.
 [5
 
 ] [6 <./Chapter_detector/detektor-eps-converted-to.pdf>]
-<Chapter_detector/RICH.png, id=506, 329.47546pt x 305.80624pt>
+<Chapter_detector/RICH.png, id=518, 329.47546pt x 305.80624pt>
 File: Chapter_detector/RICH.png Graphic file (type png)
 <use Chapter_detector/RICH.png>
 Package pdftex.def Info: Chapter_detector/RICH.png  used on input line 30.
 (pdftex.def)             Requested size: 256.46152pt x 238.03795pt.
-<Chapter_detector/HADES.png, id=511, 665.2052pt x 501.7947pt>
+<Chapter_detector/HADES.png, id=523, 665.2052pt x 501.7947pt>
 File: Chapter_detector/HADES.png Graphic file (type png)
 <use Chapter_detector/HADES.png>
 Package pdftex.def Info: Chapter_detector/HADES.png  used on input line 38.
@@ -1571,7 +1571,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_detector/FwDet-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_detector/FwDet-eps-converted-to.pdf, id=529, 865.2325pt x 431.6125pt>
+<Chapter_detector/FwDet-eps-converted-to.pdf, id=541, 865.2325pt x 431.6125pt>
 File: Chapter_detector/FwDet-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_detector/FwDet-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_detector/FwDet-eps-converted-to.pdf  used on i
@@ -1589,7 +1589,7 @@ Package epstopdf Info: Source file: <Chapter_detector/ECAL.eps>
 converted-to.pdf Chapter_detector/ECAL.eps>
 (epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter_detector/ECAL-eps-converted-to.pdf, id=539, 764.8575pt x 332.24126pt>
+<Chapter_detector/ECAL-eps-converted-to.pdf, id=551, 764.8575pt x 332.24126pt>
 File: Chapter_detector/ECAL-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_detector/ECAL-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_detector/ECAL-eps-converted-to.pdf  used on in
@@ -1614,7 +1614,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_analysis/tarcza-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_analysis/tarcza-eps-converted-to.pdf, id=558, 594.22pt x 596.2275pt>
+<Chapter_analysis/tarcza-eps-converted-to.pdf, id=570, 594.22pt x 596.2275pt>
 File: Chapter_analysis/tarcza-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_analysis/tarcza-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_analysis/tarcza-eps-converted-to.pdf  used on 
@@ -1623,7 +1623,7 @@ input line 11.
 [11
 
 ] [12 <./Chapter_analysis/tarcza-eps-converted-to.pdf>]
-<Chapter_analysis/DeDx_PPim.jpg, id=592, 225.4824pt x 124.3044pt>
+<Chapter_analysis/DeDx_PPim.jpg, id=604, 225.4824pt x 124.3044pt>
 File: Chapter_analysis/DeDx_PPim.jpg Graphic file (type jpg)
 <use Chapter_analysis/DeDx_PPim.jpg>
 Package pdftex.def Info: Chapter_analysis/DeDx_PPim.jpg  used on input line 76.
@@ -1645,7 +1645,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_analysis/mult-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_analysis/mult-eps-converted-to.pdf, id=604, 569.12625pt x 472.76625pt>
+<Chapter_analysis/mult-eps-converted-to.pdf, id=616, 569.12625pt x 472.76625pt>
 
 File: Chapter_analysis/mult-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_analysis/mult-eps-converted-to.pdf>
@@ -1668,7 +1668,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_analysis/missMass-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_analysis/missMass-eps-converted-to.pdf, id=618, 569.12625pt x 367.3725
+<Chapter_analysis/missMass-eps-converted-to.pdf, id=630, 569.12625pt x 367.3725
 pt>
 File: Chapter_analysis/missMass-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_analysis/missMass-eps-converted-to.pdf>
@@ -1676,7 +1676,7 @@ Package pdftex.def Info: Chapter_analysis/missMass-eps-converted-to.pdf  used o
 n input line 126.
 (pdftex.def)             Requested size: 384.68576pt x 248.32448pt.
 [15 <./Chapter_analysis/mult-eps-converted-to.pdf>]
-<Chapter_analysis/Miss_PPip.jpg, id=640, 293.6571pt x 174.6525pt>
+<Chapter_analysis/Miss_PPip.jpg, id=652, 293.6571pt x 174.6525pt>
 File: Chapter_analysis/Miss_PPip.jpg Graphic file (type jpg)
 <use Chapter_analysis/Miss_PPip.jpg>
 Package pdftex.def Info: Chapter_analysis/Miss_PPip.jpg  used on input line 143
@@ -1714,7 +1714,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_analysis/NN-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_analysis/NN-eps-converted-to.pdf, id=660, 584.1825pt x 426.59375pt>
+<Chapter_analysis/NN-eps-converted-to.pdf, id=672, 584.1825pt x 426.59375pt>
 File: Chapter_analysis/NN-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_analysis/NN-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_analysis/NN-eps-converted-to.pdf  used on inpu
@@ -1739,7 +1739,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./Chapter_analysis/geometria_NN-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<Chapter_analysis/geometria_NN-eps-converted-to.pdf, id=664, 782.925pt x 515.92
+<Chapter_analysis/geometria_NN-eps-converted-to.pdf, id=676, 782.925pt x 515.92
 75pt>
 File: Chapter_analysis/geometria_NN-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1766,7 +1766,7 @@ Package epstopdf Info: Source file: <Data_pp/canvas_cSB.eps>
 verted-to.pdf Data_pp/canvas_cSB.eps>
 (epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
-<Data_pp/canvas_cSB-eps-converted-to.pdf, id=728, 569.12625pt x 385.44pt>
+<Data_pp/canvas_cSB-eps-converted-to.pdf, id=740, 569.12625pt x 385.44pt>
 File: Data_pp/canvas_cSB-eps-converted-to.pdf Graphic file (type pdf)
 <use Data_pp/canvas_cSB-eps-converted-to.pdf>
 Package pdftex.def Info: Data_pp/canvas_cSB-eps-converted-to.pdf  used on input
@@ -1804,7 +1804,7 @@ Package epstopdf Info: Source file: <Data_pp/canvas_cLK0.eps>
 nverted-to.pdf Data_pp/canvas_cLK0.eps>
 (epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
-<Data_pp/canvas_cLK0-eps-converted-to.pdf, id=752, 569.12625pt x 385.44pt>
+<Data_pp/canvas_cLK0-eps-converted-to.pdf, id=764, 569.12625pt x 385.44pt>
 File: Data_pp/canvas_cLK0-eps-converted-to.pdf Graphic file (type pdf)
 <use Data_pp/canvas_cLK0-eps-converted-to.pdf>
 Package pdftex.def Info: Data_pp/canvas_cLK0-eps-converted-to.pdf  used on inpu
@@ -1814,9 +1814,6 @@ t line 209.
 Overfull \hbox (42.74576pt too wide) in paragraph at lines 209--210
  [][] 
  []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1841,7 +1838,7 @@ erted-to.pdf>
 lizacja-eps-converted-to.pdf Chapter_analysis/HC_optymalizacja.eps>
 (epstopdf)             \includegraphics on input line 221.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter_analysis/HC_optymalizacja-eps-converted-to.pdf, id=754, 831.105pt x 29
+<Chapter_analysis/HC_optymalizacja-eps-converted-to.pdf, id=766, 831.105pt x 29
 2.09125pt>
 File: Chapter_analysis/HC_optymalizacja-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1860,7 +1857,7 @@ o.pdf>
 -eps-converted-to.pdf Data_pp/canvas_cSum_thesis.eps>
 (epstopdf)             \includegraphics on input line 236.
 Package epstopdf Info: Output file is already uptodate.
-<Data_pp/canvas_cSum_thesis-eps-converted-to.pdf, id=757, 569.12625pt x 385.44p
+<Data_pp/canvas_cSum_thesis-eps-converted-to.pdf, id=769, 569.12625pt x 385.44p
 t>
 File: Data_pp/canvas_cSum_thesis-eps-converted-to.pdf Graphic file (type pdf)
 <use Data_pp/canvas_cSum_thesis-eps-converted-to.pdf>
@@ -1880,7 +1877,7 @@ Package epstopdf Info: Source file: <Data_pp/canvas_cClean_ren.eps>
 eps-converted-to.pdf Data_pp/canvas_cClean_ren.eps>
 (epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
-<Data_pp/canvas_cClean_ren-eps-converted-to.pdf, id=789, 569.12625pt x 385.44pt
+<Data_pp/canvas_cClean_ren-eps-converted-to.pdf, id=801, 569.12625pt x 385.44pt
 >
 File: Data_pp/canvas_cClean_ren-eps-converted-to.pdf Graphic file (type pdf)
 <use Data_pp/canvas_cClean_ren-eps-converted-to.pdf>
@@ -1903,7 +1900,7 @@ o.pdf>
 -eps-converted-to.pdf Data_pp/canvas_cPtW_thesis.eps>
 (epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
-<Data_pp/canvas_cPtW_thesis-eps-converted-to.pdf, id=811, 569.12625pt x 385.44p
+<Data_pp/canvas_cPtW_thesis-eps-converted-to.pdf, id=823, 569.12625pt x 385.44p
 t>
 File: Data_pp/canvas_cPtW_thesis-eps-converted-to.pdf Graphic file (type pdf)
 <use Data_pp/canvas_cPtW_thesis-eps-converted-to.pdf>
@@ -1997,7 +1994,7 @@ rted-to.pdf>
 PipPim-eps-converted-to.pdf Data_pp/canvas_cClean_ren_PipPim.eps>
 (epstopdf)             \includegraphics on input line 275.
 Package epstopdf Info: Output file is already uptodate.
-<Data_pp/canvas_cClean_ren_PipPim-eps-converted-to.pdf, id=816, 569.12625pt x 3
+<Data_pp/canvas_cClean_ren_PipPim-eps-converted-to.pdf, id=829, 569.12625pt x 3
 85.44pt>
 File: Data_pp/canvas_cClean_ren_PipPim-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2016,7 +2013,7 @@ nverted-to.pdf>
 ta_thesis-eps-converted-to.pdf Data_pp/canvas_cPPimPim_data_thesis.eps>
 (epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
-<Data_pp/canvas_cPPimPim_data_thesis-eps-converted-to.pdf, id=817, 569.12625pt 
+<Data_pp/canvas_cPPimPim_data_thesis-eps-converted-to.pdf, id=830, 569.12625pt 
 x 385.44pt>
 File: Data_pp/canvas_cPPimPim_data_thesis-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2055,7 +2052,7 @@ nverted-to.pdf>
 ta_thesis-eps-converted-to.pdf Data_pp/canvas_cPPimPip_data_thesis.eps>
 (epstopdf)             \includegraphics on input line 285.
 Package epstopdf Info: Output file is already uptodate.
-<Data_pp/canvas_cPPimPip_data_thesis-eps-converted-to.pdf, id=818, 569.12625pt 
+<Data_pp/canvas_cPPimPip_data_thesis-eps-converted-to.pdf, id=831, 569.12625pt 
 x 385.44pt>
 File: Data_pp/canvas_cPPimPip_data_thesis-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2087,7 +2084,7 @@ l.285 ...Data_pp/canvas_cPPimPip_data_thesis.eps}}
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapter_analysis/systematics_SB.png, id=840, 786.94pt x 442.65375pt>
+<Chapter_analysis/systematics_SB.png, id=853, 786.94pt x 442.65375pt>
 File: Chapter_analysis/systematics_SB.png Graphic file (type png)
 <use Chapter_analysis/systematics_SB.png>
 Package pdftex.def Info: Chapter_analysis/systematics_SB.png  used on input lin
@@ -2098,13 +2095,13 @@ File: Chapter_analysis/systematics_SB.png Graphic file (type png)
 Package pdftex.def Info: Chapter_analysis/systematics_SB.png  used on input lin
 e 325.
 (pdftex.def)             Requested size: 384.68576pt x 216.38214pt.
-<Chapter_analysis/systematics_PV-SV.png, id=841, 901.3675pt x 423.5825pt>
+<Chapter_analysis/systematics_PV-SV.png, id=854, 901.3675pt x 423.5825pt>
 File: Chapter_analysis/systematics_PV-SV.png Graphic file (type png)
 <use Chapter_analysis/systematics_PV-SV.png>
 Package pdftex.def Info: Chapter_analysis/systematics_PV-SV.png  used on input 
 line 331.
 (pdftex.def)             Requested size: 384.68576pt x 180.77962pt.
-<Chapter_analysis/systematics_OA.png, id=842, 843.15pt x 413.545pt>
+<Chapter_analysis/systematics_OA.png, id=855, 843.15pt x 413.545pt>
 File: Chapter_analysis/systematics_OA.png Graphic file (type png)
 <use Chapter_analysis/systematics_OA.png>
 Package pdftex.def Info: Chapter_analysis/systematics_OA.png  used on input lin
@@ -2135,7 +2132,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./Chapter_analysisPNb/target_pNb-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<Chapter_analysisPNb/target_pNb-eps-converted-to.pdf, id=913, 582.175pt x 541.0
+<Chapter_analysisPNb/target_pNb-eps-converted-to.pdf, id=927, 582.175pt x 541.0
 2126pt>
 File: Chapter_analysisPNb/target_pNb-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2154,7 +2151,7 @@ o.pdf>
 -eps-converted-to.pdf Data_Nb/hist_miss_ppim.epc.eps>
 (epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
-<Data_Nb/hist_miss_ppim.epc-eps-converted-to.pdf, id=915, 569.12625pt x 301.125
+<Data_Nb/hist_miss_ppim.epc-eps-converted-to.pdf, id=929, 569.12625pt x 301.125
 pt>
 File: Data_Nb/hist_miss_ppim.epc-eps-converted-to.pdf Graphic file (type pdf)
 <use Data_Nb/hist_miss_ppim.epc-eps-converted-to.pdf>
@@ -2189,7 +2186,7 @@ Package epstopdf Info: Source file: <Data_Nb/canvas_cSB_thesis.eps>
 eps-converted-to.pdf Data_Nb/canvas_cSB_thesis.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
-<Data_Nb/canvas_cSB_thesis-eps-converted-to.pdf, id=925, 569.12625pt x 385.44pt
+<Data_Nb/canvas_cSB_thesis-eps-converted-to.pdf, id=939, 569.12625pt x 385.44pt
 >
 File: Data_Nb/canvas_cSB_thesis-eps-converted-to.pdf Graphic file (type pdf)
 <use Data_Nb/canvas_cSB_thesis-eps-converted-to.pdf>
@@ -2228,7 +2225,7 @@ Package epstopdf Info: Source file: <Data_Nb/canvas_cLK0.eps>
 nverted-to.pdf Data_Nb/canvas_cLK0.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
-<Data_Nb/canvas_cLK0-eps-converted-to.pdf, id=947, 569.12625pt x 385.44pt>
+<Data_Nb/canvas_cLK0-eps-converted-to.pdf, id=961, 569.12625pt x 385.44pt>
 File: Data_Nb/canvas_cLK0-eps-converted-to.pdf Graphic file (type pdf)
 <use Data_Nb/canvas_cLK0-eps-converted-to.pdf>
 Package pdftex.def Info: Data_Nb/canvas_cLK0-eps-converted-to.pdf  used on inpu
@@ -2257,7 +2254,7 @@ rted-to.pdf>
 arison-eps-converted-to.pdf Data_Nb/canvas_cSB_EM_comparison.eps>
 (epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
-<Data_Nb/canvas_cSB_EM_comparison-eps-converted-to.pdf, id=948, 569.12625pt x 3
+<Data_Nb/canvas_cSB_EM_comparison-eps-converted-to.pdf, id=962, 569.12625pt x 3
 85.44pt>
 File: Data_Nb/canvas_cSB_EM_comparison-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2281,7 +2278,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_analysisPNb/L1520-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_analysisPNb/L1520-eps-converted-to.pdf, id=969, 569.12625pt x 367.3725
+<Chapter_analysisPNb/L1520-eps-converted-to.pdf, id=983, 569.12625pt x 367.3725
 pt>
 File: Chapter_analysisPNb/L1520-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_analysisPNb/L1520-eps-converted-to.pdf>
@@ -2299,7 +2296,7 @@ to.pdf>
 l-eps-converted-to.pdf Data_Nb/canvas_cPt_W_signal.eps>
 (epstopdf)             \includegraphics on input line 76.
 Package epstopdf Info: Output file is already uptodate.
-<Data_Nb/canvas_cPt_W_signal-eps-converted-to.pdf, id=970, 569.12625pt x 385.44
+<Data_Nb/canvas_cPt_W_signal-eps-converted-to.pdf, id=984, 569.12625pt x 385.44
 pt>
 File: Data_Nb/canvas_cPt_W_signal-eps-converted-to.pdf Graphic file (type pdf)
 <use Data_Nb/canvas_cPt_W_signal-eps-converted-to.pdf>
@@ -2389,7 +2386,7 @@ Package epstopdf Info: Source file: <Data_Nb/canvas_cSigma_thesis.eps>
 is-eps-converted-to.pdf Data_Nb/canvas_cSigma_thesis.eps>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
-<Data_Nb/canvas_cSigma_thesis-eps-converted-to.pdf, id=971, 569.12625pt x 385.4
+<Data_Nb/canvas_cSigma_thesis-eps-converted-to.pdf, id=985, 569.12625pt x 385.4
 4pt>
 File: Data_Nb/canvas_cSigma_thesis-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2397,10 +2394,35 @@ File: Data_Nb/canvas_cSigma_thesis-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: Data_Nb/canvas_cSigma_thesis-eps-converted-to.pdf  use
 d on input line 85.
 (pdftex.def)             Requested size: 384.68576pt x 260.53717pt.
+Package epstopdf Info: Source file: <Data_Nb/canvas_cBetaGamma.eps>
+(epstopdf)                    date: 2020-11-27 18:26:25
+(epstopdf)                    size: 8828 bytes
+(epstopdf)             Output file: <Data_Nb/canvas_cBetaGamma-eps-converted-to
+.pdf>
+(epstopdf)             Command: <repstopdf --outfile=Data_Nb/canvas_cBetaGamma-
+eps-converted-to.pdf Data_Nb/canvas_cBetaGamma.eps>
+(epstopdf)             \includegraphics on input line 100.
+runsystem(repstopdf --outfile=Data_Nb/canvas_cBetaGamma-eps-converted-to.pdf Da
+ta_Nb/canvas_cBetaGamma.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <Data_Nb/canvas_cBetaGamma-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2020-11-30 22:08:23
+(epstopdf)                    size: 8173 bytes.
+<Data_Nb/canvas_cBetaGamma-eps-converted-to.pdf, id=986, 569.12625pt x 385.44pt
+>
+File: Data_Nb/canvas_cBetaGamma-eps-converted-to.pdf Graphic file (type pdf)
+<use Data_Nb/canvas_cBetaGamma-eps-converted-to.pdf>
+Package pdftex.def Info: Data_Nb/canvas_cBetaGamma-eps-converted-to.pdf  used o
+n input line 100.
+(pdftex.def)             Requested size: 384.68576pt x 260.53717pt.
 ) (./Chapter_NN/NN.tex [32 <./Data_Nb/canvas_cLK0-eps-converted-to.pdf>]
 [33 <./Data_Nb/canvas_cSB_EM_comparison-eps-converted-to.pdf> <./Chapter_analys
 isPNb/L1520-eps-converted-to.pdf>] [34 <./Data_Nb/canvas_cPt_W_signal-eps-conve
-rted-to.pdf> <./Data_Nb/canvas_cSigma_thesis-eps-converted-to.pdf>]
+rted-to.pdf> <./Data_Nb/canvas_cSigma_thesis-eps-converted-to.pdf>] [35 <./Data
+_Nb/canvas_cBetaGamma-eps-converted-to.pdf>] [36
+
+]
 Chapter 5.
 Package epstopdf Info: Source file: <Chapter_NN/data_flow.eps>
 (epstopdf)                    date: 2020-07-31 16:47:07
@@ -2417,16 +2439,14 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_NN/data_flow-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_NN/data_flow-eps-converted-to.pdf, id=1041, 960.58875pt x 412.54124pt>
+<Chapter_NN/data_flow-eps-converted-to.pdf, id=1072, 960.58875pt x 412.54124pt>
 
 File: Chapter_NN/data_flow-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_NN/data_flow-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_NN/data_flow-eps-converted-to.pdf  used on inp
 ut line 15.
 (pdftex.def)             Requested size: 427.43153pt x 183.57083pt.
-[35
-
-]
+[37]
 Package epstopdf Info: Source file: <Chapter_NN/ROC.eps>
 (epstopdf)                    date: 2020-07-31 17:06:21
 (epstopdf)                    size: 571971 bytes
@@ -2441,13 +2461,13 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_NN/ROC-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_NN/ROC-eps-converted-to.pdf, id=1047, 803.0pt x 583.17876pt>
+<Chapter_NN/ROC-eps-converted-to.pdf, id=1080, 803.0pt x 583.17876pt>
 File: Chapter_NN/ROC-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_NN/ROC-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_NN/ROC-eps-converted-to.pdf  used on input lin
 e 28.
 (pdftex.def)             Requested size: 299.20076pt x 217.29442pt.
-[36 <./Chapter_NN/data_flow-eps-converted-to.pdf>] [37 <./Chapter_NN/ROC-eps-co
+[38 <./Chapter_NN/data_flow-eps-converted-to.pdf>] [39 <./Chapter_NN/ROC-eps-co
 nverted-to.pdf>]
 Package epstopdf Info: Source file: <Chapter_NN/setAB.eps>
 (epstopdf)                    date: 2020-03-14 20:19:55
@@ -2463,7 +2483,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_NN/setAB-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_NN/setAB-eps-converted-to.pdf, id=1077, 530.98375pt x 554.07pt>
+<Chapter_NN/setAB-eps-converted-to.pdf, id=1109, 530.98375pt x 554.07pt>
 File: Chapter_NN/setAB-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_NN/setAB-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_NN/setAB-eps-converted-to.pdf  used on input l
@@ -2483,13 +2503,13 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_NN/L1116-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_NN/L1116-eps-converted-to.pdf, id=1080, 797.98125pt x 590.205pt>
+<Chapter_NN/L1116-eps-converted-to.pdf, id=1112, 797.98125pt x 590.205pt>
 File: Chapter_NN/L1116-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_NN/L1116-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_NN/L1116-eps-converted-to.pdf  used on input l
 ine 68.
 (pdftex.def)             Requested size: 341.94652pt x 252.90964pt.
-[38 <./Chapter_NN/setAB-eps-converted-to.pdf>]
+[40 <./Chapter_NN/setAB-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Chapter_NN/NN_wyniki.eps>
 (epstopdf)                    date: 2020-06-01 16:49:48
 (epstopdf)                    size: 94483 bytes
@@ -2505,15 +2525,15 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_NN/NN_wyniki-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_NN/NN_wyniki-eps-converted-to.pdf, id=1098, 793.96625pt x 316.18124pt>
+<Chapter_NN/NN_wyniki-eps-converted-to.pdf, id=1132, 793.96625pt x 316.18124pt>
 
 File: Chapter_NN/NN_wyniki-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_NN/NN_wyniki-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_NN/NN_wyniki-eps-converted-to.pdf  used on inp
 ut line 87.
 (pdftex.def)             Requested size: 384.68576pt x 153.19815pt.
-[39 <./Chapter_NN/L1116-eps-converted-to.pdf>])
-(./Chapter_simulation/simulation.tex [40 <./Chapter_NN/NN_wyniki-eps-converted-
+[41 <./Chapter_NN/L1116-eps-converted-to.pdf>])
+(./Chapter_simulation/simulation.tex [42 <./Chapter_NN/NN_wyniki-eps-converted-
 to.pdf>]
 Chapter 6.
 
@@ -2532,7 +2552,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 7.
 
-[41
+[43
 
 ]
 
@@ -2566,14 +2586,14 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_simulation/LtoS-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_simulation/LtoS-eps-converted-to.pdf, id=1151, 764.8575pt x 621.32124p
+<Chapter_simulation/LtoS-eps-converted-to.pdf, id=1187, 764.8575pt x 621.32124p
 t>
 File: Chapter_simulation/LtoS-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_simulation/LtoS-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_simulation/LtoS-eps-converted-to.pdf  used on 
 input line 19.
 (pdftex.def)             Requested size: 256.46152pt x 208.33589pt.
-[42 <./Chapter_simulation/LtoS-eps-converted-to.pdf>]
+[44 <./Chapter_simulation/LtoS-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Chapter_simulation/all_CS.eps>
 (epstopdf)                    date: 2020-04-07 14:56:45
 (epstopdf)                    size: 60717 bytes
@@ -2589,7 +2609,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./Chapter_simulation/all_CS-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Chapter_simulation/all_CS-eps-converted-to.pdf, id=1177, 1227.58624pt x 465.74
+<Chapter_simulation/all_CS-eps-converted-to.pdf, id=1212, 1227.58624pt x 465.74
 pt>
 File: Chapter_simulation/all_CS-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter_simulation/all_CS-eps-converted-to.pdf>
@@ -2636,7 +2656,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 56.
 
-[43 <./Chapter_simulation/all_CS-eps-converted-to.pdf>]
+[45 <./Chapter_simulation/all_CS-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 74.
@@ -2653,11 +2673,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 74.
 
-[44] [45] [46]) (./Chapter_conclusions/conclusions.tex [47] [48
+[46] [47] [48]) (./Chapter_conclusions/conclusions.tex [49] [50
 
 ]
 Chapter 7.
-) [49] [50
+) [51] [52
 
 ] (./main.bbl
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 14
@@ -2665,15 +2685,20 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 14
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [51
+) [53
 
 
 
-] [52] [53])
-[54]
+] [54] [55])
+[56]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 323.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 323.
- (./main.aux)
+ (./main.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 323.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 323.
 
@@ -2683,85 +2708,100 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 32323215127A5B77B467E31092FE7AFA;11709
-(rerunfilecheck)             After:  94A0AF5C4927472782648A32B07D9124;12032.
+(rerunfilecheck)             Before: 94A0AF5C4927472782648A32B07D9124;12032
+(rerunfilecheck)             After:  0B4D031663093C06288E42792EE73B9A;12032.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 323.
  ) 
 Here is how much of TeX's memory you used:
- 35840 strings out of 481239
- 701235 string characters out of 5920377
- 1091515 words of memory out of 5000000
- 50047 multiletter control sequences out of 15000+600000
+ 35853 strings out of 481239
+ 701573 string characters out of 5920377
+ 1091645 words of memory out of 5000000
+ 50052 multiletter control sequences out of 15000+600000
  598279 words of font info for 115 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 60i,13n,80p,1569b,1056s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.caption.126} has been referenced but does n
+ 60i,13n,80p,1569b,1054s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{table.caption.128} has been referenced but does n
 ot exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{equation.118} has been referenced but does not exis
+pdfTeX warning (dest): name{equation.120} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.110} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.112} has been referenced but does no
 t exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{equation.108} has been referenced but does not exis
+pdfTeX warning (dest): name{equation.110} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.116} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.118} has been referenced but does no
 t exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.104} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.105} has been referenced but does no
 t exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.101} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.103} has been referenced but does no
 t exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{dummy.134} has been referenced but does not exist, 
+pdfTeX warning (dest): name{equation.101} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{dummy.136} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{section*.133} has been referenced but does not exis
+pdfTeX warning (dest): name{section*.135} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.132} has been referenced but does not exist
+pdfTeX warning (dest): name{chapter.134} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.131} has been referenced but does not ex
+pdfTeX warning (dest): name{subsection.132} has been referenced but does not ex
 ist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.128} has been referenced but does not ex
+pdfTeX warning (dest): name{subsection.130} has been referenced but does not ex
 ist, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.127} has been referenced but does not exist
+pdfTeX warning (dest): name{section.129} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{section.122} has been referenced but does not exist
+pdfTeX warning (dest): name{section.126} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.121} has been referenced but does not ex
+pdfTeX warning (dest): name{section.124} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.123} has been referenced but does not ex
 ist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.117} has been referenced but does not ex
+pdfTeX warning (dest): name{subsection.119} has been referenced but does not ex
 ist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.107} has been referenced but does not ex
+pdfTeX warning (dest): name{subsection.111} has been referenced but does not ex
 ist, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.106} has been referenced but does not exist
+pdfTeX warning (dest): name{subsection.109} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.108} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.105} has been referenced but does not exist
+pdfTeX warning (dest): name{chapter.107} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{section.102} has been referenced but does not exist
+pdfTeX warning (dest): name{section.104} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{section.98} has been referenced but does not exist,
+pdfTeX warning (dest): name{section.100} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.97} has been referenced but does not exist,
  replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.92} has been referenced but does not exist,
+pdfTeX warning (dest): name{section.95} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.94} has been referenced but does not exist,
  replaced by a fixed one
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
@@ -2786,10 +2826,10 @@ cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (66 pages, 26923430 bytes).
+Output written on main.pdf (68 pages, 26929996 bytes).
 PDF statistics:
- 1505 PDF objects out of 1728 (max. 8388607)
- 1227 compressed objects within 13 object streams
- 267 named destinations out of 1000 (max. 500000)
- 692 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1543 PDF objects out of 1728 (max. 8388607)
+ 1260 compressed objects within 13 object streams
+ 274 named destinations out of 1000 (max. 500000)
+ 713 words of extra memory for PDF output out of 10000 (max. 10000000)
 

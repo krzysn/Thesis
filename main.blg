@@ -19,36 +19,36 @@ Warning--empty pages in hades_Ksi_pNb
 Warning--empty pages in Metodiev_2017
 Warning--empty pages in Neyman-Pearson
 Warning--empty publisher in L-B
-You've used 41 entries,
+You've used 40 entries,
             2608 wiz_defined-function locations,
-            911 strings with 14483 characters,
-and the built_in function-call counts, 12715 in all, are:
-= -- 1115
-> -- 706
+            906 strings with 14340 characters,
+and the built_in function-call counts, 12572 in all, are:
+= -- 1100
+> -- 702
 < -- 0
-+ -- 253
-- -- 212
-* -- 1344
-:= -- 1756
-add.period$ -- 53
-call.type$ -- 41
-change.case$ -- 85
++ -- 251
+- -- 211
+* -- 1336
+:= -- 1730
+add.period$ -- 52
+call.type$ -- 40
+change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 55
-duplicate$ -- 600
-empty$ -- 1130
-format.name$ -- 212
-if$ -- 3065
+cite$ -- 54
+duplicate$ -- 591
+empty$ -- 1113
+format.name$ -- 211
+if$ -- 3031
 int.to.chr$ -- 0
-int.to.str$ -- 41
+int.to.str$ -- 40
 missing$ -- 105
-newline$ -- 128
-num.names$ -- 41
-pop$ -- 194
+newline$ -- 125
+num.names$ -- 40
+pop$ -- 190
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 376
+skip$ -- 374
 stack$ -- 0
 substring$ -- 481
 swap$ -- 255
@@ -57,7 +57,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 14
-while$ -- 82
-width$ -- 43
-write$ -- 327
+while$ -- 81
+width$ -- 42
+write$ -- 318
 (There were 15 warnings)
