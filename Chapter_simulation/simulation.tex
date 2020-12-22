@@ -1,11 +1,11 @@
 \chapter{Simulations of a new experiment}
 \label{chapter:simulations}
-The HADES collaboration is one of the leading forces of a FAIR Phase-0 project. Within the scope of the FAIR project a pp@4.5GeV experiment is going to be preformed. It gives a great opportunity to increase a knowledge about hyperons, with special emphasis on hyperons' Dalitz decays (see Chapter \ref{chapter:introduction}). One of the goals of my work was to carry out a simulation of such an experiment. The performed simulation was used as an input for proposal submited by HADES experiment for [nazwa komisji]. As the result the HADES was granted 4 week proton beem devoted for hyperons studies. [ref do decyzji]
+The HADES collaboration is one of the leading forces of a FAIR Phase-0 project. Within the scope of the FAIR project a pp@4.5GeV experiment is going to be preformed. It gives a great opportunity to increase a knowledge about hyperons, with special emphasis on hyperons' Dalitz decays (see Chapter \ref{chapter:introduction}). One of the goals of my work was to carry out a simulation of such an experiment. The performed simulation was used as an input for proposal submited by HADES experiment for [nazwa komisji]. As the result the HADES was granted 4 week proton beam devoted for hyperons studies. [ref do decyzji]
 \section{An estimation of cross-sections}
-In energy range of $1 \mathrm{GeV}<\Sqs<6 \mathrm{GeV}$ an exclusive \cs for $\Lz$ and $\Sz$ production were measured for many different energies \cite{hades_inclL_35,COSY-TOF_SigmaLambda,L-B}. Also an exclusive \cs for $\Lss$ production  was measured for two different energies \cite{hades_L1405,COSY-TOF_L1405}, and explusive \cs for $\Ls$ was measured once \cite{hades_inclL_35}. In contrast to the exclusive production \cs, inclusive \css for hyperons' production in pp collisions are poorly known. In fact an avaliable data allows a straighforward \cs prametrization only for $\Ls$, for others hyperons some additional reasoning was necessary. 
+In energy range of $1 \mathrm{GeV}<\Sqs<6 \mathrm{GeV}$ an exclusive \cs for $\Lz$ and $\Sz$ production were measured for many different energies \cite{hades_inclL_35,COSY-TOF_SigmaLambda,L-B}. Also an exclusive \cs for $\Lss$ production  was measured for two different energies \cite{hades_L1405,COSY-TOF_L1405}, and exclusive \cs for $\Ls$ was measured once \cite{hades_inclL_35}. In contrast to the exclusive production \cs, inclusive \css for hyperons' production in pp collisions are poorly known. In fact an available data allows a straighforward \cs prametrization only for $\Lz$, for others hyperons some additional reasoning was necessary. 
 
 \subsection{$\Lz$ inclusive \cs}
-A common first step for all \cs estimations is a parametrization of a $\Lz$ inclusive production. In a given energy range the inclusive $\Ls$'s production \cs was measured for times \cite{hades_inclL_35,L-B}. However, some additional assumptions can be made i) the production \cs is equal 0 for threshold energy, ii) for energy below one pion mass (140~MeV) the inclusive and the exclusive \css are the same. Hence, for the parametrization could be used an already measured inclusive \cs for $\p\p \rightarrow \p \Kp \Lz$ for $\Sqs$ below ??. That significantlly increase number of data points used for parametrization. All together they were ploted by blue markers in fig. \ref{fig:inclusive_cs}. For all chosen data points a 3-th order olynomial was fitted
+A common first step for all \cs estimations is a parametrization of a $\Lz$ inclusive production. In a given energy range the inclusive $\Ls$'s production \cs was measured for times \cite{hades_inclL_35,L-B}. However, some additional assumptions can be made i) the production \cs is equal 0 for threshold energy, ii) for energy below one pion mass (140~MeV) the inclusive and the exclusive \css are the same. Hence, for the parametrization could be used an already measured inclusive \cs for $\p\p \rightarrow \p \Kp \Lz$ for $\Sqs$ below ??. That significantly increase number of data points used for parametrization. All together, they were plotted by blue markers in fig. \ref{fig:inclusive_cs}. For all chosen data points a 3-th order polynomial was fitted
 \begin{equation}
   \label{eq:L1116param}
   \sigma_{\p\p \rightarrow \Lz X}(\Sqs)=48 \cdot (\Sqs -2.55)+292.6 \cdot (\Sqs-2.55)^2-45.4 \cdot (\Sqs-2.55)^3.
@@ -13,19 +13,20 @@ A common first step for all \cs estimations is a parametrization of a $\Lz$ incl
 Fit result, together with residual plot is show in \ref{fig:inclusive_cs} by a blue dotted line. This parametrization forms the basis off all inclusive \css estimated in my work.
 
 \subsection{$\Sz$ inclusive \cs}
-According to PDG \cite{PDG} almost all $\Sz$s decay into $\Lz$. I means that the inclusive $\Lz$ signal contains a fraction deriving from $\Sz$ decays. However knowing a relation between $\Lz$ and $\Sz$ it is possible to disentangle both contributions.
+According to PDG \cite{PDG} almost all $\Sz$s decay into $\Lz$. I means that the inclusive $\Lz$ signal contains a fraction deriving from $\Sz$ decays. However, knowing a relation between $\Lz$ and $\Sz$ it is possible to disentangle both contributions.
 \begin{figure}[hb]
   \centering
   \includegraphics[width=0.6 \linewidth]{Chapter_simulation/LtoS.eps}
-  \caption{A measeured ratio between $\Lz$ and $\Sz$ exclusive \cs. I low $\eps$ range the COSY-TOF parametrization was used, for $\eps>200~\mathrm{MeV}$ the data is described by liner function. The picture taken from \cite{hades_Sz_pNb}.}
+  \caption{A measeured ratio between $\Lz$ and $\Sz$ exclusive \cs. I low $\eps$ range the COSY-TOF parametrization was used, for $\eps>200~\mathrm{MeV}$ the data is described by liner function. The figure taken from \cite{hades_Sz_pNb}.}
   \label{fig:LtoS}
 \end{figure}
 
 A $\Sz/\Lz$ ratio was measured by COSY-TOF and others \cite{COSY-TOF_SigmaLambda}. Additionally the COSY-TOF collaboration proposed a parametrization of the ratio for access energy $\eps <200~\mathrm{MeV}$. Above this energy ($\eps >200~\mathrm{MeV}$) a linear parametrization 
 \begin{equation}
+\label{eq:L_to_S_par}
   \frac{\Lz}{\Sz}(\eps)=2.215 - 2.7 \cdot 10^{-5} \eps
 \end{equation}
-describes data quite well ($\chi^2=0.89$). In fact for $\eps>200MeV$ the ratio is almost constant and does not depend on energy. For further calculations the COSY-TOF and the linear parametrizations were glued at ???.
+describes data quite well ($\chi^2=0.89$). According to eq. \eqref{eq:L_to_S_par} for $\eps>200MeV$ the ratio is almost constant and does not depend on energy. For further calculations the COSY-TOF and the linear parametrizations were glued at ???.
 
 Knowing the $\Lz/\Sz$ ration it is possible to disentangle a $\Lz$ and $\Sz$ production. Using determined ratio and the $\Lz$ production (let's call it~$P_1$) and  parametrization given by eq. \ref{eq:L1116param} (called~$P_2$), a following set of equations is created 
 \begin{equation}
@@ -49,7 +50,7 @@ Assuming that $\L(\Lz_{thr})=0$ and $\S(\Sz_{thr})=0$, the above equation can be
 
 \begin{figure}[hb]
   \includegraphics[width=0.9 \linewidth]{Chapter_simulation/all_CS}
-  \caption{An estimated \css for Hyperons production. Blue dotted line shows an inclusive $\Lz$ production. It was decomposed into two components: i)~$\Lz$,~blue dashed line and ii)~$\Sz$,~green dashed line. Magenta dashed line represents a parametrization of $\Lss$ \cs. All points refer to experimental data measured by different experiments \cite{L-B, COSY-TOF_L1405, COSY-TOF_SigmaLambda, hades_L1405, hades_inclL_35}. Color code is the same like for lines. Full points represent an exclusive \cs, empty points an inclusive one. }
+  \caption{An estimated \css for Hyperons production. Blue dotted line shows an inclusive $\Lz$ production. It was decomposed into two components: i)~$\Lz$,~blue dashed line and ii)~$\Sz$,~green dashed line. Magenta dashed line represents a parametrization of $\Ls$ \cs. All points refer to experimental data measured by different experiments \cite{L-B, COSY-TOF_L1405, COSY-TOF_SigmaLambda, hades_L1405, hades_inclL_35}. Color code is the same like for lines. Full points represent an exclusive \cs, empty points an inclusive one. }
   \label{fig:inclusive_cs}
 \end{figure}
 
@@ -78,11 +79,11 @@ Because Dalitz decays of hyperons were never measured a decay braching ratio hav
 \begin{equation}
   \Gamma^{N^*\rightarrow~Ne^+e^-}=1.35 \cdot \alpha \Gamma^{N^*\rightarrow~N\gamma}.
 \end{equation}
-For $\Ls$ and $\Ss$ decay with for real photon decay are known. For $Lss$ the branchin ratio have to be astimted using other decay channels [ref]. Obtanied results (tab. \ref{tab:sig_bg}  are located in range of measured BR for $\Dp$ dalitz decay.
+For $\Ls$ and $\Ss$ decay with for real photon decay are known. For $\Lss$ the branching ratio have to be estimated using other decay channels [ref]. Obtained results (tab. \ref{tab:sig_bg}  are located in range of measured BR for $\Dp$ Dalitz decay.
 
 
 \section{Background channels selection}
-To obtain a relaiablble simulation a coctail of background channels shoud be considered and tested. In case of hadronic physic, for low and medium enrgys, due to lack of approximation theorem, get a realistic background is a very challenging task. For a $\Sqs=$ 3.46 GeV a hadronic matter tends to form resonances. It means that almost all hadrons in final states originate from decays of high-mass resonances. Because knowledge about porperities of such a resonances is limited I made a simplified assumption that all pions are produced directly, without any intermediate state and with angular distribution defined jus by a reaction phase-space. List of all bacground channels considered during studies is presented in tab. \ref{tab:sig_bg}.
+To obtain a reliable simulation, a cocktail of background channels should be considered and tested. In case of hadronic physic, for low and medium energies, due to lack of general and easy-to-solve theorem, to get a realistic background description is a very challenging task. For a $\Sqs=$ 3.46 GeV a hadronic matter tends to form resonances. It means that almost all hadrons in final states originate from decays of high-mass resonances. Because knowledge about properties of such a resonances is limited I made a simplified assumption that all pions are produced directly, without any intermediate state and with angular distribution defined just by a reaction phase-space. List of all background channels considered during studies is presented in tab. \ref{tab:sig_bg}.
 
 All channels considered as a $\Xsi$ background have to constist $\p \pim \pim$ in final state. A dominant one is a multi-pion production, however thanks to topological cuts (see chapter \ref{section:results}) this kind of the backgound is relatively easy to filter out. Second kind of the background considered in simulation is a $\Lz$ production associated with $\pim$. Reactions much more challenging because the $\Lz$ decay vertex is displaced from a target, the same like in signal reaction. \Css for channels numer 2-7 are taken from \cite{L-B}. When data in a proper energy range is missing, the value for the lowest avaliable enegry above $\Sqs=$ 3.46 GeV is taken. that conservative assumption gives me a save margin.
 

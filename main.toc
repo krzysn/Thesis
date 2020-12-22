@@ -17,57 +17,58 @@
 \contentsline {section}{\numberline {2.1}Tracking system}{5}{section.18}%
 \contentsline {section}{\numberline {2.2}PreShower and META detectors}{6}{section.19}%
 \contentsline {section}{\numberline {2.3}RICH detector}{7}{section.20}%
-\contentsline {section}{\numberline {2.4}The HADES upgrades}{7}{section.22}%
-\contentsline {subsection}{\numberline {2.4.1}The Forward Detector}{9}{subsection.24}%
-\contentsline {subsection}{\numberline {2.4.2}RICH update}{10}{subsection.26}%
-\contentsline {subsection}{\numberline {2.4.3}Electromagnetic calorimeter}{10}{subsection.27}%
-\contentsline {chapter}{\numberline {3}PP data analysis}{11}{chapter.29}%
-\contentsline {section}{\numberline {3.1}The pp @3.5 GeV experiment}{11}{section.30}%
-\contentsline {subsection}{\numberline {3.1.1}The target and the trigger system}{11}{subsection.31}%
-\contentsline {subsection}{\numberline {3.1.2}Absolute normalization}{12}{subsection.33}%
-\contentsline {section}{\numberline {3.2}Particles identification}{13}{section.37}%
-\contentsline {section}{\numberline {3.3}Event selection}{14}{section.41}%
-\contentsline {section}{\numberline {3.4}Reaction kinematics}{15}{section.44}%
-\contentsline {section}{\numberline {3.5}The $\mathrm {\Lambda ^0}$ Reconstruction}{17}{section.50}%
-\contentsline {section}{\numberline {3.6}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction - a reference channel}{19}{section.54}%
-\contentsline {section}{\numberline {3.7}The $\mathrm {\Lambda (1520)}$ Reconstruction}{20}{section.56}%
-\contentsline {subsection}{\numberline {3.7.1}Side-band analysis}{20}{subsection.58}%
-\contentsline {subsection}{\numberline {3.7.2}Cross-section extraction and differential analysis}{22}{subsection.60}%
-\contentsline {subsection}{\numberline {3.7.3}Analysis of $\mathrm {\pi ^{+}}\mathrm {\pi ^{-}}$, $\mathrm {\Lambda ^0}\mathrm {\pi ^{+}}$ and $\mathrm {\Lambda ^0}\mathrm {\pi ^{-}}$ spectra}{23}{subsection.63}%
-\contentsline {section}{\numberline {3.8}Systematic error studies}{24}{section.66}%
-\contentsline {subsection}{\numberline {3.8.1}Uncorelleted error}{24}{subsection.67}%
-\contentsline {chapter}{\numberline {4}PNb data analysis}{29}{chapter.73}%
-\contentsline {section}{\numberline {4.1}Data from pNb experiment}{29}{section.74}%
-\contentsline {section}{\numberline {4.2}Identification and data selection}{29}{section.76}%
-\contentsline {section}{\numberline {4.3}The $\mathrm {\Lambda ^0}$ Reconstruction}{31}{section.78}%
-\contentsline {section}{\numberline {4.4}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction}{31}{section.80}%
-\contentsline {section}{\numberline {4.5}The $\mathrm {\Lambda (1520)}$ Reconstruction}{32}{section.83}%
-\contentsline {subsection}{\numberline {4.5.1}Event mixing and side-band analysis}{32}{subsection.84}%
-\contentsline {subsection}{\numberline {4.5.2}Cross-section and extraction differential analysis}{32}{subsection.86}%
-\contentsline {subsection}{\numberline {4.5.3}Analysis of $\mathrm {\pi ^{+}}\mathrm {\pi ^{-}}$, $\mathrm {\Lambda ^0}\mathrm {\pi ^{+}}$ and $\mathrm {\Lambda ^0}\mathrm {\pi ^{-}}$ spectra}{32}{subsection.89}%
-\contentsline {section}{\numberline {4.6}Thermal source}{32}{section.91}%
-\contentsline {section}{\numberline {4.7}Muon contamination}{32}{section.92}%
-\contentsline {section}{\numberline {4.8}Comparison with results from pp data}{32}{section.93}%
-\contentsline {chapter}{\numberline {5}Neural networks}{37}{chapter.95}%
-\contentsline {section}{\numberline {5.1}Work with neural networks}{37}{section.96}%
-\contentsline {section}{\numberline {5.2}The ROC curve and the optimal classifier}{38}{section.98}%
-\contentsline {section}{\numberline {5.3}The data-driven approach}{39}{section.101}%
-\contentsline {section}{\numberline {5.4}Application for analysis}{40}{section.105}%
-\contentsline {chapter}{\numberline {6}Simulations of a new experiment}{43}{chapter.108}%
-\contentsline {section}{\numberline {6.1}An estimation of cross-sections}{43}{section.109}%
-\contentsline {subsection}{\numberline {6.1.1}$\mathrm {\Lambda ^0}$ inclusive cross section }{43}{subsection.110}%
-\contentsline {subsection}{\numberline {6.1.2}$\mathrm {\Sigma ^0}$ inclusive cross section }{44}{subsection.112}%
-\contentsline {subsection}{\numberline {6.1.3}$\mathrm {\Lambda (1520)}$, $\mathrm {\Lambda (1405)}$ and $\mathrm {\Sigma (1385)^0}$ production cross sections }{45}{subsection.120}%
-\contentsline {subsection}{\numberline {6.1.4}$\mathrm {\Xi ^{-}(1322)}$}{46}{subsection.124}%
-\contentsline {section}{\numberline {6.2}Decay branching ratios}{46}{section.125}%
-\contentsline {section}{\numberline {6.3}Background channels selection}{47}{section.127}%
-\contentsline {section}{\numberline {6.4}Simulations results}{48}{section.130}%
-\contentsline {subsection}{\numberline {6.4.1}Particles identyfication}{48}{subsection.131}%
-\contentsline {subsection}{\numberline {6.4.2}Hyperons Dalitz decays}{49}{subsection.133}%
-\contentsline {subsection}{\numberline {6.4.3}Cascade decay}{49}{subsection.134}%
-\contentsline {chapter}{\numberline {7}Conclusions}{51}{chapter.135}%
+\contentsline {section}{\numberline {2.4}Target system}{7}{section.22}%
+\contentsline {subsection}{\numberline {2.4.1}Target for pp@3.5 GeV}{8}{subsection.23}%
+\contentsline {subsection}{\numberline {2.4.2}Target for pNb@3.5 GeV}{9}{subsection.25}%
+\contentsline {section}{\numberline {2.5}The HADES upgrades}{9}{section.27}%
+\contentsline {subsection}{\numberline {2.5.1}The Forward Detector}{10}{subsection.29}%
+\contentsline {subsection}{\numberline {2.5.2}RICH update}{11}{subsection.31}%
+\contentsline {subsection}{\numberline {2.5.3}Electromagnetic calorimeter}{11}{subsection.32}%
+\contentsline {chapter}{\numberline {3}Neural networks}{13}{chapter.34}%
+\contentsline {section}{\numberline {3.1}Work with neural networks}{14}{section.35}%
+\contentsline {section}{\numberline {3.2}The ROC curve and the optimal classifier}{14}{section.37}%
+\contentsline {section}{\numberline {3.3}The data-driven approach}{15}{section.40}%
+\contentsline {section}{\numberline {3.4}Application for analysis}{17}{section.44}%
+\contentsline {chapter}{\numberline {4}PP data analysis}{19}{chapter.47}%
+\contentsline {section}{\numberline {4.1}Absolute normalization}{19}{section.48}%
+\contentsline {section}{\numberline {4.2}Particles identification}{20}{section.52}%
+\contentsline {section}{\numberline {4.3}Event selection}{21}{section.56}%
+\contentsline {section}{\numberline {4.4}Reaction kinematics}{22}{section.59}%
+\contentsline {section}{\numberline {4.5}The $\mathrm {\Lambda ^0}$ Reconstruction}{24}{section.65}%
+\contentsline {section}{\numberline {4.6}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction - a reference channel}{27}{section.69}%
+\contentsline {section}{\numberline {4.7}The $\mathrm {\Lambda (1520)}$ Reconstruction}{27}{section.71}%
+\contentsline {subsection}{\numberline {4.7.1}Side-band analysis}{28}{subsection.73}%
+\contentsline {subsection}{\numberline {4.7.2}Cross-section extraction and differential analysis}{29}{subsection.75}%
+\contentsline {subsection}{\numberline {4.7.3}Analysis of $\mathrm {\pi ^{+}}\mathrm {\pi ^{-}}$, $\mathrm {\Lambda ^0}\mathrm {\pi ^{+}}$ and $\mathrm {\Lambda ^0}\mathrm {\pi ^{-}}$ spectra}{31}{subsection.78}%
+\contentsline {section}{\numberline {4.8}Systematic error studies}{31}{section.81}%
+\contentsline {subsection}{\numberline {4.8.1}Uncorrelated error}{33}{subsection.82}%
+\contentsline {chapter}{\numberline {5}PNb data analysis}{37}{chapter.89}%
+\contentsline {section}{\numberline {5.1}Data from pNb experiment}{37}{section.90}%
+\contentsline {section}{\numberline {5.2}Identification and data selection}{37}{section.92}%
+\contentsline {section}{\numberline {5.3}The $\mathrm {\Lambda ^0}$ Reconstruction}{39}{section.94}%
+\contentsline {section}{\numberline {5.4}The $\mathrm {\Lambda ^0}\mathrm {K}^0$reconstruction}{39}{section.96}%
+\contentsline {section}{\numberline {5.5}The $\mathrm {\Lambda (1520)}$ Reconstruction}{40}{section.99}%
+\contentsline {subsection}{\numberline {5.5.1}Event mixing and side-band analysis}{40}{subsection.100}%
+\contentsline {subsection}{\numberline {5.5.2}Cross-section and extraction differential analysis}{40}{subsection.102}%
+\contentsline {subsection}{\numberline {5.5.3}Analysis of $\mathrm {\pi ^{+}}\mathrm {\pi ^{-}}$, $\mathrm {\Lambda ^0}\mathrm {\pi ^{+}}$ and $\mathrm {\Lambda ^0}\mathrm {\pi ^{-}}$ spectra}{40}{subsection.105}%
+\contentsline {section}{\numberline {5.6}Thermal source}{40}{section.107}%
+\contentsline {section}{\numberline {5.7}Muon contamination}{40}{section.108}%
+\contentsline {section}{\numberline {5.8}Comparison with results from pp data}{40}{section.109}%
+\contentsline {chapter}{\numberline {6}Simulations of a new experiment}{45}{chapter.111}%
+\contentsline {section}{\numberline {6.1}An estimation of cross-sections}{45}{section.112}%
+\contentsline {subsection}{\numberline {6.1.1}$\mathrm {\Lambda ^0}$ inclusive cross section }{45}{subsection.113}%
+\contentsline {subsection}{\numberline {6.1.2}$\mathrm {\Sigma ^0}$ inclusive cross section }{46}{subsection.115}%
+\contentsline {subsection}{\numberline {6.1.3}$\mathrm {\Lambda (1520)}$, $\mathrm {\Lambda (1405)}$ and $\mathrm {\Sigma (1385)^0}$ production cross sections }{47}{subsection.123}%
+\contentsline {subsection}{\numberline {6.1.4}$\mathrm {\Xi ^{-}(1322)}$}{48}{subsection.127}%
+\contentsline {section}{\numberline {6.2}Decay branching ratios}{48}{section.128}%
+\contentsline {section}{\numberline {6.3}Background channels selection}{49}{section.130}%
+\contentsline {section}{\numberline {6.4}Simulations results}{50}{section.133}%
+\contentsline {subsection}{\numberline {6.4.1}Particles identyfication}{50}{subsection.134}%
+\contentsline {subsection}{\numberline {6.4.2}Hyperons Dalitz decays}{51}{subsection.136}%
+\contentsline {subsection}{\numberline {6.4.3}Cascade decay}{51}{subsection.137}%
+\contentsline {chapter}{\numberline {7}Conclusions}{53}{chapter.138}%
 \vspace {1em}
-\contentsline {chapter}{Appendices}{53}{section*.136}%
+\contentsline {chapter}{Appendices}{55}{section*.139}%
 \patchcmd {\l@chapter }{\bfseries }{}{}{}
 \vspace {1em}
-\contentsline {chapter}{\bf Bibli ography}{53}{dummy.137}%
+\contentsline {chapter}{\bf Bibliography}{55}{dummy.140}%
